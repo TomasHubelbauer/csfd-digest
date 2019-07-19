@@ -31,3 +31,14 @@ list / a map in a modal and each cinema shows the number of movies.
 
 Consider introducing a control strip atop the movie list where watched and deleted
 movies could be enabled to be displayed.
+
+The above strip could also have a filter for recently released movies only (say
+this and last year).
+
+Add a undo for undeleting the last film (maybe a notification with a button).
+
+See if I can link directly to purchase from the time slot for cinemas which have
+online ticket sales.
+
+Display the tag buttons in the display page as well.
+Removal/watched tag returns the user back to the main page.

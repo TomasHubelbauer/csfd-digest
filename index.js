@@ -43,10 +43,6 @@ window.addEventListener('load', async () => {
       const id = location.hash.slice(1);
       const movie = data.movies.find(m => m.id === id);
 
-      const backA = document.createElement('a');
-      backA.textContent = 'Go back';
-      backA.href = '#';
-
       const posterImg = document.createElement('img');
       posterImg.src = movie.posterUrl + '?h360';
 
@@ -56,7 +52,7 @@ window.addEventListener('load', async () => {
       const contentP = document.createElement('p');
       contentP.textContent = movie.content;
 
-      fragment.append(backA, document.createElement('br'), posterImg, nameH2, contentP);
+      fragment.append(posterImg, nameH2, contentP);
 
       for (const screening of Object.keys(movie.screenings)) {
         if (!cinemas.includes(screening)) {
