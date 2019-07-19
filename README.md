@@ -1,5 +1,9 @@
 # Puppeteer CSFD.cz Scraper
 
+[
+  ![](https://tomashubelbauer.visualstudio.com/puppeteer-csfd-cz-scraper/_apis/build/status/TomasHubelbauer.puppeteer-csfd-scraper?branchName=master)
+](https://tomashubelbauer.visualstudio.com/puppeteer-csfd-cz-scraper/_build/latest)
+
 Scrapes CSFD.cz for cinema schedules and allows annotating movies with interest
 level. Notifies about new movies found since the last time.
 

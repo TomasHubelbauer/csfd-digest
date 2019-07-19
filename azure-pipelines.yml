@@ -19,7 +19,8 @@ steps:
     command: install
 - task: Npm@1
   inputs:
-    command: start
+    command: custom
+    customCommand: start
 - powershell: |
    git config --global user.email "tomas@hubelbauer.net"
    git config --global user.name "Tomas Hubelbauer"
