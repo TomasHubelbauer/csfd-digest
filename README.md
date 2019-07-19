@@ -15,23 +15,23 @@ level. Notifies about new movies coming out.
 
 ## To-Do
 
-Finalize the `suggest` TUI command for listing the movies annotated *probably*
-followed by the ones annotated *maybe* with screenings
+Display floating buttons on movie list item hover with options to tag as a maybe,
+tag as a probably, delete or tag as watched or display a badge if already tagged.
+Do not display deleted items (remember deletion in the local storage).
+Add filters for states (untagged, maybe, probably, deleted, watched).
 
-Allow tagging movies with *watched* so that in the deletion index it is clear
-what was deleted because I didn't like it and what was deleted because I have
-already seen it
+Purge the local storage so statuses (including deletions) for movies no longer
+in the data get removed and the local storage doesn't just grow indefinitely.
 
-Set up a scheduled Azure Pipeline which runs `npm start` and pushes the result to
-the repository daily for the web app to pick up and allow the user to tag on
-their device where it is saved in local storage.
+Scrape all cities, not just Prague and add a switcher and geolocation integration.
 
-Instead of directories and files, there is just a single large JSON for the web
-app (images loaded using an `img` tag from CSFD not the repo) and status not
-present in it but in local storage.
+Order selected cinemas first then unselected to avoid concealing selection with
+scroll.
 
-The local storage gets purged so statuses (including deletions) for movies no
-longer in the index get removed and the local storage doesn't just grow
-indefinitely.
+Load images upon scrolling into view (keep in dataset before then).
 
-Do this for all cities not just Prague?
+Fallback to the 180 poster image if the 360 one fails to load and to a no-image
+image if both fail to load.
+
+Finalize the movie detail page to not be so ugly - add some sort of a timeline
+or something.

@@ -1,0 +1,83 @@
+body {
+  font: normal 9pt sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cinemasDiv {
+  max-height: 25vh;
+  overflow-y: auto;
+  text-align: center;
+}
+
+#moviesDiv {
+  /* TODO: Is there a better way to do this? `margin: 0 auto` or `display: flex`? */
+  text-align: center;
+}
+
+div.cinema {
+  align-items: center;
+  display: inline-flex;
+  margin: 1ex;
+}
+
+div.cinema.selected {
+  background: #666;
+  color: white;
+}
+
+div.cinema input {
+  display: none;
+}
+
+div.cinema label {
+  cursor: pointer;
+  padding: 1ex;
+}
+
+div.movie {
+  background: #efefef;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px silver;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 1ex;
+  padding: 1ex;
+  transition: transform .1s ease;
+  width: 254px;
+}
+
+div.movie:hover {
+  transform: scale(1.01);
+  transition: transform .1s ease;
+}
+
+div.movie img {
+  border-radius: 3px;
+  cursor: pointer;
+  height: 360px;
+  width: 100%;
+}
+
+div.movie a {
+  color: #222;
+  cursor: pointer;
+  display: block;
+  font: bold 11pt sans-serif;
+  padding: 1ex 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.movie span {
+  color: #777;
+  text-align: center;
+  width: 100%;
+}
+
+span.screening {
+  display: inline-block;
+  margin: 1em;
+}
