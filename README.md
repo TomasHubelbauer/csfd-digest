@@ -35,3 +35,8 @@ image if both fail to load.
 
 Finalize the movie detail page to not be so ugly - add some sort of a timeline
 or something.
+
+Make logo clickable (go to main page).
+
+Use a better cinema picker (all/remembered cinemas by default), clicking opens a
+list / a map in a modal and each cinema shows the number of movies.
