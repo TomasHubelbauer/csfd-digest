@@ -85,7 +85,7 @@ window.addEventListener('load', async () => {
         movieDiv.className = 'movie';
 
         const posterImg = document.createElement('img');
-        posterImg.src = movie.posterUrl + '?h360';
+        posterImg.dataset.src = movie.posterUrl + '?h360';
         posterImg.dataset.id = movie.id;
         posterImg.addEventListener('click', handlePosterImgClick);
 
@@ -126,4 +126,16 @@ window.addEventListener('load', async () => {
   }
 
   window.addEventListener('hashchange', renderMovies);
+
+  function loadImages() {
+    for (const img of document.querySelectorAll('img')) {
+      const { bottom, top } = img.getBoundingClientRect();
+      if (bottom >= 0 && top <= window.innerHeight && !img.src) {
+        img.src = img.dataset.src;
+      }
+    }
+  }
+
+  window.addEventListener('scroll', () => loadImages);
+  loadImages();
 });
