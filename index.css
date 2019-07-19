@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+h1 a {
+  color: inherit;
+}
+
 #cinemasDiv {
   max-height: 25vh;
   overflow-y: auto;
@@ -45,13 +49,79 @@ div.movie {
   flex-direction: column;
   margin: 1ex;
   padding: 1ex;
-  transition: transform .1s ease;
   width: 254px;
+
+  /* For the `.tags` floating `div` */
+  position: relative;
 }
 
-div.movie:hover {
-  transform: scale(1.01);
-  transition: transform .1s ease;
+div.movie:hover img {
+  filter: blur(4px);
+  transition: filter .1s ease;
+}
+
+div.movie .tags {
+  display: none;
+}
+
+div.movie:hover .tags {
+  background: rgba(0, 0, 0, .5);
+  border-radius: 3px; /* Same as the `img` itself */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  height: 360px; /* Same as the `img` itself */
+
+  /* Make click-through so that clicking opens the detail */
+  pointer-events: none;
+  position: absolute;
+  
+  /* For some reason `width: 50%` and `margin: 0 auto` won't work so this: */
+  left: 1ex;
+  right: 1ex;
+
+  /* This seems to be needed to beat the `blur` filter :-( */
+  z-index: 1;
+}
+
+div.movie .tags button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 1em;
+
+  /* Disable click-through for the buttons */
+  pointer-events: initial;
+}
+
+div.movie .tags button:hover {
+  background: rgba(255, 255, 255, .25);
+}
+
+div.movie:hover .badge {
+  display: none;
+}
+
+div.movie .badge {
+  background: linear-gradient(169deg, white 10%, transparent 15%, transparent);
+  border-radius: 5px 0 0 0;
+  height: 100%;
+  padding: 1em;
+  position: absolute;
+  text-align: initial;
+  width: 100%;
+
+  /* Pop out to the card */
+  left: -1px;
+  top: -1px;
+
+  /* Make click-through */
+  pointer-events: none;
+
+  /* This seems to be needed to beat the `blur` filter :-( */
+  z-index: 1;
 }
 
 div.movie img {
@@ -80,4 +150,18 @@ div.movie span {
 span.screening {
   display: inline-block;
   margin: 1em;
+}
+
+#creditsP {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#creditsP img {
+  margin: 0 1ex;
+}
+
+#creditsP a {
+  text-decoration: none;
 }

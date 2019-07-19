@@ -15,13 +15,8 @@ level. Notifies about new movies coming out.
 
 ## To-Do
 
-Display floating buttons on movie list item hover with options to tag as a maybe,
-tag as a probably, delete or tag as watched or display a badge if already tagged.
-Do not display deleted items (remember deletion in the local storage).
-Add filters for states (untagged, maybe, probably, deleted, watched).
-
-Purge the local storage so statuses (including deletions) for movies no longer
-in the data get removed and the local storage doesn't just grow indefinitely.
+Remove local storage items for movies no longer in the data (including deletions)
+so the local storage doesn't just grow indefinitely.
 
 Scrape all cities, not just Prague and add a switcher and geolocation integration.
 
@@ -31,7 +26,8 @@ scroll.
 Finalize the movie detail page to not be so ugly - add some sort of a timeline
 or something.
 
-Make logo clickable (go to main page).
-
 Use a better cinema picker (all/remembered cinemas by default), clicking opens a
 list / a map in a modal and each cinema shows the number of movies.
+
+Consider introducing a control strip atop the movie list where watched and deleted
+movies could be enabled to be displayed.

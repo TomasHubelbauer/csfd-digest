@@ -81,8 +81,70 @@ window.addEventListener('load', async () => {
           continue;
         }
 
+        const tag = localStorage.getItem(movie.id);
+        if (tag === 'watched' || tag === 'deleted') {
+          continue;
+        }
+
         const movieDiv = document.createElement('div');
         movieDiv.className = 'movie';
+
+        const tagDiv = document.createElement('div');
+        tagDiv.className = 'tags';
+
+        if (!tag) {
+          const questionP = document.createElement('p');
+          questionP.textContent = `Are you going to watch ${movie.name}?`;
+
+          const tagAsProbablyButton = document.createElement('button');
+          tagAsProbablyButton.textContent = 'Probably';
+          tagAsProbablyButton.dataset.tag = 'probably';
+          tagAsProbablyButton.dataset.id = movie.id;
+          tagAsProbablyButton.addEventListener('click', handleTagButtonClick);
+
+          const tagAsMaybeButton = document.createElement('button');
+          tagAsMaybeButton.textContent = 'Maybe';
+          tagAsMaybeButton.dataset.tag = 'probably';
+          tagAsMaybeButton.dataset.id = movie.id;
+          tagAsMaybeButton.addEventListener('click', handleTagButtonClick);
+
+          const tagAsWatchedButton = document.createElement('button');
+          tagAsWatchedButton.textContent = 'Already did';
+          tagAsWatchedButton.dataset.tag = 'watched';
+          tagAsWatchedButton.dataset.id = movie.id;
+          tagAsWatchedButton.addEventListener('click', handleTagButtonClick);
+
+          const tagAsDeleteButton = document.createElement('button');
+          tagAsDeleteButton.textContent = 'No, hide it';
+          tagAsDeleteButton.dataset.tag = 'deleted';
+          tagAsDeleteButton.dataset.id = movie.id;
+          tagAsDeleteButton.addEventListener('click', handleTagButtonClick);
+
+          const detailP = document.createElement('p');
+          detailP.textContent = 'Not sure? Click to see the movie detail.';
+
+          tagDiv.append(questionP, tagAsProbablyButton, tagAsMaybeButton, tagAsWatchedButton, tagAsDeleteButton, detailP);
+        } else {
+          const badgeDiv = document.createElement('div');
+          badgeDiv.className = 'badge';
+          badgeDiv.textContent = tag + ' watching this';
+          movieDiv.append(badgeDiv);
+
+          const questionP = document.createElement('p');
+          questionP.textContent = 'Changed your mind?';
+
+          const resetTagButton = document.createElement('button');
+          resetTagButton.textContent = 'Remove the badge';
+          resetTagButton.dataset.id = movie.id;
+          resetTagButton.addEventListener('click', handleResetTagButtonClick);
+
+          const detailP = document.createElement('p');
+          detailP.textContent = 'Or click to see the movie detail.';
+
+          tagDiv.append(questionP, resetTagButton, detailP);
+        }
+
+        movieDiv.append(tagDiv);
 
         const posterImg = document.createElement('img');
         posterImg.dataset.src = movie.posterUrl + '?h360';
@@ -130,6 +192,19 @@ window.addEventListener('load', async () => {
   function handlePosterImgError(event) {
     // Fallback to the lower resolution image if we do not have a higher one
     event.currentTarget.src = 'no-poster.png';
+  }
+
+  function handleTagButtonClick(event) {
+    const id = event.currentTarget.dataset.id;
+    const tag = event.currentTarget.dataset.tag;
+    localStorage.setItem(id, tag);
+    renderMovies();
+  }
+
+  function handleResetTagButtonClick(event) {
+    const id = event.currentTarget.dataset.id;
+    localStorage.removeItem(id);
+    renderMovies();
   }
 
   window.addEventListener('hashchange', renderMovies);
