@@ -7,11 +7,11 @@
 [**LIVE**](https://tomashubelbauer.github.io/puppeteer-csfd-scraper)
 
 Scrapes CSFD.cz for cinema schedules and allows annotating movies with interest
-level. Notifies about new movies found since the last time.
+level. Notifies about new movies coming out.
 
-`npm start` to refresh `data.json`
-
-`npx serve .` to access the web app
+- https://tomashubelbauer.github.io/puppeteer-csfd-scraper
+- `npm start` to refresh `data.json`
+- `npx serve .` to access the web app at http://localhost:5000/
 
 ## To-Do
 
