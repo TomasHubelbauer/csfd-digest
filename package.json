@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "start": "node --experimental-modules index.mjs",
-    "tag": "npm start -- tag",
-    "suggest": "npm start -- suggest"
+    "start": "node --experimental-modules index.mjs"
   },
   "repository": {
     "type": "git",
@@ -14,7 +12,6 @@
   "dependencies": {
     "fs-extra": "^8.1.0",
     "node-fetch": "^2.6.0",
-    "puppeteer": "^1.18.1",
-    "terminal-image": "^0.2.0"
+    "puppeteer": "^1.18.1"
   }
 }

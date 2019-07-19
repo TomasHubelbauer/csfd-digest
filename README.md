@@ -3,7 +3,9 @@
 Scrapes CSFD.cz for cinema schedules and allows annotating movies with interest
 level. Notifies about new movies found since the last time.
 
-`npm start` (refresh data) followed by `npm run tag` or `npm run suggest`
+`npm start` to refresh `data.json`
+
+`npx serve .` to access the web app
 
 ## To-Do
 
@@ -14,4 +16,16 @@ Allow tagging movies with *watched* so that in the deletion index it is clear
 what was deleted because I didn't like it and what was deleted because I have
 already seen it
 
-Consider turning the TUI into a web GUI or providing it alongside the TUI
+Set up a scheduled Azure Pipeline which runs `npm start` and pushes the result to
+the repository daily for the web app to pick up and allow the user to tag on
+their device where it is saved in local storage.
+
+Instead of directories and files, there is just a single large JSON for the web
+app (images loaded using an `img` tag from CSFD not the repo) and status not
+present in it but in local storage.
+
+The local storage gets purged so statuses (including deletions) for movies no
+longer in the index get removed and the local storage doesn't just grow
+indefinitely.
+
+Do this for all cities not just Prague?
