@@ -88,6 +88,7 @@ window.addEventListener('load', async () => {
         posterImg.dataset.src = movie.posterUrl + '?h360';
         posterImg.dataset.id = movie.id;
         posterImg.addEventListener('click', handlePosterImgClick);
+        posterImg.addEventListener('error', handlePosterImgError);
 
         const nameA = document.createElement('a');
         nameA.textContent = movie.name;
@@ -103,6 +104,7 @@ window.addEventListener('load', async () => {
 
     moviesDiv.innerHTML = '';
     moviesDiv.append(fragment);
+    loadImages();
   }
 
   renderCinemas();
@@ -125,6 +127,11 @@ window.addEventListener('load', async () => {
     location.hash = event.currentTarget.dataset.id;
   }
 
+  function handlePosterImgError(event) {
+    // Fallback to the lower resolution image if we do not have a higher one
+    event.currentTarget.src = 'no-poster.png';
+  }
+
   window.addEventListener('hashchange', renderMovies);
 
   function loadImages() {
@@ -136,6 +143,6 @@ window.addEventListener('load', async () => {
     }
   }
 
-  window.addEventListener('scroll', () => loadImages);
+  window.addEventListener('scroll', loadImages, { passive: true });
   loadImages();
 });

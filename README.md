@@ -28,9 +28,6 @@ Scrape all cities, not just Prague and add a switcher and geolocation integratio
 Order selected cinemas first then unselected to avoid concealing selection with
 scroll.
 
-Fallback to the 180 poster image if the 360 one fails to load and to a no-image
-image if both fail to load.
-
 Finalize the movie detail page to not be so ugly - add some sort of a timeline
 or something.
 
