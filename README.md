@@ -42,3 +42,21 @@ online ticket sales.
 
 Display the tag buttons in the display page as well.
 Removal/watched tag returns the user back to the main page.
+
+Remove time slots which are not up to date (index gets refreshed daily so in the
+evening some times might have already passed), cut them off 10 minutes after
+movie start (in case you show up just on time to buy tickets skipping the ads,
+you should still see the movie in the app).
+
+Display production country and original title if available.
+
+Order probably and maybe tagged movies preferentially.
+
+Display a date range in the card to see how much time is left to see the movie.
+Also add a badge along the lines of "Ends soon" or something if just a few days.
+
+Display movie ratings in the cards.
+
+Do not unmount the list with a detail open so that when a detail closes scroll
+position is preserved. (Probably do that by making the detail a different modal
+`div` and conditionally render that when a card is selected.)

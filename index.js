@@ -49,10 +49,15 @@ window.addEventListener('load', async () => {
       const nameH2 = document.createElement('h2');
       nameH2.textContent = movie.name;
 
+      const trailerA = document.createElement('a');
+      trailerA.textContent = 'Search YouTube for a trailer';
+      trailerA.href = 'https://www.youtube.com/results?search_query=' + movie.name + ' ' + movie.year;
+      trailerA.target = '_blank';
+
       const contentP = document.createElement('p');
       contentP.textContent = movie.content;
 
-      fragment.append(posterImg, nameH2, contentP);
+      fragment.append(posterImg, nameH2, trailerA, contentP);
 
       for (const screening of Object.keys(movie.screenings)) {
         if (!cinemas.includes(screening)) {
