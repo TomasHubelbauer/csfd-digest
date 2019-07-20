@@ -26,5 +26,5 @@ steps:
    git config --global user.name "Tomas Hubelbauer"
    git pull origin master
    git add data.json
-   git commit -m "Update data (Azure Pipelines)" -m "***NO_CI***"
+   git commit -m "Update data (Azure Pipelines)" -m "@TomasHubelbauer FYI" -m "***NO_CI***"
    git push origin HEAD:master
