@@ -1,14 +1,34 @@
 body {
   font: normal 9pt sans-serif;
+  margin: 0;
 }
 
 h1 {
+  margin: 0;
+  padding: 1em 0 0;
   text-align: center;
 }
 
 h1 a {
   color: inherit;
+  text-decoration: none;
 }
+
+#creditsP {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1ex 0 1em;
+}
+
+#creditsP img {
+  margin: 0 1ex;
+}
+
+#creditsP a {
+  text-decoration: none;
+}
+
 
 #cinemasDiv {
   max-height: 25vh;
@@ -16,32 +36,27 @@ h1 a {
   text-align: center;
 }
 
-#moviesDiv {
-  /* TODO: Is there a better way to do this? `margin: 0 auto` or `display: flex`? */
-  text-align: center;
+#cinemasDiv input {
+  display: none; 
 }
-
-div.cinema {
-  align-items: center;
-  display: inline-flex;
+ 
+#cinemasDiv label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 1ex;
   margin: 1ex;
 }
 
-div.cinema.selected {
+#cinemasDiv input:checked + label {
   background: #666;
   color: white;
 }
 
-div.cinema input {
-  display: none;
+#moviesDiv {
+  text-align: center;
 }
 
-div.cinema label {
-  cursor: pointer;
-  padding: 1ex;
-}
-
-div.movie {
+#moviesDiv > div {
   background: #efefef;
   border-radius: 5px;
   box-shadow: 0 0 2px 1px silver;
@@ -49,63 +64,51 @@ div.movie {
   flex-direction: column;
   margin: 1ex;
   padding: 1ex;
+  position: relative; /* For the badge if any */
   width: 254px;
-
-  /* For the `.tags` floating `div` */
-  position: relative;
 }
 
-div.movie:hover img {
-  filter: blur(4px);
-  transition: filter .1s ease;
+#moviesDiv > div:hover {
+  animation-name: fiddle;
+  animation-duration: .15s;
 }
 
-div.movie .tags {
-  display: none;
+@keyframes fiddle {
+  0% {
+    transform: rotate3d(0, 0, 0, 1deg);
+  }
+
+  10% {
+    transform: rotate3d(0, 0, 1, 1deg);
+  }
+
+  20% {
+    transform: rotate3d(0, 1, 0, 1deg);
+  }
+
+  30% {
+    transform: rotate3d(0, 1, 1, 1deg);
+  }
+
+  40% {
+    transform: rotate3d(1, 0, 0, 1deg);
+  }
+
+  50% {
+    transform: rotate3d(1, 0, 1, 1deg);
+  }
+
+  60% {
+    transform: rotate3d(1, 1, 0, 1deg);
+  }
+
+  70% {
+    transform: rotate3d(1, 1, 1, 1deg);
+  }
 }
 
-div.movie:hover .tags {
-  background: rgba(0, 0, 0, .5);
-  border-radius: 3px; /* Same as the `img` itself */
-  color: white;
-  display: flex;
-  flex-direction: column;
-  font-weight: bold;
-  height: 360px; /* Same as the `img` itself */
-
-  /* Make click-through so that clicking opens the detail */
-  pointer-events: none;
-  position: absolute;
-  
-  /* For some reason `width: 50%` and `margin: 0 auto` won't work so this: */
-  left: 1ex;
-  right: 1ex;
-
-  /* This seems to be needed to beat the `blur` filter :-( */
-  z-index: 1;
-}
-
-div.movie .tags button {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  padding: 1em;
-
-  /* Disable click-through for the buttons */
-  pointer-events: initial;
-}
-
-div.movie .tags button:hover {
-  background: rgba(255, 255, 255, .25);
-}
-
-div.movie:hover .badge {
-  display: none;
-}
-
-div.movie .badge {
-  background: linear-gradient(169deg, white 10%, transparent 15%, transparent);
+#moviesDiv > div > div.badge {
+  background: linear-gradient(169.5deg, white 7.5%, rgba(0, 0, 0, .25) 8%, transparent 10%);
   border-radius: 5px 0 0 0;
   height: 100%;
   padding: 1em;
@@ -124,44 +127,72 @@ div.movie .badge {
   z-index: 1;
 }
 
-div.movie img {
+#moviesDiv > div img {
   border-radius: 3px;
-  cursor: pointer;
   height: 360px;
+  margin: 0 0 1ex;
   width: 100%;
 }
 
-div.movie a {
+#moviesDiv > div a {
   color: #222;
-  cursor: pointer;
   display: block;
   font: bold 11pt sans-serif;
-  padding: 1ex 0;
-  text-align: center;
   text-decoration: none;
 }
 
-div.movie span {
+#moviesDiv > div span {
   color: #777;
-  text-align: center;
-  width: 100%;
+  margin: 1ex 0 0;
 }
 
-span.screening {
+#popupDiv {
+  background: rgba(0, 0, 0, .45);
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1; /* Beat badges */
+}
+
+#popupDiv.popup {
+  display: initial;
+}
+
+#popupDiv > div {
+  background: white;
+  margin: 100px auto 0;
+  max-height: calc(90vh - 100px);
+  max-width: 800px;
+  overflow: auto;
+  padding: 1em;
+  width: 90%;
+}
+
+#popupDiv img {
+  float: left;
+  height: 180px;
+  margin-right: 1em;
+  width: 127px;
+}
+
+#popupDiv h2 {
+  margin: 0 0 1em;
+}
+
+#tagDiv {
+  clear: left;
+  font-weight: bold;
+}
+
+#trailerIframe {
+  display: block;
+  margin: 1em auto;
+}
+
+#screeningsDiv span {
   display: inline-block;
-  margin: 1em;
-}
-
-#creditsP {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-#creditsP img {
-  margin: 0 1ex;
-}
-
-#creditsP a {
-  text-decoration: none;
+  padding: 1ex;
 }

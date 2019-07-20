@@ -8,9 +8,10 @@ void async function () {
 
   // Block 3rd party networking to speed up the scraping
   await page.setRequestInterception(true);
+  const allowedHostnames = ['csfd.cz', 'www.csfd.cz', 'img.csfd.cz', 'www.youtube.com' /* Trailer */];
   page.on('request', request => {
-    const url = new URL(request.url());
-    if (url.hostname !== 'csfd.cz' && url.hostname !== 'www.csfd.cz' && url.hostname !== 'img.csfd.cz') {
+    const { hostname } = new URL(request.url());
+    if (!allowedHostnames.includes(hostname)) {
       request.abort();
     } else {
       request.continue();
@@ -81,6 +82,9 @@ void async function () {
       }
 
       movie.posterUrl = await page.$eval('img.film-poster', img => img.src.slice(0, -'?h###'.length));
+
+      await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
+      movie.trailerUrl = await page.$eval('#video-title', a => a.href);
     }
 
     await fs.writeJSON('data.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
