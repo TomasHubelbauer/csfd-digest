@@ -119,6 +119,8 @@ window.addEventListener('load', async () => {
     const popup = location.hash && location.hash !== '#_';
     popupDiv.classList.toggle('popup', popup);
     if (!popup) {
+      // Stop any playback if any
+      trailerIframe.src = '';
       return;
     }
 
