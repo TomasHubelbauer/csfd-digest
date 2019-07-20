@@ -54,3 +54,8 @@ Scrap and display movie ratings in the cards.
 Use the history API instead of hashes to avoid the problem where closing the
 movie popup by clearing the hash scrolls the page up (as well as general history
 pollution).
+
+Fix player fullscreen dismissing the popup for some reason (probably the scroll
+to dismiss handler).
+
+Hook up Esc to dismiss the modal.
