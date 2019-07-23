@@ -69,3 +69,18 @@ benchmark how stable it is (failing this one will not fail the CI).
 
 Wait for GitHub support to get back to me about why commits made by the Azure
 Pipelines app integration do not cause a GitHub Pages deployment.
+
+Minimize modal top margin on mobile.
+
+Make YouTube embed 100% modal width on mobile.
+
+Reset modal scroll position when opening new movie on mobile.
+
+See if modal scroll can be made smooth like main scroll in iOS Safari.
+
+Display a note if no screening dates are available in the selected cinemas
+(How can this happen? Yet it does for some movies.)
+
+Add in and out transition animation for the popup.
+
+Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
