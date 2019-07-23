@@ -66,3 +66,6 @@ benchmark how stable it is (failing this one will not fail the CI).
 - https://github.com/GoogleChrome/puppeteer/tree/master/experimental/puppeteer-firefox
 - https://aslushnikov.github.io/ispuppeteerfirefoxready/
 - https://www.npmjs.com/package/puppeteer-firefox
+
+Wait for GitHub support to get back to me about why commits made by the Azure
+Pipelines app integration do not cause a GitHub Pages deployment.
