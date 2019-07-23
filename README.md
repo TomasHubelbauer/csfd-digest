@@ -59,3 +59,10 @@ Fix player fullscreen dismissing the popup for some reason (probably the scroll
 to dismiss handler).
 
 Hook up Esc to dismiss the modal.
+
+Consider running the pipeline with Puppeteer-Firefox in parallel with Chrome to
+benchmark how stable it is (failing this one will not fail the CI).
+
+- https://github.com/GoogleChrome/puppeteer/tree/master/experimental/puppeteer-firefox
+- https://aslushnikov.github.io/ispuppeteerfirefoxready/
+- https://www.npmjs.com/package/puppeteer-firefox
