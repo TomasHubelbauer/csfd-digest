@@ -234,9 +234,9 @@ window.addEventListener('load', async () => {
       screeningH3.textContent = screening;
       fragment.append(screeningH3);
 
-      for (const [year, month, day, hour, minute] of movie.screenings[screening]) {
+      for (const dateAndTime of movie.screenings[screening]) {
         const dateAndTimeSpan = document.createElement('span');
-        dateAndTimeSpan.textContent = `${year}/${month}/${day} ${hour}:${minute}`;
+        dateAndTimeSpan.textContent = new Date(dateAndTime).toLocaleString();
         dateAndTimeSpan.className = 'screening';
         fragment.append(dateAndTimeSpan);
       }

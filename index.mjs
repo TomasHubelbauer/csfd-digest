@@ -58,7 +58,7 @@ void async function () {
 
           for (const time of await movieTr.$$eval('td:not(.flags)', tds => tds.map(td => td.textContent).filter(time => time))) {
             const [_, hour, minute] = /(\d+):(\d+)/g.exec(time);
-            movie.screenings[cinemaName].push([Number(year), Number(month), Number(day), Number(hour), Number(minute)]);
+            movie.screenings[cinemaName].push(new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute)));
           }
         }
       }
