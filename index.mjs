@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs-extra';
 
 void async function () {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: false });
   const pages = await browser.pages();
   const page = pages[0];
 
@@ -20,8 +20,11 @@ void async function () {
 
   await page.goto('https://csfd.cz/kino/?period=all');
   try {
+    /** @type {String[]} */
     const cinemas = [];
+    /** @type {{ id: String; name: String; year: Number; screenings: any[] }[]} */
     const movies = [];
+
     for (const cinemaScheduleDiv of await page.$$('.cinema-schedule')) {
       const cinemaName = await cinemaScheduleDiv.$eval('.header h2', h2 => h2.textContent.substring('Praha - '.length));
       cinemas.push(cinemaName);
@@ -32,7 +35,7 @@ void async function () {
 
         for (const movieTr of await dayTable.$$('tr')) {
           const { name, url } = await movieTr.$eval('th a', a => ({ name: a.textContent.trim(), url: a.href }));
-          const movieYear = await movieTr.$eval('th span.film-year', span => span.textContent.slice(1, -1));
+          const movieYear = Number(await movieTr.$eval('th span.film-year', span => span.textContent.slice(1, -1)));
           console.log(`\tProcessing ${name} (${movieYear})`);
           const idMatch = /\/(\d+-[\w-]+)\//g.exec(url);
           if (idMatch === null || idMatch.length !== 2) {
@@ -63,6 +66,9 @@ void async function () {
         }
       }
     }
+
+    // Sort alphabetically to make the diffs nice
+    movies.sort((a, b) => a.name.localeCompare(b.name));
 
     for (let index = 0; index < movies.length; index++) {
       const movie = movies[index];

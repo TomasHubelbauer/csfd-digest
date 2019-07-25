@@ -84,7 +84,3 @@ Display a note if no screening dates are available in the selected cinemas
 Add in and out transition animation for the popup.
 
 Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
-
-Order movies alphabetically in the data JSON (for nice diffs) and by the amount
-of screenings in the UI (still preserving the will, might, dunno order of the
-groups) as a proxy for popularity.

@@ -16,6 +16,11 @@ window.addEventListener('load', async () => {
   // to clear data for movies that are no longer in cinemas
 
   let cinemas = localStorage.getItem('cinemas') ? JSON.parse(localStorage.getItem('cinemas')) : data.cinemas;
+  data.movies = data.movies.sort((a, b) => {
+    const aScreeningCount = Object.keys(a.screenings).reduce((sum, c) => sum + a.screenings[c].length, 0);
+    const bScreeningCount = Object.keys(b.screenings).reduce((sum, c) => sum + b.screenings[c].length, 0);
+    return bScreeningCount - aScreeningCount;
+  });
 
   function renderCinemas() {
     const fragment = document.createDocumentFragment();
