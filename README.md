@@ -84,3 +84,5 @@ Display a note if no screening dates are available in the selected cinemas
 Add in and out transition animation for the popup.
 
 Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
+
+Make pipeline failure (`npm start`) actually fail the pipeline.
