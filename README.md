@@ -83,3 +83,5 @@ Add in and out transition animation for the popup.
 Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
 
 Make pipeline failure (`npm start`) actually fail the pipeline.
+
+Display the data age in the UI.
