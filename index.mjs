@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs-extra';
 
 void async function () {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch();
   const pages = await browser.pages();
   const page = pages[0];
 
