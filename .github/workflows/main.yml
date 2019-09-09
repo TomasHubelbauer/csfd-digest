@@ -5,8 +5,8 @@ on:
     # Limit to the `master` branch
     - master
   schedule:
-    # Run hourly
-    - cron:  '0 * * * *'
+    # Run daily
+    - cron:  '0 2 * * *'
 jobs:
   github-pages:
     runs-on: ubuntu-latest
@@ -30,6 +30,13 @@ jobs:
         npm start
         # Add generated GitHub Pages to Git stage
         git add data.json
+        # Run the CRA version build
+        rm -rf docs
+        cd cra
+        npm install
+        npm run build
+        cd ..
+        git add docs
         # Reset unstaged changes to prevent `git commit` from yelling if there's changes outside of `docs`
         git checkout -- .
         # Commit the changes to the Git repository to deploy GitHub Pages (if any)
