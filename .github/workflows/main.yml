@@ -6,20 +6,14 @@ on:
     - master
   schedule:
     # Run daily
-    - cron:  '0 2 * * *'
+    - cron:  '0 0 * * *'
 jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - name: Generate GitHub Pages
-      env:
-        NO_CI: ${{ contains(github.event.head_commit.message, '***NO_CI***') }}
       run: |
-        # Exit if ***NO_CI*** exists in the head commit message - GitHub Actions won't do this by themselves
-        if $NO_CI; then
-          exit
-        fi
         # Configure Git for the push from the workflow to the repository
         git config --global user.email "tomas@hubelbauer.net"
         git config --global user.name "Tomas Hubelbauer"
@@ -45,12 +39,14 @@ jobs:
         if git diff-index --quiet HEAD --; then
           exit
         fi
-        git commit -m "Generate GitHub Pages (***NO_CI***)"
-        # Use custom PAT because GitHub Pages won't deploy with the `GITHUB_TOKEN` PAT
-        git remote set-url origin https://tomashubelbauer:${{ secrets.GITHUB_PAGES_PAT }}@github.com/TomasHubelbauer/puppeteer-csfd-scraper
+        git commit -m "Generate GitHub Pages"
+        # Authenticate with GitHub using the out of the box workflow integration PAT (this one won't queue a GitHub Pages build though)
+        git remote set-url origin https://tomashubelbauer:${{ secrets.GITHUB_PAGES_PAT }}@github.com/${{ github.repository }}
         # Pull before pushing to integrate fast forward changes if any
         git pull
         # Push the changes to GitHub where it will cause another workflow which will kill itself immediately due to ***NO_CI***
         git push
+        # Enqueue a GitHub Pages build after the push as the out of the box PAT won't ensure this
+        curl -f -X POST -H "Authorization: token ${{ secrets.GITHUB_PAGES_PAT }}" -H "Accept: application/vnd.github.mister-fantastic-preview+json" "https://api.github.com/repos/${{ github.repository }}/pages/builds"
         # Show GitHub Pages URL
         echo https://tomashubelbauer.github.io/puppeteer-csfd-scraper
