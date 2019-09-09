@@ -15,6 +15,10 @@ p a {
   margin-left: 1ex;
 }
 
-div > img {
+details > img {
   height: 192px;
+}
+
+summary h2 {
+  display: inline;
 }
