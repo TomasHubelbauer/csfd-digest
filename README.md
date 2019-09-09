@@ -1,8 +1,6 @@
 # Puppeteer CSFD.cz Scraper
 
-[
-  ![](https://tomashubelbauer.visualstudio.com/puppeteer-csfd-cz-scraper/_apis/build/status/TomasHubelbauer.puppeteer-csfd-scraper?branchName=master)
-](https://tomashubelbauer.visualstudio.com/puppeteer-csfd-cz-scraper/_build/latest)
+![](https://github.com/tomashubelbauer/puppeteer-csfd-scraper/workflows/github-pages/badge.svg)
 
 [**LIVE**](https://tomashubelbauer.github.io/puppeteer-csfd-scraper)
 
@@ -83,5 +81,3 @@ Add in and out transition animation for the popup.
 Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
 
 Make pipeline failure (`npm start`) actually fail the pipeline.
-
-Display the data age in the UI.
