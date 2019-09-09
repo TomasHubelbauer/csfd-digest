@@ -36,6 +36,8 @@ jobs:
         npm install
         npm run build
         cd ..
+        mv cra/build docs
+        cp data.json docs/data.json
         git add docs
         # Reset unstaged changes to prevent `git commit` from yelling if there's changes outside of `docs`
         git checkout -- .
