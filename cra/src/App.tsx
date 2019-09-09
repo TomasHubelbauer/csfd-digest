@@ -1,5 +1,6 @@
 import './App.css';
 import React, { Component, ChangeEventHandler } from 'react';
+import TimeAgo from 'react-timeago';
 
 type Movie = {
   id: string;
@@ -94,15 +95,18 @@ export default class App extends Component<AppProps, AppState> {
         <select multiple onChange={this.handleCinemaSelectChange} value={this.state.selectedCinemas}>
           {this.state.data.data.cinemas.map(cinema => <option key={cinema}>{cinema}</option>)}
         </select>
+        <p>{screeningsTonight.length} movies tonight: (last updated&nbsp;<TimeAgo date={this.state.data.data.dateAndTime} />)</p>
         {screeningsTonight.map(screening => (
-          <div key={screening!.movie.id}>
-            <h2>{screening!.movie.name}</h2>
+          <details key={screening!.movie.id} open>
+            <summary>
+              <h2>{screening!.movie.name}</h2>
+            </summary>
             <img alt={`${screening!.movie.name} poster`} src={screening!.movie.posterUrl} />
             <p>{screening!.movie.content}</p>
             <ul>
               {screening!.screenings.map((screen, index) => <li key={index}>{screen.cinema} {screen.screening.toLocaleTimeString()}</li>)}
             </ul>
-          </div>
+          </details>
         ))}
       </div>
     );
