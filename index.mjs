@@ -87,7 +87,11 @@ void async function () {
         // Ignore missing IMDB a
       }
 
-      movie.posterUrl = await page.$eval('img.film-poster', img => img.src.slice(0, -'?h###'.length));
+      try {
+        movie.posterUrl = await page.$eval('img.film-poster', img => img.src.slice(0, -'?h###'.length));
+      } catch (error) {
+        // Ignore missing poster img (some old movies do not have them)
+      }
 
       await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
       movie.trailerUrl = await page.$eval('#video-title', a => a.href);
