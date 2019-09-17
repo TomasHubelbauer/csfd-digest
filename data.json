@@ -1,5 +1,5 @@
 {
-  "dateAndTime": "2019-09-16T00:25:36.048Z",
+  "dateAndTime": "2019-09-17T00:12:57.223Z",
   "cinemas": [
     "CineStar Praha - Anděl",
     "CineStar Praha - Černý Most",
@@ -26,14 +26,11 @@
     "Imax",
     "Institut Cervantes",
     "KC Nová Beseda Klánovice",
-    "KC Zahrada",
-    "Kampus Hybernská",
     "Kasárna Karlín",
     "Kino Lucerna - Praha",
     "Kino Pilotů",
     "Kino Radotín",
     "Kino Účko",
-    "Kinoloď",
     "Komunitní centrum Husitská",
     "Letní kino Be2Can v areálu Gauč ve Stromovce",
     "Letní kino Výstaviště",
@@ -57,7 +54,6 @@
       "year": 2018,
       "screenings": {
         "Kino Pilotů": [
-          "2019-09-16T21:30:00.000Z",
           "2019-09-22T21:30:00.000Z"
         ]
       },
@@ -76,7 +72,8 @@
           "2019-09-21T19:30:00.000Z",
           "2019-09-22T12:00:00.000Z",
           "2019-09-24T20:30:00.000Z",
-          "2019-09-25T10:00:00.000Z"
+          "2019-09-25T10:00:00.000Z",
+          "2019-09-30T18:00:00.000Z"
         ],
         "Atlas": [
           "2019-09-19T17:30:00.000Z",
@@ -209,15 +206,26 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/742/163742220_b0ba7c.jpg"
     },
     {
+      "id": "649792-all-inclusive",
+      "url": "https://www.csfd.cz/film/649792-all-inclusive/",
+      "name": "All Inclusive",
+      "year": 2018,
+      "screenings": {
+        "Bio Oko": [
+          "2019-09-18T20:30:00.000Z"
+        ]
+      },
+      "content": "Okouzlení masovou zábavou na širém moři.(iShorts)",
+      "imdbUrl": "https://www.imdb.com/title/tt8958890/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/973/162973303_605cfc.jpg"
+    },
+    {
       "id": "512396-angry-birds-ve-filmu-2",
       "url": "https://www.csfd.cz/film/512396-angry-birds-ve-filmu-2/",
       "name": "Angry Birds ve filmu 2",
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T13:20:00.000Z",
-          "2019-09-16T16:00:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T13:20:00.000Z",
           "2019-09-18T12:00:00.000Z",
@@ -225,8 +233,6 @@
           "2019-09-18T16:00:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T17:30:00.000Z",
           "2019-09-17T13:10:00.000Z",
           "2019-09-17T15:20:00.000Z",
           "2019-09-17T17:30:00.000Z",
@@ -242,14 +248,6 @@
           "2019-09-29T15:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T12:15:00.000Z",
-          "2019-09-16T13:10:00.000Z",
-          "2019-09-16T14:20:00.000Z",
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T12:40:00.000Z",
           "2019-09-17T12:15:00.000Z",
           "2019-09-17T13:10:00.000Z",
           "2019-09-17T14:20:00.000Z",
@@ -268,9 +266,6 @@
           "2019-09-18T19:00:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T12:10:00.000Z",
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T17:20:00.000Z",
           "2019-09-17T12:10:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T17:20:00.000Z",
@@ -279,18 +274,12 @@
           "2019-09-18T17:20:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T16:10:00.000Z",
-          "2019-09-16T18:15:00.000Z",
           "2019-09-17T16:10:00.000Z",
           "2019-09-17T18:15:00.000Z",
           "2019-09-18T16:10:00.000Z",
           "2019-09-18T18:15:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T16:10:00.000Z",
-          "2019-09-16T19:20:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T15:20:00.000Z",
           "2019-09-17T16:10:00.000Z",
@@ -301,11 +290,6 @@
           "2019-09-18T19:20:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T12:10:00.000Z",
-          "2019-09-16T12:50:00.000Z",
-          "2019-09-16T13:40:00.000Z",
-          "2019-09-16T15:50:00.000Z",
-          "2019-09-16T18:00:00.000Z",
           "2019-09-17T12:10:00.000Z",
           "2019-09-17T12:50:00.000Z",
           "2019-09-17T13:40:00.000Z",
@@ -318,10 +302,6 @@
           "2019-09-18T12:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T16:20:00.000Z",
-          "2019-09-16T12:20:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-17T16:20:00.000Z",
@@ -332,9 +312,6 @@
           "2019-09-18T12:20:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T17:30:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-17T15:20:00.000Z",
           "2019-09-17T17:30:00.000Z",
@@ -351,9 +328,6 @@
           "2019-09-21T10:30:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T16:00:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T16:00:00.000Z",
@@ -373,7 +347,6 @@
       "year": 2019,
       "screenings": {
         "Cinema City Nový Smíchov": [
-          "2019-09-16T22:20:00.000Z",
           "2019-09-17T22:20:00.000Z",
           "2019-09-18T21:50:00.000Z"
         ],
@@ -396,7 +369,8 @@
           "2019-09-27T17:00:00.000Z"
         ],
         "Světozor": [
-          "2019-09-26T18:00:00.000Z"
+          "2019-09-26T18:00:00.000Z",
+          "2019-09-30T20:45:00.000Z"
         ]
       },
       "content": "Voda, krásná i děsivá, smrtící i životodárná. Fascinující živel se ve výpravném dokumentu Viktora Kossakovského stává protagonistou, zatímco člověku připadá epizodní role v odvěkém koloběhu vzniku a zániku. Kamera v Aquarele cestuje kolem světa, ze zamrzlé hladiny Bajkalu, přes ledové hradby Antarktidy, do útrob hurikánu Irma či mocných venezuelských Andělských vodopádů. Sytými barvami vykresluje portrét tvořivé i ničivé síly ve všech jejích formách a zachycuje důsledky dramatických proměn klimatu. Voda v křehkých lidských bytostech vyvolává úctu, euforii a zoufalství. Dechberoucí záběry doprovází bouřlivý metalový soundtrack zakládajícího člena kapely Apocalyptica, cellisty Eiccy Toppinena.(Artcam Films)\n\n\t\t\t\t\t\t Voda, krásná i děsivá, smrtící i životodárná. Fascinující živel se ve výpravném dokumentu Viktora Kossakovského stává protagonistou, zatímco člověku připadá epizodní role v odvěkém koloběhu vzniku a zániku. Kamera v Aquarele cestuje kolem světa, ze zamrzlé hladiny Bajkalu, přes ledové hradby Antarktidy, do útrob hurikánu Irma či mocných venezuelských Andělských vodopádů. Sytými barvami vykresluje portrét tvořivé i ničivé síly ve všech jejích formách a zachycuje důsledky dramatických proměn klimatu. Voda v křehkých lidských bytostech vyvolává úctu, euforii… (více)",
@@ -439,7 +413,6 @@
       "year": 2010,
       "screenings": {
         "Rest.art": [
-          "2019-09-16T20:00:00.000Z",
           "2019-10-06T20:00:00.000Z"
         ]
       },
@@ -555,13 +528,26 @@
           "2019-09-25T19:00:00.000Z"
         ],
         "Světozor": [
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-24T17:15:00.000Z"
+          "2019-09-24T17:15:00.000Z",
+          "2019-09-30T13:00:00.000Z"
         ]
       },
       "content": "V odlehlém islandském městečku se bývalý policista vyrovnává s tragickým úmrtím své ženy. Smíření komplikuje zpráva, že jeho milovaná vedla ještě jiný, tajný život. Obrysy její minulosti vystupují z bílé mlhy jako okolní krajina. Byla mu nevěrná? Ingimundur nemůže jít dál, dokud nezjistí pravdu. Jeho zármutek se s rostoucím napětím mění v posedlost, která ohrozí jeho i jeho blízké. Druhý celovečerní snímek Hlynura Pálmasona (Winter Brothers) byl uveden na MFF v Cannes 2019 v sekci Critics' Week a z festivalu si odvezl ocenění pro výjimečný herecký výkon Ingvara Sigurdssona v hlavní roli.(Aerofilms)\n\n\t\t\t\t\t\t V odlehlém islandském městečku se bývalý policista vyrovnává s tragickým úmrtím své ženy. Smíření komplikuje zpráva, že jeho milovaná vedla ještě jiný, tajný život. Obrysy její minulosti vystupují z bílé mlhy jako okolní krajina. Byla mu nevěrná? Ingimundur nemůže jít dál, dokud nezjistí pravdu. Jeho zármutek se s rostoucím napětím mění v posedlost, která ohrozí jeho i jeho blízké. Druhý celovečerní snímek Hlynura Pálmasona (Winter Brothers) byl uveden na MFF v Cannes 2019 v sekci Critics' Week a z festivalu si odvezl ocenění pro výjimečný herecký výkon I… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt9801736/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/575/163575276_781ed3.jpg"
+    },
+    {
+      "id": "770472-bingo-ladies",
+      "url": "https://www.csfd.cz/film/770472-bingo-ladies/",
+      "name": "Bingo Ladies",
+      "year": 2019,
+      "screenings": {
+        "Bio Oko": [
+          "2019-09-18T20:30:00.000Z"
+        ]
+      },
+      "content": "Tři ženy se potkávají v bingo herně v jižním Londýně a debatují o životě. Tento dokumentární video portrét překvapí ryzími konverzacemi, které dovolí nahlédnout do jednoho s jejich odpolední. S osobitým přístupem mluví otevřeně o lásce, mimozemšťanech, smrti a papoušcích. Tento video potrét nabízí antropologickou perspektivu a proniká do londýnského předměstí a subkultury bingo heren.(iShorts)",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
     },
     {
       "id": "603877-blackkklansman",
@@ -578,20 +564,6 @@
       "imdbUrl": "https://www.imdb.com/title/tt7349662/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/824/162824493_5913b8.png",
       "trailerUrl": "https://www.youtube.com/watch?v=fQNZhs0QKq0"
-    },
-    {
-      "id": "613095-blue-note-records-beyond-the-notes",
-      "url": "https://www.csfd.cz/film/613095-blue-note-records-beyond-the-notes/",
-      "name": "Blue Note Records: Beyond the Notes",
-      "year": 2018,
-      "screenings": {
-        "Světozor": [
-          "2019-09-16T20:30:00.000Z"
-        ]
-      },
-      "content": "Jedno z nejdůležitějších hudebních vydavatelství v historii jazzu - a tedy i americké hudby - Blue Note Records je domovským vydavatelem takových průkopnických umělců jako byli Miles Davis, Thelonious Monk, John Coltrane, Bud Powell nebo Art Blakey. Pod stejnou značkou dnes září hvězdy Robert Glasper, Ambrose Akinmusire či Norah Jones. Prostřednictvím vzácných archivních záběrů, rozhovorů s umělci Blue Note a ukázek z nahrávání současných alb se k divákovi dostává silný dokument, který mimo jiné osvětluje zásadní souvislosti mezi jazzem a hip hopem.(Kinosvetozor.cz)\n\n\t\t\t\t\t\t Jedno z nejdůležitějších hudebních vydavatelství v historii jazzu - a tedy i americké hudby - Blue Note Records je domovským vydavatelem takových průkopnických umělců jako byli Miles Davis, Thelonious Monk, John Coltrane, Bud Powell nebo Art Blakey. Pod stejnou značkou dnes září hvězdy Robert Glasper, Ambrose Akinmusire či Norah Jones. Prostřednictvím vzácných archivních záběrů, rozhovorů s umělci Blue Note a ukázek z nahrávání současných alb se k divákovi dostává silný dokument, který mimo jiné osvětluje zásadní souvislosti mezi jazzem a hip hopem.(Kinos… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt6106822/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/680/162680540_ad97c2.jpg"
     },
     {
       "id": "755366-bluesman",
@@ -811,20 +783,6 @@
       "trailerUrl": "https://www.youtube.com/watch?v=J3RBtp6TZNQ"
     },
     {
-      "id": "1460-cirkus",
-      "url": "https://www.csfd.cz/film/1460-cirkus/",
-      "name": "Cirkus",
-      "year": 1928,
-      "screenings": {
-        "Ponrepo": [
-          "2019-09-16T20:30:00.000Z"
-        ]
-      },
-      "content": "Tulák (Chaplin) se ocitá v cirkusu, kde jej honí policie, neboť jej považuje za kapesního zloděje. Charlie je při honičce natolik zábavný, že se jej majitel cirkusu rozhodne zaměstnat. Když majitel zjistí, že tulákovi nejde zábava sama od sebe, rozhodne se mu trochu pomoci. Tulák se mezitím zamiluje do krásné akrobatky, majitelovy dcery. Zdá se, že je vše na dobré cestě, dokud se ovšem neobjeví milostný sok a Charlie se nerozhodne o svou lásku bojovat.(oficiální text distributora)",
-      "imdbUrl": "https://www.imdb.com/title/tt0018773/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/994/162994958_87c1ac.jpg"
-    },
-    {
       "id": "617305-climax",
       "url": "https://www.csfd.cz/film/617305-climax/",
       "name": "Climax",
@@ -844,12 +802,6 @@
       "name": "Co jsme komu zase udělali?",
       "year": 2019,
       "screenings": {
-        "Evald": [
-          "2019-09-16T16:00:00.000Z"
-        ],
-        "KC Zahrada": [
-          "2019-09-16T19:00:00.000Z"
-        ],
         "Mat": [
           "2019-09-19T16:15:00.000Z"
         ]
@@ -975,9 +927,6 @@
       "name": "Devadesátky",
       "year": 2018,
       "screenings": {
-        "Kasárna Karlín": [
-          "2019-09-16T20:00:00.000Z"
-        ],
         "Kino Pilotů": [
           "2019-09-19T21:00:00.000Z",
           "2019-09-21T12:15:00.000Z"
@@ -996,20 +945,6 @@
       "content": "Kalifornské slunce, holky, mejdany, skejt a parta starších kluků, do které by hrozně rád zapadl. Tohle je prostě léto všech velkých poprvé, na které Stevie nikdy nezapomene. Tím spíš, že ho prožívá v polovině devadesátek – neopakovatelné době, jejíž atmosféru Jonah Hill (Vlk z Wall Street, Superbad) ve svém režijním debutu dokonale vystihl, hudbou počínaje a módou konče.(Aerofilms)",
       "imdbUrl": "https://www.imdb.com/title/tt5613484/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/575/163575333_c4b535.jpg"
-    },
-    {
-      "id": "617740-diamantino",
-      "url": "https://www.csfd.cz/film/617740-diamantino/",
-      "name": "Diamantino",
-      "year": 2018,
-      "screenings": {
-        "Kampus Hybernská": [
-          "2019-09-16T19:30:00.000Z"
-        ]
-      },
-      "content": "Diamantino je portugalský fotbalista a světová hvězda. Když na rozhodujícím šampionátu selže, podstupuje blouznivou pouť za nalezením talentu a osudové lásky, na níž je konfrontován s uprchlickou krizí, genetickou modifikací a intrikami neofašistů.(MFF Karlovy Vary)",
-      "imdbUrl": "https://www.imdb.com/title/tt6522668/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/722/162722794_b80423.jpg"
     },
     {
       "id": "674555-diego-maradona",
@@ -1067,9 +1002,6 @@
       "name": "Fabrika",
       "year": 2018,
       "screenings": {
-        "Edison Filmhub": [
-          "2019-09-16T18:00:00.000Z"
-        ],
         "Mat": [
           "2019-09-20T14:00:00.000Z"
         ]
@@ -1154,6 +1086,21 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/460/163460910_3a41ad.png"
     },
     {
+      "id": "652531-fuck-you",
+      "url": "https://www.csfd.cz/film/652531-fuck-you/",
+      "name": "Fuck You",
+      "year": 2018,
+      "screenings": {
+        "Bio Oko": [
+          "2019-09-18T20:30:00.000Z"
+        ]
+      },
+      "content": "Alice ukradne strap-on během večírku s kamarádkami a prověří představy jejího přítele o holkách.(iShorts)",
+      "imdbUrl": "https://www.imdb.com/title/tt7507644/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/900/162900372_89ebe9.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=zWkQ7S2Cf2M"
+    },
+    {
       "id": "651347-genesis",
       "url": "https://www.csfd.cz/film/651347-genesis/",
       "name": "Genesis",
@@ -1189,7 +1136,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Černý Most": [
-          "2019-09-16T14:00:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-18T14:00:00.000Z"
         ],
@@ -1219,6 +1165,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/603/163603634_234f98.jpg"
     },
     {
+      "id": "9263-horka-kase",
+      "url": "https://www.csfd.cz/film/9263-horka-kase/",
+      "name": "Horká kaše",
+      "year": 1988,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-19T18:00:00.000Z"
+        ]
+      },
+      "content": "V 80. letech vznikla řada filmů o dospívající mládeži. Nejdříve pojednávaly o zmatečném hledání životní orientace, o obtížném vstupu do dospělého života - a pozvolna se zájem přesouval k mládeži delikventní. Tento snímek mapuje poměry na odlidštěném sídlišti, kde se mládež z nudy shlukuje do part, které se bezcílně toulají, ponižují kolemjdoucí, napadají bezbranné. Zjišťuje, že na bezprizorné děti mají rodiče příliš málo času, že jejich činy bagatelizují tak dlouho, dokud nedojde k tragédii. Avšak zbytečné siláctví slov i gest, melodramatický důraz na první lásku a pozdní prohlédnutí v jádru slušného chlapce, jenž podlehl lákání atraktivních vzorů, umenšuje varovnost tohoto jinak cenného snímku.(oficiální text distributora)\n\n\t\t\t\t\t\t V 80. letech vznikla řada filmů o dospívající mládeži. Nejdříve pojednávaly o zmatečném hledání životní orientace, o obtížném vstupu do dospělého života - a pozvolna se zájem přesouval k mládeži delikventní. Tento snímek mapuje poměry na odlidštěném sídlišti, kde se mládež z nudy shlukuje do part, které se bezcílně toulají, ponižují kolemjdoucí, napadají bezbranné. Zjišťuje, že na bezprizorné děti mají rodiče příliš málo času, že jejich činy bagatelizují tak dlouho, dokud nedojde k tragédii. Avšak zbytečné siláctví slov i gest, melodramatický důraz na prv… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0285197/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/008/8731_2447ca.jpg"
+    },
+    {
       "id": "422713-hotel-transylvanie-3-priserozni-dovolena",
       "url": "https://www.csfd.cz/film/422713-hotel-transylvanie-3-priserozni-dovolena/",
       "name": "Hotel Transylvánie 3: Příšerózní …",
@@ -1244,12 +1204,6 @@
         "Evald": [
           "2019-09-18T14:00:00.000Z",
           "2019-09-23T16:30:00.000Z"
-        ],
-        "Kino Lucerna - Praha": [
-          "2019-09-16T13:30:00.000Z"
-        ],
-        "Světozor": [
-          "2019-09-16T13:00:00.000Z"
         ]
       },
       "content": "Philippe a Carole se před nedávnem potkali. Oba jsou rozvedení. Zamilovali se do sebe až po uši a Phillipe udělá cokoliv, aby si na svou stranu získal Caroliny děti, které z něj nejsou zrovna odvařené. Navrhne jejímu synovi, že pokud udělá maturitu, může vybrat letní dovolenou. A… hurá na Ibizu! Phillipova představa o venkovské rodinné idylce se rychle rozplynula a nastal čas nabrat síly na nejdivočejší jízdu jeho života.(Bohemia MP)",
@@ -1423,6 +1377,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/021/21790_9eb260.jpg"
     },
     {
+      "id": "35143-krev-basnika",
+      "url": "https://www.csfd.cz/film/35143-krev-basnika/",
+      "name": "Krev básníka",
+      "year": 1932,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-25T20:30:00.000Z"
+        ]
+      },
+      "content": "Francouzská avantgarda dvacátých let má jedno prvenství: není němá. Tři základní pilíře: Zlatý věk, Trojka z mravů a Krev básníka pracují originálním způsobem se zvukem. Poslední z jmenovaných filmů je dílem Jeana Cocteaua a stejně jako ostatní nebyl určen k masové produkci. Jde o velmi intimní zpověď plnou metafor.(Letní filmová škola)",
+      "imdbUrl": "https://www.imdb.com/title/tt0021331/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/750/163750912_53bbc6.jpg"
+    },
+    {
       "id": "291738-krtkova-dobrodruzstvi",
       "url": "https://www.csfd.cz/film/291738-krtkova-dobrodruzstvi/",
       "name": "Krtkova dobrodružství",
@@ -1442,11 +1410,9 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T20:40:00.000Z",
           "2019-09-18T20:40:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T21:20:00.000Z",
           "2019-09-18T21:20:00.000Z"
         ],
@@ -1455,18 +1421,14 @@
           "2019-09-19T10:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T21:10:00.000Z",
           "2019-09-17T21:10:00.000Z",
           "2019-09-18T21:10:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T20:40:00.000Z",
           "2019-09-17T20:40:00.000Z",
           "2019-09-18T20:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T19:20:00.000Z",
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T19:20:00.000Z",
           "2019-09-17T21:30:00.000Z",
           "2019-09-18T19:20:00.000Z",
@@ -1489,6 +1451,20 @@
       },
       "content": "Na cornwallskom pobreží žije v roku 1803 15-ročný neskúsený chlapec, ktorý sa každý večer vydáva na fantastickú cestu. Samozrejme, robí tak iba vo svojich myšlienkach, ktoré podnecuje dobrodružný príbeh o Black Morovi. \nMladý chlapec sníva o tom, že sa stane rovnako slávnym pirátom, akým je aj samotný Black Mor. Jeho úlohou bude brázdiť moria celého sveta a vyhľadávať nové a nové dobrodružstvá. Chlapec, nasledujúc príklad hrdinského piráta, utečie zo sirotinca, v ktorom ako väzeň trávil celé svoje detstvo. Nemá so sebou nič okrem mapy, ktorá ukazuje cestu na Black Morov ostrov, a dokonca nepozná ani vlastné meno. Chlapec je však odhodlaný vytrvať a neustúpiť: podarí sa mu ukradnúť loď pobrežnej stráže a v spoločnosti jej dvojčlennej posádky, ktorú tvoria zákerní lovci pokladov, sa vydáva na cestu cez Atlantický oceán. Jeho cieľom je ostrov ukrývajúci nebývalé poklady. Predtým, než podivná skupinka dorazí na miesto, však na ňu čaká nespočetné množstvo dobrodružstiev a úžasných objavov.(Incantator)\n\n\t\t\t\t\t\t Na cornwallskom pobreží žije v roku 1803 15-ročný neskúsený chlapec, ktorý sa každý večer vydáva na fantastickú cestu. Samozrejme, robí tak iba vo svojich myšlienkach, ktoré podnecuje dobrodružný príbeh o Black Morovi. Mladý chlapec sníva o tom, že sa stane rovnako slávnym pirátom, akým je aj samotný Black Mor. Jeho úlohou bude brázdiť moria celého sveta a vyhľadávať nové a nové dobrodružstvá. Chlapec, nasledujúc príklad hrdinského piráta, utečie zo sirotinca, v ktorom ako väzeň trávil celé svoje detstvo. Nemá so sebou nič okrem mapy, ktorá ukazuje cestu… (více)",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/779/161779019_fe9007.jpg"
+    },
+    {
+      "id": "7465-laska-je-utrpenim",
+      "url": "https://www.csfd.cz/film/7465-laska-je-utrpenim/",
+      "name": "Láska je utrpením",
+      "year": 1919,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-18T18:00:00.000Z"
+        ]
+      },
+      "content": "Milostný vztah slavného herce Milana Dumavského a jeho kolegyně Olgy je rozbit mladou rozmarnou Zorou. Olga o svou lásku nebojuje. Ačkoliv čeká Milanovo dítě, odjede na venkov a tam porodí synka. Milan je zpočátku se Zorou v manželství šťastný, ale brzy se jim nedostává peněz. Zora se totiž nedokáže vzdát přepychu. Aby vydělal peníze, přijme Milan nabídku filmové společnosti: má vyšplhat na petřínskou rozhlednu. Svůj úkol splní, ale na zpáteční cestě spadne. Následkem pádu utrpí šok, ztratí řeč a nejeví zájem o okolí. Zora se nechce o něho starat, rozvede se a provdá se za Milanova přítele. Olga se z tisku dozví o Milanově neštěstí a vyhledá ho v sanatoriu. Lékař jí sdělí, že by Milana snad mohl zachránit další šok. Olga, která Milana stále miluje, se proto odhodlá k odvážnému činu: před jeho zraky se zřítí z rozhledny. To Milana skutečně vzpamatuje. Naštěstí se Olga nezabila a tak mohou spolu i se synkem začít nový život.(oficiální text distributora)\n\n\t\t\t\t\t\t Milostný vztah slavného herce Milana Dumavského a jeho kolegyně Olgy je rozbit mladou rozmarnou Zorou. Olga o svou lásku nebojuje. Ačkoliv čeká Milanovo dítě, odjede na venkov a tam porodí synka. Milan je zpočátku se Zorou v manželství šťastný, ale brzy se jim nedostává peněz. Zora se totiž nedokáže vzdát přepychu. Aby vydělal peníze, přijme Milan nabídku filmové společnosti: má vyšplhat na petřínskou rozhlednu. Svůj úkol splní, ale na zpáteční cestě spadne. Následkem pádu utrpí šok, ztratí řeč a nejeví zájem o okolí. Zora se nechce o něho starat, rozvede… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0247489/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
     },
     {
       "id": "687551-laska-na-druhy-pohled",
@@ -1557,7 +1533,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T18:10:00.000Z",
           "2019-09-18T18:10:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
@@ -1570,9 +1545,6 @@
           "2019-10-02T15:30:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T12:40:00.000Z",
-          "2019-09-16T15:10:00.000Z",
-          "2019-09-16T17:40:00.000Z",
           "2019-09-17T12:40:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-17T17:40:00.000Z",
@@ -1581,33 +1553,26 @@
           "2019-09-18T17:40:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T12:45:00.000Z",
           "2019-09-17T12:45:00.000Z",
           "2019-09-18T12:45:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T15:30:00.000Z",
-          "2019-09-16T18:10:00.000Z",
           "2019-09-17T15:30:00.000Z",
           "2019-09-17T18:10:00.000Z",
           "2019-09-18T15:30:00.000Z",
           "2019-09-18T18:10:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T16:30:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T16:30:00.000Z",
           "2019-09-18T14:00:00.000Z",
           "2019-09-18T16:30:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T14:10:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-18T14:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T12:10:00.000Z",
           "2019-09-17T12:10:00.000Z",
           "2019-09-18T12:10:00.000Z"
         ],
@@ -1712,6 +1677,32 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/676/163676573_47d59f.png"
     },
     {
+      "id": "509528-money",
+      "url": "https://www.csfd.cz/film/509528-money/",
+      "name": "Money",
+      "year": 2017,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-09-24T18:30:00.000Z"
+        ]
+      },
+      "imdbUrl": "https://www.imdb.com/title/tt2935516/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/076/162076152_f8efe7.jpg"
+    },
+    {
+      "id": "734065-motherload",
+      "url": "https://www.csfd.cz/film/734065-motherload/",
+      "name": "Motherload",
+      "year": 2019,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-20T20:30:00.000Z"
+        ]
+      },
+      "imdbUrl": "https://www.imdb.com/title/tt9646930/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/540/163540676_53d7b4.jpg"
+    },
+    {
       "id": "613734-mrnouskove-2-daleko-od-domova",
       "url": "https://www.csfd.cz/film/613734-mrnouskove-2-daleko-od-domova/",
       "name": "Mrňouskové 2: Daleko od domova",
@@ -1737,7 +1728,6 @@
       "year": 2019,
       "screenings": {
         "Dlabačov": [
-          "2019-09-16T18:00:00.000Z",
           "2019-09-18T18:00:00.000Z"
         ]
       },
@@ -1766,13 +1756,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T17:00:00.000Z",
-          "2019-09-16T13:40:00.000Z",
-          "2019-09-16T17:00:00.000Z",
-          "2019-09-16T20:20:00.000Z",
-          "2019-09-16T21:20:00.000Z",
-          "2019-09-16T15:10:00.000Z",
-          "2019-09-16T18:30:00.000Z",
           "2019-09-17T17:00:00.000Z",
           "2019-09-17T13:40:00.000Z",
           "2019-09-17T17:00:00.000Z",
@@ -1788,9 +1771,6 @@
           "2019-09-18T18:30:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T14:30:00.000Z",
-          "2019-09-16T19:40:00.000Z",
-          "2019-09-16T21:00:00.000Z",
           "2019-09-17T14:30:00.000Z",
           "2019-09-17T19:40:00.000Z",
           "2019-09-17T21:00:00.000Z",
@@ -1817,17 +1797,10 @@
           "2019-09-29T20:30:00.000Z"
         ],
         "Bio Oko": [
-          "2019-09-16T17:00:00.000Z",
           "2019-09-20T14:30:00.000Z",
           "2019-09-21T20:15:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T18:30:00.000Z",
-          "2019-09-16T21:50:00.000Z",
-          "2019-09-16T13:30:00.000Z",
-          "2019-09-16T17:00:00.000Z",
-          "2019-09-16T20:30:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T18:30:00.000Z",
           "2019-09-17T21:50:00.000Z",
@@ -1842,11 +1815,6 @@
           "2019-09-18T21:50:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T20:00:00.000Z",
-          "2019-09-16T21:00:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-17T16:30:00.000Z",
           "2019-09-17T17:30:00.000Z",
@@ -1859,9 +1827,6 @@
           "2019-09-18T21:00:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T17:40:00.000Z",
-          "2019-09-16T20:20:00.000Z",
-          "2019-09-16T21:00:00.000Z",
           "2019-09-17T17:40:00.000Z",
           "2019-09-17T20:20:00.000Z",
           "2019-09-17T21:00:00.000Z",
@@ -1870,11 +1835,6 @@
           "2019-09-18T21:00:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T17:10:00.000Z",
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T20:30:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T17:10:00.000Z",
           "2019-09-17T18:20:00.000Z",
@@ -1887,12 +1847,6 @@
           "2019-09-18T21:40:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T13:20:00.000Z",
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T20:00:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T13:20:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T16:40:00.000Z",
@@ -1907,11 +1861,6 @@
           "2019-09-18T21:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T13:30:00.000Z",
-          "2019-09-16T17:00:00.000Z",
-          "2019-09-16T18:30:00.000Z",
-          "2019-09-16T20:30:00.000Z",
-          "2019-09-16T21:50:00.000Z",
           "2019-09-17T13:30:00.000Z",
           "2019-09-17T17:00:00.000Z",
           "2019-09-17T18:30:00.000Z",
@@ -1924,11 +1873,6 @@
           "2019-09-18T21:50:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T14:40:00.000Z",
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T18:00:00.000Z",
-          "2019-09-16T20:00:00.000Z",
-          "2019-09-16T21:20:00.000Z",
           "2019-09-17T14:40:00.000Z",
           "2019-09-17T16:40:00.000Z",
           "2019-09-17T18:00:00.000Z",
@@ -1941,16 +1885,13 @@
           "2019-09-18T21:20:00.000Z"
         ],
         "Dlabačov": [
-          "2019-09-16T20:00:00.000Z",
           "2019-09-17T17:30:00.000Z",
           "2019-09-18T20:00:00.000Z"
         ],
         "Edison Filmhub": [
-          "2019-09-16T20:30:00.000Z",
           "2019-09-18T21:00:00.000Z"
         ],
         "Evald": [
-          "2019-09-16T20:30:00.000Z",
           "2019-09-20T21:00:00.000Z",
           "2019-09-22T20:30:00.000Z",
           "2019-09-24T21:00:00.000Z"
@@ -1959,8 +1900,6 @@
           "2019-09-23T20:00:00.000Z"
         ],
         "Kino Lucerna - Praha": [
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T19:30:00.000Z",
           "2019-09-17T16:30:00.000Z",
           "2019-09-17T19:30:00.000Z",
           "2019-09-19T13:00:00.000Z",
@@ -1971,7 +1910,6 @@
           "2019-09-25T17:30:00.000Z"
         ],
         "Kino Pilotů": [
-          "2019-09-16T18:00:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-20T17:45:00.000Z",
           "2019-09-21T16:00:00.000Z",
@@ -1981,26 +1919,18 @@
         "Kino Radotín": [
           "2019-09-18T19:00:00.000Z"
         ],
-        "Kinoloď": [
-          "2019-09-16T20:30:00.000Z"
-        ],
         "Mat": [
-          "2019-09-16T17:30:00.000Z",
           "2019-09-17T17:15:00.000Z",
           "2019-09-22T17:25:00.000Z",
           "2019-09-23T17:25:00.000Z",
           "2019-09-25T16:45:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T20:50:00.000Z",
           "2019-09-17T18:20:00.000Z",
           "2019-09-17T20:50:00.000Z",
           "2019-09-18T18:20:00.000Z"
         ],
         "Světozor": [
-          "2019-09-16T17:15:00.000Z",
-          "2019-09-16T20:15:00.000Z",
           "2019-09-17T17:00:00.000Z",
           "2019-09-17T20:15:00.000Z",
           "2019-09-18T17:00:00.000Z",
@@ -2095,8 +2025,7 @@
       },
       "content": "Kdysi tady všude byl jen temný les, dnes tu stojí panelákové sídliště. Právě tady je doma chlápek, kterému nikdo neřekne jinak než Vandam. Žije sám v bytě na okraji Prahy a každý den doma cvičí, aby byl v kondici. Večer, když sídlištěm bloudí divoká zvířata, chodí se svými kumpány na jedno. Vandam se snaží udělat dojem na Lucku, která v sídlištní hospodě točí pivo. Často a rád se porve. Je znalec dějin a válek. Má pocit, že svět míří k zániku, že se schyluje k velké bitvě. A tak cvičí, aby byl na tu poslední rozhodující bitvu nachystaný. A taky k tomu vychovává Psycha, mladého kluka, se kterým natírá střechy panelových domů. Kumpáni z hospody Vandamovi přezdívají „národní hrdina“. Prý dal tehdy v Listopadu na Národní třídě dějiny jednou ranou do pohybu. Film podle stejnojmenné knihy Jaroslava Rudiše v hlavní roli s Hynkem Čermákem kombinuje dramatický příběh s černým humorem.(Falcon)\n\n\t\t\t\t\t\t Kdysi tady všude byl jen temný les, dnes tu stojí panelákové sídliště. Právě tady je doma chlápek, kterému nikdo neřekne jinak než Vandam. Žije sám v bytě na okraji Prahy a každý den doma cvičí, aby byl v kondici. Večer, když sídlištěm bloudí divoká zvířata, chodí se svými kumpány na jedno. Vandam se snaží udělat dojem na Lucku, která v sídlištní hospodě točí pivo. Často a rád se porve. Je znalec dějin a válek. Má pocit, že svět míří k zániku, že se schyluje k velké bitvě. A tak cvičí, aby byl na tu poslední rozhodující bitvu nachystaný. A taky k tomu vyc… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt7697060/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/619/163619882_6fe74b.jpg",
-      "trailerUrl": "https://www.youtube.com/watch?v=-ejy_WouD6Q"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/619/163619882_6fe74b.jpg"
     },
     {
       "id": "692567-narusitel-systemu",
@@ -2142,7 +2071,8 @@
       "year": 2019,
       "screenings": {
         "Rest.art": [
-          "2019-09-25T20:00:00.000Z"
+          "2019-09-25T20:00:00.000Z",
+          "2019-10-07T20:00:00.000Z"
         ]
       },
       "content": "Ani jeden z nich nemá budoucnost, přesto si lze jen těžko představit rozdílnější dvojici. Na jedné straně milionář Phillip, vzdělaný sběratel umění, renesanční člověk s kulturním rozhledem a vybraným vkusem z vyšší společnosti, který je po nehodě během paraglidingu ochrnutý a upoutaný na vozík. Na druhé straně černošský mladík z předměstí. Díky energii, odvaze a bezprostřednosti by mu měl patřit svět, ale jako čerstvě propuštěný vězeň nemá šanci získat práci a zjišťuje, že svět o něj ani trošku nestojí. Setkají se spíš omylem, nejspíš o to moc nestojí, Phillip si i tak vybere živelného kluka téměř z ulice jako svého ošetřovatele. Možná to byl krok zoufalé nudy, dost možná i řízená sebevražda. Ať tak či onak, jejich soužití po krátké nedůvěře překoná všechny rozdíly a oba charaktery z jiných vesmírů života do sebe zapadnou jako Lego. Jejich neočekávané přátelství nabízí dojemný, zábavný a hlavně neuvěřitelně silný zážitek.(Bontonfilm)\n\n\t\t\t\t\t\t Ani jeden z nich nemá budoucnost, přesto si lze jen těžko představit rozdílnější dvojici. Na jedné straně milionář Phillip, vzdělaný sběratel umění, renesanční člověk s kulturním rozhledem a vybraným vkusem z vyšší společnosti, který je po nehodě během paraglidingu ochrnutý a upoutaný na vozík. Na druhé straně černošský mladík z předměstí. Díky energii, odvaze a bezprostřednosti by mu měl patřit svět, ale jako čerstvě propuštěný vězeň nemá šanci získat práci a zjišťuje, že svět o něj ani trošku nestojí. Setkají se spíš omylem, nejspíš o to moc nestojí, Ph… (více)",
@@ -2179,18 +2109,18 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/366/163366835_2942b6.png"
     },
     {
-      "id": "275308-o-apostolo",
-      "url": "https://www.csfd.cz/film/275308-o-apostolo/",
-      "name": "O Apóstolo",
-      "year": 2012,
+      "id": "223309-o-adrienu",
+      "url": "https://www.csfd.cz/film/223309-o-adrienu/",
+      "name": "O Adrienu",
+      "year": 1919,
       "screenings": {
         "Ponrepo": [
-          "2019-09-16T20:30:00.000Z"
+          "2019-09-18T18:00:00.000Z"
         ]
       },
-      "content": "Úžasný španělský animovaný film o odsouzeném vězni, kterému se podaří uprchnout z vězení, a tak pospíchá do vzdálené vesnice pro kořist, kterou si zde před lety ukryl. Ale to, co nakonec nalezne, mu připraví mnohem horší osud, než ke kterému byl odsouzen. V příběhu plném hrůzy, ale i humoru a fantazie, potkáme zlověstné starce, duchy, podivné kněze a zažijeme nejasná zmizení. Na filmu spolupracoval i americký skladatel Phillip Glass společně se španělským hudebním skladatelem Xavierem Fontem, který bude hostem letošního festivalu.(MF filmové a scénické hudby Movi(e)ng Music)\n\n\t\t\t\t\t\t Úžasný španělský animovaný film o odsouzeném vězni, kterému se podaří uprchnout z vězení, a tak pospíchá do vzdálené vesnice pro kořist, kterou si zde před lety ukryl. Ale to, co nakonec nalezne, mu připraví mnohem horší osud, než ke kterému byl odsouzen. V příběhu plném hrůzy, ale i humoru a fantazie, potkáme zlověstné starce, duchy, podivné kněze a zažijeme nejasná zmizení. Na filmu spolupracoval i americký skladatel Phillip Glass společně se španělským hudebním skladatelem Xavierem Fontem, který bude hostem letošního festivalu.(MF filmové a scénické hu… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt1331294/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/038/161038280_a6af3d.jpg"
+      "content": "S později světoznámým kameramanem Otto Hellerem zachytil Max Urban v několika záběrech svou ženu, ve své době nejproslulejší českou divu Andulu Sedláčkovou, spolu s hercem Ludvíkem Veverkou, s nímž hrála v Divadle na Vinohradech ve stejnojmenné hře Louise Verneuila. Jde o poslední snímek renomovaného architekta a průkopníka českého filmu Maxe Urbana.(NFA)",
+      "imdbUrl": "https://www.imdb.com/title/tt1102289/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
     },
     {
       "id": "396792-o-kuratech-a-lidech",
@@ -2236,6 +2166,20 @@
       "content": "Jaká je největší lidská touha? Láska? Peníze? Sex? Neomezená moc? A je možné toho všeho dosáhnout a cestou neztratit vlastní tvář? Nejúspěšnější italský režisér současnosti Paolo Sorrentino (Velká nádhera, Mládí) se vrací do českých kin s velkolepým provokativním komediálním dramatem. Sorrentinův dvorní herec Toni Servillo tentokrát v hlavní roli ztvárňuje Silvia Berlusconiho – notoricky známého miliardáře, skandalistu, mediálního magnáta a dlouholetého předsedu italské vlády, jenž se proslavil zejména svým excentrickým způsobem života a zhýralými večírky, které svět zná pod označením „bunga bunga\". Film dává nahlédnout do soukromí této kontroverzní ústřední postavy a nabízí pohled na mrazivé a mnohdy groteskní situace, ať už se týkají podplácení soudců, nákupu nejlepších fotbalistů nebo svádění mladičkých modelek. Zabývá se také tím, jací lidé Berlusconiho a jemu podobné obklopují a jak funguje cynický mechanismus moci, založený na absolutní ztrátě hodnot, ponižování, egoismu a prospěchářství.(Aerofilms)\n\n\t\t\t\t\t\t Jaká je největší lidská touha? Láska? Peníze? Sex? Neomezená moc? A je možné toho všeho dosáhnout a cestou neztratit vlastní tvář? Nejúspěšnější italský režisér současnosti Paolo Sorrentino (Velká nádhera, Mládí) se vrací do českých kin s velkolepým provokativním komediálním dramatem. Sorrentinův dvorní herec Toni Servillo tentokrát v hlavní roli ztvárňuje Silvia Berlusconiho – notoricky známého miliardáře, skandalistu, mediálního magnáta a dlouholetého předsedu italské vlády, jenž se proslavil zejména svým excentrickým způsobem života a zhýralými večírky… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt6748466/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/009/163009138_7c1cfc.jpg"
+    },
+    {
+      "id": "35110-orfeova-zavet",
+      "url": "https://www.csfd.cz/film/35110-orfeova-zavet/",
+      "name": "Orfeova závěť",
+      "year": 1960,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-25T20:30:00.000Z"
+        ]
+      },
+      "content": "V Orfeově závěti, svém posledním filmu, vyhotovil Cocteau (tři roky před svou smrtí) jednu z nejkurióznějších závětí, jaké po sobě kdy který umělec zanechal. Splynutí mytického básníka s moderním klasikem je tentokrát naprosté – Cocteau hraje v hlavní úloze sám sebe, někdejší interpret mladého Orfea Jean Marais na sebe vzal podobu krále Oidipa... zbytek obsazení je stejně překvapivý jako výmluvný.(NFA)",
+      "imdbUrl": "https://www.imdb.com/title/tt0054377/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/099/161099055_6433db.jpg"
     },
     {
       "id": "35108-orfeus",
@@ -2286,10 +2230,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T16:30:00.000Z",
           "2019-09-17T19:00:00.000Z",
@@ -2299,9 +2239,6 @@
           "2019-09-18T20:40:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T15:10:00.000Z",
-          "2019-09-16T17:40:00.000Z",
-          "2019-09-16T20:10:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-17T17:40:00.000Z",
           "2019-09-17T20:10:00.000Z",
@@ -2327,11 +2264,6 @@
           "2019-09-24T10:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T17:00:00.000Z",
-          "2019-09-18T04:39:00.000Z",
-          "2019-09-16T22:00:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T16:40:00.000Z",
           "2019-09-17T17:00:00.000Z",
@@ -2344,10 +2276,6 @@
           "2019-09-18T22:00:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T13:50:00.000Z",
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T19:10:00.000Z",
-          "2019-09-16T21:50:00.000Z",
           "2019-09-17T13:50:00.000Z",
           "2019-09-17T16:30:00.000Z",
           "2019-09-17T19:10:00.000Z",
@@ -2358,9 +2286,6 @@
           "2019-09-18T21:50:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T15:10:00.000Z",
-          "2019-09-16T17:50:00.000Z",
-          "2019-09-16T20:30:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-17T17:50:00.000Z",
           "2019-09-17T20:30:00.000Z",
@@ -2369,10 +2294,6 @@
           "2019-09-18T20:30:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T19:10:00.000Z",
-          "2019-09-16T21:45:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T16:40:00.000Z",
           "2019-09-17T19:10:00.000Z",
@@ -2383,10 +2304,6 @@
           "2019-09-18T21:45:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T13:40:00.000Z",
-          "2019-09-16T16:20:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T13:40:00.000Z",
           "2019-09-17T16:20:00.000Z",
           "2019-09-17T19:00:00.000Z",
@@ -2397,10 +2314,6 @@
           "2019-09-18T21:30:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T13:40:00.000Z",
-          "2019-09-16T16:20:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T13:40:00.000Z",
           "2019-09-17T16:20:00.000Z",
           "2019-09-17T19:00:00.000Z",
@@ -2411,9 +2324,6 @@
           "2019-09-18T21:40:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T16:20:00.000Z",
-          "2019-09-16T18:50:00.000Z",
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T16:20:00.000Z",
           "2019-09-17T18:50:00.000Z",
           "2019-09-17T21:30:00.000Z",
@@ -2424,14 +2334,10 @@
         "Edison Filmhub": [
           "2019-09-18T16:00:00.000Z"
         ],
-        "Evald": [
-          "2019-09-16T18:00:00.000Z"
-        ],
         "KC Nová Beseda Klánovice": [
           "2019-09-25T20:00:00.000Z"
         ],
         "Kino Lucerna - Praha": [
-          "2019-09-16T15:30:00.000Z",
           "2019-09-17T16:00:00.000Z",
           "2019-09-19T16:15:00.000Z",
           "2019-09-20T18:30:00.000Z",
@@ -2461,13 +2367,9 @@
           "2019-09-27T16:15:00.000Z"
         ],
         "Modřanský biograf": [
-          "2019-09-16T20:00:00.000Z",
           "2019-09-17T17:30:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T18:10:00.000Z",
-          "2019-09-16T20:40:00.000Z",
-          "2019-09-16T21:45:00.000Z",
           "2019-09-17T18:10:00.000Z",
           "2019-09-17T20:40:00.000Z",
           "2019-09-17T21:45:00.000Z",
@@ -2475,7 +2377,6 @@
           "2019-09-18T20:40:00.000Z"
         ],
         "Světozor": [
-          "2019-09-16T13:15:00.000Z",
           "2019-09-17T13:15:00.000Z",
           "2019-09-18T13:15:00.000Z",
           "2019-09-19T15:00:00.000Z",
@@ -2546,9 +2447,6 @@
         "Bio Oko": [
           "2019-09-26T10:00:00.000Z"
         ],
-        "Kino Pilotů": [
-          "2019-09-16T10:30:00.000Z"
-        ],
         "Městská knihovna": [
           "2019-09-27T19:00:00.000Z"
         ]
@@ -2556,6 +2454,20 @@
       "content": "Rozmáchlý i intimní filmový pohled na život, práci a osobu operní legendy Luciana Pavarottiho přinese do kin dokument s jednoduchým názvem Pavarotti. Jeho životní příběh, který emocemi, zvraty a velkolepostí sám o sobě připomíná operu, vypráví režisér Ron Howard, držitel Oscara za film Čistá duše. Pavarotti se z chudého italského chlapce stal v podstatě mezinárodní rockovou hvězdou. Vedle veřejných záběrů využili tvůrci množství soukromých videozáběrů od Pavarottiho přátel, spolupracovníků, rodiny a manželky. Většina z nich dosud nespatřila světlo světa, Pavarotti je na nich mezi svými nejbližšími otevřený a upřímný.(Bontonfilm)\n\n\t\t\t\t\t\t Rozmáchlý i intimní filmový pohled na život, práci a osobu operní legendy Luciana Pavarottiho přinese do kin dokument s jednoduchým názvem Pavarotti. Jeho životní příběh, který emocemi, zvraty a velkolepostí sám o sobě připomíná operu, vypráví režisér Ron Howard, držitel Oscara za film Čistá duše. Pavarotti se z chudého italského chlapce stal v podstatě mezinárodní rockovou hvězdou. Vedle veřejných záběrů využili tvůrci množství soukromých videozáběrů od Pavarottiho přátel, spolupracovníků, rodiny a manželky. Většina z nich dosud nespatřila světlo světa,… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt6964076/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/574/163574544_3df774.png"
+    },
+    {
+      "id": "157306-pecet-vraha",
+      "url": "https://www.csfd.cz/film/157306-pecet-vraha/",
+      "name": "Pečeť vraha",
+      "year": 2003,
+      "screenings": {
+        "Aero": [
+          "2019-09-27T18:00:00.000Z"
+        ]
+      },
+      "content": "Tento film, který u domácího publika trhal návštěvnické rekordy, patří k nejdiskutovanějším korejským titulům roku 2003. Příběh je inspirován skutečnými událostmi - sérií vražd, k nimž došlo v letech 1986 - 1991 v okolí městečka Hwa-Sung nedaleko Soulu. V průběhu šesti let policisté postupně nacházejí těla deseti znásilněných a zavražděných žen. Mezi oběťmi je jednasedmdesátiletá babička i třináctiletá školačka a neexistuje mezi nimi žádná zjevná souvislost, žádné vodítko kterého by se kriminalisté mohli chytit. Detektivové Cho, Park a Seo vyslechnou na 3 000 podezřelých, do akce se postupně zapojí 300 000 policistů. Jenže chytit a usvědčit nevypočitatelného sériového vraha, jehož chladnokrevnost je noční můrou i pro zkušené profesionály, je úkol, který zřejmě přesahuje lidské síly... Režisér Bong Joon-ho svůj film věnoval deseti ženám, které, kdyby nebylo oněch deseti děsivých deštivých večerů, ještě mohly žít.(oficiální text distributora)\n\n\t\t\t\t\t\t Tento film, který u domácího publika trhal návštěvnické rekordy, patří k nejdiskutovanějším korejským titulům roku 2003. Příběh je inspirován skutečnými událostmi - sérií vražd, k nimž došlo v letech 1986 - 1991 v okolí městečka Hwa-Sung nedaleko Soulu. V průběhu šesti let policisté postupně nacházejí těla deseti znásilněných a zavražděných žen. Mezi oběťmi je jednasedmdesátiletá babička i třináctiletá školačka a neexistuje mezi nimi žádná zjevná souvislost, žádné vodítko kterého by se kriminalisté mohli chytit. Detektivové Cho, Park a Seo vyslechnou na 3… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0353969/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/039/39787_f4774b.jpg"
     },
     {
       "id": "67180-phantom-boy",
@@ -2578,9 +2490,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T12:50:00.000Z",
-          "2019-09-16T13:50:00.000Z",
-          "2019-09-16T16:00:00.000Z",
           "2019-09-17T12:50:00.000Z",
           "2019-09-17T13:50:00.000Z",
           "2019-09-17T16:00:00.000Z",
@@ -2589,9 +2498,6 @@
           "2019-09-18T16:00:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T13:50:00.000Z",
-          "2019-09-16T16:00:00.000Z",
-          "2019-09-16T18:10:00.000Z",
           "2019-09-17T13:50:00.000Z",
           "2019-09-17T16:00:00.000Z",
           "2019-09-17T18:10:00.000Z",
@@ -2603,10 +2509,6 @@
           "2019-09-18T15:45:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T12:10:00.000Z",
-          "2019-09-16T14:20:00.000Z",
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T18:40:00.000Z",
           "2019-09-17T12:10:00.000Z",
           "2019-09-17T14:20:00.000Z",
           "2019-09-17T16:30:00.000Z",
@@ -2617,9 +2519,6 @@
           "2019-09-18T18:40:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T12:20:00.000Z",
-          "2019-09-16T14:30:00.000Z",
-          "2019-09-16T16:40:00.000Z",
           "2019-09-17T12:20:00.000Z",
           "2019-09-17T14:30:00.000Z",
           "2019-09-17T16:40:00.000Z",
@@ -2628,17 +2527,12 @@
           "2019-09-18T16:40:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T15:40:00.000Z",
-          "2019-09-16T17:50:00.000Z",
           "2019-09-17T15:40:00.000Z",
           "2019-09-17T17:50:00.000Z",
           "2019-09-18T15:40:00.000Z",
           "2019-09-18T17:50:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T15:50:00.000Z",
-          "2019-09-16T18:00:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-17T15:50:00.000Z",
           "2019-09-17T18:00:00.000Z",
@@ -2647,9 +2541,6 @@
           "2019-09-18T18:00:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T12:30:00.000Z",
-          "2019-09-16T14:45:00.000Z",
-          "2019-09-16T17:00:00.000Z",
           "2019-09-17T12:30:00.000Z",
           "2019-09-17T14:45:00.000Z",
           "2019-09-17T17:00:00.000Z",
@@ -2658,9 +2549,6 @@
           "2019-09-18T17:00:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T12:30:00.000Z",
-          "2019-09-16T14:50:00.000Z",
-          "2019-09-16T17:10:00.000Z",
           "2019-09-17T12:30:00.000Z",
           "2019-09-17T14:50:00.000Z",
           "2019-09-17T17:10:00.000Z",
@@ -2669,9 +2557,6 @@
           "2019-09-18T17:10:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T14:20:00.000Z",
-          "2019-09-16T15:30:00.000Z",
-          "2019-09-16T17:40:00.000Z",
           "2019-09-17T14:20:00.000Z",
           "2019-09-17T15:30:00.000Z",
           "2019-09-17T17:40:00.000Z",
@@ -2686,8 +2571,6 @@
           "2019-09-27T17:30:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T16:10:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T16:10:00.000Z",
           "2019-09-18T14:00:00.000Z",
@@ -2705,16 +2588,13 @@
       "year": 2019,
       "screenings": {
         "Cinema City Chodov": [
-          "2019-09-16T20:50:00.000Z",
           "2019-09-17T20:50:00.000Z",
           "2019-09-18T20:50:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T21:40:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T21:50:00.000Z",
           "2019-09-17T21:50:00.000Z",
           "2019-09-18T21:50:00.000Z"
         ]
@@ -2751,6 +2631,19 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/321/321886_d1b22a.jpg"
     },
     {
+      "id": "267910-posledni-prednaska-egona-bondyho",
+      "url": "https://www.csfd.cz/film/267910-posledni-prednaska-egona-bondyho/",
+      "name": "Poslední přednáška Egona Bondyho",
+      "year": 2009,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-29T20:30:00.000Z"
+        ]
+      },
+      "content": "Poslední natočený materiál jedinečného myslitele, Egona Bondyho. Živý odkaz – dokument. Jin a jang jako nula a jedna, stojící vedle sebe v kulisách Národního divadla. Vstup do 13. komnaty. Plastic people za hřbitovní zdí - předčasná smrt nedokouřené cigarety.(oficiální text distributora)",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
+    },
+    {
       "id": "708081-prado-sbirka-plna-divu",
       "url": "https://www.csfd.cz/film/708081-prado-sbirka-plna-divu/",
       "name": "Prado - sbírka plná divů",
@@ -2784,11 +2677,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T20:30:00.000Z",
-          "2019-09-16T13:30:00.000Z",
-          "2019-09-16T15:45:00.000Z",
-          "2019-09-16T18:00:00.000Z",
-          "2019-09-16T20:15:00.000Z",
           "2019-09-17T20:30:00.000Z",
           "2019-09-17T12:30:00.000Z",
           "2019-09-17T14:45:00.000Z",
@@ -2803,12 +2691,6 @@
           "2019-09-18T20:15:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T14:30:00.000Z",
-          "2019-09-16T15:45:00.000Z",
-          "2019-09-16T16:50:00.000Z",
-          "2019-09-16T18:00:00.000Z",
-          "2019-09-16T19:10:00.000Z",
-          "2019-09-16T20:15:00.000Z",
           "2019-09-17T13:30:00.000Z",
           "2019-09-17T14:20:00.000Z",
           "2019-09-17T15:45:00.000Z",
@@ -2823,7 +2705,6 @@
           "2019-09-18T20:15:00.000Z"
         ],
         "Atlas": [
-          "2019-09-16T17:30:00.000Z",
           "2019-09-19T18:00:00.000Z",
           "2019-09-21T18:00:00.000Z",
           "2019-09-23T18:00:00.000Z",
@@ -2834,16 +2715,6 @@
           "2019-09-23T13:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T13:00:00.000Z",
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T15:15:00.000Z",
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T18:40:00.000Z",
-          "2019-09-16T19:50:00.000Z",
-          "2019-09-16T20:50:00.000Z",
-          "2019-09-16T22:10:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T13:00:00.000Z",
           "2019-09-17T14:10:00.000Z",
@@ -2865,9 +2736,6 @@
           "2019-09-18T22:10:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T15:10:00.000Z",
-          "2019-09-16T19:30:00.000Z",
-          "2019-09-16T21:45:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-17T19:30:00.000Z",
           "2019-09-17T21:45:00.000Z",
@@ -2875,10 +2743,6 @@
           "2019-09-18T21:40:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T19:40:00.000Z",
-          "2019-09-16T21:50:00.000Z",
           "2019-09-17T15:20:00.000Z",
           "2019-09-17T17:30:00.000Z",
           "2019-09-17T19:40:00.000Z",
@@ -2888,12 +2752,6 @@
           "2019-09-18T19:40:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T16:10:00.000Z",
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T19:30:00.000Z",
-          "2019-09-16T20:40:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T16:10:00.000Z",
           "2019-09-17T18:20:00.000Z",
@@ -2908,12 +2766,6 @@
           "2019-09-18T21:40:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T12:15:00.000Z",
-          "2019-09-16T14:30:00.000Z",
-          "2019-09-17T08:56:00.000Z",
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T20:30:00.000Z",
           "2019-09-17T12:15:00.000Z",
           "2019-09-17T14:30:00.000Z",
           "2019-09-18T08:56:00.000Z",
@@ -2928,10 +2780,6 @@
           "2019-09-18T20:30:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T14:40:00.000Z",
-          "2019-09-16T16:50:00.000Z",
-          "2019-09-16T19:10:00.000Z",
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T14:40:00.000Z",
           "2019-09-17T16:50:00.000Z",
           "2019-09-17T19:10:00.000Z",
@@ -2942,11 +2790,6 @@
           "2019-09-18T21:30:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T16:00:00.000Z",
-          "2019-09-16T17:20:00.000Z",
-          "2019-09-16T18:10:00.000Z",
-          "2019-09-16T19:30:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T16:00:00.000Z",
           "2019-09-17T17:20:00.000Z",
           "2019-09-17T18:10:00.000Z",
@@ -2969,7 +2812,6 @@
           "2019-09-25T18:30:00.000Z"
         ],
         "Kino Lucerna - Praha": [
-          "2019-09-16T14:00:00.000Z",
           "2019-09-17T18:45:00.000Z",
           "2019-09-23T16:00:00.000Z",
           "2019-09-24T16:00:00.000Z"
@@ -2981,13 +2823,6 @@
           "2019-09-18T16:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T14:05:00.000Z",
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T16:10:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T18:15:00.000Z",
-          "2019-09-16T19:40:00.000Z",
-          "2019-09-16T20:25:00.000Z",
           "2019-09-17T14:05:00.000Z",
           "2019-09-17T15:20:00.000Z",
           "2019-09-17T16:10:00.000Z",
@@ -3035,6 +2870,20 @@
       },
       "content": "Problémy prvního světa. Starosti života v bohaté, průmyslově rozvinuté společnosti, nad kterými by obyvatelé třetího světa jen obraceli oči v sloup. Filmová verze. Omnibus čtyř krátkých filmů: Někdy je to jenom řeka, Konzultace poslední den zkouškového období, Člověk Kilimandžáro a Jedno a půl přání.(Febiofest)",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/355/163355533_073128.png"
+    },
+    {
+      "id": "223445-probuzene-svedomi",
+      "url": "https://www.csfd.cz/film/223445-probuzene-svedomi/",
+      "name": "Probuzené svědomí",
+      "year": 1919,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-18T18:00:00.000Z"
+        ]
+      },
+      "content": "Renatu, dceru majitele cirkusu Luciena Astora, zraní po vystoupení medvěd. Renata se zotavuje na venkově v sídle svého otce a zamiluje se do sirotka Daniela. Mezitím otec přijme do cirkusu jako manažera Richarda Brána a oblíbí si ho natolik, že ho chce oženit s Renatou. Při návštěvě na venkově však Renata otci představí Daniela jako svého snoubence. Daniel vypráví Astorovi o ztrátě majetku i matky. Astor Daniela a jeho přítele Petra při večeři uspí a pokusí se je zabít, ale Renata mu v tom zabrání. V domě se objeví také Brán, který usiluje o Renatu všemi způsoby i násilím. Astor se pokusí Brána vykázat, ale ten mu vyhrožuje zvěřejněním dokumentů o původu jeho majetku. V noci se pokusí Brán Renatu znásilnit, při zápasu uklouzne a smrtelně se zraní. Než zemře, přizná se, že se dozvěděl o smrti Danielova otce na frontě. Chtěl okrást jeho matku o majetek, ale zjistil, že ho už Astor předešel. Otec nemůže před dcerou zapřít své provinění a Renata si konečně může Daniela vzít.(oficiální text distributora)\n\n\t\t\t\t\t\t Renatu, dceru majitele cirkusu Luciena Astora, zraní po vystoupení medvěd. Renata se zotavuje na venkově v sídle svého otce a zamiluje se do sirotka Daniela. Mezitím otec přijme do cirkusu jako manažera Richarda Brána a oblíbí si ho natolik, že ho chce oženit s Renatou. Při návštěvě na venkově však Renata otci představí Daniela jako svého snoubence. Daniel vypráví Astorovi o ztrátě majetku i matky. Astor Daniela a jeho přítele Petra při večeři uspí a pokusí se je zabít, ale Renata mu v tom zabrání. V domě se objeví také Brán, který usiluje o Renatu všemi… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt1075016/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
     },
     {
       "id": "516909-prvni-akcni-hrdina",
@@ -3202,20 +3051,6 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/779/163779458_5d05ca.png"
     },
     {
-      "id": "16097-rambo-prvni-krev",
-      "url": "https://www.csfd.cz/film/16097-rambo-prvni-krev/",
-      "name": "Rambo: První krev",
-      "year": 1982,
-      "screenings": {
-        "Mat": [
-          "2019-09-16T20:45:00.000Z"
-        ]
-      },
-      "content": "Voják americké armády John Rambo (Sylvester Stallone) se po letech vrací z pekla vietnamské války zpět do své vlasti. Ale politická situace se mezitím změnila, mladý muž se setkává jen s nepochopením a jednoho dne je šerifem malého podhorského městečka (Brian Dennehy) zatčen pro potulku a odveden na místní policejní stanici. Podaří se mu však utéct a v nedalekých horách svádí se svými pronásledovateli nelítostný boj o holý život.(oficiální text distributora)",
-      "imdbUrl": "https://www.imdb.com/title/tt0083944/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/262/162262730_f64bf1.jpg"
-    },
-    {
       "id": "318281-renoir",
       "url": "https://www.csfd.cz/film/318281-renoir/",
       "name": "Renoir",
@@ -3230,14 +3065,24 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/780/161780016_cc5ac3.jpg"
     },
     {
+      "id": "770273-riksalaz",
+      "url": "https://www.csfd.cz/film/770273-riksalaz/",
+      "name": "Riksaláz",
+      "year": 2012,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-20T13:30:00.000Z"
+        ]
+      },
+      "imdbUrl": "https://www.imdb.com/title/tt2701386/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
+    },
+    {
       "id": "382535-rocketman",
       "url": "https://www.csfd.cz/film/382535-rocketman/",
       "name": "Rocketman",
       "year": 2019,
       "screenings": {
-        "Atlas": [
-          "2019-09-16T18:00:00.000Z"
-        ],
         "Dlabačov": [
           "2019-09-25T16:00:00.000Z"
         ],
@@ -3245,7 +3090,6 @@
           "2019-09-22T18:00:00.000Z"
         ],
         "Kino Pilotů": [
-          "2019-09-16T16:00:00.000Z",
           "2019-09-23T15:00:00.000Z"
         ],
         "Modřanský biograf": [
@@ -3372,32 +3216,26 @@
       "year": 2019,
       "screenings": {
         "Cinema City Chodov": [
-          "2019-09-16T20:10:00.000Z",
           "2019-09-17T20:10:00.000Z",
           "2019-09-18T20:10:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T18:50:00.000Z",
           "2019-09-17T18:50:00.000Z",
           "2019-09-18T18:50:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T19:00:00.000Z",
           "2019-09-17T19:00:00.000Z",
           "2019-09-18T19:00:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T20:40:00.000Z",
           "2019-09-17T20:40:00.000Z",
           "2019-09-18T20:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T17:50:00.000Z",
           "2019-09-17T17:50:00.000Z",
           "2019-09-18T17:50:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T20:00:00.000Z",
           "2019-09-17T20:00:00.000Z",
           "2019-09-18T20:00:00.000Z"
         ]
@@ -3439,6 +3277,21 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/107/163107888_7c0617.jpg"
     },
     {
+      "id": "770638-sarkofag-pro-kralovnu",
+      "url": "https://www.csfd.cz/film/770638-sarkofag-pro-kralovnu/",
+      "name": "Sarkofág pro královnu",
+      "year": 2019,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-09-19T19:00:00.000Z",
+          "2019-09-21T14:20:00.000Z",
+          "2019-09-24T17:30:00.000Z"
+        ]
+      },
+      "content": "Je tomu už více než jedna lidská generace, kdy královna dánská Margareta II. pozvala sochaře Bjørna Nørgaarda na oběd a požádala ho, aby navrhnul sochu pro poslední volnou kryptu do katedrály Domkirke v Roskilde, kam by měla být pochována ona a její manžel princ Henrik. Pro chrám, kam se pohřbívají dánští panovníci už osm století, navrhnul profesor královské akademie skleněný sarkofág, ve kterém jsou vymodelovány dvě postavy v nadživotní velikosti symbolizující prázdnotu moci. Křišťálová podstata pro otevřenost a demokratizaci vládnutí. Po několika letech diskusí o záměru a jeho financování začal Bjørn Nørgaard hledat, kdo by dokázal odlít sochu složenou ze šesti tunových kusů taveného čirého skla. Pět let experimentoval v Japonsku, v Číně, v USA a nakonec skočil na Pelechově u Železného Brodu ve studiu tavené plastiky Zdeňka Lhotského. Zde do hry vstupuje celá staletá tradice sklářské výroby v českém prostoru, přímá návaznost na autorskou dvojici Libeňský-Brichtová a pochopitelně také svéráz a originalita jedné z osobností výtvarné generace Tvrdohlavých.Snímek je dalším z dialogů nad zrodem mimořádného díla, které kamera Miroslava Janka sleduje pět let. V rozhovorech s dokumentaristou Pavlem Štinglem pulsuje Zdeněk Lhotský mezi mile bohémským životním stylem spojeným s baskytarou v orchestru MTO a velkými dramaty mimořádného tvůrčího a technologickým experimentem, jenž svým rozměrem nemá ve světě sklářského umění obdoby. Po sérii prvotních nezdarů se nakonec přeci jen velké evropské dílo zrodí a ve chvíli, kdy se ukládá do transportních beden, nastane zcela neočekávatelná událost v podobě úmrtí prince Henrika. Bohužel se ukáže, že choť Margarety II. původem francouzský šlechtic si nepřeje být pohřben v Roskilde. Jeho popel je rozprášen do moře právě v době, kdy se sarkofág pro královnu instaluje. Na zjitřenou mediální diskusi o smyslu sochy, jejíž podstatou jsou dvě vymodelované figury dobře viditelné v křišťálovém kenotafu, odpoví panovnice rozhodnutím, že socha zůstane instalována v Domkirke, připravena pro její vlastní pohřeb, ale zahalena. Unikátní dílo, na kterém přední dánský umělec pracuje patnáct let, Zdeněk Lhotský pětiletku, je nyní obaleno dřevěnou etují a bude tak ukryto ještě mnoho let. „Sloužíme královně” jsou slova epilogu českého sklářského výtvarníka… Taková je královská vůle. Filmový dokument se vlastně stal sochou, protože kromě několika fotografií v královské tiskové zprávě je celovečerní dokument jediným obrazem vzniku a dokončení mimořádného díla, na jehož odhalení bude nyní Dánsko čekat neodhadnutelně dlouho.(Pilot Film)\n\n\t\t\t\t\t\t Je tomu už více než jedna lidská generace, kdy královna dánská Margareta II. pozvala sochaře Bjørna Nørgaarda na oběd a požádala ho, aby navrhnul sochu pro poslední volnou kryptu do katedrály Domkirke v Roskilde, kam by měla být pochována ona a její manžel princ Henrik. Pro chrám, kam se pohřbívají dánští panovníci už osm století, navrhnul profesor královské akademie skleněný sarkofág, ve kterém jsou vymodelovány dvě postavy v nadživotní velikosti symbolizující prázdnotu moci. Křišťálová podstata pro otevřenost a demokratizaci vládnutí. Po několika letech… (více)",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/795/163795133_8a2a18.png"
+    },
+    {
       "id": "650708-setkani-s-gorbacovem",
       "url": "https://www.csfd.cz/film/650708-setkani-s-gorbacovem/",
       "name": "Setkání s Gorbačovem",
@@ -3451,6 +3304,20 @@
       "content": "Konfrontační dialog mezi Wernerem Herzogem a posledním sovětským prezidentem je základem portrétu sestávajícího mimo jiné z řady archivních a ilustračních záběrů, na jejichž pozadí Herzogův hypnotický hlas reflektuje Gorbačovovu politickou dráhu, včetně éry perestrojky a glasnosti, až po její tragický konec.(MFDF Ji.hlava)",
       "imdbUrl": "https://www.imdb.com/title/tt8811382/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/383/163383342_b78f59.jpg"
+    },
+    {
+      "id": "766068-sh-t-happens",
+      "url": "https://www.csfd.cz/film/766068-sh-t-happens/",
+      "name": "Sh_t Happens",
+      "year": 2019,
+      "screenings": {
+        "Bio Oko": [
+          "2019-09-18T20:30:00.000Z"
+        ]
+      },
+      "content": "Údržbáře všechno unavuje, jeho frustrovaná žena a jeden totálně depresivní jelen. Jejich společné zoufalství je zavede k absurdním událostem, protože… věci se pořád serou.(iShorts)",
+      "imdbUrl": "https://www.imdb.com/title/tt10272852/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
     },
     {
       "id": "427202-silene-stastna",
@@ -3466,6 +3333,19 @@
       "content": "Beatrice je upovídaná bájivá lhářka a samozvaná miliardářka, která ráda věří tomu, že se zná se všemi důležitými lidmi. Donatella je oproti tomu potetovaná zamlklá introvertka, která v sobě skrývá tíživé tajemství. Obě ženy jsou pacientkami v moderní, ale střežené psychiatrické klinice a postupně se mezi nimi vyvine silné přátelství. Společně pak z léčebny utečou a snaží se ve světě venku během své bláznivé cesty najít štěstí, které obě ztratily...(AČFK)",
       "imdbUrl": "https://www.imdb.com/title/tt4621872/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/428/161428424_f29e19.jpg"
+    },
+    {
+      "id": "625936-sinpan",
+      "url": "https://www.csfd.cz/film/625936-sinpan/",
+      "name": "Šinpan",
+      "year": 2018,
+      "screenings": {
+        "Evald": [
+          "2019-09-17T17:00:00.000Z"
+        ]
+      },
+      "imdbUrl": "https://www.imdb.com/title/tt5799948/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/698/162698832_403571.jpg"
     },
     {
       "id": "601711-skleneny-pokoj",
@@ -3515,12 +3395,10 @@
           "2019-09-23T18:00:00.000Z"
         ],
         "Kino Pilotů": [
-          "2019-09-16T21:15:00.000Z",
           "2019-09-22T21:20:00.000Z",
           "2019-09-24T21:20:00.000Z"
         ],
         "Světozor": [
-          "2019-09-16T21:00:00.000Z",
           "2019-09-18T21:00:00.000Z",
           "2019-09-20T20:45:00.000Z",
           "2019-09-21T15:15:00.000Z",
@@ -3574,20 +3452,16 @@
       "year": 2019,
       "screenings": {
         "Cinema City Galaxie": [
-          "2019-09-16T20:00:00.000Z",
           "2019-09-17T20:00:00.000Z",
           "2019-09-18T20:00:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T12:20:00.000Z",
-          "2019-09-16T15:00:00.000Z",
           "2019-09-17T12:20:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-18T12:20:00.000Z",
           "2019-09-18T15:00:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T18:30:00.000Z",
           "2019-09-17T18:30:00.000Z"
         ]
       },
@@ -3596,14 +3470,25 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/496/163496171_825095.png"
     },
     {
+      "id": "8796-spiklenci-slasti",
+      "url": "https://www.csfd.cz/film/8796-spiklenci-slasti/",
+      "name": "Spiklenci slasti",
+      "year": 1996,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-18T20:30:00.000Z"
+        ]
+      },
+      "content": "Jednou z hlavních postav slavné alegorie Jana Švankmajera je utrápená listonoška (Bára Hrzánová). Surrealistická koláž začíná v trafice, kde si další z podivínských hrdinů koupí obscénní časopis. Z vystříhaných nahotin vyrábí pomůcky pro sadomasochistickou seanci. Také další dva spiklenci slasti se projevují jako vášniví kutilové. Upocený trafikant (Jiří Lábus) sestavuje neobvyklý aparát, tajnůstkářský frotér (Pavel Nový) si vytváří dráždidla pro autoerotické masáže. Velmi zvláštní jsou rovněž sexuální praktiky žen, mezi nimiž figuruje také půvabná televizní hlasatelka (Anna Wetlinská)... Mistrně zaranžovaný kaleidoskop vypráví o novodobých vášních a perverzích. Mozaika, v jejímž finále někteří zemřou a jiní si prohodí své role, je unikátním průhledem do lidského podvědomí. Je také jízlivou satirou o současném světě plném erotických fetišů.(MFF Karlovy Vary)\n\n\t\t\t\t\t\t Jednou z hlavních postav slavné alegorie Jana Švankmajera je utrápená listonoška (Bára Hrzánová). Surrealistická koláž začíná v trafice, kde si další z podivínských hrdinů koupí obscénní časopis. Z vystříhaných nahotin vyrábí pomůcky pro sadomasochistickou seanci. Také další dva spiklenci slasti se projevují jako vášniví kutilové. Upocený trafikant (Jiří Lábus) sestavuje neobvyklý aparát, tajnůstkářský frotér (Pavel Nový) si vytváří dráždidla pro autoerotické masáže. Velmi zvláštní jsou rovněž sexuální praktiky žen, mezi nimiž figuruje také půvabná televi… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0117715/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/158/311/158311879_57cf1d.jpg"
+    },
+    {
       "id": "559428-spitfire",
       "url": "https://www.csfd.cz/film/559428-spitfire/",
       "name": "Spitfire",
       "year": 2018,
       "screenings": {
-        "Edison Filmhub": [
-          "2019-09-16T16:00:00.000Z"
-        ],
         "Kasárna Karlín": [
           "2019-09-22T18:00:00.000Z"
         ],
@@ -3641,14 +3526,12 @@
           "2019-09-20T18:00:00.000Z"
         ],
         "Atlas": [
-          "2019-09-16T20:30:00.000Z",
           "2019-09-30T20:30:00.000Z"
         ],
         "Kino Lucerna - Praha": [
           "2019-09-25T13:30:00.000Z"
         ],
         "Světozor": [
-          "2019-09-16T15:45:00.000Z",
           "2019-09-17T15:45:00.000Z",
           "2019-09-18T15:45:00.000Z"
         ]
@@ -3706,31 +3589,23 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T12:00:00.000Z",
           "2019-09-17T12:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T13:30:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T13:30:00.000Z",
           "2019-09-18T12:00:00.000Z",
           "2019-09-18T13:30:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T12:50:00.000Z",
           "2019-09-17T12:50:00.000Z",
           "2019-09-18T12:50:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T15:10:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-18T15:10:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T17:10:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T17:10:00.000Z",
@@ -3739,15 +3614,12 @@
           "2019-09-18T17:10:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T12:20:00.000Z",
-          "2019-09-16T14:20:00.000Z",
           "2019-09-17T12:20:00.000Z",
           "2019-09-17T14:20:00.000Z",
           "2019-09-18T12:20:00.000Z",
           "2019-09-18T14:20:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T14:00:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-18T14:00:00.000Z"
         ]
@@ -3812,14 +3684,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T16:00:00.000Z",
-          "2019-09-16T19:30:00.000Z",
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T15:30:00.000Z",
-          "2019-09-16T17:20:00.000Z",
-          "2019-09-16T18:40:00.000Z",
-          "2019-09-16T20:30:00.000Z",
-          "2019-09-16T21:50:00.000Z",
           "2019-09-17T16:00:00.000Z",
           "2019-09-17T19:30:00.000Z",
           "2019-09-17T14:10:00.000Z",
@@ -3837,8 +3701,6 @@
           "2019-09-18T21:50:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T17:50:00.000Z",
-          "2019-09-16T20:20:00.000Z",
           "2019-09-17T17:50:00.000Z",
           "2019-09-17T20:20:00.000Z",
           "2019-09-18T17:50:00.000Z",
@@ -3848,7 +3710,6 @@
           "2019-09-24T17:00:00.000Z"
         ],
         "Atlas": [
-          "2019-09-16T20:00:00.000Z",
           "2019-09-17T20:00:00.000Z",
           "2019-09-20T17:00:00.000Z",
           "2019-09-21T17:30:00.000Z",
@@ -3860,21 +3721,12 @@
           "2019-10-02T20:00:00.000Z"
         ],
         "Bio Oko": [
-          "2019-09-16T13:00:00.000Z",
           "2019-09-17T17:15:00.000Z",
           "2019-09-19T14:30:00.000Z",
-          "2019-09-22T19:30:00.000Z"
+          "2019-09-22T19:30:00.000Z",
+          "2019-09-30T13:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T13:30:00.000Z",
-          "2019-09-16T15:10:00.000Z",
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T19:40:00.000Z",
-          "2019-09-16T20:20:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T13:30:00.000Z",
           "2019-09-17T15:10:00.000Z",
@@ -3895,17 +3747,12 @@
           "2019-09-18T21:40:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T17:10:00.000Z",
-          "2019-09-16T20:20:00.000Z",
           "2019-09-17T17:10:00.000Z",
           "2019-09-17T20:20:00.000Z",
           "2019-09-18T17:10:00.000Z",
           "2019-09-18T20:20:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T14:50:00.000Z",
-          "2019-09-16T18:00:00.000Z",
-          "2019-09-16T21:10:00.000Z",
           "2019-09-17T14:50:00.000Z",
           "2019-09-17T18:00:00.000Z",
           "2019-09-17T21:10:00.000Z",
@@ -3913,10 +3760,6 @@
           "2019-09-18T18:00:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T16:10:00.000Z",
-          "2019-09-16T19:20:00.000Z",
-          "2019-09-16T20:10:00.000Z",
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T16:10:00.000Z",
           "2019-09-17T19:20:00.000Z",
           "2019-09-17T20:10:00.000Z",
@@ -3926,11 +3769,6 @@
           "2019-09-18T21:30:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T17:10:00.000Z",
-          "2019-09-16T19:10:00.000Z",
-          "2019-09-16T20:20:00.000Z",
-          "2019-09-16T21:20:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T17:10:00.000Z",
           "2019-09-17T19:10:00.000Z",
@@ -3942,12 +3780,6 @@
           "2019-09-18T21:20:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T13:30:00.000Z",
-          "2019-09-16T14:30:00.000Z",
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T17:50:00.000Z",
-          "2019-09-16T20:00:00.000Z",
-          "2019-09-16T21:10:00.000Z",
           "2019-09-17T13:30:00.000Z",
           "2019-09-17T14:30:00.000Z",
           "2019-09-17T16:40:00.000Z",
@@ -3961,8 +3793,6 @@
           "2019-09-18T21:10:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T14:30:00.000Z",
-          "2019-09-16T19:40:00.000Z",
           "2019-09-17T14:30:00.000Z",
           "2019-09-17T19:40:00.000Z",
           "2019-09-18T14:30:00.000Z",
@@ -3975,18 +3805,12 @@
           "2019-09-23T20:30:00.000Z"
         ],
         "Imax": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T15:10:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-18T12:00:00.000Z",
           "2019-09-18T15:10:00.000Z"
         ],
-        "KC Nová Beseda Klánovice": [
-          "2019-09-16T20:00:00.000Z"
-        ],
         "Kino Pilotů": [
-          "2019-09-16T20:45:00.000Z",
           "2019-09-17T20:00:00.000Z",
           "2019-09-18T21:00:00.000Z",
           "2019-09-20T20:45:00.000Z",
@@ -4005,13 +3829,10 @@
           "2019-09-24T19:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T19:00:00.000Z",
           "2019-09-17T19:00:00.000Z",
           "2019-09-18T19:00:00.000Z"
         ],
         "Světozor": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T17:45:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T17:45:00.000Z",
           "2019-09-18T14:00:00.000Z",
@@ -4078,6 +3899,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/762/163762024_c654e5.jpg"
     },
     {
+      "id": "666549-the-human-shelter",
+      "url": "https://www.csfd.cz/film/666549-the-human-shelter/",
+      "name": "The Human Shelter",
+      "year": 2018,
+      "screenings": {
+        "Světozor": [
+          "2019-09-19T20:30:00.000Z"
+        ]
+      },
+      "content": "Kde mám domov? Je to tam, kde se cítím šťastný a vnitřně spokojený? Co dělá domov domovem? Filmový experiment, který se skvěle trefil do momentální společenské nálady, kdy svět čelí výzvám v podobě klimatických změn, globalizace nebo migrace. Režisér v něm hledá odpovědi na jednoduchou otázku, čím je pro nás domov. Na čtyřech kontinentech poznáváme různé podoby i formy lidského obydlí. Nezáleží, zda jde o dům postavený v korunách stromů, plovoucí slum v centru Lagosu nebo dřevěnou chatu s výhledem na islandský ledovec. To podstatné je lidské teplo uvnitř.(Kinosvetozor.cz)\n\n\t\t\t\t\t\t Kde mám domov? Je to tam, kde se cítím šťastný a vnitřně spokojený? Co dělá domov domovem? Filmový experiment, který se skvěle trefil do momentální společenské nálady, kdy svět čelí výzvám v podobě klimatických změn, globalizace nebo migrace. Režisér v něm hledá odpovědi na jednoduchou otázku, čím je pro nás domov. Na čtyřech kontinentech poznáváme různé podoby i formy lidského obydlí. Nezáleží, zda jde o dům postavený v korunách stromů, plovoucí slum v centru Lagosu nebo dřevěnou chatu s výhledem na islandský ledovec. To podstatné je lidské teplo uvnitř.… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt7399098/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/024/163024794_4310d3.jpg"
+    },
+    {
       "id": "730558-tiche-doteky",
       "url": "https://www.csfd.cz/film/730558-tiche-doteky/",
       "name": "Tiché doteky",
@@ -4115,7 +3950,6 @@
       "year": 2018,
       "screenings": {
         "Kino Pilotů": [
-          "2019-09-16T19:00:00.000Z",
           "2019-09-25T21:15:00.000Z"
         ]
       },
@@ -4145,7 +3979,6 @@
       "year": 2018,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T12:00:00.000Z",
           "2019-09-17T12:00:00.000Z"
         ]
       },
@@ -4159,12 +3992,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T13:40:00.000Z",
-          "2019-09-16T16:50:00.000Z",
-          "2019-09-16T18:10:00.000Z",
-          "2019-09-16T20:00:00.000Z",
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T21:45:00.000Z",
           "2019-09-17T13:40:00.000Z",
           "2019-09-17T16:50:00.000Z",
           "2019-09-17T18:10:00.000Z",
@@ -4177,9 +4004,6 @@
           "2019-09-18T21:45:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T16:10:00.000Z",
-          "2019-09-16T19:30:00.000Z",
-          "2019-09-16T20:50:00.000Z",
           "2019-09-17T16:10:00.000Z",
           "2019-09-17T19:30:00.000Z",
           "2019-09-17T14:20:00.000Z",
@@ -4192,19 +4016,7 @@
         "Atlas": [
           "2019-09-22T20:30:00.000Z"
         ],
-        "Bio Oko": [
-          "2019-09-16T20:30:00.000Z"
-        ],
         "Cinema City Chodov": [
-          "2019-09-16T15:30:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-17T23:22:00.000Z",
-          "2019-09-16T14:50:00.000Z",
-          "2019-09-16T18:10:00.000Z",
-          "2019-09-16T21:30:00.000Z",
-          "2019-09-16T13:00:00.000Z",
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T20:00:00.000Z",
           "2019-09-17T15:30:00.000Z",
           "2019-09-17T19:00:00.000Z",
           "2019-09-18T23:22:00.000Z",
@@ -4224,9 +4036,6 @@
           "2019-09-19T23:22:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T13:50:00.000Z",
-          "2019-09-16T17:10:00.000Z",
-          "2019-09-16T20:30:00.000Z",
           "2019-09-17T13:50:00.000Z",
           "2019-09-17T17:10:00.000Z",
           "2019-09-17T20:30:00.000Z",
@@ -4235,9 +4044,6 @@
           "2019-09-18T20:30:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T18:20:00.000Z",
           "2019-09-17T21:40:00.000Z",
@@ -4245,11 +4051,6 @@
           "2019-09-18T18:20:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T16:00:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T18:30:00.000Z",
-          "2019-09-16T20:50:00.000Z",
-          "2019-09-16T21:50:00.000Z",
           "2019-09-17T16:00:00.000Z",
           "2019-09-17T17:30:00.000Z",
           "2019-09-17T18:30:00.000Z",
@@ -4262,14 +4063,6 @@
           "2019-09-18T21:50:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T14:20:00.000Z",
-          "2019-09-16T17:40:00.000Z",
-          "2019-09-16T21:00:00.000Z",
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T17:00:00.000Z",
-          "2019-09-16T18:40:00.000Z",
-          "2019-09-16T20:10:00.000Z",
-          "2019-09-16T22:00:00.000Z",
           "2019-09-17T14:20:00.000Z",
           "2019-09-17T17:40:00.000Z",
           "2019-09-17T21:00:00.000Z",
@@ -4287,11 +4080,6 @@
           "2019-09-18T17:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T15:20:00.000Z",
-          "2019-09-16T18:40:00.000Z",
-          "2019-09-16T20:45:00.000Z",
-          "2019-09-16T22:00:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T15:20:00.000Z",
           "2019-09-17T18:40:00.000Z",
@@ -4304,9 +4092,6 @@
           "2019-09-18T22:00:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T15:40:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T20:30:00.000Z",
           "2019-09-17T15:40:00.000Z",
           "2019-09-17T19:00:00.000Z",
           "2019-09-17T20:30:00.000Z",
@@ -4315,8 +4100,6 @@
           "2019-09-18T20:30:00.000Z"
         ],
         "Imax": [
-          "2019-09-16T18:20:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T21:40:00.000Z",
           "2019-09-18T21:40:00.000Z"
         ],
@@ -4329,9 +4112,6 @@
           "2019-09-28T20:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T19:30:00.000Z",
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T17:30:00.000Z",
           "2019-09-17T19:30:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-17T17:30:00.000Z",
@@ -4365,13 +4145,11 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T13:50:00.000Z",
           "2019-09-17T12:40:00.000Z",
           "2019-09-17T14:50:00.000Z",
           "2019-09-18T13:50:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T14:30:00.000Z",
           "2019-09-17T13:00:00.000Z",
           "2019-09-18T13:00:00.000Z"
         ],
@@ -4387,38 +4165,29 @@
           "2019-09-22T14:30:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T12:50:00.000Z",
           "2019-09-17T12:50:00.000Z",
           "2019-09-18T12:50:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T12:10:00.000Z",
-          "2019-09-16T14:20:00.000Z",
           "2019-09-17T12:10:00.000Z",
           "2019-09-17T14:20:00.000Z",
           "2019-09-18T12:10:00.000Z",
           "2019-09-18T14:20:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T15:00:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-18T15:00:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T12:00:00.000Z",
-          "2019-09-16T13:10:00.000Z",
           "2019-09-17T12:00:00.000Z",
           "2019-09-17T13:10:00.000Z",
           "2019-09-18T12:00:00.000Z",
           "2019-09-18T13:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T12:30:00.000Z",
           "2019-09-17T12:30:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T14:00:00.000Z",
-          "2019-09-16T15:10:00.000Z",
           "2019-09-17T14:00:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-18T14:00:00.000Z",
@@ -4437,8 +4206,6 @@
           "2019-09-22T15:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T14:40:00.000Z",
-          "2019-09-16T16:50:00.000Z",
           "2019-09-17T14:40:00.000Z",
           "2019-09-17T16:50:00.000Z",
           "2019-09-18T14:40:00.000Z",
@@ -4461,6 +4228,20 @@
       },
       "content": "Velká cesta kolem světa končí! Poslední výprava uzavírá cesty žlutých trabantů napříč kontinenty ve velkém stylu. V týmu tentokrát není žádná žena a putování smečky mužů v čele s cestovatelem Danem Přibáněm nabírá často divoké obrátky. Žlutý cirkus jede z Indie až domů. Překonává Himaláje i diktatury, láme výškové rekordy i prchá před policií. Přestože jde mnohokrát do tuhého, mezinárodní česko-slovensko-polská posádka bojuje se všemi nástrahami s černým humorem, sebeironií a občas na hraně politické korektnosti. Film Trabantem tam a zase zpátky definitivně dokazuje, že není třeba drahých terénních vozů, aby člověk projel celý svět a zažil jeden z nejdojemnějších návratů.(Aerofilms)\n\n\t\t\t\t\t\t Velká cesta kolem světa končí! Poslední výprava uzavírá cesty žlutých trabantů napříč kontinenty ve velkém stylu. V týmu tentokrát není žádná žena a putování smečky mužů v čele s cestovatelem Danem Přibáněm nabírá často divoké obrátky. Žlutý cirkus jede z Indie až domů. Překonává Himaláje i diktatury, láme výškové rekordy i prchá před policií. Přestože jde mnohokrát do tuhého, mezinárodní česko-slovensko-polská posádka bojuje se všemi nástrahami s černým humorem, sebeironií a občas na hraně politické korektnosti. Film Trabantem tam a zase zpátky definitiv… (více)",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/347/163347784_60dca3.jpg"
+    },
+    {
+      "id": "515370-tresne",
+      "url": "https://www.csfd.cz/film/515370-tresne/",
+      "name": "Třešně",
+      "year": 2017,
+      "screenings": {
+        "Bio Oko": [
+          "2019-09-18T20:30:00.000Z"
+        ]
+      },
+      "content": "Jedno léto na chorvatském venkově a život dvou rodin se navždy změní. David a Vanja jsou pořád spolu a plánují, jak utečou do Berlína. Mají pro to dobrý důvod – jsou víc než jen přátelé a jejich vztah nenachází u ostatních pochopení. Davidův mladší bratr Jakov je ale nechce ztratit, a tak se o plánovaném útěku zmíní svým rodičům…(Mezipatra)",
+      "imdbUrl": "https://www.imdb.com/title/tt6805094/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/035/163035556_08b719.jpg"
     },
     {
       "id": "439559-tri-billboardy-kousek-za-ebbingem",
@@ -4505,6 +4286,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/801/159801551_bab97c.jpg"
     },
     {
+      "id": "97462-utrpeni",
+      "url": "https://www.csfd.cz/film/97462-utrpeni/",
+      "name": "Utrpení",
+      "year": 1975,
+      "screenings": {
+        "Ponrepo": [
+          "2019-09-23T18:00:00.000Z"
+        ]
+      },
+      "content": "Je konec 11. století, rozsáhlá Byzantská říše se rozprostírá až na Balkán k Ochridskému jezeru v Makedonii. Zdejší kraj je zmítán neklidem a náboženskými bouřemi, obyvatelstvo se stává terčem nájezdů lupičů a zlodějů koní, olej do ohně vášní přilévají složité vztahy mezi místními tradicemi, pohanstvím, křesťanstvím a bogomilstvím. U Ochridského jezera žije se svou rodinou starý Avram, jenž se kdysi dopustil poklesku a dodnes trpí výčitkami svědomí. Jeho nyní už dospělý syn nemůže zapomenout na svůj nemanželský původ. Druhý syn, narozený s požehnáním kněze, o svém bratrovi nemá tušení.(NFA)\n\n\t\t\t\t\t\t Je konec 11. století, rozsáhlá Byzantská říše se rozprostírá až na Balkán k Ochridskému jezeru v Makedonii. Zdejší kraj je zmítán neklidem a náboženskými bouřemi, obyvatelstvo se stává terčem nájezdů lupičů a zlodějů koní, olej do ohně vášní přilévají složité vztahy mezi místními tradicemi, pohanstvím, křesťanstvím a bogomilstvím. U Ochridského jezera žije se svou rodinou starý Avram, jenž se kdysi dopustil poklesku a dodnes trpí výčitkami svědomí. Jeho nyní už dospělý syn nemůže zapomenout na svůj nemanželský původ. Druhý syn, narozený s požehnáním kněze… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0182254/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
+    },
+    {
       "id": "628880-v-mosulu",
       "url": "https://www.csfd.cz/film/628880-v-mosulu/",
       "name": "V Mosulu",
@@ -4520,18 +4315,18 @@
       "trailerUrl": "https://www.youtube.com/watch?v=Yizwz2Xwxxs"
     },
     {
-      "id": "654287-van-gogh-o-obilnych-polich-a-oblacnem-nebi",
-      "url": "https://www.csfd.cz/film/654287-van-gogh-o-obilnych-polich-a-oblacnem-nebi/",
-      "name": "Van Gogh - O obilných polích a …",
-      "year": 2018,
+      "id": "5082-v-pristavu",
+      "url": "https://www.csfd.cz/film/5082-v-pristavu/",
+      "name": "V přístavu",
+      "year": 1954,
       "screenings": {
-        "Dlabačov": [
-          "2019-09-16T16:00:00.000Z"
+        "Ponrepo": [
+          "2019-09-26T20:30:00.000Z"
         ]
       },
-      "content": "Italský snímek prostřednictvím osobní korespondence vrací univerzálně milovaného nizozemského umělce na místa jeho života a tvorby. Splétá s ním přitom nepříliš známý osud ženy, která jako jedna z prvních rozpoznala jeho talent. Vincenta van Gogha dnes považujeme za univerzálně milovaného umělce. Nebylo tomu tak ale vždycky. Velmi málo se přitom mluví o člověku, který jako jeden z prvních rozpoznal van Goghův talent a významně se zasadil o propagaci jeho děl. Helene Kröller-Müllerová byla ve své době nejbohatší ženou v Holandsku. Ačkoli do umělcova příběhu zasáhla až po jeho smrti, film ji zachycuje jako jeho integrální část. Proplétá jejich korespondence a nachází v názorech mrtvého umělce inspiraci pro vlastní dobročinnost a uvažování o světě. Snímek tím však pouze uvozuje výpravu za poznáním van Goghovy křehké duše, která získává obrysy na místech jeho života a tvorby. Umělce, který dokázal hloubku svých emocí vtisknout do tahů štětcem, přitom následuje od povědomého kostela v Auvers až na výstavu v Itálii.(Kinosvetozor.cz)\n\n\t\t\t\t\t\t Italský snímek prostřednictvím osobní korespondence vrací univerzálně milovaného nizozemského umělce na místa jeho života a tvorby. Splétá s ním přitom nepříliš známý osud ženy, která jako jedna z prvních rozpoznala jeho talent. Vincenta van Gogha dnes považujeme za univerzálně milovaného umělce. Nebylo tomu tak ale vždycky. Velmi málo se přitom mluví o člověku, který jako jeden z prvních rozpoznal van Goghův talent a významně se zasadil o propagaci jeho děl. Helene Kröller-Müllerová byla ve své době nejbohatší ženou v Holandsku. Ačkoli do umělcova příběh… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt8601626/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/271/163271533_2668fa.jpg"
+      "content": "Bývalý boxer Terry Malloy (Marlon Brando) se klidně mohl stát šampiónem, místo toho ale dře pro Johnnyho Friendlyho (Lee J. Cobb), předáka ve zločinem prolezlých docích. Když Terry nevědomky zaviní smrt jednoho ze vzpurných dělníků, pronásleduje ho pocit viny. Ale až láska k Edie Doyle (Eva Marie Saint), sestře zabitého muže, Terrymu ukáže, jak hluboko padl. Pak násilnou smrtí umírá i Terryho bratr Charley (Rod Steiger), protože odmítal vlastního sourozence zavraždit, a Terry se rozhodne Friendlyho zločinecké impérium rozbít. Nezapomenutelné drama o Terryho vykoupení patří mezi nejuznávanější filmy všech dob.(Bontonfilm)\n\n\t\t\t\t\t\t Bývalý boxer Terry Malloy (Marlon Brando) se klidně mohl stát šampiónem, místo toho ale dře pro Johnnyho Friendlyho (Lee J. Cobb), předáka ve zločinem prolezlých docích. Když Terry nevědomky zaviní smrt jednoho ze vzpurných dělníků, pronásleduje ho pocit viny. Ale až láska k Edie Doyle (Eva Marie Saint), sestře zabitého muže, Terrymu ukáže, jak hluboko padl. Pak násilnou smrtí umírá i Terryho bratr Charley (Rod Steiger), protože odmítal vlastního sourozence zavraždit, a Terry se rozhodne Friendlyho zločinecké impérium rozbít. Nezapomenutelné drama o Terry… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0047296/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/472/161472939_6b61be.jpg"
     },
     {
       "id": "308638-velka-nadhera",
@@ -4634,6 +4429,19 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/089/162089949_6b35b8.jpg"
     },
     {
+      "id": "770274-wildlife-guards",
+      "url": "https://www.csfd.cz/film/770274-wildlife-guards/",
+      "name": "Wildlife Guards",
+      "year": 2019,
+      "screenings": {
+        "Bio Oko": [
+          "2019-09-25T20:30:00.000Z"
+        ]
+      },
+      "content": "Ekologičtí detektivové se vydávají po stopách pašeráků a pytláků. Bojují proti kriminalitě páchané na přírodě, nemilosrdně chytají zločince, kteří ohrožují planetu Zemi. Dvoudílný dokument Wildlife Guards vás zavede do cestovatelského ráje na Borneu, kde uvidíte, jak dokážou dva obyčejní kluci z Čech a Slovenska bojovat proti pytlákům želvích vajec a ilegálnímu obchodu se suvenýry ze želvoviny.(Bio Oko)",
+      "posterUrl": "https://img.csfd.cz/assets/b781/images/poster-fre"
+    },
+    {
       "id": "654089-yesterday",
       "url": "https://www.csfd.cz/film/654089-yesterday/",
       "name": "Yesterday",
@@ -4659,7 +4467,6 @@
           "2019-09-28T18:30:00.000Z"
         ],
         "Kino Pilotů": [
-          "2019-09-16T15:00:00.000Z",
           "2019-09-19T17:00:00.000Z"
         ],
         "Kino Radotín": [
@@ -4692,9 +4499,6 @@
       "screenings": {
         "Kino Lucerna - Praha": [
           "2019-09-18T13:30:00.000Z"
-        ],
-        "Kino Pilotů": [
-          "2019-09-16T18:30:00.000Z"
         ]
       },
       "content": "Muži jsou pro Léa zaměnitelní stejně jako dny, jimiž se protlouká. Jeho minulost je nám neznámá, budoucnost nejasná. Jediným opěrným bodem je pro dvaadvacetiletého mladíka přítomnost, a ta není dvakrát růžová – prodává se na ulici, nemá, kde by složil hlavu, a únik mu dokážou poskytnout jen drogy. Na rozdíl od ostatních prostitutů navíc nechodí s klienty, aby si vydělal peníze, nýbrž aby si na pár okamžiků užil blízkost a teplo těl, která má uspokojit. Jako by ale do světa neosobních setkání, násilí a konkurence nepatřil. Potřebu lásky totiž v momentě, kdy již všechny zábrany padly, nejde lehce uspokojit. Syrový debut Camilla Vidal-Naqueta je sondou do prostředí absolutní svobody i příběhem jedince, který k životu přistupuje pasivně, ale žádá si od něj něžnou pozornost. Vyzývavě tělesné drama mělo premiéru v Týdnu kritiky v Cannes a přináší nezkrášlený pohled do zákoutí, která nám jsou v běžném životě skrytá.(Mezipatra)\n\n\t\t\t\t\t\t Muži jsou pro Léa zaměnitelní stejně jako dny, jimiž se protlouká. Jeho minulost je nám neznámá, budoucnost nejasná. Jediným opěrným bodem je pro dvaadvacetiletého mladíka přítomnost, a ta není dvakrát růžová – prodává se na ulici, nemá, kde by složil hlavu, a únik mu dokážou poskytnout jen drogy. Na rozdíl od ostatních prostitutů navíc nechodí s klienty, aby si vydělal peníze, nýbrž aby si na pár okamžiků užil blízkost a teplo těl, která má uspokojit. Jako by ale do světa neosobních setkání, násilí a konkurence nepatřil. Potřebu lásky totiž v momentě, kd… (více)",
@@ -4739,12 +4543,10 @@
           "2019-09-25T15:00:00.000Z"
         ],
         "Evald": [
-          "2019-09-16T14:00:00.000Z",
           "2019-09-18T18:30:00.000Z",
           "2019-09-22T16:00:00.000Z"
         ],
         "Mat": [
-          "2019-09-16T15:40:00.000Z",
           "2019-09-23T15:30:00.000Z"
         ]
       },
@@ -4773,10 +4575,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-09-16T15:00:00.000Z",
-          "2019-09-16T17:20:00.000Z",
-          "2019-09-16T19:40:00.000Z",
-          "2019-09-16T22:00:00.000Z",
           "2019-09-17T15:00:00.000Z",
           "2019-09-17T17:20:00.000Z",
           "2019-09-17T19:40:00.000Z",
@@ -4787,9 +4585,6 @@
           "2019-09-18T22:00:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-09-16T16:40:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T21:20:00.000Z",
           "2019-09-17T16:20:00.000Z",
           "2019-09-17T18:40:00.000Z",
           "2019-09-17T21:00:00.000Z",
@@ -4801,14 +4596,6 @@
           "2019-09-17T18:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-09-16T13:10:00.000Z",
-          "2019-09-16T15:30:00.000Z",
-          "2019-09-16T16:20:00.000Z",
-          "2019-09-16T17:50:00.000Z",
-          "2019-09-16T18:50:00.000Z",
-          "2019-09-16T20:10:00.000Z",
-          "2019-09-16T21:20:00.000Z",
-          "2019-09-16T22:30:00.000Z",
           "2019-09-17T13:10:00.000Z",
           "2019-09-17T15:30:00.000Z",
           "2019-09-17T16:20:00.000Z",
@@ -4827,10 +4614,6 @@
           "2019-09-18T22:30:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-09-16T14:20:00.000Z",
-          "2019-09-16T16:45:00.000Z",
-          "2019-09-16T19:10:00.000Z",
-          "2019-09-16T21:30:00.000Z",
           "2019-09-17T14:20:00.000Z",
           "2019-09-17T16:45:00.000Z",
           "2019-09-17T19:10:00.000Z",
@@ -4841,9 +4624,6 @@
           "2019-09-18T21:30:00.000Z"
         ],
         "Cinema City Galaxie": [
-          "2019-09-16T16:00:00.000Z",
-          "2019-09-16T18:30:00.000Z",
-          "2019-09-16T21:00:00.000Z",
           "2019-09-17T16:00:00.000Z",
           "2019-09-17T18:30:00.000Z",
           "2019-09-17T21:00:00.000Z",
@@ -4852,10 +4632,6 @@
           "2019-09-18T21:00:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-09-16T14:10:00.000Z",
-          "2019-09-16T16:30:00.000Z",
-          "2019-09-16T19:00:00.000Z",
-          "2019-09-16T21:20:00.000Z",
           "2019-09-17T14:10:00.000Z",
           "2019-09-17T16:30:00.000Z",
           "2019-09-17T19:00:00.000Z",
@@ -4866,11 +4642,6 @@
           "2019-09-18T21:20:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-09-16T12:50:00.000Z",
-          "2019-09-16T15:10:00.000Z",
-          "2019-09-16T17:30:00.000Z",
-          "2019-09-16T19:50:00.000Z",
-          "2019-09-16T22:10:00.000Z",
           "2019-09-17T12:50:00.000Z",
           "2019-09-17T15:10:00.000Z",
           "2019-09-17T17:30:00.000Z",
@@ -4883,10 +4654,6 @@
           "2019-09-18T22:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-09-16T14:50:00.000Z",
-          "2019-09-16T17:10:00.000Z",
-          "2019-09-16T19:40:00.000Z",
-          "2019-09-16T22:00:00.000Z",
           "2019-09-17T14:50:00.000Z",
           "2019-09-17T17:10:00.000Z",
           "2019-09-17T19:40:00.000Z",
@@ -4896,10 +4663,6 @@
           "2019-09-18T22:00:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-09-16T16:10:00.000Z",
-          "2019-09-16T17:50:00.000Z",
-          "2019-09-16T20:10:00.000Z",
-          "2019-09-16T21:20:00.000Z",
           "2019-09-17T16:10:00.000Z",
           "2019-09-17T17:50:00.000Z",
           "2019-09-17T20:10:00.000Z",
@@ -4913,15 +4676,12 @@
           "2019-09-21T20:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-09-16T17:10:00.000Z",
-          "2019-09-16T21:40:00.000Z",
           "2019-09-17T17:10:00.000Z",
           "2019-09-17T21:40:00.000Z",
           "2019-09-18T17:10:00.000Z",
           "2019-09-18T21:40:00.000Z"
         ],
         "Světozor": [
-          "2019-09-16T17:45:00.000Z",
           "2019-09-17T17:45:00.000Z",
           "2019-09-18T17:45:00.000Z"
         ]
