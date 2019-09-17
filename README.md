@@ -11,6 +11,17 @@ level. Notifies about new movies coming out.
 - `npm start` to refresh `data.json`
 - `npx serve .` to access the web app at http://localhost:5000/
 
+```
+cd cra
+npm start
+```
+
+&
+
+```cd docs
+npx serve .
+```
+
 ## To-Do
 
 Remove local storage items for movies no longer in the data (including deletions)

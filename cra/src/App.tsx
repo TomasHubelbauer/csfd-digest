@@ -96,10 +96,17 @@ export default class App extends Component<AppProps, AppState> {
           {this.state.data.data.cinemas.map(cinema => <option key={cinema}>{cinema}</option>)}
         </select>
         <p>{screeningsTonight.length} movies tonight: (last updated&nbsp;<TimeAgo date={this.state.data.data.dateAndTime} />)</p>
+        <ul>
+          {screeningsTonight.map(screening => (
+            <li key={screening!.movie.id}>
+              <a href={'#' + screening!.movie.id}>{screening!.movie.name}</a>
+            </li>
+          ))}
+        </ul>
         {screeningsTonight.map(screening => (
           <details key={screening!.movie.id} open>
             <summary>
-              <h2>{screening!.movie.name}</h2>
+              <h2 id={screening!.movie.id}>{screening!.movie.name}</h2>
             </summary>
             <img alt={`${screening!.movie.name} poster`} src={screening!.movie.posterUrl} />
             <p>{screening!.movie.content}</p>
