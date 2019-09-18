@@ -41,7 +41,7 @@ jobs:
         fi
         git commit -m "Generate GitHub Pages"
         # Authenticate with GitHub using the out of the box workflow integration PAT (this one won't queue a GitHub Pages build though)
-        git remote set-url origin https://tomashubelbauer:${{ secrets.GITHUB_PAGES_PAT }}@github.com/${{ github.repository }}
+        git remote set-url origin https://tomashubelbauer:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         # Pull before pushing to integrate fast forward changes if any
         git pull
         # Push the changes to GitHub where it will cause another workflow which will kill itself immediately due to ***NO_CI***
