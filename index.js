@@ -9,18 +9,16 @@ window.addEventListener('load', async () => {
   const tagDiv = document.getElementById('tagDiv');
   const screeningsDiv = document.getElementById('screeningsDiv');
 
-  const response = await fetch('data.json');
+  const response = await fetch('data/_.json');
   const data = await response.json();
 
   // TODO: Iterate local storage and delete keys which do not have a corresponding value in `data.movies`
   // to clear data for movies that are no longer in cinemas
 
-  let cinemas = localStorage.getItem('cinemas') ? JSON.parse(localStorage.getItem('cinemas')) : data.cinemas;
-  data.movies = data.movies.sort((a, b) => {
-    const aScreeningCount = Object.keys(a.screenings).reduce((sum, c) => sum + a.screenings[c].length, 0);
-    const bScreeningCount = Object.keys(b.screenings).reduce((sum, c) => sum + b.screenings[c].length, 0);
-    return bScreeningCount - aScreeningCount;
-  });
+  let cinemas = localStorage.getItem('cinemas')
+    ? JSON.parse(localStorage.getItem('cinemas')).map(c => data.cinemas.indexOf(c))
+    : data.cinemas.map((_, i) => i);
+  data.movies = data.movies.sort((a, b) => b.screenings - a.screenings);
 
   function renderCinemas() {
     const fragment = document.createDocumentFragment();
@@ -56,10 +54,8 @@ window.addEventListener('load', async () => {
     const untagged = data.movies.filter(m => localStorage.getItem(m.id) === null);
 
     for (const movie of [...probablies, ...maybies, ...untagged]) {
-      const movieCinemas = Object.keys(movie.screenings);
-
       // Skip movies with no screenings for the selected cinemas
-      if (!movieCinemas.find(c => cinemas.includes(c))) {
+      if (!movie.cinemas.find(c => cinemas.includes(c))) {
         continue;
       }
 
