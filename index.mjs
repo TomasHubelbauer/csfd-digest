@@ -32,7 +32,7 @@ void async function () {
 
       for (const dayTable of await cinemaScheduleDiv.$$('table')) {
         const [_, day, month, year] = await dayTable.$eval('caption', caption => /(\d+)\.(\d+)\.(\d+)/g.exec(caption.textContent));
-        console.log(`Processing schedule for ${cinemaName} on ${year}/${month}/${day}…`);
+        console.log(`Processing the schedule for ${cinemaName} on ${year}/${month}/${day}…`);
 
         for (const movieTr of await dayTable.$$('tr')) {
           const { name, url } = await movieTr.$eval('th a', a => ({ name: a.textContent.trim(), url: a.href }));
@@ -70,7 +70,7 @@ void async function () {
 
     for (let index = 0; index < movies.length; index++) {
       const movie = movies[index];
-      console.log(`Scraping ${index + 1} / ${movies.length} ${movie.name} (${movie.year})…`);
+      console.log(`Scraping: ${index + 1} / ${movies.length} ${movie.name} (${movie.year})…`);
       await page.goto(movie.url);
 
       try {
@@ -101,7 +101,8 @@ void async function () {
       delete movie.content;
       delete movie.imdbUrl;
       delete movie.trailerUrl;
-      delete movie.screenings;
+      movie.cinemas = Object.keys(movie.screenings).map(c => cinemas.indexOf(c));
+      movie.screenings = Object.keys(movie.screenings).reduce((a, c) => a + movie.screenings[c].length, 0);
     }
 
     // Sort alphabetically to make the index diffs nicer
