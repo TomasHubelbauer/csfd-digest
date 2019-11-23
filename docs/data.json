@@ -1,5 +1,5 @@
 {
-  "dateAndTime": "2019-11-22T00:29:44.981Z",
+  "dateAndTime": "2019-11-23T00:29:06.550Z",
   "cinemas": [
     "CineStar Praha - Anděl",
     "CineStar Praha - Černý Most",
@@ -28,6 +28,7 @@
     "Kasárna Karlín",
     "Kaštan - Unijazz",
     "Kino Lucerna - Praha",
+    "Kino Pilotů",
     "Kino Radotín",
     "Kino Účko",
     "Komunitní centrum Husitská",
@@ -42,6 +43,20 @@
     "Světozor"
   ],
   "movies": [
+    {
+      "id": "627611-je-mi-jedno-ze-se-zapiseme-do-dejin-jako-barbari",
+      "url": "https://www.csfd.cz/film/627611-je-mi-jedno-ze-se-zapiseme-do-dejin-jako-barbari/",
+      "name": "„Je mi jedno, že se zapíšeme do …",
+      "year": 2018,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-11-24T18:00:00.000Z"
+        ]
+      },
+      "content": "Velmi černá komedie o recyklaci novodobých dějin sleduje přípravy rekonstrukce skutečné události z roku 1941, kdy rumunská armáda na východní frontě spáchala etnický masakr v okupované Oděse. Název filmu je přímým citátem tehdejšího politického představitele. Mladá divadelní režisérka se snaží o věcný přístup a využívá formu tolik oblíbených rekonstrukcí vojenských střetů v podání spolků vojenské historie. Během příprav se však střetává se urputnou snahou historii zlehčit, relativizovat a poupravit.(Pilot Film)",
+      "imdbUrl": "https://www.imdb.com/title/tt8506840/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/289/163289488_4aeed8.png"
+    },
     {
       "id": "6977-absolvent",
       "url": "https://www.csfd.cz/film/6977-absolvent/",
@@ -100,8 +115,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T12:10:00.000Z",
-          "2019-11-22T13:30:00.000Z",
           "2019-11-23T11:30:00.000Z",
           "2019-11-23T13:30:00.000Z",
           "2019-11-24T11:30:00.000Z",
@@ -112,9 +125,6 @@
           "2019-11-27T13:30:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-23T19:31:00.000Z",
-          "2019-11-22T12:20:00.000Z",
-          "2019-11-22T14:10:00.000Z",
           "2019-11-24T19:31:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T14:10:00.000Z",
@@ -129,8 +139,6 @@
           "2019-11-24T10:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T12:30:00.000Z",
-          "2019-11-22T14:30:00.000Z",
           "2019-11-25T12:11:00.000Z",
           "2019-11-23T12:30:00.000Z",
           "2019-11-23T14:30:00.000Z",
@@ -144,8 +152,6 @@
           "2019-11-27T14:30:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T12:20:00.000Z",
-          "2019-11-22T14:30:00.000Z",
           "2019-11-23T10:10:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T14:30:00.000Z",
@@ -160,8 +166,6 @@
           "2019-11-27T14:30:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T14:10:00.000Z",
-          "2019-11-22T15:00:00.000Z",
           "2019-11-23T11:10:00.000Z",
           "2019-11-23T13:10:00.000Z",
           "2019-11-23T15:00:00.000Z",
@@ -176,8 +180,6 @@
           "2019-11-27T15:00:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T12:10:00.000Z",
-          "2019-11-22T14:10:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-23T14:10:00.000Z",
           "2019-11-24T12:10:00.000Z",
@@ -190,8 +192,6 @@
           "2019-11-27T14:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T12:40:00.000Z",
-          "2019-11-22T14:40:00.000Z",
           "2019-11-23T12:40:00.000Z",
           "2019-11-23T14:40:00.000Z",
           "2019-11-24T12:40:00.000Z",
@@ -204,7 +204,6 @@
           "2019-11-27T14:40:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T15:40:00.000Z",
           "2019-11-23T11:40:00.000Z",
           "2019-11-23T13:40:00.000Z",
           "2019-11-23T15:40:00.000Z",
@@ -219,8 +218,6 @@
           "2019-11-30T14:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T13:50:00.000Z",
-          "2019-11-22T15:45:00.000Z",
           "2019-11-23T10:11:00.000Z",
           "2019-11-23T13:50:00.000Z",
           "2019-11-23T15:45:00.000Z",
@@ -272,7 +269,7 @@
         ]
       },
       "content": "Film s podtitulem Blednoucí výjevy ze života je komentářem k modu vivendi sídlištního společenství. Objevují se v něm typizované postavy sídlištního života, jejich atributy a vztahy. Trojice postav představuje modelovou panelákovou rodinu v absurdně vyhrocených situacích, jako je návrat z nákupu obtěžkaný taškami, leštění rozpadajícího se vraku auta, vyvěšování ruské vlaječky do okna. Jako alegorické vyústění absurdní životní reality jsou v průběhu filmu použity dokumentární sekvence z Matějské pouti, zachycující jízdu na horské dráze, centrifuze a další pouťové atrakce.(MFDF Ji.hlava)\n\n\t\t\t\t\t\t Film s podtitulem Blednoucí výjevy ze života je komentářem k modu vivendi sídlištního společenství. Objevují se v něm typizované postavy sídlištního života, jejich atributy a vztahy. Trojice postav představuje modelovou panelákovou rodinu v absurdně vyhrocených situacích, jako je návrat z nákupu obtěžkaný taškami, leštění rozpadajícího se vraku auta, vyvěšování ruské vlaječky do okna. Jako alegorické vyústění absurdní životní reality jsou v průběhu filmu použity dokumentární sekvence z Matějské pouti, zachycující jízdu na horské dráze, centrifuze a další… (více)",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
     },
     {
       "id": "722743-alice-a-starosta",
@@ -295,7 +292,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T21:40:00.000Z",
           "2019-11-24T21:40:00.000Z",
           "2019-11-25T21:40:00.000Z",
@@ -303,7 +299,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T21:40:00.000Z",
           "2019-11-24T21:40:00.000Z",
           "2019-11-25T21:40:00.000Z",
@@ -311,8 +306,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T18:00:00.000Z",
-          "2019-11-22T20:40:00.000Z",
           "2019-11-23T18:00:00.000Z",
           "2019-11-23T20:40:00.000Z",
           "2019-11-24T18:00:00.000Z",
@@ -325,7 +318,6 @@
           "2019-11-27T20:40:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T21:30:00.000Z",
           "2019-11-24T21:30:00.000Z",
           "2019-11-25T21:30:00.000Z",
@@ -333,8 +325,6 @@
           "2019-11-27T21:30:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T21:20:00.000Z",
           "2019-11-23T18:40:00.000Z",
           "2019-11-23T21:20:00.000Z",
           "2019-11-24T18:40:00.000Z",
@@ -347,8 +337,6 @@
           "2019-11-27T21:20:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T16:20:00.000Z",
-          "2019-11-22T19:00:00.000Z",
           "2019-11-23T16:20:00.000Z",
           "2019-11-23T19:00:00.000Z",
           "2019-11-24T16:20:00.000Z",
@@ -361,7 +349,6 @@
           "2019-11-27T19:00:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T22:15:00.000Z",
           "2019-11-23T20:50:00.000Z",
           "2019-11-24T20:50:00.000Z",
           "2019-11-25T20:30:00.000Z",
@@ -371,7 +358,6 @@
           "2019-11-27T22:00:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T14:30:00.000Z",
           "2019-11-23T13:40:00.000Z",
           "2019-11-24T14:30:00.000Z",
           "2019-11-25T14:30:00.000Z",
@@ -383,7 +369,12 @@
           "2019-11-29T18:00:00.000Z"
         ],
         "Kino Lucerna - Praha": [
-          "2019-11-25T13:30:00.000Z"
+          "2019-11-25T13:30:00.000Z",
+          "2019-11-30T16:00:00.000Z",
+          "2019-12-01T15:15:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-24T13:00:00.000Z"
         ],
         "Modřanský biograf": [
           "2019-11-23T20:00:00.000Z",
@@ -429,7 +420,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Černý Most": [
-          "2019-11-22T10:10:00.000Z",
           "2019-11-23T10:10:00.000Z",
           "2019-11-24T10:10:00.000Z"
         ]
@@ -451,6 +441,22 @@
       "content": "Za okouzlujícím půvabem Anny Poliatovy, pařížské top modelky, se skrývá tajemství, díky kterému se ocitne v centru nebezpečné operace, rozehrané špičkovými agenty soupeřících tajných služeb. Film Anna je strhující a nervy drásající jízda plná překvapivých zvratů, vášnivých vztahů a dechberoucí akce.(Vertical Ent.)",
       "imdbUrl": "https://www.imdb.com/title/tt7456310/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/670/163670122_09e9ba.jpg"
+    },
+    {
+      "id": "655572-antropocen-epocha-cloveka",
+      "url": "https://www.csfd.cz/film/655572-antropocen-epocha-cloveka/",
+      "name": "Antropocén: Epocha člověka",
+      "year": 2018,
+      "screenings": {
+        "Světozor": [
+          "2019-11-28T15:30:00.000Z",
+          "2019-11-29T15:30:00.000Z",
+          "2019-12-01T13:45:00.000Z"
+        ]
+      },
+      "content": "Dosáhli jsme bezprecedentního okamžiku v historii naší planety. Lidé v současnosti ovlivňují Zemi a geologické procesy více než všechny přírodní síly dohromady. Antropocén: Epocha člověka je dokumentárním snímkem, který čtyři roky natáčel oceňovaný tým ve složení Jennifer Baichwalová, Nicholas de Pencier a Edward Burtynsky. Jedná se o dokument, který kombinuje umění a vědu a přináší empirický, neučebnicový náhled na klíčový moment v historii geologie. Dechberoucí snímky přináší provokativní a nezapomenutelný zážitek a názorně ukazují dopad lidstva na naši planetu.(AČFK)\n\n\t\t\t\t\t\t Dosáhli jsme bezprecedentního okamžiku v historii naší planety. Lidé v současnosti ovlivňují Zemi a geologické procesy více než všechny přírodní síly dohromady. Antropocén: Epocha člověka je dokumentárním snímkem, který čtyři roky natáčel oceňovaný tým ve složení Jennifer Baichwalová, Nicholas de Pencier a Edward Burtynsky. Jedná se o dokument, který kombinuje umění a vědu a přináší empirický, neučebnicový náhled na klíčový moment v historii geologie. Dechberoucí snímky přináší provokativní a nezapomenutelný zážitek a názorně ukazují dopad lidstva na naši… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt8399690/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/909/163909075_755daa.jpg"
     },
     {
       "id": "702180-avanpost",
@@ -527,9 +533,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T14:15:00.000Z",
-          "2019-11-22T17:50:00.000Z",
-          "2019-11-22T20:40:00.000Z",
           "2019-11-23T14:15:00.000Z",
           "2019-11-23T17:50:00.000Z",
           "2019-11-23T20:40:00.000Z",
@@ -547,7 +550,6 @@
           "2019-11-27T20:40:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T17:30:00.000Z",
           "2019-11-23T17:30:00.000Z",
           "2019-11-24T17:30:00.000Z",
           "2019-11-25T17:30:00.000Z",
@@ -555,9 +557,6 @@
           "2019-11-27T17:30:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T13:00:00.000Z",
-          "2019-11-22T18:20:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T13:00:00.000Z",
           "2019-11-23T18:20:00.000Z",
           "2019-11-23T21:10:00.000Z",
@@ -575,8 +574,6 @@
           "2019-11-27T21:10:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T15:40:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T15:40:00.000Z",
           "2019-11-23T21:40:00.000Z",
           "2019-11-24T15:40:00.000Z",
@@ -589,9 +586,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T15:30:00.000Z",
-          "2019-11-22T18:20:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T15:30:00.000Z",
           "2019-11-23T18:20:00.000Z",
           "2019-11-23T21:10:00.000Z",
@@ -609,8 +603,6 @@
           "2019-11-27T21:10:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T20:30:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T20:30:00.000Z",
           "2019-11-23T21:40:00.000Z",
           "2019-11-24T20:30:00.000Z",
@@ -623,8 +615,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T18:45:00.000Z",
           "2019-11-23T18:45:00.000Z",
           "2019-11-24T18:45:00.000Z",
           "2019-11-25T16:50:00.000Z",
@@ -635,8 +625,6 @@
           "2019-11-27T18:45:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T16:30:00.000Z",
           "2019-11-23T21:30:00.000Z",
           "2019-11-24T16:50:00.000Z",
@@ -660,19 +648,32 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/865/163865776_67eb80.jpg"
     },
     {
+      "id": "603877-blackkklansman",
+      "url": "https://www.csfd.cz/film/603877-blackkklansman/",
+      "name": "BlacKkKlansman",
+      "year": 2018,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-11-23T15:00:00.000Z"
+        ]
+      },
+      "content": "Na začátku sedmdesátých let minulého století se Spojené státy vařily v záplavě demonstrací za lidská práva. V téže době se jeden mladý černý kluk s gigantickým afrem (John David Washington, syn Denzela Washingtona) rozhodl rozšířit řady coloradské policie. Ron Stallworth byl první Afroameričan v tomhle sboru. Jeho přijetí mělo zacpat pusu čím dál naštvanější černošské komunitě. Aby těch změn nebylo zase příliš, šoupli nadřízení Rona do archivu (= oddělení evidence důkazů), kde měl co nejméně překážet. Jenže Ronovy ambice byly o poznání větší. Soustavným tlakem na nadřízené se mu nejdřív podařilo svléknout uniformu a v civilu infiltrovat politické mítinky „černých bratrů“. Protože se mu nechtělo donášet na bližního svého, zvednul sluchátko, vytočil číslo Davida Dukea (Topher Grace), místního předáka Ku-klux-klanu, a omotal si ho kolem prstu. Naprosto přesvědčivým způsobem se prezentoval jako fanatický vyznavač bílé rasy a David Duke mu to spolknul i s navijákem, jelikož ho po pár telefonátech vtáhnul do struktur klanu. Když pak bylo potřeba nasadit do akce zapáleného rasistu Rona Stallwortha i fyzicky, ujal se té role Ronův kolega Flip Zimmerman (Adam Driver), který s nadšením docházel na tajná i veřejná setkání členů klanu s cílem získat co nejvíc informací a překazit plánované násilné operace. Zní to neuvěřitelně, zní to komicky, skutečně se to však stalo.(CinemArt)\n\n\t\t\t\t\t\t Na začátku sedmdesátých let minulého století se Spojené státy vařily v záplavě demonstrací za lidská práva. V téže době se jeden mladý černý kluk s gigantickým afrem (John David Washington, syn Denzela Washingtona) rozhodl rozšířit řady coloradské policie. Ron Stallworth byl první Afroameričan v tomhle sboru. Jeho přijetí mělo zacpat pusu čím dál naštvanější černošské komunitě. Aby těch změn nebylo zase příliš, šoupli nadřízení Rona do archivu (= oddělení evidence důkazů), kde měl co nejméně překážet. Jenže Ronovy ambice byly o poznání větší. Soustavným t… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt7349662/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/824/162824493_5913b8.png",
+      "trailerUrl": "https://www.youtube.com/watch?v=fQNZhs0QKq0"
+    },
+    {
       "id": "688367-bozi-laska",
       "url": "https://www.csfd.cz/film/688367-bozi-laska/",
       "name": "Boží láska",
       "year": 2019,
       "screenings": {
-        "Aero": [
-          "2019-11-22T18:00:00.000Z"
-        ],
         "Dlabačov": [
           "2019-11-26T18:00:00.000Z"
         ],
         "Světozor": [
-          "2019-11-26T20:45:00.000Z"
+          "2019-11-26T20:45:00.000Z",
+          "2019-12-06T13:00:00.000Z"
         ]
       },
       "content": "Brazílie, rok 2027. Bůh se neuctívá na mších, ale na tanečních party, a pro rozhřešení si můžete dojet do drive-thru zpovědnice. Úřednice Joana dělá navzdory svým pracovním povinnostem vše pro to, aby naplnila svoje osobní poslání – zabránit co nejvíce párům v rozvodu. Pomáhá jí v tom společenství Boží láska, které se manželům prostřednictvím modliteb a nezvyklých sexuálních praktik snaží navrátit blízkost, víru i touhu. Sama Joana prochází životní krizí, která její vlastní vírou hluboce otřásá. Futuristické drama nabité elektrizující vášní představil Gabriel Mascaro (Neonový býk) poprvé na MFF v Sundance, které si podmanil živelným vizuálním stylem v bizarních kulisách dystopického světa.(Aerofilms)\n\n\t\t\t\t\t\t Brazílie, rok 2027. Bůh se neuctívá na mších, ale na tanečních party, a pro rozhřešení si můžete dojet do drive-thru zpovědnice. Úřednice Joana dělá navzdory svým pracovním povinnostem vše pro to, aby naplnila svoje osobní poslání – zabránit co nejvíce párům v rozvodu. Pomáhá jí v tom společenství Boží láska, které se manželům prostřednictvím modliteb a nezvyklých sexuálních praktik snaží navrátit blízkost, víru i touhu. Sama Joana prochází životní krizí, která její vlastní vírou hluboce otřásá. Futuristické drama nabité elektrizující vášní představil Gab… (více)",
@@ -708,7 +709,22 @@
       },
       "content": "Malíř dá své nevidomé družce tři kouzelné pilulky a potom ji schválně opustí v davu. Žena po něm a po jeho tajemství začíná pátrat s pomocí obrazu, na kterém ji zachytil, a tří pilulek, které způsobí, že vidí svět určitým malířským stylem. Netuší, že malíř ji při jejím usilovném hledání zpovzdálí pozoruje.(Festival francouzského filmu)",
       "imdbUrl": "https://www.imdb.com/title/tt10256186/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/901/163901032_325de3.jpg"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/901/163901032_325de3.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQ5o6pMRr6A"
+    },
+    {
+      "id": "551344-bufo-alvarius",
+      "url": "https://www.csfd.cz/film/551344-bufo-alvarius/",
+      "name": "Bufo Alvarius",
+      "year": 2017,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-11-23T13:00:00.000Z"
+        ]
+      },
+      "content": "Radikální svědectví o nejsilnějším známém přírodním psychedeliku, tryptaminu 5-MeO-DMT a žábě Bufo Alvarius ze sonorské pouště. Film je koncipován jako strhující audio-vizuální dobrodružství, které umocňují originální zážitkové animace inspirované touto mimořádnou látkou. Fascinující výpovědi skupiny psychonautů, kteří se za zkušeností s Bufo Alvarius vydali na cestu do Jižní Ameriky, dokreslují osobní příběhy nestora transpersonální psychologie Stanislava Grofa a novodobého šamana Octavio Rettiga, který ceremoniální kontakt s uvedenou substancí zprostředkoval tisícům dobrovolníků z celého světa. Mnohým změnila život. Původní záměr tvůrců natočit dokumentární reportáž vygradoval do intenzivní filmové meditace o povaze vědomí a bytí.(filip.zaruba)\n\n\t\t\t\t\t\t Radikální svědectví o nejsilnějším známém přírodním psychedeliku, tryptaminu 5-MeO-DMT a žábě Bufo Alvarius ze sonorské pouště. Film je koncipován jako strhující audio-vizuální dobrodružství, které umocňují originální zážitkové animace inspirované touto mimořádnou látkou. Fascinující výpovědi skupiny psychonautů, kteří se za zkušeností s Bufo Alvarius vydali na cestu do Jižní Ameriky, dokreslují osobní příběhy nestora transpersonální psychologie Stanislava Grofa a novodobého šamana Octavio Rettiga, který ceremoniální kontakt s uvedenou substancí zprostřed… (více)",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/155/162155389_59ce37.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=yybd-ZcODX0"
     },
     {
       "id": "693125-burgtheater",
@@ -721,7 +737,8 @@
         ]
       },
       "content": "Snímek Burgtheater představí jedno z nejdůležitějších divadel na světě ve formě objevné filmové cesty, na níž uvidíme, co jinak zůstává skryto: práci, která je nezbytná, aby se tento velký kulturní mechanismus udržel v pohybu. Poznáme, jak do sebe zapadají jednotlivé pracovní procesy a kolik různých kroků je třeba vykonat od výběru hry až po její premiéru. Rozmanité úhly pohledu na Burgtheater nám tak obzvlášť intenzivně dovolí pochopit, proč je divadlo natolik fascinující.(Kinosvetozor.cz)",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/260/163260609_97c703.jpg"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/260/163260609_97c703.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=Z_7eN5iloyk"
     },
     {
       "id": "707775-cesta-jako-zadna-ze-sta",
@@ -800,9 +817,6 @@
       "screenings": {
         "Francouzský institut": [
           "2019-11-27T21:00:00.000Z"
-        ],
-        "Světozor": [
-          "2019-11-22T18:15:00.000Z"
         ]
       },
       "content": "V roce 1964 vybírá Henri-Georges Clouzot pro hlavní roli ve svému filmu Peklo tehdy šestadvacetiletou Romy Schneider. Tento záhadný a ojedinělý projekt, pro jehož natočení disponoval autor neomezeným rozpočtem, měl vyprávět tragický příběh chorobné žárlivosti. Ovšem po třech týdnech bylo natáčení dramaticky přerušeno a záběry, které měly být „neuvěřitelné“, nebyly nikdy zveřejněny. Poté, co byly znovu objeveny, vyšlo najevo, že jsou ještě úžasnější, než se tvrdilo. Přinášejí svědectví o šílenství a žárlivosti nasnímané subjektivním pohledem kamery, o prokletém natáčení a o tvůrci, který dal volný průchod svému jedinečnému talentu. Hypnotická Romy nebyla nikdy krásnější.(Festival francouzského filmu)\n\n\t\t\t\t\t\t V roce 1964 vybírá Henri-Georges Clouzot pro hlavní roli ve svému filmu Peklo tehdy šestadvacetiletou Romy Schneider. Tento záhadný a ojedinělý projekt, pro jehož natočení disponoval autor neomezeným rozpočtem, měl vyprávět tragický příběh chorobné žárlivosti. Ovšem po třech týdnech bylo natáčení dramaticky přerušeno a záběry, které měly být „neuvěřitelné“, nebyly nikdy zveřejněny. Poté, co byly znovu objeveny, vyšlo najevo, že jsou ještě úžasnější, než se tvrdilo. Přinášejí svědectví o šílenství a žárlivosti nasnímané subjektivním pohledem kamery, o prok… (více)",
@@ -839,7 +853,7 @@
       },
       "content": "Městečko u moře, kde v zimě nepotkáte živou duši. Čtyřicátník Marco se chystá vstoupit do kadeřnictví Crazy Hair patřícího jeho biologické matce, kterou zná jen jménem. Aniž by věděl, co přesně nebo zda vůbec něco očekává, otvírá roztřeseně dveře, aby se pokusil během chvilky, kdy mu budou stříhat vlasy, poznat vlastní minulost.(Festival francouzského filmu)",
       "imdbUrl": "https://www.imdb.com/title/tt8561662/combined",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
     },
     {
       "id": "6333-ctyri-v-kruhu",
@@ -863,9 +877,6 @@
       "screenings": {
         "Francouzský institut": [
           "2019-11-25T21:00:00.000Z"
-        ],
-        "Kino Lucerna - Praha": [
-          "2019-11-22T20:30:00.000Z"
         ],
         "Světozor": [
           "2019-11-26T18:00:00.000Z"
@@ -893,6 +904,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/943/160943079_b8d59b.jpg"
     },
     {
+      "id": "693013-dafne",
+      "url": "https://www.csfd.cz/film/693013-dafne/",
+      "name": "Dafne",
+      "year": 2019,
+      "screenings": {
+        "Kino Lucerna - Praha": [
+          "2019-11-29T20:45:00.000Z"
+        ]
+      },
+      "content": "Přestože mladá žena Dafne bydlí stále se svými rodiči, cítí se nezávislá. Má svou práci, a tedy i své příjmy a platební kartu a může si tak každý týden zajít ke kadeřníkovi. Dafne je na tyto zdánlivě všední vymoženosti pyšná. Ačkoliv trpí Downovým syndromem, nebere tento handicap jako překážku, která by jí bránila žít naplno. Když jí nečekaně zemře maminka, je dívka připravená truchlit, ale zároveň cítí, že se musí postarat o otce, jenž je bez manželky ztracený. S přímočarou razancí se ujímá role toho rozumnějšího z nesourodé dvojice a začíná tak oba uzdravovat…(MFF Karlovy Vary)\n\n\t\t\t\t\t\t Přestože mladá žena Dafne bydlí stále se svými rodiči, cítí se nezávislá. Má svou práci, a tedy i své příjmy a platební kartu a může si tak každý týden zajít ke kadeřníkovi. Dafne je na tyto zdánlivě všední vymoženosti pyšná. Ačkoliv trpí Downovým syndromem, nebere tento handicap jako překážku, která by jí bránila žít naplno. Když jí nečekaně zemře maminka, je dívka připravená truchlit, ale zároveň cítí, že se musí postarat o otce, jenž je bez manželky ztracený. S přímočarou razancí se ujímá role toho rozumnějšího z nesourodé dvojice a začíná tak oba uzdr… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt8452422/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/558/163558036_8d269c.jpg"
+    },
+    {
       "id": "778259-depeche-mode-spirits-in-the-forest",
       "url": "https://www.csfd.cz/film/778259-depeche-mode-spirits-in-the-forest/",
       "name": "Depeche Mode: SPIRITS in the Forest",
@@ -900,6 +925,9 @@
       "screenings": {
         "Aero": [
           "2019-11-25T18:00:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-24T19:00:00.000Z"
         ],
         "Kino Radotín": [
           "2019-11-30T20:00:00.000Z"
@@ -918,13 +946,20 @@
         "Atlas": [
           "2019-11-27T18:00:00.000Z"
         ],
+        "Kino Pilotů": [
+          "2019-11-23T17:40:00.000Z"
+        ],
         "Mat": [
           "2019-12-01T20:30:00.000Z"
         ],
         "Světozor": [
           "2019-11-25T13:00:00.000Z",
           "2019-11-26T13:15:00.000Z",
-          "2019-11-27T12:30:00.000Z"
+          "2019-11-27T12:30:00.000Z",
+          "2019-11-28T13:30:00.000Z",
+          "2019-11-29T13:30:00.000Z",
+          "2019-12-02T16:30:00.000Z",
+          "2019-12-03T13:00:00.000Z"
         ]
       },
       "content": "Komedie Woodyho Allena vypráví příběh vysokoškoláků Gatsbyho (Timothée Chalamet) a Ashleigh (Elle Fanning), jejichž společný prosluněný víkend v New Yorku rozhodně nepůjde podle plánu. Dešťové kapky jim připraví nečekaná setkání a komická dobrodružství... Ashleigh dostane za úkol udělat na Manhattanu pro školní noviny rozhovor se slavným filmovým režisérem Rolandem Pollardem (Liev Schreiber). Její přítel a spolužák Gatsby, který miluje stará zákoutí New Yorku, by rád Ashleigh vzal na oblíbená místa svého rodného města. Gatsbyho plány se bortí, když Pollard jeho dívku pozve podívat se na natáčení filmu. Ashleigh se setkává se scenáristou Tedem Davidoffem (Jude Law) i filmovou hvězdou Fraciscem Vegou (Diego Luna). Je velkým světem naprosto okouzlená. Gatsby tedy neplánovaně tráví den s Chan (Selena Gomez), vtipnou a uštěpačnou sestrou své bývalé přítelkyně. Oba zjišťují, že možná nejdůležitější je najít v životě tu správnou osobu...(Bioscop)\n\n\t\t\t\t\t\t Komedie Woodyho Allena vypráví příběh vysokoškoláků Gatsbyho (Timothée Chalamet) a Ashleigh (Elle Fanning), jejichž společný prosluněný víkend v New Yorku rozhodně nepůjde podle plánu. Dešťové kapky jim připraví nečekaná setkání a komická dobrodružství... Ashleigh dostane za úkol udělat na Manhattanu pro školní noviny rozhovor se slavným filmovým režisérem Rolandem Pollardem (Liev Schreiber). Její přítel a spolužák Gatsby, který miluje stará zákoutí New Yorku, by rád Ashleigh vzal na oblíbená místa svého rodného města. Gatsbyho plány se bortí, když Pollar… (více)",
@@ -968,21 +1003,18 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T18:50:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T18:50:00.000Z",
-          "2019-11-23T21:40:00.000Z",
+          "2019-11-23T21:45:00.000Z",
           "2019-11-24T18:50:00.000Z",
-          "2019-11-24T21:40:00.000Z",
+          "2019-11-24T21:45:00.000Z",
           "2019-11-25T18:50:00.000Z",
-          "2019-11-25T21:40:00.000Z",
+          "2019-11-25T21:45:00.000Z",
           "2019-11-26T18:50:00.000Z",
-          "2019-11-26T21:40:00.000Z",
+          "2019-11-26T21:45:00.000Z",
           "2019-11-27T18:50:00.000Z",
-          "2019-11-27T21:40:00.000Z"
+          "2019-11-27T21:45:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T20:50:00.000Z",
           "2019-11-23T20:50:00.000Z",
           "2019-11-24T20:50:00.000Z",
           "2019-11-25T20:50:00.000Z",
@@ -990,9 +1022,6 @@
           "2019-11-27T20:50:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T19:50:00.000Z",
-          "2019-11-22T21:00:00.000Z",
           "2019-11-23T16:50:00.000Z",
           "2019-11-23T19:50:00.000Z",
           "2019-11-23T21:00:00.000Z",
@@ -1010,7 +1039,6 @@
           "2019-11-27T21:00:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T18:40:00.000Z",
           "2019-11-23T18:40:00.000Z",
           "2019-11-24T18:40:00.000Z",
           "2019-11-25T18:40:00.000Z",
@@ -1018,9 +1046,6 @@
           "2019-11-27T18:40:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T14:40:00.000Z",
-          "2019-11-22T19:50:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T14:40:00.000Z",
           "2019-11-23T19:50:00.000Z",
           "2019-11-23T21:40:00.000Z",
@@ -1038,8 +1063,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T19:10:00.000Z",
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T19:10:00.000Z",
           "2019-11-23T21:30:00.000Z",
           "2019-11-24T19:10:00.000Z",
@@ -1051,7 +1074,6 @@
           "2019-11-27T21:30:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T20:40:00.000Z",
           "2019-11-23T16:45:00.000Z",
           "2019-11-23T19:50:00.000Z",
           "2019-11-24T16:45:00.000Z",
@@ -1064,8 +1086,6 @@
           "2019-11-27T20:30:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T19:40:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T20:20:00.000Z",
           "2019-11-23T21:10:00.000Z",
           "2019-11-24T19:40:00.000Z",
@@ -1085,11 +1105,9 @@
           "2019-11-28T20:00:00.000Z"
         ],
         "Modřanský biograf": [
-          "2019-11-22T17:00:00.000Z",
           "2019-11-26T20:15:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T20:30:00.000Z",
           "2019-11-23T20:30:00.000Z",
           "2019-11-24T20:30:00.000Z",
           "2019-11-25T20:30:00.000Z",
@@ -1099,7 +1117,8 @@
       },
       "content": "Film navazuje na děj filmu Osvícení (Stanley Kubrick) popisující hrůzné události, ke kterým došlo před 40 lety v hotelu Overlook. Nyní dospělý Dan Torrance (Ewan McGregor) se usilovně snaží vyrovnat se svým hrůzným zážitkem z hotelu a najít klid v duši. Vše se ale změní ve chvíli, kdy se setká s Abrou, odvážnou mladou dívkou obdařenou mimořádnými mimosmyslovými schopnostmi označovanými jako „osvícení“. Abra instinktivně vycítí, že Dan má stejné tajuplné nadání jako ona, a obrátí se na něj se zoufalou prosbou o pomoc. Nelítostná bytost Rose a její následovníci totiž čerpají energii z „osvícení“ dalších nevinných dětí a pro dosažení své nesmrtelnosti jsou rozhodnuti udělat cokoliv. Tato nesourodá dvojice spojí své síly a pustí se s Rose do nemilosrdného boje na život a na smrt.(Vertical Ent.)\n\n\t\t\t\t\t\t Film navazuje na děj filmu Osvícení (Stanley Kubrick) popisující hrůzné události, ke kterým došlo před 40 lety v hotelu Overlook. Nyní dospělý Dan Torrance (Ewan McGregor) se usilovně snaží vyrovnat se svým hrůzným zážitkem z hotelu a najít klid v duši. Vše se ale změní ve chvíli, kdy se setká s Abrou, odvážnou mladou dívkou obdařenou mimořádnými mimosmyslovými schopnostmi označovanými jako „osvícení“. Abra instinktivně vycítí, že Dan má stejné tajuplné nadání jako ona, a obrátí se na něj se zoufalou prosbou o pomoc. Nelítostná bytost Rose a její následov… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt5606664/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/890/163890083_ace165.jpg"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/890/163890083_ace165.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=xpg4GR7Y5Ag"
     },
     {
       "id": "426245-drsny-spasitel",
@@ -1147,9 +1166,6 @@
       "name": "Falešně",
       "year": 2019,
       "screenings": {
-        "Kasárna Karlín": [
-          "2019-11-22T20:00:00.000Z"
-        ],
         "Kino Radotín": [
           "2019-11-29T20:00:00.000Z"
         ],
@@ -1181,8 +1197,17 @@
           "2019-11-30T14:00:00.000Z",
           "2019-12-01T14:00:00.000Z"
         ],
+        "Kino Pilotů": [
+          "2019-11-23T10:00:00.000Z",
+          "2019-11-23T14:15:00.000Z",
+          "2019-11-24T10:30:00.000Z",
+          "2019-11-24T15:10:00.000Z"
+        ],
         "Kino Radotín": [
           "2019-11-30T15:30:00.000Z"
+        ],
+        "Světozor": [
+          "2019-12-01T12:00:00.000Z"
         ]
       },
       "content": "Lipsko 1989. Dvanáctiletá dívka Fany se s láskou stará o Sputnika, psa její nejlepší kamarádky Sophie, která odjela s maminkou na letní prázdniny do Maďarska. Na začátku školního roku se však Sophie do třídy nevrátila… jako mnoho jiných uprchla s maminkou na Západ. Fany se odvážně vydává kamarádku hledat, chce jí vrátit psa Sputnika. Stane se tak  svědkem pohnutých událostí, které změní budoucnost celé země. Příběh Fany líčí, ve shodě se skutečností, se smyslem pro detail a citem pro tehdejší atmosféru, průběh pokojné revoluce na podzim roku 1989 z pohledu dítěte. Napínavý a zároveň laskavý animovaný film o síle přátelství a odvaze změnit historii se hluboce dotkne nejen mladých diváků.(Pilot Film)\n\n\t\t\t\t\t\t Lipsko 1989. Dvanáctiletá dívka Fany se s láskou stará o Sputnika, psa její nejlepší kamarádky Sophie, která odjela s maminkou na letní prázdniny do Maďarska. Na začátku školního roku se však Sophie do třídy nevrátila… jako mnoho jiných uprchla s maminkou na Západ. Fany se odvážně vydává kamarádku hledat, chce jí vrátit psa Sputnika. Stane se tak  svědkem pohnutých událostí, které změní budoucnost celé země. Příběh Fany líčí, ve shodě se skutečností, se smyslem pro detail a citem pro tehdejší atmosféru, průběh pokojné revoluce na podzim roku 1989 z pohled… (více)",
@@ -1230,6 +1255,20 @@
       "content": "FREE SOLO je směsicí napínavého thrilleru a inspirativního životního příběhu sportovce, který si klade fyzicky i psychicky náročné cíle a snaží se dosáhnout hranice nemožného. V období začátku příprav na obtížný výstup se jeho aura nepřemožitelnosti, kterou si po desetiletí zdařile budoval, nečekaně rozpadá. Vztah s novou přítelkyní znamená též změnu ve vnímání nebezpečí úrazu a nezdarů. Vasarhelyiová a Chin umně a s citem zachycují hluboce lidské okamžiky stejně jako životu nebezpečný výkon, to vše s excelentní, místy až závrať způsobující kamerou. Výsledkem je triumf lidského ducha.(National Geographic)\n\n\t\t\t\t\t\t FREE SOLO je směsicí napínavého thrilleru a inspirativního životního příběhu sportovce, který si klade fyzicky i psychicky náročné cíle a snaží se dosáhnout hranice nemožného. V období začátku příprav na obtížný výstup se jeho aura nepřemožitelnosti, kterou si po desetiletí zdařile budoval, nečekaně rozpadá. Vztah s novou přítelkyní znamená též změnu ve vnímání nebezpečí úrazu a nezdarů. Vasarhelyiová a Chin umně a s citem zachycují hluboce lidské okamžiky stejně jako životu nebezpečný výkon, to vše s excelentní, místy až závrať způsobující kamerou. Výsle… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt7775622/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/460/163460910_3a41ad.png"
+    },
+    {
+      "id": "8853-gauneri",
+      "url": "https://www.csfd.cz/film/8853-gauneri/",
+      "name": "Gauneři",
+      "year": 1992,
+      "screenings": {
+        "Kino Lucerna - Praha": [
+          "2019-11-29T19:00:00.000Z"
+        ]
+      },
+      "content": "Mafián Joe najme na vyloupení klenotnictví partu gangsterů, kteří se vzájemně neznají a oslovují se smyšlenými jmény. Akci však zmaří policie a lupičům nezbývá než uprchnout a ukrýt se ve starém skladišti. Pan Oranžový je postřelen a pan Bílý se ho pokouší udržet naživu, dokud nedorazí pomoc. Napětí ve skladu však narůstá, protože policie je jim v patách a pan Růžový je přesvědčen, že šlo o past – někdo z nich musí být zrádce. Každý má ovšem vlastní verzi toho, co se stalo. Jak dlouho bude trvat, než vytáhnou pistole a drama se změní v masakr?(Magic Box)",
+      "imdbUrl": "https://www.imdb.com/title/tt0105236/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/208/159208918_daef1c.jpg"
     },
     {
       "id": "602491-hlasy-more",
@@ -1291,19 +1330,31 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/831/163831844_8f9139.jpg"
     },
     {
-      "id": "595352-humorista",
-      "url": "https://www.csfd.cz/film/595352-humorista/",
-      "name": "Humorista",
-      "year": 2019,
+      "id": "189627-hvezda-betlemska",
+      "url": "https://www.csfd.cz/film/189627-hvezda-betlemska/",
+      "name": "Hvězda Betlémská",
+      "year": 1969,
       "screenings": {
-        "Cinema City Slovanský dům": [
-          "2019-11-22T18:00:00.000Z"
+        "Ponrepo": [
+          "2019-12-01T15:00:00.000Z"
         ]
       },
-      "content": "Borise Arkadije živí humor v době, kdy vás smích může existenčně zlikvidovat. Polovina 80. let. Brežněv zemřel, Andropov zemřel a o Černěnkovi se šeptá, že to má taky za pár. Boris vystupuje s neškodným skečem o opičce a žije život prominenta, komika režimem nejen tolerovaného, ale i podporovaného. Pod povrchem se ale dusí. Humor je z podstaty svobodný a pohrdá hloupostí mocných. V Borisovi zuří vnitřní boj mezi konformistou a buřičem. A to vše v době, kdy humor může zabíjet. Tragikomedie Michaila Idova (scénář k filmu Léto) pojednává o možnostech svobody v nesvobodné době, o srážce lidské kreativity s tupostí moci.(Artcam Films)\n\n\t\t\t\t\t\t Borise Arkadije živí humor v době, kdy vás smích může existenčně zlikvidovat. Polovina 80. let. Brežněv zemřel, Andropov zemřel a o Černěnkovi se šeptá, že to má taky za pár. Boris vystupuje s neškodným skečem o opičce a žije život prominenta, komika režimem nejen tolerovaného, ale i podporovaného. Pod povrchem se ale dusí. Humor je z podstaty svobodný a pohrdá hloupostí mocných. V Borisovi zuří vnitřní boj mezi konformistou a buřičem. A to vše v době, kdy humor může zabíjet. Tragikomedie Michaila Idova (scénář k filmu Léto) pojednává o možnostech svobody… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt7352942/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/402/163402685_eb48ab.png",
-      "trailerUrl": "https://www.youtube.com/watch?v=CEmVQdcgF6Y"
+      "content": "Nejosobnější film Hermíny Týrlové, kde animací různých přírodních materiálů zavzpomínala na vlastní dětství. V době normalizace byl tento film tzv. \"pozastaven\". Byl prý \"příliš náboženský\".(oficiální text distributora)",
+      "imdbUrl": "https://www.imdb.com/title/tt0206725/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
+    },
+    {
+      "id": "6560-indicky-hrob-yoghiho-poslani",
+      "url": "https://www.csfd.cz/film/6560-indicky-hrob-yoghiho-poslani/",
+      "name": "Indický hrob: Yoghiho poslání",
+      "year": 1921,
+      "screenings": {
+        "Ponrepo": [
+          "2019-12-01T20:30:00.000Z"
+        ]
+      },
+      "imdbUrl": "https://www.imdb.com/title/tt0012314/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/373/163373274_5af01c.jpg"
     },
     {
       "id": "480036-ismaelovy-prizraky",
@@ -1345,7 +1396,8 @@
       },
       "content": "Příběh vypráví o tom, jak štěňátko objevilo včelí úl a v něm med, který včelkám vzalo, za což jej potrestaly. Následně se mu ve snu zjeví včelí průvodce, který mu vysvětlí, jak se med vyrábí a jak náročná je jeho výroba. Té samé noci se chystají na loupeživou výpravu tři zlobivé myšky. Je na štěňátku, aby jim v tom zabránilo a ochránilo včelí úl od další loupeže.(Tuax)",
       "imdbUrl": "https://www.imdb.com/title/tt0343851/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/074/74036_c205aa.jpg"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/074/74036_c205aa.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=E68jIG6NS0I"
     },
     {
       "id": "650144-jako-pes-s-kockou",
@@ -1367,9 +1419,6 @@
       "name": "Jiný kontinent",
       "year": 2018,
       "screenings": {
-        "Francouzský institut": [
-          "2019-11-22T18:30:00.000Z"
-        ],
         "Světozor": [
           "2019-11-24T18:00:00.000Z"
         ]
@@ -1392,8 +1441,7 @@
         ]
       },
       "content": "Být vždy sám sebou. I v těch nejtěžších chvílích. Takové je klíčové poselství příběhu výjimečného umělce, bývalého šéfdirigenta České filharmonie Jiřího Bělohlávka (1946-2017). Štáb dokumentaristy Romana Vávry sledoval poslední dva roky mistrovy životní pouti, aby autenticky zachytil jeho odhodlání, upřímnost, hudební brilanci i vytříbený smysl pro humor a mimořádnou schopnost empatie vůči své rodině i blízkým spolupracovníkům. Snímek není klasickou biografií jako spíš intimní reflexí závěrečné etapy života a tvorby legendárního dirigenta, z jehož odkazu budou těžit ještě další generace umělců.(Aerofilms)\n\n\t\t\t\t\t\t Být vždy sám sebou. I v těch nejtěžších chvílích. Takové je klíčové poselství příběhu výjimečného umělce, bývalého šéfdirigenta České filharmonie Jiřího Bělohlávka (1946-2017). Štáb dokumentaristy Romana Vávry sledoval poslední dva roky mistrovy životní pouti, aby autenticky zachytil jeho odhodlání, upřímnost, hudební brilanci i vytříbený smysl pro humor a mimořádnou schopnost empatie vůči své rodině i blízkým spolupracovníkům. Snímek není klasickou biografií jako spíš intimní reflexí závěrečné etapy života a tvorby legendárního dirigenta, z jehož odkazu… (více)",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/764/163764020_949164.jpg",
-      "trailerUrl": "https://www.youtube.com/watch?v=lVc7h8bQS-4"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/764/163764020_949164.jpg"
     },
     {
       "id": "696374-jiri-suchy-lehce-s-zivotem-se-prat",
@@ -1440,6 +1488,11 @@
         ],
         "Modřanský biograf": [
           "2019-11-29T17:30:00.000Z"
+        ],
+        "Světozor": [
+          "2019-11-30T16:00:00.000Z",
+          "2019-12-01T16:00:00.000Z",
+          "2019-12-02T18:45:00.000Z"
         ]
       },
       "content": "Dokument Jiří Trnka: Nalezený přítel je vyprávěn pohledem režiséra, který pátrá po osudu Jiřího Trnky, autora filmů jeho dětství, které viděl ve Francii jako malý v dělnickém kině, které promítalo východoevropskou animaci. Při svých cestách do Československa se v pozdějších letech seznámil s Terezou Brdečkovou a společně se snaží nalézt odpověď na otázku, kdo byl Jiří Trnka. Věnují se jeho nesnadným začátkům, ovlivněním českou loutkářkou tradicí, téměř osudově náhodnému přizvání k vedení studia animovaného filmu. Sledují jeho cestu za světovým úspěchem v temných 50. letech až k jeho konfliktu s komunistickým režimem na sklonku života.(CinemArt)\n\n\t\t\t\t\t\t Dokument Jiří Trnka: Nalezený přítel je vyprávěn pohledem režiséra, který pátrá po osudu Jiřího Trnky, autora filmů jeho dětství, které viděl ve Francii jako malý v dělnickém kině, které promítalo východoevropskou animaci. Při svých cestách do Československa se v pozdějších letech seznámil s Terezou Brdečkovou a společně se snaží nalézt odpověď na otázku, kdo byl Jiří Trnka. Věnují se jeho nesnadným začátkům, ovlivněním českou loutkářkou tradicí, téměř osudově náhodnému přizvání k vedení studia animovaného filmu. Sledují jeho cestu za světovým úspěchem v… (více)",
@@ -1480,10 +1533,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T14:10:00.000Z",
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T20:00:00.000Z",
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T11:30:00.000Z",
           "2019-11-23T14:10:00.000Z",
           "2019-11-23T16:50:00.000Z",
@@ -1506,8 +1555,6 @@
           "2019-11-27T20:00:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T11:30:00.000Z",
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T11:30:00.000Z",
           "2019-11-23T21:30:00.000Z",
           "2019-11-24T11:30:00.000Z",
@@ -1523,7 +1570,6 @@
           "2019-11-26T15:00:00.000Z"
         ],
         "Atlas": [
-          "2019-11-22T20:30:00.000Z",
           "2019-11-24T20:30:00.000Z",
           "2019-11-28T17:30:00.000Z",
           "2019-12-01T20:30:00.000Z",
@@ -1534,10 +1580,6 @@
           "2019-11-27T14:45:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T13:20:00.000Z",
-          "2019-11-22T16:00:00.000Z",
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T20:00:00.000Z",
           "2019-11-23T13:20:00.000Z",
           "2019-11-23T16:00:00.000Z",
           "2019-11-23T18:40:00.000Z",
@@ -1560,9 +1602,6 @@
           "2019-11-27T20:00:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T16:30:00.000Z",
-          "2019-11-22T19:10:00.000Z",
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T16:30:00.000Z",
           "2019-11-23T19:10:00.000Z",
           "2019-11-23T21:50:00.000Z",
@@ -1580,9 +1619,6 @@
           "2019-11-27T21:50:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T16:10:00.000Z",
-          "2019-11-22T19:10:00.000Z",
-          "2019-11-22T21:15:00.000Z",
           "2019-11-23T16:10:00.000Z",
           "2019-11-23T19:10:00.000Z",
           "2019-11-23T21:15:00.000Z",
@@ -1600,9 +1636,6 @@
           "2019-11-27T21:15:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T15:50:00.000Z",
-          "2019-11-22T18:30:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T15:50:00.000Z",
           "2019-11-23T18:30:00.000Z",
           "2019-11-23T21:10:00.000Z",
@@ -1620,9 +1653,6 @@
           "2019-11-27T21:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T15:50:00.000Z",
-          "2019-11-22T18:30:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T15:50:00.000Z",
           "2019-11-23T18:30:00.000Z",
           "2019-11-23T21:10:00.000Z",
@@ -1639,7 +1669,6 @@
           "2019-11-27T21:10:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T21:00:00.000Z",
           "2019-11-23T17:10:00.000Z",
           "2019-11-23T19:50:00.000Z",
           "2019-11-23T21:00:00.000Z",
@@ -1651,8 +1680,11 @@
         "Dlabačov": [
           "2019-11-28T20:00:00.000Z"
         ],
+        "Kino Pilotů": [
+          "2019-11-23T11:50:00.000Z",
+          "2019-11-24T21:30:00.000Z"
+        ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T21:40:00.000Z",
           "2019-11-24T21:40:00.000Z",
           "2019-11-25T21:40:00.000Z",
@@ -1660,12 +1692,13 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Světozor": [
-          "2019-11-22T15:15:00.000Z",
           "2019-11-23T15:00:00.000Z",
           "2019-11-24T15:00:00.000Z",
           "2019-11-25T15:00:00.000Z",
           "2019-11-26T15:15:00.000Z",
-          "2019-11-27T15:15:00.000Z"
+          "2019-11-27T15:15:00.000Z",
+          "2019-11-28T15:45:00.000Z",
+          "2019-11-29T15:45:00.000Z"
         ]
       },
       "content": "Zkrachovalý komediant Arthur Fleck (Joaquin Phoenix) se dlouho pohybuje na tenké hranici mezi realitou a šílenstvím. Jednoho dne se ve svém obleku klauna potuluje po ulicích Gotham City a dostává se do konfliktu s brutálními zloději. Pomalu se roztáčí spirála událostí dosahující hrozivých rozměrů. Všemi opuštěný Fleck se začne čím dál více propadat do hlubin šílenství a postupně se mění v ikonu zločinu, kterou svět brzy bude znát pod jménem Joker.(Vertical Ent.)",
@@ -1724,28 +1757,11 @@
       "screenings": {
         "Modřanský biograf": [
           "2019-11-24T20:00:00.000Z"
-        ],
-        "Městská knihovna": [
-          "2019-11-22T19:00:00.000Z"
         ]
       },
       "content": "Uvěřitelný film o pauze v manželství, stálosti vztahů, empatii a mnoha dalších věcech. Inteligentní, přemýšlivá, jemná komedie s Jenovéfou Bokovou v hlavní roli. Saša (Jenovéfa Boková) cítí, že se její vztah s manželem Karlem (Miloslav König) vyčerpal, a tak od něj na čas odchází. Nachází chvilkový azyl u Dušana (Miroslav Faderholz), starého známého, který jim kdysi hrál na svatbě. Oba se snaží zorientovat ve svých vztazích a vzájemně jsou si v tomto tápání oporou. Celovečerní debut Bohdana Karáska klade důraz na přirozenost dialogů i hereckých výkonů. S neokázalou elegancí a subtilním humorem představuje svět třicátníků, kteří hledají, nacházejí a někdy i ztrácejí přátele i životní partnery.(Marienbad Film)\n\n\t\t\t\t\t\t Uvěřitelný film o pauze v manželství, stálosti vztahů, empatii a mnoha dalších věcech. Inteligentní, přemýšlivá, jemná komedie s Jenovéfou Bokovou v hlavní roli. Saša (Jenovéfa Boková) cítí, že se její vztah s manželem Karlem (Miloslav König) vyčerpal, a tak od něj na čas odchází. Nachází chvilkový azyl u Dušana (Miroslav Faderholz), starého známého, který jim kdysi hrál na svatbě. Oba se snaží zorientovat ve svých vztazích a vzájemně jsou si v tomto tápání oporou. Celovečerní debut Bohdana Karáska klade důraz na přirozenost dialogů i hereckých výkonů. S… (více)",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/906/163906943_105e42.png",
       "trailerUrl": "https://www.youtube.com/watch?v=t3_2_aJHjO0"
-    },
-    {
-      "id": "650136-kler",
-      "url": "https://www.csfd.cz/film/650136-kler/",
-      "name": "Klér",
-      "year": 2018,
-      "screenings": {
-        "Bio Oko": [
-          "2019-11-22T20:15:00.000Z"
-        ]
-      },
-      "content": "Na faře se setkává trojice katolických kněží, aby společně oslavili skutečnost, že před lety zázrakem unikli smrti. Jejich setkání, či lépe bohapustá pijatika, ale odstartuje další sérii událostí, které jejich další osudy opět zásadně ovlivní. Jejich postavení je přitom v rámci církve zcela rozdílné. Kněz Lisocki dělá kariéru v arcidiecézi arcibiskupa Mordowicze. Ten je ale jeho jedinou překážkou k vysněnému angažmá ve Vatikánu. Kněz Trybus je vesnickým farářem, který si libuje ve světských radostech. Těm ale propadá stále víc. Horlivý kněz Kukuła se ve své farnosti věnuje výchově mládeže, zejména chlapců. Zdravotní kolaps jednoho z nich odstartuje nenávistnou reakci jeho okolí. Každý z nich se snaží vypořádat s nenadálým vývojem situace po svém.(Letní filmová škola)\n\n\t\t\t\t\t\t Na faře se setkává trojice katolických kněží, aby společně oslavili skutečnost, že před lety zázrakem unikli smrti. Jejich setkání, či lépe bohapustá pijatika, ale odstartuje další sérii událostí, které jejich další osudy opět zásadně ovlivní. Jejich postavení je přitom v rámci církve zcela rozdílné. Kněz Lisocki dělá kariéru v arcidiecézi arcibiskupa Mordowicze. Ten je ale jeho jedinou překážkou k vysněnému angažmá ve Vatikánu. Kněz Trybus je vesnickým farářem, který si libuje ve světských radostech. Těm ale propadá stále víc. Horlivý kněz Kukuła se ve s… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt8738964/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/880/162880849_aa49d7.jpg"
     },
     {
       "id": "487292-koma",
@@ -1818,20 +1834,7 @@
         ]
       },
       "content": "Improvizovaná taneční etuda, v níž nespoutaná koupelnová bytost dovádí ad absurdum úkony běžné domácí hygieny. Film byl natočen v panelákové koupelně na sídlišti Petřiny (v bytě rodičů režisérky) během jednoho deštivého odpoledne.(MFDF Ji.hlava)",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
-    },
-    {
-      "id": "682223-kouzelnik",
-      "url": "https://www.csfd.cz/film/682223-kouzelnik/",
-      "name": "Kouzelník",
-      "year": 2019,
-      "screenings": {
-        "Cinema City Slovanský dům": [
-          "2019-11-22T18:00:00.000Z"
-        ]
-      },
-      "content": "Příběh vypráví o kdysi slavném rockovém muzikantovi Fimovi, který svůj talent utopil v alkoholu a nyní vede smutný život. Vše se mění, když k němu na lekce hry na kytaru začne chodit chlapec Roma trpící dětskou mozkovou obrnou, který se rozhodl získat srdce své spolužačky Máši.(Týden ruského filmu)",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/179/163179712_4608fa.jpg"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
     },
     {
       "id": "728140-krajina-v-tisni",
@@ -1861,6 +1864,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/035/35660_e6202d.jpg"
     },
     {
+      "id": "83394-krik-chlapce",
+      "url": "https://www.csfd.cz/film/83394-krik-chlapce/",
+      "name": "Křik chlapce",
+      "year": 1949,
+      "screenings": {
+        "Kino Lucerna - Praha": [
+          "2019-11-30T18:45:00.000Z"
+        ]
+      },
+      "content": "Tak, jako jsou si námětově podobné Přízračná dáma a Černý anděl, lze i u Křiku chlapce a Okna do dvora odtušit, že jde o původní látky stejného autora – Cornella Woolriche. Podstatně méně známý, leč neméně precizní Křik chlapce režírovaný někdejším kameramanem Tedem Tetzlaffem totiž slavný Hitchcockův film ve své zápletce jasně evokuje: hlavní hrdina z okna náhodou spatří zločin a svépomocí se mu snaží přijít na kloub. Ozvláštněním je fakt, že ústřední roli sehrál – na film noir vskutku netradičně – malý kluk (ztvárněný dětskou hvězdou Hollywoodu Bobbym Driscollem). Jelikož má Tommy bujnou fantazii, nelze se divit, že jeho vyprávění nikdo nevěnuje zvláštní pozornost. Snímek překvapí i na svou dobu odvážně a především věrohodně nasnímanou závěrečnou sekvencí, kdy se chlapec snaží uniknout vrahovi.(Noir Film Festival)\n\n\t\t\t\t\t\t Tak, jako jsou si námětově podobné Přízračná dáma a Černý anděl, lze i u Křiku chlapce a Okna do dvora odtušit, že jde o původní látky stejného autora – Cornella Woolriche. Podstatně méně známý, leč neméně precizní Křik chlapce režírovaný někdejším kameramanem Tedem Tetzlaffem totiž slavný Hitchcockův film ve své zápletce jasně evokuje: hlavní hrdina z okna náhodou spatří zločin a svépomocí se mu snaží přijít na kloub. Ozvláštněním je fakt, že ústřední roli sehrál – na film noir vskutku netradičně – malý kluk (ztvárněný dětskou hvězdou Hollywoodu Bobbym D… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0042046/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/475/163475873_293e58.jpg"
+    },
+    {
       "id": "741718-kvileni-vetru",
       "url": "https://www.csfd.cz/film/741718-kvileni-vetru/",
       "name": "Kvílení větru",
@@ -1885,9 +1902,6 @@
       "screenings": {
         "Francouzský institut": [
           "2019-11-28T18:30:00.000Z"
-        ],
-        "Kino Lucerna - Praha": [
-          "2019-11-22T20:00:00.000Z"
         ]
       },
       "content": "Když se Raphael a Olivia ve svých osmnácti setkali, byla to láska na první pohled. A začátek velkého milostného příběhu. Neoddělitelně se vzájemně podporují při naplňování svých vášní: on je spisovatel a ona klavíristka. A jak to vypadá o deset let později? Již jsou manželi, ale vášně a vzájemné podpory je mezi nimi již méně. Zatímco Raphael píše úspěšné bestsellery, Olivia oželela vlastní sólovou hudební kariéru, v které ji její manžel ohromený vlastním spisovatelským úspěchem podporoval stále méně a méně. Jednoho večera to si Olivia přestane být jistá, zda ji Raphael ještě vlastně vůbec miluje. Následujícího rána se Raphael probouzí sám a čeká jej pořádný šok. Propadne se totiž do paralelního světa, ve kterém žije úplně jiný život. Olivii v něm nikdy nepotkal, ta je nyní slavnou klavíristkou a on určitě není slavným a všemi uznávaným spisovatelem. Je jen neznámým učitelem literatury, má navíc na hrudi záhadné tetování s nápisem „ping“ a především si uvědomí, že bez Olivie nedokáže žít. Musí udělat vše pro to, aby si její lásku znovu získal a především si ji zasloužil. Jeho jedinou výhodou je, že ji z dřívějšího života dokonalé zná, ví, co má ráda, co jí vadí a co miluje. Navíc mu v jeho snaze získat Oliviino srdce podruhé pomáhá nejlepší kamarád, který má na prsou pro změnu vytetované slovo „pong“.(CinemArt)\n\n\t\t\t\t\t\t Když se Raphael a Olivia ve svých osmnácti setkali, byla to láska na první pohled. A začátek velkého milostného příběhu. Neoddělitelně se vzájemně podporují při naplňování svých vášní: on je spisovatel a ona klavíristka. A jak to vypadá o deset let později? Již jsou manželi, ale vášně a vzájemné podpory je mezi nimi již méně. Zatímco Raphael píše úspěšné bestsellery, Olivia oželela vlastní sólovou hudební kariéru, v které ji její manžel ohromený vlastním spisovatelským úspěchem podporoval stále méně a méně. Jednoho večera to si Olivia přestane být jistá,… (více)",
@@ -1900,9 +1914,6 @@
       "name": "Láska na první boj",
       "year": 2014,
       "screenings": {
-        "Kino Lucerna - Praha": [
-          "2019-11-22T16:00:00.000Z"
-        ],
         "Světozor": [
           "2019-11-24T21:00:00.000Z"
         ]
@@ -1952,6 +1963,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/881/163881147_abef80.png"
     },
     {
+      "id": "277361-le-havre",
+      "url": "https://www.csfd.cz/film/277361-le-havre/",
+      "name": "Le Havre",
+      "year": 2011,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-10T16:00:00.000Z"
+        ]
+      },
+      "content": "Příběh sympatického čističe bot, který dávno rezignoval na své umělecké literární ambice, se odehrává ve francouzském přístavním městě Le Havre. Hlavní hrdina Marcel Marx žije šťastně ve své čtvrti s milovanou ženou Arlettou, tráví čas ve svém oblíbeném baru, až do okamžiku, kdy mu osud vrhne do cesty třináctiletého afrického mladíka na útěku. Marcel se rozhodne zachovat jako správný muž a chlapce uchránit před policií a následnou deportací.(oficiální text distributora)",
+      "imdbUrl": "https://www.imdb.com/title/tt1508675/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/401/160401253_b8e63a.jpg"
+    },
+    {
       "id": "25743-le-mans",
       "url": "https://www.csfd.cz/film/25743-le-mans/",
       "name": "Le Mans",
@@ -1972,13 +1997,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T20:00:00.000Z",
-          "2019-11-22T12:10:00.000Z",
-          "2019-11-22T15:15:00.000Z",
-          "2019-11-22T18:20:00.000Z",
-          "2019-11-22T21:30:00.000Z",
-          "2019-11-22T17:00:00.000Z",
-          "2019-11-22T20:10:00.000Z",
           "2019-11-23T14:00:00.000Z",
           "2019-11-23T20:00:00.000Z",
           "2019-11-24T11:11:00.000Z",
@@ -2019,11 +2037,6 @@
           "2019-11-27T20:10:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T15:00:00.000Z",
-          "2019-11-22T17:10:00.000Z",
-          "2019-11-22T18:10:00.000Z",
-          "2019-11-22T21:15:00.000Z",
-          "2019-11-22T20:10:00.000Z",
           "2019-11-23T15:00:00.000Z",
           "2019-11-23T17:10:00.000Z",
           "2019-11-23T18:10:00.000Z",
@@ -2055,7 +2068,6 @@
           "2019-11-27T10:00:00.000Z"
         ],
         "Atlas": [
-          "2019-11-22T20:00:00.000Z",
           "2019-11-23T20:00:00.000Z",
           "2019-11-24T20:00:00.000Z",
           "2019-11-26T20:00:00.000Z",
@@ -2074,13 +2086,6 @@
           "2019-11-26T20:45:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T13:50:00.000Z",
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T17:00:00.000Z",
-          "2019-11-22T19:40:00.000Z",
-          "2019-11-22T17:50:00.000Z",
-          "2019-11-22T21:00:00.000Z",
-          "2019-11-22T20:15:00.000Z",
           "2019-11-23T10:40:00.000Z",
           "2019-11-23T13:50:00.000Z",
           "2019-11-23T16:50:00.000Z",
@@ -2120,9 +2125,6 @@
           "2019-11-27T20:15:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T14:00:00.000Z",
-          "2019-11-22T17:10:00.000Z",
-          "2019-11-22T20:20:00.000Z",
           "2019-11-23T11:00:00.000Z",
           "2019-11-23T14:00:00.000Z",
           "2019-11-23T17:10:00.000Z",
@@ -2142,9 +2144,6 @@
           "2019-11-27T20:20:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T15:00:00.000Z",
-          "2019-11-22T18:10:00.000Z",
-          "2019-11-22T21:15:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-23T15:00:00.000Z",
           "2019-11-23T18:10:00.000Z",
@@ -2164,11 +2163,6 @@
           "2019-11-27T21:15:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T14:00:00.000Z",
-          "2019-11-22T17:15:00.000Z",
-          "2019-11-22T20:15:00.000Z",
-          "2019-11-22T17:45:00.000Z",
-          "2019-11-22T20:50:00.000Z",
           "2019-11-23T10:50:00.000Z",
           "2019-11-23T14:00:00.000Z",
           "2019-11-23T17:15:00.000Z",
@@ -2198,10 +2192,6 @@
           "2019-11-27T20:50:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T12:20:00.000Z",
-          "2019-11-22T15:30:00.000Z",
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T15:30:00.000Z",
           "2019-11-23T18:40:00.000Z",
@@ -2224,9 +2214,6 @@
           "2019-11-27T21:50:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T14:40:00.000Z",
-          "2019-11-22T17:50:00.000Z",
-          "2019-11-22T20:00:00.000Z",
           "2019-11-23T11:30:00.000Z",
           "2019-11-23T14:40:00.000Z",
           "2019-11-23T17:50:00.000Z",
@@ -2258,8 +2245,6 @@
           "2019-12-11T20:30:00.000Z"
         ],
         "Imax": [
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T18:30:00.000Z",
           "2019-11-23T21:40:00.000Z",
           "2019-11-24T18:30:00.000Z",
@@ -2275,7 +2260,11 @@
           "2019-11-25T20:00:00.000Z"
         ],
         "Kino Lucerna - Praha": [
-          "2019-11-28T16:30:00.000Z"
+          "2019-11-28T16:30:00.000Z",
+          "2019-11-29T16:00:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T21:15:00.000Z"
         ],
         "Kino Radotín": [
           "2019-11-23T17:00:00.000Z"
@@ -2286,10 +2275,6 @@
           "2019-12-09T20:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T14:00:00.000Z",
-          "2019-11-22T17:10:00.000Z",
-          "2019-11-22T20:20:00.000Z",
           "2019-11-23T19:00:00.000Z",
           "2019-11-23T10:50:00.000Z",
           "2019-11-23T14:00:00.000Z",
@@ -2316,12 +2301,20 @@
           "2019-11-24T20:45:00.000Z",
           "2019-11-25T15:30:00.000Z",
           "2019-11-26T15:30:00.000Z",
-          "2019-11-27T15:45:00.000Z"
+          "2019-11-27T15:45:00.000Z",
+          "2019-11-28T17:30:00.000Z",
+          "2019-11-29T17:30:00.000Z",
+          "2019-11-30T17:30:00.000Z",
+          "2019-12-01T17:30:00.000Z",
+          "2019-12-02T15:15:00.000Z",
+          "2019-12-02T20:45:00.000Z",
+          "2019-12-04T20:45:00.000Z"
         ]
       },
       "content": "V roce 1959 je Carroll Shelby (Matt Damon) na absolutním vrcholu, vyhrál nejtěžší motoristický závod na světě 24 hodin Le Mans. Po největší triumfu tohoto neohroženého Texasana přijde drtivá rána – lékaři odhalená srdeční vada mu znemožní pokračovat v závodění. Shelby tak začíná novou kariéru jako velmi vynalézavý konstruktér. Spolupracuje s týmem, do nějž patří i vynikající zkušební jezdec a britský šampión Ken Miles (Christian Bale). Miles je nejen špičkovým závodníkem oddaným své rodině, ale je také nesnesitelně arogantní a naprosto neschopný jakéhokoliv kompromisu. A právě tento tým automobilových šílenců si najme Henry Ford II, aby pro jeho automobilku navrhli a postavili dokonalé závodní auto. Ford se totiž rozhodně, že se pomstí Enzo Ferrarimu, za to, že nakonec odmítl domlouvané spojení své automobilky s Ford Motor Company. Vozy stáje Ferrari vítězí na okruhu v Le Mans nepřetržitě od roku 1960 až do roku 1965. Shelby, Miles a jejich malý tým jsou odhodláni tomu učinit s pomocí vozu Ford GT40 rázný konec. Proti nim stojí neporazitelné Ferrari, fyzikální zákony i jejich vlastní osobní démoni. Navzdory překážkám a omezením, které jim do cesty hází i samotný Ford, musí vyvinout revoluční vozidlo, které převálcuje každého konkurenta. Jejich úsilí si ale vybírá nemalou daň – těmto odvážným mužům to ale za vítězství stojí.(CinemArt)\n\n\t\t\t\t\t\t V roce 1959 je Carroll Shelby (Matt Damon) na absolutním vrcholu, vyhrál nejtěžší motoristický závod na světě 24 hodin Le Mans. Po největší triumfu tohoto neohroženého Texasana přijde drtivá rána – lékaři odhalená srdeční vada mu znemožní pokračovat v závodění. Shelby tak začíná novou kariéru jako velmi vynalézavý konstruktér. Spolupracuje s týmem, do nějž patří i vynikající zkušební jezdec a britský šampión Ken Miles (Christian Bale). Miles je nejen špičkovým závodníkem oddaným své rodině, ale je také nesnesitelně arogantní a naprosto neschopný jakéhokol… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt1950186/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/926/163926894_95bffc.png"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/926/163926894_95bffc.png",
+      "trailerUrl": "https://www.youtube.com/watch?v=4aY0dW3hpRc"
     },
     {
       "id": "413445-ledove-kralovstvi-ii",
@@ -2330,21 +2323,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T16:00:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T12:10:00.000Z",
-          "2019-11-22T13:00:00.000Z",
-          "2019-11-22T14:30:00.000Z",
-          "2019-11-22T15:20:00.000Z",
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T17:40:00.000Z",
-          "2019-11-22T19:10:00.000Z",
-          "2019-11-22T13:40:00.000Z",
-          "2019-11-22T16:00:00.000Z",
-          "2019-11-22T18:20:00.000Z",
-          "2019-11-22T19:30:00.000Z",
-          "2019-11-22T14:00:00.000Z",
-          "2019-11-22T16:20:00.000Z",
           "2019-11-23T13:00:00.000Z",
           "2019-11-23T16:00:00.000Z",
           "2019-11-23T19:00:00.000Z",
@@ -2402,7 +2380,7 @@
           "2019-11-26T19:00:00.000Z",
           "2019-11-26T12:10:00.000Z",
           "2019-11-26T13:00:00.000Z",
-          "2019-11-26T14:30:00.000Z",
+          "2019-11-26T14:00:00.000Z",
           "2019-11-26T15:20:00.000Z",
           "2019-11-26T16:50:00.000Z",
           "2019-11-26T17:40:00.000Z",
@@ -2411,7 +2389,6 @@
           "2019-11-26T16:00:00.000Z",
           "2019-11-26T18:20:00.000Z",
           "2019-11-26T19:30:00.000Z",
-          "2019-11-26T14:00:00.000Z",
           "2019-11-26T16:20:00.000Z",
           "2019-11-27T16:00:00.000Z",
           "2019-11-27T19:00:00.000Z",
@@ -2427,22 +2404,12 @@
           "2019-11-27T16:20:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T10:10:00.000Z",
-          "2019-11-22T12:20:00.000Z",
-          "2019-11-22T13:00:00.000Z",
-          "2019-11-22T14:40:00.000Z",
-          "2019-11-22T15:20:00.000Z",
-          "2019-11-22T17:17:00.000Z",
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T19:20:00.000Z",
-          "2019-11-22T11:40:00.000Z",
-          "2019-11-22T14:00:00.000Z",
-          "2019-11-22T16:20:00.000Z",
           "2019-11-23T10:10:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T13:00:00.000Z",
-          "2019-11-23T14:40:00.000Z",
+          "2019-11-24T23:34:00.000Z",
           "2019-11-23T15:20:00.000Z",
+          "2019-11-23T16:10:00.000Z",
           "2019-11-23T17:17:00.000Z",
           "2019-11-23T18:40:00.000Z",
           "2019-11-23T19:20:00.000Z",
@@ -2452,8 +2419,9 @@
           "2019-11-24T10:10:00.000Z",
           "2019-11-24T12:20:00.000Z",
           "2019-11-24T13:00:00.000Z",
-          "2019-11-24T14:40:00.000Z",
+          "2019-11-25T23:34:00.000Z",
           "2019-11-24T15:20:00.000Z",
+          "2019-11-24T16:10:00.000Z",
           "2019-11-24T17:17:00.000Z",
           "2019-11-24T18:40:00.000Z",
           "2019-11-24T19:20:00.000Z",
@@ -2498,21 +2466,6 @@
           "2019-11-24T14:45:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T12:15:00.000Z",
-          "2019-11-22T13:30:00.000Z",
-          "2019-11-22T14:30:00.000Z",
-          "2019-11-22T15:45:00.000Z",
-          "2019-11-22T16:45:00.000Z",
-          "2019-11-24T19:17:00.000Z",
-          "2019-11-22T18:18:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T14:00:00.000Z",
-          "2019-11-22T16:15:00.000Z",
-          "2019-11-22T15:30:00.000Z",
-          "2019-11-22T20:20:00.000Z",
-          "2019-11-22T21:15:00.000Z",
-          "2019-11-22T13:15:00.000Z",
-          "2019-11-22T15:30:00.000Z",
           "2019-11-23T10:11:00.000Z",
           "2019-11-23T12:15:00.000Z",
           "2019-11-23T13:30:00.000Z",
@@ -2599,16 +2552,6 @@
           "2019-11-27T15:30:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T12:45:00.000Z",
-          "2019-11-22T13:30:00.000Z",
-          "2019-11-22T15:15:00.000Z",
-          "2019-11-22T17:15:00.000Z",
-          "2019-11-22T18:00:00.000Z",
-          "2019-11-22T19:30:00.000Z",
-          "2019-11-22T13:45:00.000Z",
-          "2019-11-22T18:15:00.000Z",
-          "2019-11-22T20:30:00.000Z",
-          "2019-11-22T16:00:00.000Z",
           "2019-11-25T12:11:00.000Z",
           "2019-11-23T12:45:00.000Z",
           "2019-11-23T13:30:00.000Z",
@@ -2665,14 +2608,6 @@
           "2019-11-27T16:00:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T14:14:00.000Z",
-          "2019-11-22T15:30:00.000Z",
-          "2019-11-22T16:45:00.000Z",
-          "2019-11-22T17:45:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T16:00:00.000Z",
-          "2019-11-22T18:15:00.000Z",
-          "2019-11-22T20:30:00.000Z",
           "2019-11-23T11:00:00.000Z",
           "2019-11-24T13:12:00.000Z",
           "2019-11-23T13:15:00.000Z",
@@ -2725,21 +2660,6 @@
           "2019-11-27T20:30:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T12:15:00.000Z",
-          "2019-11-22T14:30:00.000Z",
-          "2019-11-22T16:45:00.000Z",
-          "2019-11-22T12:30:00.000Z",
-          "2019-11-22T13:30:00.000Z",
-          "2019-11-22T14:14:00.000Z",
-          "2019-11-22T15:45:00.000Z",
-          "2019-11-22T17:00:00.000Z",
-          "2019-11-22T18:00:00.000Z",
-          "2019-11-22T19:15:00.000Z",
-          "2019-11-22T16:15:00.000Z",
-          "2019-11-22T18:30:00.000Z",
-          "2019-11-22T20:45:00.000Z",
-          "2019-11-22T13:15:00.000Z",
-          "2019-11-22T15:30:00.000Z",
           "2019-11-23T10:00:00.000Z",
           "2019-11-23T12:15:00.000Z",
           "2019-11-23T14:30:00.000Z",
@@ -2823,13 +2743,6 @@
           "2019-11-27T15:30:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T12:12:00.000Z",
-          "2019-11-23T15:14:00.000Z",
-          "2019-11-22T12:45:00.000Z",
-          "2019-11-22T15:00:00.000Z",
-          "2019-11-22T17:15:00.000Z",
-          "2019-11-22T19:30:00.000Z",
-          "2019-11-22T16:30:00.000Z",
           "2019-11-23T12:12:00.000Z",
           "2019-11-24T15:14:00.000Z",
           "2019-11-23T12:45:00.000Z",
@@ -2867,14 +2780,6 @@
           "2019-11-27T16:30:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T14:14:00.000Z",
-          "2019-11-22T15:30:00.000Z",
-          "2019-11-22T16:45:00.000Z",
-          "2019-11-22T17:45:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T16:00:00.000Z",
-          "2019-11-22T18:15:00.000Z",
-          "2019-11-22T20:30:00.000Z",
           "2019-11-23T11:00:00.000Z",
           "2019-11-23T12:15:00.000Z",
           "2019-11-23T13:15:00.000Z",
@@ -2931,9 +2836,6 @@
           "2019-11-30T16:00:00.000Z"
         ],
         "Imax": [
-          "2019-11-22T12:00:00.000Z",
-          "2019-11-22T14:15:00.000Z",
-          "2019-11-22T16:30:00.000Z",
           "2019-11-23T11:45:00.000Z",
           "2019-11-23T14:00:00.000Z",
           "2019-11-23T16:15:00.000Z",
@@ -2952,20 +2854,21 @@
         ],
         "Kino Lucerna - Praha": [
           "2019-11-23T12:30:00.000Z",
-          "2019-11-24T12:30:00.000Z"
+          "2019-11-24T12:30:00.000Z",
+          "2019-11-30T14:00:00.000Z",
+          "2019-12-01T13:00:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T11:00:00.000Z",
+          "2019-11-23T16:00:00.000Z",
+          "2019-11-24T11:00:00.000Z",
+          "2019-11-24T15:30:00.000Z",
+          "2019-11-24T17:00:00.000Z"
         ],
         "Kino Radotín": [
-          "2019-11-22T17:30:00.000Z",
           "2019-11-29T17:30:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T14:20:00.000Z",
-          "2019-11-23T07:55:00.000Z",
-          "2019-11-22T16:40:00.000Z",
-          "2019-11-22T17:30:00.000Z",
-          "2019-11-22T18:15:00.000Z",
-          "2019-11-22T14:45:00.000Z",
-          "2019-11-22T19:50:00.000Z",
           "2019-11-23T09:55:00.000Z",
           "2019-11-23T14:45:00.000Z",
           "2019-11-25T12:11:00.000Z",
@@ -3012,7 +2915,8 @@
         ],
         "Světozor": [
           "2019-11-23T13:15:00.000Z",
-          "2019-11-24T13:15:00.000Z"
+          "2019-11-24T13:15:00.000Z",
+          "2019-11-30T12:00:00.000Z"
         ]
       },
       "content": "Proč se Elsa narodila s kouzelnou mocí? Odpověď ji svůdně volá a zároveň hrozí, že zničí její ledové království. Společně s Annou, Kristoffem, Olafem a Svenem se královna Elsa vydává na nebezpečnou a pozoruhodnou cestu. Ve filmu Ledové království se Elsa obávala, že je pro svět příliš mocná. Ve snímku Ledové království II musí doufat, že je mocná dostatečně.(Falcon)",
@@ -3032,6 +2936,19 @@
       "content": "Dobro nemůže nastat bez přítomnosti zla. Láska se neobejde bez nenávisti. A zrovna tak nevinnost neexistuje bez chtíče a žádostivosti. Vše musí být v rovnováze a o tom vypráví britská pohádka Legenda. Zlý démon se snaží vytvořit nekončící noc. Zná způsob, jak toho dosáhnout  musí zničit posledního jednorožce a oženit se s pohádkovou princeznou. Postaví se mu ale mladý a nebojácný muž jménem Jack. Na Jackově straně nestojí jen odvaha a statečnost, ale i elfové a další mystické bytosti, bez jejichž pomoci se při zdolávání zla Jack neobejde(oficiální text distributora)\n\n\t\t\t\t\t\t Dobro nemůže nastat bez přítomnosti zla. Láska se neobejde bez nenávisti. A zrovna tak nevinnost neexistuje bez chtíče a žádostivosti. Vše musí být v rovnováze a o tom vypráví britská pohádka Legenda. Zlý démon se snaží vytvořit nekončící noc. Zná způsob, jak toho dosáhnout  musí zničit posledního jednorožce a oženit se s pohádkovou princeznou. Postaví se mu ale mladý a nebojácný muž jménem Jack. Na Jackově straně nestojí jen odvaha a statečnost, ale i elfové a další mystické bytosti, bez jejichž pomoci se při zdolávání zla Jack neobejde(oficiální text di… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt0089469/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/450/159450761_8d1eb6.jpg"
+    },
+    {
+      "id": "725042-letni-hokej",
+      "url": "https://www.csfd.cz/film/725042-letni-hokej/",
+      "name": "Letní hokej",
+      "year": 2019,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-11-24T14:00:00.000Z"
+        ]
+      },
+      "content": "V létě 2017 se mladí hokejisté z východočeského Náchoda vypravili do dalekého Maroka, kde je čekal rozhodně nejzábavnější tréninkový kemp jejich dosavadní kariéry. Nepřijeli sem totiž jenom hrát hokej, ale hlavně se zblízka seznámit s místními lidmi a jejich způsobem života. O několik měsíců později zase hokejisté z marockého Salé zamířili do České republiky, aby tu v obrácené podobě zažili to samé. Výsledkem je živý dialog dvou rozdílných kultur, plný různých malých překvapení a osvobozujícího humoru. Naučili se Češi v Maroku smlouvat? Potvrdili tu pověst hokejové velmoci? Sehnali Maročané v Čechách maso halal? Pochopili tu, co je to ofsajd?(Pilot Film)\n\n\t\t\t\t\t\t V létě 2017 se mladí hokejisté z východočeského Náchoda vypravili do dalekého Maroka, kde je čekal rozhodně nejzábavnější tréninkový kemp jejich dosavadní kariéry. Nepřijeli sem totiž jenom hrát hokej, ale hlavně se zblízka seznámit s místními lidmi a jejich způsobem života. O několik měsíců později zase hokejisté z marockého Salé zamířili do České republiky, aby tu v obrácené podobě zažili to samé. Výsledkem je živý dialog dvou rozdílných kultur, plný různých malých překvapení a osvobozujícího humoru. Naučili se Češi v Maroku smlouvat? Potvrdili tu pověs… (více)",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/563/163563590_e417f0.jpg"
     },
     {
       "id": "702839-lil-peep-pro-kazdeho-vsim",
@@ -3062,6 +2979,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/930/162930563_8b3ab5.jpg"
     },
     {
+      "id": "344576-love-steaks",
+      "url": "https://www.csfd.cz/film/344576-love-steaks/",
+      "name": "Love Steaks",
+      "year": 2013,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-04T18:30:00.000Z"
+        ]
+      },
+      "content": "Luxusní hotel. Luxusní klientela. Neotesaný personál. Pár, který se možná hluboce sblíží, anebo svůj vztah nechá v syrovém stavu, podobně jako titulní steaky. Odvážný film, ve kterém se neuctivost stává žádoucí hodnotou.(MFF Karlovy Vary)",
+      "imdbUrl": "https://www.imdb.com/title/tt2960270/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/158/395/158395150_e9965d.jpg"
+    },
+    {
       "id": "781605-ma-dama-s-kamelii",
       "url": "https://www.csfd.cz/film/781605-ma-dama-s-kamelii/",
       "name": "Má dáma s kamélií",
@@ -3076,7 +3007,7 @@
       },
       "content": "Čtyřicetiletý míšenec Patrice je herec. S pudrem na tváři a v kostýmu kurtizány z 19. století přichází na zkoušku, kterou řídí všemocná ředitelka castingu Selenna Meyer. S pomocí asistentky Betty hledá obsazení pro hlavní roli filmové adaptace Dámy s kaméliemi. Mezi spoustou mladých a krásných uchazeček bude Patrice mít co vysvětlovat.(Festival francouzského filmu)",
       "imdbUrl": "https://www.imdb.com/title/tt8580270/combined",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
     },
     {
       "id": "147506-mach-a-sebestova",
@@ -3092,13 +3023,25 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/421/421810_66af8b.jpg"
     },
     {
+      "id": "378958-maestro",
+      "url": "https://www.csfd.cz/film/378958-maestro/",
+      "name": "Maestro",
+      "year": 2014,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-11T16:00:00.000Z"
+        ]
+      },
+      "imdbUrl": "https://www.imdb.com/title/tt3476480/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/158/641/158641246_55fd11.jpg"
+    },
+    {
       "id": "229240-manufactured-landscapes",
       "url": "https://www.csfd.cz/film/229240-manufactured-landscapes/",
       "name": "Manufactured Landscapes",
       "year": 2006,
       "screenings": {
         "CAMP - Centrum architektury a městského plánování": [
-          "2019-11-22T19:00:00.000Z",
           "2019-11-24T19:00:00.000Z"
         ]
       },
@@ -3126,7 +3069,11 @@
       "screenings": {
         "Kino Lucerna - Praha": [
           "2019-11-25T20:30:00.000Z",
-          "2019-11-26T20:15:00.000Z"
+          "2019-11-26T20:15:00.000Z",
+          "2019-11-29T13:45:00.000Z"
+        ],
+        "Světozor": [
+          "2019-12-03T20:45:00.000Z"
         ]
       },
       "content": "Matthias a Maxime jsou nerozluční kamarádi už od dětství. Když jsou ale během natáčení studentského filmu vyzváni, aby se políbili před kamerou, vše se náhle promění. Zdánlivě nenarušitelné pouto je znejistěno pochybnostmi – jaké city k sobě opravdu chovají? Léta plynou a jejich cesty se rozchází, s třicítkou na krku však musí oba shodně učinit rozhodnutí, která zásadně ovlivní jejich budoucnost. V osmém snímku se Xavier Dolan opět pouští do témat přátelství, rodinných vztahů a zamilovanosti, aby přinesl intimní portrét dvou tápajících mužů, v nichž se jeden snaží potlačit svou přirozenost a druhý žít autenticky.(Queer Kino)\n\n\t\t\t\t\t\t Matthias a Maxime jsou nerozluční kamarádi už od dětství. Když jsou ale během natáčení studentského filmu vyzváni, aby se políbili před kamerou, vše se náhle promění. Zdánlivě nenarušitelné pouto je znejistěno pochybnostmi – jaké city k sobě opravdu chovají? Léta plynou a jejich cesty se rozchází, s třicítkou na krku však musí oba shodně učinit rozhodnutí, která zásadně ovlivní jejich budoucnost. V osmém snímku se Xavier Dolan opět pouští do témat přátelství, rodinných vztahů a zamilovanosti, aby přinesl intimní portrét dvou tápajících mužů, v nichž se je… (více)",
@@ -3167,9 +3114,6 @@
       "name": "Mladý Ahmed",
       "year": 2019,
       "screenings": {
-        "Edison Filmhub": [
-          "2019-11-22T21:00:00.000Z"
-        ],
         "Kino Lucerna - Praha": [
           "2019-11-27T20:00:00.000Z"
         ],
@@ -3189,6 +3133,10 @@
       "screenings": {
         "Bio Oko": [
           "2019-11-24T16:45:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T10:00:00.000Z",
+          "2019-11-24T10:00:00.000Z"
         ],
         "Kino Radotín": [
           "2019-11-23T15:30:00.000Z"
@@ -3224,6 +3172,20 @@
       "content": "S příchodem prvních sněhových vloček do údolí je nejvyšší čas začít shromažďovat zásoby na zimu. Jenže během této rutinní operace dojde ke katastrofě. Malá beruška nešťastnou náhodou zapadne do balíku, který je odeslán do Karibiku! Ocitá se v novém, nádherném prostředí, které ale skrývá mnohé nástrahy. Pro její rodiče tak existuje pouze jedna cesta: dát dohromady starou partu! A tak beruška, mravenec a pavouk znovu spojí své síly a vydávají se na záchrannou výpravu na druhou stranu zeměkoule. Čeká je nový svět, nová setkání, ale i nová nebezpečí. A čas neúprosně běží…(Bioscop)\n\n\t\t\t\t\t\t S příchodem prvních sněhových vloček do údolí je nejvyšší čas začít shromažďovat zásoby na zimu. Jenže během této rutinní operace dojde ke katastrofě. Malá beruška nešťastnou náhodou zapadne do balíku, který je odeslán do Karibiku! Ocitá se v novém, nádherném prostředí, které ale skrývá mnohé nástrahy. Pro její rodiče tak existuje pouze jedna cesta: dát dohromady starou partu! A tak beruška, mravenec a pavouk znovu spojí své síly a vydávají se na záchrannou výpravu na druhou stranu zeměkoule. Čeká je nový svět, nová setkání, ale i nová nebezpečí. A čas ne… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt7296782/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/122/163122430_75e4ad.png"
+    },
+    {
+      "id": "437185-muj-zivot-cuketky",
+      "url": "https://www.csfd.cz/film/437185-muj-zivot-cuketky/",
+      "name": "Můj život Cuketky",
+      "year": 2016,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-11-24T10:15:00.000Z"
+        ]
+      },
+      "content": "Cuketka není žádná padavka, ale malý čiperný chlapec. Poté, co přijde o maminku, má pocit, že je sám na světě. To ale ještě neví, s kým se ve svém novém životě – v dětském domově – setká. Simon, Ahmed, Jujube, Alice a Béatrice: ti všichni si procházejí nelehkým dětstvím, ale zároveň zůstávají malými hravými dětmi. A pak je tu ještě Camille. Když vám je 9 let, je tak snadné se zamilovat a objevovat nové věci. A co takhle být kromě toho ještě šťastný?(Pilot Film)",
+      "imdbUrl": "https://www.imdb.com/title/tt2321405/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/252/162252776_4b81d6.jpg"
     },
     {
       "id": "103250-muz-ktery-se-smeje",
@@ -3266,6 +3228,14 @@
           "2019-11-23T20:30:00.000Z",
           "2019-11-25T13:00:00.000Z",
           "2019-12-10T13:00:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T13:10:00.000Z"
+        ],
+        "Světozor": [
+          "2019-12-02T13:15:00.000Z",
+          "2019-12-03T14:00:00.000Z",
+          "2019-12-04T14:00:00.000Z"
         ]
       },
       "content": "Ve snaze uchránit své dítě před masovým vyhlazováním Židů, rodiče posílají syna k příbuzné na venkov kdesi ve východní Evropě. Chlapcova teta však nečekaně umírá a tak je dítě nuceno vydat se na cestu a protloukat se úplně samo divokým a nepřátelským světem, ve kterém platí jen místní pravidla, předsudky a pověry. Jeho snahu o doslovné fyzické přežití ale po válce střídá jiný boj. Boj, kterého si ani není vědom, boj sama se sebou, boj o svou duši, o svojí budoucnost... Nabarvené ptáče je hluboce dramatický příběh zaobírající se bezprostředním vztahem mezi hrůzou a krutostí na jedné straně a nevinností a láskou na straně druhé. Je to první a nejslavnější román autora knih „Byl jsem při tom“ a „Pinball“ - jednoho z nejvýznamnějších a nejvýraznějších a světových spisovatelů minulého století Jerzyho Kosińského.(Bioscop)\n\n\t\t\t\t\t\t Ve snaze uchránit své dítě před masovým vyhlazováním Židů, rodiče posílají syna k příbuzné na venkov kdesi ve východní Evropě. Chlapcova teta však nečekaně umírá a tak je dítě nuceno vydat se na cestu a protloukat se úplně samo divokým a nepřátelským světem, ve kterém platí jen místní pravidla, předsudky a pověry. Jeho snahu o doslovné fyzické přežití ale po válce střídá jiný boj. Boj, kterého si ani není vědom, boj sama se sebou, boj o svou duši, o svojí budoucnost... Nabarvené ptáče je hluboce dramatický příběh zaobírající se bezprostředním vztahem mezi… (více)",
@@ -3285,6 +3255,20 @@
       },
       "content": "Mladá dívka tráví léto v lázeňském zařízení pod přísným dozorem své matky. Tam ji zaujme chlapec, jehož minulost je zahalena tajemství. Dívka netuší, že po tomto setkání se její život změní navždy a city se vznesou výše než nebe...(Týden ruského filmu)",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/449/163449362_d6ad75.jpg"
+    },
+    {
+      "id": "6892-nahrdelnik-melancholie",
+      "url": "https://www.csfd.cz/film/6892-nahrdelnik-melancholie/",
+      "name": "Náhrdelník melancholie",
+      "year": 1968,
+      "screenings": {
+        "Ponrepo": [
+          "2019-12-02T17:00:00.000Z"
+        ]
+      },
+      "content": "Recitál Marty Kubišové.(oficiální text distributora)",
+      "imdbUrl": "https://www.imdb.com/title/tt0174078/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
     },
     {
       "id": "666686-narodni-trida",
@@ -3323,6 +3307,19 @@
       "content": "Emotivní drama o devítileté dívce s problémovým chováním a tváří anděla natočila jako svůj debut německá režisérka Nora Fingscheidt. Strhující příběh dítěte, jehož matka nezvládá péči o něj a rady si nevědí ani sociální pracovníci, je dechberoucím svědectvím o neutišitelném vzteku i touze po lásce. V hlavní roli filmu ubíhajícím v tempu podobně intenzivním jako hrdinčiny emoce podává autentický výkon Helena Zengel.(Film Europe)",
       "imdbUrl": "https://www.imdb.com/title/tt8535968/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/767/163767567_465e7e.jpg"
+    },
+    {
+      "id": "511330-nechte-holky-hrat",
+      "url": "https://www.csfd.cz/film/511330-nechte-holky-hrat/",
+      "name": "Nechte holky hrát!",
+      "year": 2018,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-04T16:00:00.000Z"
+        ]
+      },
+      "imdbUrl": "https://www.imdb.com/title/tt6096948/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/514/162514113_6eaa91.jpg"
     },
     {
       "id": "498698-nedokazu-rict-sbohem",
@@ -3364,7 +3361,7 @@
       },
       "content": "Filosofická komedie o sochaři, který tak dlouho odkládal vytvoření svého „životního“ díla, až rozmělnil svůj talent. Ambiciózní mladý sochař se vrátil z války domů. Snil o tom, že vytesá sochu z mramoru, ale oženil se, narodily se děti, hledal práci, naskytla se možnost vyrábět náhrobní kameny...(oficiální text distributora)",
       "imdbUrl": "https://www.imdb.com/title/tt0174470/combined",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre",
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre",
       "trailerUrl": "https://www.youtube.com/watch?v=b4jjJ8b8tX0"
     },
     {
@@ -3384,34 +3381,6 @@
       "content": "Nice, rok 1976. Poté, co se jí v Africe rozpadlo manželství, vrací se Agnès Le Roux ke své matce Renée, která na jihu Francie vlastní kasino Palais de la Méditerranée. Agnès se zamiluje do o deset let staršího poradce a Renéeina advokáta Maurice Agneleta. Snímek vychází ze skutečné události, jež byla ve své době ve Francii silně medializována – v roce 1977 Agnès Le Roux, dědička kasina Palais de la Méditerranée, beze stopy zmizela. Hlavním podezřelým byl její milenec Maurice Agnelet. Případ „Le Roux\" zůstává i po třiceti letech a třech soudních procesech naprostou záhadou...(Festival francouzského filmu)\n\n\t\t\t\t\t\t Nice, rok 1976. Poté, co se jí v Africe rozpadlo manželství, vrací se Agnès Le Roux ke své matce Renée, která na jihu Francie vlastní kasino Palais de la Méditerranée. Agnès se zamiluje do o deset let staršího poradce a Renéeina advokáta Maurice Agneleta. Snímek vychází ze skutečné události, jež byla ve své době ve Francii silně medializována – v roce 1977 Agnès Le Roux, dědička kasina Palais de la Méditerranée, beze stopy zmizela. Hlavním podezřelým byl její milenec Maurice Agnelet. Případ „Le Roux\" zůstává i po třiceti letech a třech soudních procesech… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt2929890/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/837/163837633_982796.jpg"
-    },
-    {
-      "id": "647679-neviditelne",
-      "url": "https://www.csfd.cz/film/647679-neviditelne/",
-      "name": "Neviditelné",
-      "year": 2018,
-      "screenings": {
-        "Světozor": [
-          "2019-11-22T16:15:00.000Z"
-        ]
-      },
-      "content": "Citlivá a empatická komedie vypráví o čtyřech pracovnicích, které se v denním centru na předměstí francouzského města snaží pomoci ženám ve složité životní situaci. Když má být centrum kvůli úřednímu rozhodnutí uzavřeno, jeho zaměstnankyně se nevzdávají a berou situaci do vlastních rukou. Od teď udělají vše pro to, aby svým návštěvnicím pomohly postavit se znovu na vlastní nohy, i když to bude znamenat porušení spousty pravidel. Někdy je totiž potřeba spojit síly, postavit se problémům čelem a jít štěstí naproti! Vnímavý snímek plný humoru, naděje a autentických hereckých výkonů ukazuje, že za každým „neviditelným\" člověkem z okraje společnosti stojí silný příběh a že s pomocí a podporou ostatních lze překonat i ty nejtěžší překážky.(Aerofilms)\n\n\t\t\t\t\t\t Citlivá a empatická komedie vypráví o čtyřech pracovnicích, které se v denním centru na předměstí francouzského města snaží pomoci ženám ve složité životní situaci. Když má být centrum kvůli úřednímu rozhodnutí uzavřeno, jeho zaměstnankyně se nevzdávají a berou situaci do vlastních rukou. Od teď udělají vše pro to, aby svým návštěvnicím pomohly postavit se znovu na vlastní nohy, i když to bude znamenat porušení spousty pravidel. Někdy je totiž potřeba spojit síly, postavit se problémům čelem a jít štěstí naproti! Vnímavý snímek plný humoru, naděje a auten… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt8633950/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/482/163482058_19b88b.jpg"
-    },
-    {
-      "id": "424384-neznama-divka",
-      "url": "https://www.csfd.cz/film/424384-neznama-divka/",
-      "name": "Neznámá dívka",
-      "year": 2016,
-      "screenings": {
-        "Světozor": [
-          "2019-11-22T16:00:00.000Z"
-        ]
-      },
-      "content": "Jenny (Adèle Haenel) je lékařkou, která provozuje malou praxi po svém starém a nemocném mentorovi. Ambiciózní mladá žena se chystá na velký kariérní skok – přestup na významnou kliniku a prestižní oddělení. Když se jednoho dne večer rozezní v její ordinaci zvonek, Jenny nereaguje. Je po ordinačních hodinách a má dost práce s nejistým Julienem (Olivier Bonnaud), který u ní vykonává praxi. Ráno se dozví, že neznámá dívka, kterou nepustila dovnitř, byla opodál nalezena mrtvá, nejspíš zavražděná. Hnána výčitkami svědomí se Jenny pokouší vypátrat její identitu. Nepřiznaně v ní ale hlodá i touha odhalit pachatele brutálního činu.(Film Europe)\n\n\t\t\t\t\t\t Jenny (Adèle Haenel) je lékařkou, která provozuje malou praxi po svém starém a nemocném mentorovi. Ambiciózní mladá žena se chystá na velký kariérní skok – přestup na významnou kliniku a prestižní oddělení. Když se jednoho dne večer rozezní v její ordinaci zvonek, Jenny nereaguje. Je po ordinačních hodinách a má dost práce s nejistým Julienem (Olivier Bonnaud), který u ní vykonává praxi. Ráno se dozví, že neznámá dívka, kterou nepustila dovnitř, byla opodál nalezena mrtvá, nejspíš zavražděná. Hnána výčitkami svědomí se Jenny pokouší vypátrat její identitu… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt4630550/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/101/161101214_c86113.jpg"
     },
     {
       "id": "220946-o-kocouru-mikesovi-a-jeho-pratelich",
@@ -3503,7 +3472,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Černý Most": [
-          "2019-11-22T10:30:00.000Z",
           "2019-11-23T10:30:00.000Z",
           "2019-11-24T10:30:00.000Z",
           "2019-11-25T13:00:00.000Z",
@@ -3526,6 +3494,21 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/850/163850121_2a660c.jpg"
     },
     {
+      "id": "509526-pan-profesor-foucault",
+      "url": "https://www.csfd.cz/film/509526-pan-profesor-foucault/",
+      "name": "Pan profesor Foucault",
+      "year": 2017,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-02T16:00:00.000Z",
+          "2019-12-12T11:00:00.000Z"
+        ]
+      },
+      "content": "Francois (Denis Podalydès) je profesor literatury na lyceu Jindřicha IV. v Paříži, jedné z nejprestižnějších středních škol ve Francii. Následkem své nevinné poznámky na slavnostní večeři je přinucen přijmout práci na drsné škole na pařížském předměstí. A brzy zjistí, že vyučovací metody, které používal ve třídě pozorných a motivovaných teenagerů, jsou mu ve skupině znevýhodněných žáků naprosto k ničemu.(Cinemax)",
+      "imdbUrl": "https://www.imdb.com/title/tt6481478/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/994/161994844_d7ada0.jpg"
+    },
+    {
       "id": "637624-panstvi-downton",
       "url": "https://www.csfd.cz/film/637624-panstvi-downton/",
       "name": "Panství Downton",
@@ -3541,16 +3524,19 @@
           "2019-12-11T16:00:00.000Z"
         ],
         "Francouzský institut": [
-          "2019-11-30T18:30:00.000Z"
+          "2019-11-30T18:30:00.000Z",
+          "2019-12-03T18:30:00.000Z",
+          "2019-12-11T18:30:00.000Z"
         ],
         "Mat": [
-          "2019-11-22T16:15:00.000Z",
           "2019-12-03T16:15:00.000Z"
         ],
         "Světozor": [
           "2019-11-25T13:00:00.000Z",
           "2019-11-26T13:00:00.000Z",
-          "2019-11-27T13:15:00.000Z"
+          "2019-11-27T13:15:00.000Z",
+          "2019-12-03T15:00:00.000Z",
+          "2019-12-04T15:15:00.000Z"
         ]
       },
       "content": "Panství Downton, to je dokonalá kronika života příslušníků britské aristokracie a jejich zaměstnanců v prvních desetiletích dvacátého století. Tlak, který vyvolává moderní doba, přímo kontrastuje s prostředím, jež je založeno na respektu k tradicím a zažitým rituálům. Majitelé panství, Crawleyovi, ale tuší, že pokud nepůjdou s dobou a nepodstoupí dobrovolnou modernizaci, nemají naději na přežití. Tím spíš, že ty, kteří se jim starají o celodenní servis, postihly emancipační tendence a představa, že budou svým pánům sloužit až za hrob, už dávno vyšla z módy. V této atmosféře bublajícího neklidu dorazila na panství zpráva, že ho poctí návštěvou anglický král. Pro všechny je to životní zážitek, na který se ti „nahoře“ i ti „dole“ musí víc než stoprocentně připravit. Jenže osud je prevít, který dokáže zaskočit i ty nejpřipravenější. Královo služebnictvo chce převzít kompetence toho místního, jelikož ho považuje za neschopné, a domácí se rozhodnou rafinovaně bránit. Plánovaný příjezd krále také na panství přiláká nejrůznější nezvané návštěvníky, kteří mohou mít ty nejhorší úmysly. A do toho všeho se navíc připlete láska.(CinemArt)\n\n\t\t\t\t\t\t Panství Downton, to je dokonalá kronika života příslušníků britské aristokracie a jejich zaměstnanců v prvních desetiletích dvacátého století. Tlak, který vyvolává moderní doba, přímo kontrastuje s prostředím, jež je založeno na respektu k tradicím a zažitým rituálům. Majitelé panství, Crawleyovi, ale tuší, že pokud nepůjdou s dobou a nepodstoupí dobrovolnou modernizaci, nemají naději na přežití. Tím spíš, že ty, kteří se jim starají o celodenní servis, postihly emancipační tendence a představa, že budou svým pánům sloužit až za hrob, už dávno vyšla z mód… (více)",
@@ -3569,9 +3555,6 @@
         "Bio Oko": [
           "2019-11-25T18:00:00.000Z"
         ],
-        "Evald": [
-          "2019-11-22T21:00:00.000Z"
-        ],
         "Kasárna Karlín": [
           "2019-11-25T20:00:00.000Z"
         ],
@@ -3579,12 +3562,22 @@
           "2019-11-25T20:30:00.000Z"
         ],
         "Světozor": [
-          "2019-11-22T13:15:00.000Z",
           "2019-11-23T10:45:00.000Z",
           "2019-11-24T10:45:00.000Z",
           "2019-11-25T20:45:00.000Z",
           "2019-11-26T17:45:00.000Z",
-          "2019-11-27T17:45:00.000Z"
+          "2019-11-27T17:45:00.000Z",
+          "2019-11-28T15:15:00.000Z",
+          "2019-11-28T20:45:00.000Z",
+          "2019-11-29T15:15:00.000Z",
+          "2019-11-29T20:45:00.000Z",
+          "2019-11-30T11:00:00.000Z",
+          "2019-11-30T20:45:00.000Z",
+          "2019-12-01T11:00:00.000Z",
+          "2019-12-01T20:45:00.000Z",
+          "2019-12-02T18:00:00.000Z",
+          "2019-12-03T18:00:00.000Z",
+          "2019-12-04T18:00:00.000Z"
         ]
       },
       "content": "Černá komedie režiséra Bong Joon-hoa (Snowpiercer, Okja) sleduje chudou, ale mazanou čtyřčlennou rodinu, která se rozhodne infiltrovat do bohaté domácnosti byznysmena Parka. Co se může stát, když se setkají dva tak odlišné světy? Originální dílo mistrovsky pracuje s prvky thrilleru, dramatu i satiry a přináší vtipný a nepředvídatelný divácký zážitek. Parazit byl oceněný Zlatou palmou a podle mnohých ohlasů se tak stal nejzábavnějším vítězem festivalu v Cannes od dob Pulp Fiction.(Aerofilms)",
@@ -3601,11 +3594,19 @@
           "2019-11-25T22:20:00.000Z",
           "2019-11-26T17:00:00.000Z"
         ],
+        "Francouzský institut": [
+          "2019-12-06T18:30:00.000Z",
+          "2019-12-12T18:30:00.000Z"
+        ],
         "Mat": [
           "2019-12-06T14:00:00.000Z"
         ],
         "Světozor": [
-          "2019-11-27T20:45:00.000Z"
+          "2019-11-27T20:45:00.000Z",
+          "2019-11-29T20:45:00.000Z",
+          "2019-11-30T20:45:00.000Z",
+          "2019-12-01T11:30:00.000Z",
+          "2019-12-01T20:45:00.000Z"
         ]
       },
       "content": "Ricky a jeho rodina svádějí nerovný boj s dluhy už od finančního zhroucení v roce 2008. Příležitost vybojovat si opět trochu nezávislosti nyní přichází s lesklou novou dodávkou a šancí rozjet franšízu jako samostatný kurýr. Je to tvrdá práce a ani práce jeho ženy jako pečovatelky není snadnější. Rodinná jednotka je silná, ale když přijdou tlaky z různých strany, všechno se začíná hroutit…(Film Europe)",
@@ -3671,6 +3672,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/079/79283_cc891e.jpg"
     },
     {
+      "id": "67180-phantom-boy",
+      "url": "https://www.csfd.cz/film/67180-phantom-boy/",
+      "name": "Phantom Boy",
+      "year": 2015,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-07T14:00:00.000Z"
+        ]
+      },
+      "content": "Hlavním hrdinou je jedenáctiletý Léo, který je kvůli vážné nemoci upoutaný na lůžko v nemocnici. Tam se setkává s neúspěšným policistou Alexem, který při své snaze vypátrat nebezpečného gangstera přišel ke zranění a také nemůže nemocnici opustit. Léo se mu svěří, že díky nemoci získal magickou schopnost opustit duchem své tělo, procházet zdmi a létat nad městem. A protože chlapec taky touží stát se policistou, rozhodnou se s Alexem pokračovat ve vyšetřování případu „na dálku\", a to s pomocí Alexovy přítelkyně. Příběh je protkán napínavými, až hororovými momenty, ale také humorem a ironií, se kterou jsou zobrazeni policista smolař či „nebezpečný\" gangster.(Anifilm)\n\n\t\t\t\t\t\t Hlavním hrdinou je jedenáctiletý Léo, který je kvůli vážné nemoci upoutaný na lůžko v nemocnici. Tam se setkává s neúspěšným policistou Alexem, který při své snaze vypátrat nebezpečného gangstera přišel ke zranění a také nemůže nemocnici opustit. Léo se mu svěří, že díky nemoci získal magickou schopnost opustit duchem své tělo, procházet zdmi a létat nad městem. A protože chlapec taky touží stát se policistou, rozhodnou se s Alexem pokračovat ve vyšetřování případu „na dálku\", a to s pomocí Alexovy přítelkyně. Příběh je protkán napínavými, až hororovými m… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt1856057/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/132/160132263_e4b233.jpg"
+    },
+    {
       "id": "509306-plody-mraku",
       "url": "https://www.csfd.cz/film/509306-plody-mraku/",
       "name": "Plody mraků",
@@ -3678,6 +3693,10 @@
       "screenings": {
         "Bio Oko": [
           "2019-11-24T16:45:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T10:00:00.000Z",
+          "2019-11-24T10:00:00.000Z"
         ],
         "Kino Radotín": [
           "2019-11-23T15:30:00.000Z"
@@ -3718,20 +3737,6 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/821/163821167_86811a.jpg"
     },
     {
-      "id": "672942-policajt-z-rublevky",
-      "url": "https://www.csfd.cz/film/672942-policajt-z-rublevky/",
-      "name": "Policajt z Rublevky",
-      "year": 2018,
-      "screenings": {
-        "Cinema City Slovanský dům": [
-          "2019-11-22T20:30:00.000Z"
-        ]
-      },
-      "content": "Na prahu Nového roku se policejní stanice „Barvicha Severnoje“ ocitne v situaci, kdy jí hrozí zrušení. Aby zachránil vlastní oddělení, policista z Rublevky Griša Izmajlov je donucen jít do krajnosti a spolu s detektivy výjezdové skupiny se rozhodne vyloupit banku. Počítá s tím, že jeho kolegové spolu s vedoucím oddělení Jakovlevem snadno případ vyřeší, vrátí peníze zpět a všichni si zajistí práci v příštím roce. Ale všechno jde jinak, než si Griša usmyslel...(Týden ruského filmu)",
-      "imdbUrl": "https://www.imdb.com/title/tt9472658/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/100/163100422_9c519c.jpg"
-    },
-    {
       "id": "723569-portret-divky-v-plamenech",
       "url": "https://www.csfd.cz/film/723569-portret-divky-v-plamenech/",
       "name": "Portrét dívky v plamenech",
@@ -3739,9 +3744,6 @@
       "screenings": {
         "Edison Filmhub": [
           "2019-11-26T19:00:00.000Z"
-        ],
-        "Kino Lucerna - Praha": [
-          "2019-11-22T18:00:00.000Z"
         ],
         "Světozor": [
           "2019-11-27T18:00:00.000Z"
@@ -3758,11 +3760,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T12:30:00.000Z",
-          "2019-11-22T14:50:00.000Z",
-          "2019-11-22T17:10:00.000Z",
-          "2019-11-22T19:30:00.000Z",
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T10:10:00.000Z",
           "2019-11-23T12:30:00.000Z",
           "2019-11-23T14:50:00.000Z",
@@ -3780,7 +3777,6 @@
           "2019-11-25T19:30:00.000Z",
           "2019-11-25T21:30:00.000Z",
           "2019-11-26T12:30:00.000Z",
-          "2019-11-26T14:50:00.000Z",
           "2019-11-26T17:10:00.000Z",
           "2019-11-26T19:30:00.000Z",
           "2019-11-26T21:30:00.000Z",
@@ -3791,13 +3787,8 @@
           "2019-11-27T21:50:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T14:20:00.000Z",
-          "2019-11-22T16:40:00.000Z",
-          "2019-11-22T19:10:00.000Z",
-          "2019-11-23T14:20:00.000Z",
           "2019-11-23T16:40:00.000Z",
           "2019-11-23T19:10:00.000Z",
-          "2019-11-24T14:20:00.000Z",
           "2019-11-24T16:40:00.000Z",
           "2019-11-24T19:10:00.000Z",
           "2019-11-25T14:20:00.000Z",
@@ -3814,11 +3805,6 @@
           "2019-11-23T18:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T12:00:00.000Z",
-          "2019-11-22T14:20:00.000Z",
-          "2019-11-22T16:30:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T21:20:00.000Z",
           "2019-11-23T12:00:00.000Z",
           "2019-11-23T14:20:00.000Z",
           "2019-11-23T16:30:00.000Z",
@@ -3845,7 +3831,6 @@
           "2019-11-27T21:20:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T20:15:00.000Z",
           "2019-11-23T20:15:00.000Z",
           "2019-11-24T20:15:00.000Z",
           "2019-11-25T20:15:00.000Z",
@@ -3853,8 +3838,6 @@
           "2019-11-27T20:15:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T16:10:00.000Z",
-          "2019-11-22T20:00:00.000Z",
           "2019-11-23T11:30:00.000Z",
           "2019-11-23T13:50:00.000Z",
           "2019-11-23T16:10:00.000Z",
@@ -3871,10 +3854,6 @@
           "2019-11-27T20:00:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T12:30:00.000Z",
-          "2019-11-22T14:50:00.000Z",
-          "2019-11-22T17:20:00.000Z",
-          "2019-11-22T19:40:00.000Z",
           "2019-11-23T10:10:00.000Z",
           "2019-11-23T12:30:00.000Z",
           "2019-11-23T14:50:00.000Z",
@@ -3899,9 +3878,6 @@
           "2019-11-27T19:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T13:20:00.000Z",
-          "2019-11-22T15:50:00.000Z",
-          "2019-11-22T18:20:00.000Z",
           "2019-11-23T13:20:00.000Z",
           "2019-11-23T18:20:00.000Z",
           "2019-11-24T13:20:00.000Z",
@@ -3916,9 +3892,6 @@
           "2019-11-27T18:20:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T16:30:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T16:30:00.000Z",
           "2019-11-23T19:00:00.000Z",
           "2019-11-23T21:30:00.000Z",
@@ -3940,7 +3913,6 @@
           "2019-11-30T18:00:00.000Z"
         ],
         "Evald": [
-          "2019-11-22T16:30:00.000Z",
           "2019-11-24T16:00:00.000Z",
           "2019-11-26T18:30:00.000Z",
           "2019-11-30T16:00:00.000Z",
@@ -3948,14 +3920,14 @@
           "2019-12-08T16:00:00.000Z"
         ],
         "Kino Lucerna - Praha": [
-          "2019-11-22T13:30:00.000Z",
           "2019-11-25T16:15:00.000Z",
           "2019-11-26T15:45:00.000Z",
           "2019-11-27T15:45:00.000Z",
-          "2019-11-28T16:00:00.000Z"
+          "2019-11-28T16:00:00.000Z",
+          "2019-11-30T13:15:00.000Z",
+          "2019-12-01T13:15:00.000Z"
         ],
         "Mat": [
-          "2019-11-22T14:00:00.000Z",
           "2019-11-24T16:15:00.000Z",
           "2019-11-26T16:15:00.000Z",
           "2019-11-27T18:15:00.000Z",
@@ -3972,9 +3944,6 @@
           "2019-11-26T16:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T15:00:00.000Z",
-          "2019-11-22T17:20:00.000Z",
-          "2019-11-22T19:40:00.000Z",
           "2019-11-23T10:20:00.000Z",
           "2019-11-23T12:40:00.000Z",
           "2019-11-23T15:00:00.000Z",
@@ -4083,7 +4052,8 @@
       },
       "content": "Devět překladatelů se ocitne v luxusním sídle bez jakékoli možnosti kontaktu s vnějším světem. Jsou tu proto, aby společně přeložili poslední díl světově úspěšného bestselleru. Na internetu se však objeví deset prvních stránek románu a kdosi vyhrožuje, že zveřejní zbytek, pokud mu nebude vyplacena obrovská suma. Kdo za to může?(Festival francouzského filmu)",
       "imdbUrl": "https://www.imdb.com/title/tt6270534/combined",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQ5o6pMRr6A"
     },
     {
       "id": "781610-pres-prekazky-ke-hvezdam",
@@ -4100,7 +4070,7 @@
       },
       "content": "Jeden obyčejný den ze života malé, upracované a uspěchané slepice domácí, která se snaží skloubit práci a rodinný život.(Festival francouzského filmu)",
       "imdbUrl": "https://www.imdb.com/title/tt10290222/combined",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
     },
     {
       "id": "648236-pres-prsty",
@@ -4115,7 +4085,6 @@
           "2019-11-27T16:00:00.000Z"
         ],
         "Evald": [
-          "2019-11-22T14:30:00.000Z",
           "2019-12-02T14:00:00.000Z"
         ]
       },
@@ -4133,7 +4102,21 @@
         ]
       },
       "content": "Scénář desetiminutových dílů využívá postavu \"Koziolka Matolka\" vymyšlenou K. Matuszynskigem  a ilustrovanou M. Walentynowiczou, i jeho motiv hledání městečka Pacanov. Na rozdíl od hudební pohádky \"Przygody Koziolka Matolka\", která je věrnější knižní podobě, má tento seriál originální děj vtažený do různých epoch. Charakterizuje se také velmi rychlou akcí. Všechny díly začínají a končí veršem. \nV roce 2008 byl natočen celovečerní film \"Koziolek Matolek a zloději hraček\". Seznam dílů: \nKonkurs spiewu \nKucharz okretowy \nPod pyramidami \nRajd \nRegaty \nSmocza jama \nW opalach \nWesola džungla \nWladca pustyni \nZloty szlak \nPo drugiej stronie teczy \nMalpi krol \nZatopiona fregata \nCzarny Bill \nGwiazdor filmowy \nKorsarze \nLatajacy koziol \nLakomy traper \nLapmy lisa \nNapad na dyližans \nPrzygoda na szosie \nPrzyjaciel zwierzat \nTelegrafista \nUpal \nW poszukiwaniu przyjažni \nZeby kozka nie skakala (gudlak1)\n\n\t\t\t\t\t\t Scénář desetiminutových dílů využívá postavu \"Koziolka Matolka\" vymyšlenou K. Matuszynskigem  a ilustrovanou M. Walentynowiczou, i jeho motiv hledání městečka Pacanov. Na rozdíl od hudební pohádky \"Przygody Koziolka Matolka\", která je věrnější knižní podobě, má tento seriál originální děj vtažený do různých epoch. Charakterizuje se také velmi rychlou akcí. Všechny díly začínají a končí veršem. V roce 2008 byl natočen celovečerní film \"Koziolek Matolek a zloději hraček\". Seznam dílů: Konkurs spiewu Kucharz okretowy Pod pyramidami Rajd Regaty Smocza jama W… (více)",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
+    },
+    {
+      "id": "392261-priste-budu-mirit-na-srdce",
+      "url": "https://www.csfd.cz/film/392261-priste-budu-mirit-na-srdce/",
+      "name": "Příště budu mířit na srdce",
+      "year": 2014,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-06T16:00:00.000Z"
+        ]
+      },
+      "content": "Mezi roky 1978 a 1979 děsil obyvatele okresu Oise na severu Francie vrah, který který zabíjel mladé stopařky. Film podrobně vykresluje život tohoto sériového vraha (Guillaume Canet), osamělého muže, který pracuje jako strážník (Gendarmerie nationale francaise) a který tak vyšetřuje své vlastní vraždy.(mortak)",
+      "imdbUrl": "https://www.imdb.com/title/tt3324494/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/839/163839274_ee1326.jpg"
     },
     {
       "id": "146372-prusvihy-male-sophie",
@@ -4142,7 +4125,8 @@
       "year": 2016,
       "screenings": {
         "Francouzský institut": [
-          "2019-11-30T16:00:00.000Z"
+          "2019-11-30T16:00:00.000Z",
+          "2019-12-04T11:30:00.000Z"
         ]
       },
       "content": "Malá Sophie nemůže odolat pokušení zakázaného ovoce a nejvíc ze všeho miluje hrát si a dělat hlouposti se svým bratrancem Paulem. Když se rodiče rozhodnou odjet do Ameriky, Sophie je okouzlená. O rok později se vrací do Francie i s příšernou macechou - paní Fichini. Ale Sophie se může spolehnout na pomoc svých přítelkyň - malých modelek a jejich maminky paní de Fleurville, díky kterým nezůstane ve spárech paní Fichini.(Francouzský institut v Praze)",
@@ -4156,22 +4140,16 @@
       "year": 2019,
       "screenings": {
         "Aero": [
-          "2019-11-22T20:30:00.000Z",
           "2019-11-23T12:00:00.000Z",
           "2019-11-26T20:30:00.000Z"
         ],
         "Bio Oko": [
-          "2019-11-22T15:00:00.000Z",
           "2019-11-24T20:30:00.000Z",
           "2019-11-25T20:45:00.000Z",
           "2019-11-26T17:45:00.000Z",
           "2019-11-27T17:30:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T12:40:00.000Z",
-          "2019-11-22T15:40:00.000Z",
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T12:40:00.000Z",
           "2019-11-23T15:40:00.000Z",
           "2019-11-23T18:40:00.000Z",
@@ -4194,10 +4172,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T12:40:00.000Z",
-          "2019-11-22T15:40:00.000Z",
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T12:40:00.000Z",
           "2019-11-23T15:40:00.000Z",
           "2019-11-23T18:40:00.000Z",
@@ -4220,10 +4194,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T14:20:00.000Z",
-          "2019-11-22T17:00:00.000Z",
-          "2019-11-22T20:00:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T17:00:00.000Z",
           "2019-11-23T20:00:00.000Z",
           "2019-11-23T21:40:00.000Z",
@@ -4243,8 +4213,15 @@
           "2019-11-27T20:00:00.000Z",
           "2019-11-27T21:40:00.000Z"
         ],
+        "Francouzský institut": [
+          "2019-12-02T18:30:00.000Z",
+          "2019-12-06T20:30:00.000Z",
+          "2019-12-13T18:30:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-24T21:00:00.000Z"
+        ],
         "Kino Radotín": [
-          "2019-11-22T20:00:00.000Z",
           "2019-11-27T17:30:00.000Z"
         ],
         "Mat": [
@@ -4254,7 +4231,6 @@
           "2019-11-24T17:00:00.000Z"
         ],
         "Světozor": [
-          "2019-11-22T17:45:00.000Z",
           "2019-11-23T11:45:00.000Z",
           "2019-11-23T20:45:00.000Z",
           "2019-11-24T11:45:00.000Z",
@@ -4263,7 +4239,15 @@
           "2019-11-26T14:45:00.000Z",
           "2019-11-26T20:45:00.000Z",
           "2019-11-27T14:30:00.000Z",
-          "2019-11-27T20:45:00.000Z"
+          "2019-11-27T20:45:00.000Z",
+          "2019-11-28T20:45:00.000Z",
+          "2019-11-29T20:15:00.000Z",
+          "2019-11-30T14:15:00.000Z",
+          "2019-11-30T20:30:00.000Z",
+          "2019-12-01T14:15:00.000Z",
+          "2019-12-01T20:30:00.000Z",
+          "2019-12-03T17:30:00.000Z",
+          "2019-12-04T20:30:00.000Z"
         ]
       },
       "content": "Osmdesátá léta v Itálii. Klany sicilské mafie mezi sebou nelítostně válčí o moc. Vláda si se situací neví rady, dokud se neobjeví první zrádce. Tommaso Buscetta udělá dosud nemyslitelné. Poruší přísahu, popíše praktiky největší mafiánské organizace Cosa Nostra a pomůže soudci Falconemu dostat stovky jejích příslušníků za mříže. Brzy se ale začne schylovat k tvrdé pomstě. Strhující a realitě velmi věrný příběh člověka, který navždy změnil svět mafie, představil legendární režisér Marco Bellocchio v hlavní soutěži festivalu v Cannes.(Aerofilms)",
@@ -4287,6 +4271,20 @@
       "content": "Lumpík je tak trochu rozmazlený, ale veselý pes, který nic neví o skutečném světě plném nástrah. Užívá si nejlepší pochoutky a drbání každý den. Jednoho dne se ale bude muset vydat za plot svého bezpečného domova a zažije dobrodružství, které si ani ve snu nedokázal představit.(Vertical Ent.)",
       "imdbUrl": "https://www.imdb.com/title/tt6772524/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/641/163641351_a3ca95.jpg"
+    },
+    {
+      "id": "269934-rabinuv-kocour",
+      "url": "https://www.csfd.cz/film/269934-rabinuv-kocour/",
+      "name": "Rabínův kocour",
+      "year": 2011,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-03T16:00:00.000Z"
+        ]
+      },
+      "content": "Humorně vyprávěný příběh z pohledu kocoura, který zažívá neskutečná dobrodružství díky svému starému pánovi.Film vznikl podle předlohy slavného komiksového románu, jehož děj se odehrává ve 20. letech minulého století v Alžíru. Rabín Sfar žije se svou dcerou Zlabyí, hlučným papouškem a darebáckým kocourem, který ovládá lidskou řeč. Rabín dostane zprávu, že musí složit zkoušku z francouzštiny, aby si udržel své postavení. Kocour podá pomocnou packu, ale ztrácí svou výhodu. Jejich nový přítel, ruský malíř, doufá, že najde africký Jeruzalém. Podaří se mu přesvědčit rabína, moudrého arabského šejka, excentrického ruského multimilionáře a kocoura, aby se s ním vydali na dobrodružnou cestu...(Česká televize)\n\n\t\t\t\t\t\t Humorně vyprávěný příběh z pohledu kocoura, který zažívá neskutečná dobrodružství díky svému starému pánovi.Film vznikl podle předlohy slavného komiksového románu, jehož děj se odehrává ve 20. letech minulého století v Alžíru. Rabín Sfar žije se svou dcerou Zlabyí, hlučným papouškem a darebáckým kocourem, který ovládá lidskou řeč. Rabín dostane zprávu, že musí složit zkoušku z francouzštiny, aby si udržel své postavení. Kocour podá pomocnou packu, ale ztrácí svou výhodu. Jejich nový přítel, ruský malíř, doufá, že najde africký Jeruzalém. Podaří se mu přes… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt1355638/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/729/159729641_bc851a.jpg"
     },
     {
       "id": "659487-raoul-taburin",
@@ -4321,6 +4319,20 @@
       "trailerUrl": "https://www.youtube.com/watch?v=xCZ9TguVOIA"
     },
     {
+      "id": "4387-rebecca",
+      "url": "https://www.csfd.cz/film/4387-rebecca/",
+      "name": "Rebecca",
+      "year": 1940,
+      "screenings": {
+        "Kino Lucerna - Praha": [
+          "2019-11-30T20:30:00.000Z"
+        ]
+      },
+      "content": "Mladá žena se vášnivě zamiluje do bohatého, nedávno ovdovělého šlechtice Maxima de Wintera. Po brzké svatbě odjíždí na jeho panství, kde společně žijí na zámku Manderley. Na láskyplný vztah novomanželů však padá všudypřítomný stín první de Winterovy manželky Rebeky, která zahynula za zvláštních okolností. Dům je naplněn jakýmsi nevyslovitelným napětím a stísňující atmosférou, která na novomanželku padá doslova na každém kroku. Ta je také přesvědčena, že manžel na krásnou Rebeku neustále vzpomíná, a proto jí není schopen věnovat potřebnou pozornost a cit...\nPříběh napsala spisovatelka Daphne du Maurierová a do filmové podoby převedl slavný režisér Alfred Hitchcock (jenž stejně úspěšně natočil i její romány Hospoda Jamaika, Ptáci). Děj je soustředěn na starém šlechtickém sídle, kde výprava, nasvícení interiéru a důmyslná kamera (zachycující například v jediném záběru hlavní hrdinku a nehybný obličej postavy, která jí nahání strach) přispívají k stupňování napětí. Roli Maxima de Wintera ztvárnil Laurence Olivier, jeho novomanželku představuje Joan Fontaineová, hospodyni Danversovou hraje Judith Andersonová. Film v roce 1941 získal dva Oscary: za nejlepší černobílou kameru (George Barnes) a jako nejlepší film (producent David O. Selznick).(oficiální text distributora)\n\n\t\t\t\t\t\t Mladá žena se vášnivě zamiluje do bohatého, nedávno ovdovělého šlechtice Maxima de Wintera. Po brzké svatbě odjíždí na jeho panství, kde společně žijí na zámku Manderley. Na láskyplný vztah novomanželů však padá všudypřítomný stín první de Winterovy manželky Rebeky, která zahynula za zvláštních okolností. Dům je naplněn jakýmsi nevyslovitelným napětím a stísňující atmosférou, která na novomanželku padá doslova na každém kroku. Ta je také přesvědčena, že manžel na krásnou Rebeku neustále vzpomíná, a proto jí není schopen věnovat potřebnou pozornost a cit..… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0032976/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/638/163638636_71a82f.jpg"
+    },
+    {
       "id": "687098-rebelky",
       "url": "https://www.csfd.cz/film/687098-rebelky/",
       "name": "Rebelky",
@@ -4336,6 +4348,20 @@
       "content": "Sandra, bývalá miss Nord-Pas-de-Calais, nemá práci ani vzdělání. Vrací se bydlet k matce. Začíná pracovat v místní konzervárně, ale musí odmítat návrhy svého nadřízeného. Nešťastnou náhodou způsobí jeho smrt. Nehodě jsou přítomny dvě další dívky. Když se chystají zavolat pomoc, najdou ve skříňce mrtvého tašku plnou peněz. A v tu chvíli jim začínají problémy.(Festival francouzského filmu)",
       "imdbUrl": "https://www.imdb.com/title/tt8083606/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/887/163887124_36306f.jpg"
+    },
+    {
+      "id": "376542-respire",
+      "url": "https://www.csfd.cz/film/376542-respire/",
+      "name": "Respire",
+      "year": 2014,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-07T16:00:00.000Z"
+        ]
+      },
+      "content": "Príbeh neobyčajne intenzívneho vzťahu dvoch dospievajúcich dievčat. Sedemnásťročnú Charlie trápi osamelosť, pochybnosti a nízke sebavedomie. Keď do školy nastúpi nová spolužiačka Sarah, stane sa z nich nerozlučná dvojica. Charlie je krásnou a sebavedomou Sarah fascinovaná a novým priateľstvom je nadšená, motivácia manipulatívnej a nie celkom úprimnej Sarah však nie je natoľko jednoznačná. Nevyrovnaný vzťah tak nevyhnutne naberie nebezpečne dramatický spád.(STV)",
+      "imdbUrl": "https://www.imdb.com/title/tt3365778/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/264/159264458_86e790.jpg"
     },
     {
       "id": "779319-robo",
@@ -4390,9 +4416,6 @@
       "screenings": {
         "Francouzský institut": [
           "2019-11-23T18:45:00.000Z"
-        ],
-        "Světozor": [
-          "2019-11-22T18:30:00.000Z"
         ]
       },
       "content": "„Dneska mám narozeniny a ráda bych, abychom mluvili jen o veselých věcech.“ Jenže Andrea zatím netuší, že se „nečekaně“ objeví její nejstarší dcera Claire, která zmizela před 3 lety. Najednou je tu a nárokuje si, co jí náleží. Její příchod naruší program oslav a vyvolá rodinnou roztržku.(Festival francouzského filmu)",
@@ -4453,7 +4476,8 @@
           "2019-12-10T16:30:00.000Z"
         ],
         "Kino Lucerna - Praha": [
-          "2019-11-28T18:30:00.000Z"
+          "2019-11-28T18:30:00.000Z",
+          "2019-12-01T19:15:00.000Z"
         ],
         "Mat": [
           "2019-12-01T16:15:00.000Z",
@@ -4466,6 +4490,34 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/930/163930660_d8dde0.jpg"
     },
     {
+      "id": "708116-sampion",
+      "url": "https://www.csfd.cz/film/708116-sampion/",
+      "name": "Šampion",
+      "year": 2019,
+      "screenings": {
+        "Kino Lucerna - Praha": [
+          "2019-11-30T18:00:00.000Z"
+        ]
+      },
+      "content": "Mladý Christian Ferro (Andrea Carpenzano) je rozený kanonýr, obdivovaná hvězda AS Řím. Hýčkaná fotbalová star si však nic neodříká a excesy v soukromém životě rozmazlené celebrity začnou ohrožovat slibně se rozvíjející kariéru. Radikální rozhodnutí prezidenta klubu na sebe nenechá dlouho čekat a na scéně se objevuje učitel Valerio (Stefano Accorsi) se zdánlivě nesplnitelným úkolem. Inteligentní komedie zasazená do atraktivního prostředí jednoho z nejmilovanějších fotbalových klubů vůbec je mimořádně povedeným debutem talentovaného Leonarda D’Agostiniho a potěší i ty, kterým kulatý nesmysl neučaroval.(MFF Karlovy Vary)\n\n\t\t\t\t\t\t Mladý Christian Ferro (Andrea Carpenzano) je rozený kanonýr, obdivovaná hvězda AS Řím. Hýčkaná fotbalová star si však nic neodříká a excesy v soukromém životě rozmazlené celebrity začnou ohrožovat slibně se rozvíjející kariéru. Radikální rozhodnutí prezidenta klubu na sebe nenechá dlouho čekat a na scéně se objevuje učitel Valerio (Stefano Accorsi) se zdánlivě nesplnitelným úkolem. Inteligentní komedie zasazená do atraktivního prostředí jednoho z nejmilovanějších fotbalových klubů vůbec je mimořádně povedeným debutem talentovaného Leonarda D’Agostiniho a… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt8515700/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/402/163402146_443067.jpg"
+    },
+    {
+      "id": "5621-sarlatova-ulice",
+      "url": "https://www.csfd.cz/film/5621-sarlatova-ulice/",
+      "name": "Šarlatová ulice",
+      "year": 1945,
+      "screenings": {
+        "Kino Lucerna - Praha": [
+          "2019-11-29T21:00:00.000Z"
+        ]
+      },
+      "content": "Zlo se může „stát“ každému z nás. I poctivému bankovnímu úředníčkovi, který v koutku duše touží po umělecké dráze. Jednou potká svou skutečnou múzu, jednou vezme skutečně do ruky štětec a začne malovat. A to je začátek jeho konce. Konce, kde místo lásky a uznání čeká osamění a bolest. Co se může skrývat za čarovnou tváří proradné femme fatale? Kam až dovede muže slepá láska? Jak nespravedlivý může být osud a jak nemožné je mu uniknout? Zlý sen se stává skutečností v mistrném psychologickém filmu noir.(Visions of Light)",
+      "imdbUrl": "https://www.imdb.com/title/tt0038057/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/897/159897680_74477e.jpg"
+    },
+    {
       "id": "692537-sbohem-noci",
       "url": "https://www.csfd.cz/film/692537-sbohem-noci/",
       "name": "Sbohem noci",
@@ -4476,9 +4528,6 @@
         ],
         "Kino Lucerna - Praha": [
           "2019-11-26T18:15:00.000Z"
-        ],
-        "Světozor": [
-          "2019-11-22T21:00:00.000Z"
         ]
       },
       "content": "Muriel má velkou radost, když za ní přijíždí její vnuk Alex. Má u ní strávit několik dní, než se odstěhuje do Kanady. Jeho chování však Muriel připadá podivné a brzy zjišťuje, že jí Alex lže. Chystá se na něco úplně jiného. Otřesená žena musí velmi rychle zareagovat.(Festival francouzského filmu)",
@@ -4520,6 +4569,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/133/162133929_3d3d37.jpg"
     },
     {
+      "id": "234465-seraphine",
+      "url": "https://www.csfd.cz/film/234465-seraphine/",
+      "name": "Séraphine",
+      "year": 2008,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-12T16:00:00.000Z"
+        ]
+      },
+      "content": "Séraphine mohla nadosmrti prát v řece ložní prádlo a drhnout podlahy místní honorace, kdyby kouzlu jejích naivních obrazů nepodlehl umělecký mecenáš Wilhelm Uhde. Když se však malířka, věřící, že její tvorbu pohánějí strážní andělé, odtrhne od své každodenní práce, vidina velkého světa ji začne ničit. Pozvolna plynoucí snímek nachází krásu v prostotě a dokáže náležitě zdůraznit, že umění může být zcela oproštěno od galerijního kontextu, o elitářství nemluvě. Jakkoli nesympatická může pudově jednající Séraphine být, nezištnost, s níž přistupuje k praktické i tvůrčí práci, ji ukazuje jako čistou duši, jejíž jednání rozlévá v divácích klid. Film zachycuje náladu ospalých odpolední i tvůrčí energie a svůj rytmus přizpůsobuje jednání solitérní protagonistky. Přestože nezachází do detailů, působí sdílně a uceleně, čemuž pomáhá fixace hrdinky na zvolené cíle a celková zarputilost, s níž jedná.(MFF Karlovy Vary)\n\n\t\t\t\t\t\t Séraphine mohla nadosmrti prát v řece ložní prádlo a drhnout podlahy místní honorace, kdyby kouzlu jejích naivních obrazů nepodlehl umělecký mecenáš Wilhelm Uhde. Když se však malířka, věřící, že její tvorbu pohánějí strážní andělé, odtrhne od své každodenní práce, vidina velkého světa ji začne ničit. Pozvolna plynoucí snímek nachází krásu v prostotě a dokáže náležitě zdůraznit, že umění může být zcela oproštěno od galerijního kontextu, o elitářství nemluvě. Jakkoli nesympatická může pudově jednající Séraphine být, nezištnost, s níž přistupuje k praktické… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt1048171/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/358/159358469_51d5e4.jpg"
+    },
+    {
       "id": "789147-silacky",
       "url": "https://www.csfd.cz/film/789147-silacky/",
       "name": "Silačky",
@@ -4543,9 +4606,6 @@
         ],
         "Kino Lucerna - Praha": [
           "2019-11-26T16:00:00.000Z"
-        ],
-        "Světozor": [
-          "2019-11-22T20:15:00.000Z"
         ]
       },
       "content": "Portrét jedné ženy ve čtyřech obdobích jejího života. Holčička, chycená v tragické hře na schovávanou. Teenagerka přelétající z jednoho místa na druhé, od jednoho muže k druhému, protože cokoliv je lepší než její vlastní domov. Mladá venkovanka, která se snaží prorazit v Paříži, a dospělá úspěšná žena, která věří, že utekla svojí minulosti. Čtyři herečky, jedna hrdinka.(Febiofest)",
@@ -4559,7 +4619,6 @@
       "year": 2019,
       "screenings": {
         "Edison Filmhub": [
-          "2019-11-22T13:00:00.000Z",
           "2019-11-23T14:30:00.000Z",
           "2019-11-23T19:00:00.000Z",
           "2019-11-24T14:45:00.000Z",
@@ -4590,6 +4649,9 @@
       "screenings": {
         "Kasárna Karlín": [
           "2019-11-29T20:00:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T20:30:00.000Z"
         ]
       },
       "content": "Vztah Dani a Christiana už nestojí za nic. Možná to ale spraví výlet do severní Skandinávie s partou kamarádů. V odlehlé vesničce odstřihnuté od okolního světa se tu jednou za 90 let, na letní slunovrat, koná speciální slavnost. Mladí Američané si užívají bezstarostné prázdninové veselí v místě, kde slunce nikdy nezapadá. Vše se ale zvrtne, když je vesničané přizvou k rituálům, při kterých se místní ráj na zemi mění v čím dál děsivější peklo. Horor Ariho Astera (Děsivé dědictví) ukazuje, že za bílého dne se mohou odehrávat ty nejtemnější věci.(Aerofilms)",
@@ -4611,21 +4673,8 @@
       },
       "content": "Devítiletá Mathilde tráví poslední den prázdnin u moře s partou svých kamarádů. Její otec si špatně vyloží jednu jejich hru.(Festival francouzského filmu)",
       "imdbUrl": "https://www.imdb.com/title/tt8638922/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/901/163901874_4f1905.jpg"
-    },
-    {
-      "id": "791557-smrt-nam-slusi",
-      "url": "https://www.csfd.cz/film/791557-smrt-nam-slusi/",
-      "name": "Smrt nám sluší",
-      "year": 2019,
-      "screenings": {
-        "Cinema City Slovanský dům": [
-          "2019-11-22T20:30:00.000Z"
-        ]
-      },
-      "content": "Lze sehnat 4 miliony za 4 dny, když jsi zaměstnán jako kurýr, rodiče na tebe kašlou a tvůj nejlepší přítel je idiot? Vypůjčit si na dluh, prodat poslední co máš, stát se pornohercem – udělat všechno možné, jen aby tvá milovaná nezemřela. Komediální melodram natočený mobilními telefony.(Týden ruského filmu)",
-      "imdbUrl": "https://www.imdb.com/title/tt10428380/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/988/163988613_89e6a6.jpg"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/901/163901874_4f1905.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=dQ5o6pMRr6A"
     },
     {
       "id": "509292-snezny-kluk",
@@ -4634,9 +4683,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T12:20:00.000Z",
-          "2019-11-22T14:30:00.000Z",
-          "2019-11-22T16:40:00.000Z",
           "2019-11-23T10:10:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T14:30:00.000Z",
@@ -4656,9 +4702,6 @@
           "2019-11-27T16:40:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T10:40:00.000Z",
-          "2019-11-22T12:40:00.000Z",
-          "2019-11-22T13:10:00.000Z",
           "2019-11-23T10:40:00.000Z",
           "2019-11-23T12:40:00.000Z",
           "2019-11-23T13:10:00.000Z",
@@ -4670,8 +4713,6 @@
           "2019-11-27T15:30:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T13:50:00.000Z",
-          "2019-11-22T16:00:00.000Z",
           "2019-11-23T11:20:00.000Z",
           "2019-11-23T13:50:00.000Z",
           "2019-11-23T16:00:00.000Z",
@@ -4686,7 +4727,6 @@
           "2019-11-27T16:00:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T12:10:00.000Z",
           "2019-11-23T10:00:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-24T10:00:00.000Z",
@@ -4696,7 +4736,6 @@
           "2019-11-27T12:10:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T14:00:00.000Z",
           "2019-11-23T11:15:00.000Z",
           "2019-11-23T13:20:00.000Z",
           "2019-11-24T11:15:00.000Z",
@@ -4711,8 +4750,6 @@
           "2019-11-25T13:30:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T12:00:00.000Z",
-          "2019-11-22T13:40:00.000Z",
           "2019-11-23T12:00:00.000Z",
           "2019-11-23T13:40:00.000Z",
           "2019-11-24T12:00:00.000Z",
@@ -4725,7 +4762,6 @@
           "2019-11-27T13:40:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T14:20:00.000Z",
           "2019-11-23T11:25:00.000Z",
           "2019-11-23T14:20:00.000Z",
           "2019-11-24T12:10:00.000Z",
@@ -4733,11 +4769,13 @@
           "2019-11-25T14:20:00.000Z",
           "2019-11-27T14:20:00.000Z"
         ],
+        "Kino Pilotů": [
+          "2019-11-24T13:15:00.000Z"
+        ],
         "Modřanský biograf": [
           "2019-11-30T13:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T14:10:00.000Z",
           "2019-11-23T10:00:00.000Z",
           "2019-11-23T14:10:00.000Z",
           "2019-11-24T10:00:00.000Z",
@@ -4771,8 +4809,8 @@
       "name": "Sólo",
       "year": 2019,
       "screenings": {
-        "Edison Filmhub": [
-          "2019-11-22T19:00:00.000Z"
+        "Světozor": [
+          "2019-12-02T20:45:00.000Z"
         ]
       },
       "content": "Sólo je lyrickým dokumentem o samotě a návratu do života. Martin P. je mladý argentinský klavírní virtuóz a skladatel, který poslední čtyři roky svého života strávil v ústavu pro duševně choré El Borda v Buenos Aires, největším psychiatrickém zařízení latinské Americe. Dětský hudební génius a nejslibnější talent své generace se nyní pokouší najít způsob jak překonat své psychiatrické onemocnění a vrátit se k životu venku za zdmi sanatoria i na koncertní pódia, zatímco pracuje na své nové skladbě ENFERMARIA.(Artcam Films)",
@@ -4828,8 +4866,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T12:00:00.000Z",
-          "2019-11-22T20:40:00.000Z",
           "2019-11-23T10:00:00.000Z",
           "2019-11-23T20:40:00.000Z",
           "2019-11-24T10:00:00.000Z",
@@ -4840,10 +4876,9 @@
           "2019-11-26T20:40:00.000Z",
           "2019-11-27T12:00:00.000Z",
           "2019-11-27T16:00:00.000Z",
-          "2019-11-27T21:30:00.000Z"
+          "2019-11-27T21:10:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T21:00:00.000Z",
           "2019-11-23T21:00:00.000Z",
           "2019-11-24T21:00:00.000Z",
           "2019-11-25T21:00:00.000Z",
@@ -4851,8 +4886,6 @@
           "2019-11-27T21:00:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T16:30:00.000Z",
-          "2019-11-22T21:20:00.000Z",
           "2019-11-23T16:30:00.000Z",
           "2019-11-23T21:20:00.000Z",
           "2019-11-24T16:30:00.000Z",
@@ -4865,8 +4898,6 @@
           "2019-11-27T21:20:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T17:20:00.000Z",
-          "2019-11-22T19:30:00.000Z",
           "2019-11-23T17:20:00.000Z",
           "2019-11-23T19:30:00.000Z",
           "2019-11-24T17:20:00.000Z",
@@ -4879,7 +4910,6 @@
           "2019-11-27T19:30:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T22:10:00.000Z",
           "2019-11-23T22:10:00.000Z",
           "2019-11-24T22:10:00.000Z",
           "2019-11-25T22:10:00.000Z",
@@ -4887,15 +4917,12 @@
           "2019-11-27T22:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T21:30:00.000Z",
           "2019-11-24T21:30:00.000Z",
           "2019-11-26T21:30:00.000Z",
           "2019-11-27T21:30:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T17:10:00.000Z",
-          "2019-11-22T19:20:00.000Z",
           "2019-11-23T19:20:00.000Z",
           "2019-11-24T17:10:00.000Z",
           "2019-11-24T19:20:00.000Z",
@@ -4933,7 +4960,12 @@
         "Světozor": [
           "2019-11-25T16:00:00.000Z",
           "2019-11-26T12:45:00.000Z",
-          "2019-12-02T13:00:00.000Z"
+          "2019-11-30T16:15:00.000Z",
+          "2019-12-01T16:15:00.000Z",
+          "2019-12-02T13:00:00.000Z",
+          "2019-12-02T16:00:00.000Z",
+          "2019-12-03T16:00:00.000Z",
+          "2019-12-04T16:00:00.000Z"
         ]
       },
       "content": "Z amerického Oregonu přilétá na pražskou Ruzyň emigrant Vlastimil Reiner (Jiří Schmitzer), válečný veterán a bývalý politický vězeň. Je mu už hodně přes osmdesát, je připoutaný na invalidní vozík a do značné míry odkázaný na pomoc ostatních. Proto na něj už na letišti čeká Antonín (Ladislav Mrkvička), dávný kamarád z protikomunistického odboje. Záhy vyjde najevo, že Vlasta přijel do Česka uskutečnit poslední misi svého života. Chce vypátrat a zabít komunistického prokurátora Václava Mráze, kterého porevoluční soudy nedokázaly nebo nechtěly za jeho zločiny z 50. let potrestat. Vlastimil přemluví Antonína, aby mu s akcí pomohl. Tonda si vypůjčí od vnuka starou obytnou dodávku a upraví ji tak, aby se v ní mohl Vlasta pohybovat. Oba starci vyrážejí na pro ně velmi obtížnou cestu za odplatou.(CinemArt)\n\n\t\t\t\t\t\t Z amerického Oregonu přilétá na pražskou Ruzyň emigrant Vlastimil Reiner (Jiří Schmitzer), válečný veterán a bývalý politický vězeň. Je mu už hodně přes osmdesát, je připoutaný na invalidní vozík a do značné míry odkázaný na pomoc ostatních. Proto na něj už na letišti čeká Antonín (Ladislav Mrkvička), dávný kamarád z protikomunistického odboje. Záhy vyjde najevo, že Vlasta přijel do Česka uskutečnit poslední misi svého života. Chce vypátrat a zabít komunistického prokurátora Václava Mráze, kterého porevoluční soudy nedokázaly nebo nechtěly za jeho zločiny… (více)",
@@ -4968,9 +5000,6 @@
         ],
         "Městská knihovna": [
           "2019-11-26T19:00:00.000Z"
-        ],
-        "Světozor": [
-          "2019-11-22T13:00:00.000Z"
         ]
       },
       "content": "Theodoru Deckerovi bylo 13 let, když byla jeho matka zabita při bombovém útoku v newyorském Metropolitním muzeu umění. Tato tragédie změnila celý jeho život a vrhla jej na dlouhou a strhující odyseu provázenou nejen zármutkem a pocitem viny, proměnou a vykoupením, ale i láskou, přátelstvím a světem zločinu. Přes všechnu nepopsatelnou hrůzu si z onoho osudového dne v mysli uchoval jeden výjev skýtající naději… obraz drobného ptáčka přivázaného řetízkem k bidýlku. Stehlíka.(Vertical Ent.)",
@@ -4997,9 +5026,6 @@
       "name": "Tajemný Picasso",
       "year": 1956,
       "screenings": {
-        "Kino Lucerna - Praha": [
-          "2019-11-22T18:15:00.000Z"
-        ],
         "Světozor": [
           "2019-11-24T16:00:00.000Z"
         ]
@@ -5024,6 +5050,20 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/673/163673045_f8031f.jpg"
     },
     {
+      "id": "451027-tajny-zivot-mazlicku-2",
+      "url": "https://www.csfd.cz/film/451027-tajny-zivot-mazlicku-2/",
+      "name": "Tajný život mazlíčků 2",
+      "year": 2019,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-11-23T10:30:00.000Z"
+        ]
+      },
+      "content": "Teriér Max se horko těžko vyrovnal se skutečností, že není jediným oblíbencem své paničky Katie, a už jsou na obzoru další nečekané změny. Nejdřív se k nim nastěhoval ten chlap, pak Katie začala tloustnout, na nějaký čas odjela, a když se vrátila, přivezla s sebou miminko. Jelikož bylo naprosto bezbranné a neschopné, začal ho Max na každém kroku hlídat a chránit. Z ustavičných starostí si vytvořil nervový tik, na který veterinář Maxovi naordinoval pobyt na venkově. Veliká chyba! Pobyt v přírodě znamená pro každé městské zvíře doslova peklo, tvořené nepřátelskými venkovany (nejhorší jsou krocani). Ani Maxovi kamarádi z prvního dílu nezažívají zrovna dobré časy. Jeho psí láska Brigitte dostane na hlídání Maxovu nejoblíbenější hračku, která jí spadne do bytu plného vzteklých koček, a ona se pro ni musí v přestrojení právě za kočku vydat. Panička bílého králíka Snížka se zase zhlédla v superhrdinech, a tak ho obléká do směšných oblečků. To by Snížkovi až tak nevadilo, kdyby za ním kvůli jeho superhrdinské pověsti nepřišla fenka Daisy a nepožádala ho o pomoc s misí, na kterou králík nemůže stačit. Jestli mají obstát, musí se Max, Brigitte a Snížek postavit svým vlastním strachům a obavám. V první řadě ale zažijí kupu psí, kočičí, křeččí a ptačí srandy v příběhu, po němž se už nikdy na své chlupaté parťáky nebudete dívat stejnýma očima.(CinemArt)\n\n\t\t\t\t\t\t Teriér Max se horko těžko vyrovnal se skutečností, že není jediným oblíbencem své paničky Katie, a už jsou na obzoru další nečekané změny. Nejdřív se k nim nastěhoval ten chlap, pak Katie začala tloustnout, na nějaký čas odjela, a když se vrátila, přivezla s sebou miminko. Jelikož bylo naprosto bezbranné a neschopné, začal ho Max na každém kroku hlídat a chránit. Z ustavičných starostí si vytvořil nervový tik, na který veterinář Maxovi naordinoval pobyt na venkově. Veliká chyba! Pobyt v přírodě znamená pro každé městské zvíře doslova peklo, tvořené nepřát… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt5113040/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/494/163494242_1997b4.png"
+    },
+    {
       "id": "691206-tenkrat-podruhe",
       "url": "https://www.csfd.cz/film/691206-tenkrat-podruhe/",
       "name": "Tenkrát podruhé",
@@ -5044,7 +5084,6 @@
       "year": 2019,
       "screenings": {
         "Atlas": [
-          "2019-11-22T17:30:00.000Z",
           "2019-11-23T20:30:00.000Z",
           "2019-11-27T20:30:00.000Z",
           "2019-11-30T20:30:00.000Z",
@@ -5056,8 +5095,7 @@
       },
       "content": "V devátém filmu kultovního režiséra Quentina Tarantina se televizní herec (Leonardo DiCaprio) a jeho dlouholetý kaskadér (Brad Pitt) rozhodnou prosadit se u filmu na konci zlaté éry Hollywoodu - v roce 1969 v Los Angeles.(Falcon)",
       "imdbUrl": "https://www.imdb.com/title/tt7131622/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/573/163573184_939f2d.jpg",
-      "trailerUrl": "https://www.youtube.com/watch?v=GYdiUQsYqcs"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/573/163573184_939f2d.jpg"
     },
     {
       "id": "545676-terminator-temny-osud",
@@ -5066,10 +5104,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T13:40:00.000Z",
-          "2019-11-22T16:20:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T11:00:00.000Z",
           "2019-11-23T13:40:00.000Z",
           "2019-11-23T16:20:00.000Z",
@@ -5092,7 +5126,6 @@
           "2019-11-27T21:30:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T20:20:00.000Z",
           "2019-11-23T20:20:00.000Z",
           "2019-11-24T20:20:00.000Z",
           "2019-11-25T20:15:00.000Z",
@@ -5103,8 +5136,6 @@
           "2019-11-25T17:30:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T18:10:00.000Z",
-          "2019-11-22T20:50:00.000Z",
           "2019-11-23T18:10:00.000Z",
           "2019-11-23T20:50:00.000Z",
           "2019-11-24T18:10:00.000Z",
@@ -5117,7 +5148,6 @@
           "2019-11-27T20:50:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T21:50:00.000Z",
           "2019-11-24T21:50:00.000Z",
           "2019-11-25T21:50:00.000Z",
@@ -5125,9 +5155,6 @@
           "2019-11-27T21:50:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T15:20:00.000Z",
-          "2019-11-22T18:00:00.000Z",
-          "2019-11-22T20:40:00.000Z",
           "2019-11-23T15:20:00.000Z",
           "2019-11-23T18:00:00.000Z",
           "2019-11-23T20:40:00.000Z",
@@ -5145,7 +5172,6 @@
           "2019-11-27T20:40:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T22:00:00.000Z",
           "2019-11-23T22:00:00.000Z",
           "2019-11-24T22:00:00.000Z",
           "2019-11-25T22:00:00.000Z",
@@ -5153,14 +5179,11 @@
           "2019-11-27T22:00:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T21:45:00.000Z",
           "2019-11-25T19:40:00.000Z",
           "2019-11-26T19:20:00.000Z",
           "2019-11-27T19:20:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T17:40:00.000Z",
-          "2019-11-22T20:20:00.000Z",
           "2019-11-23T17:40:00.000Z",
           "2019-11-24T17:40:00.000Z",
           "2019-11-24T20:20:00.000Z",
@@ -5175,7 +5198,6 @@
           "2019-11-30T20:15:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T20:45:00.000Z",
           "2019-11-24T20:45:00.000Z",
           "2019-11-25T20:45:00.000Z",
@@ -5209,12 +5231,15 @@
       "year": 2019,
       "screenings": {
         "Francouzský institut": [
-          "2019-11-30T21:00:00.000Z"
+          "2019-11-30T21:00:00.000Z",
+          "2019-12-07T21:00:00.000Z",
+          "2019-12-13T21:15:00.000Z"
         ]
       },
       "content": "Mia začíná pracovat v zahraničí jako au-pair pro rodinu z vyšší vrstvy. Musí se starat nejen o honosný dům ve vilové čtvrti, ale především o desetiletého Sebastiana. Již první setkání však naznačí, že od ní bude očekáváno mnohem více. Postupně se ukazuje, že nová rodina vyznává řadu striktních pravidel včetně radikálního přístupu k výchově chlapce. Porušení nastoleného pořádku znamená potupnou cestu zpět domů. Mia nechce zklamat jejich důvěru, přijít o nově navázaný vztah se Sebastianem, ani se předčasně vracet. Skrze systematickou manipulaci však začne popírat své dřívější hodnoty. Podaří se dospívající dívce vymanit z náruče fanatické komunity, navíc daleko od domova a svých běžných starostí? Celovečerní debut režiséra Michala Hogenauera vznikl mimo Českou republiku, byl natočen se zahraničním štábem a s mezinárodním hereckým obsazením. Zároveň je také prvním filmem představujícím Elišku Křenkovou v hlavní roli.(Aerofilms)\n\n\t\t\t\t\t\t Mia začíná pracovat v zahraničí jako au-pair pro rodinu z vyšší vrstvy. Musí se starat nejen o honosný dům ve vilové čtvrti, ale především o desetiletého Sebastiana. Již první setkání však naznačí, že od ní bude očekáváno mnohem více. Postupně se ukazuje, že nová rodina vyznává řadu striktních pravidel včetně radikálního přístupu k výchově chlapce. Porušení nastoleného pořádku znamená potupnou cestu zpět domů. Mia nechce zklamat jejich důvěru, přijít o nově navázaný vztah se Sebastianem, ani se předčasně vracet. Skrze systematickou manipulaci však začne p… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt7431040/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/764/163764368_d6dd57.jpg"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/764/163764368_d6dd57.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=t1SUAEHPWoU"
     },
     {
       "id": "696906-tintoretto-rebel-z-benatek",
@@ -5226,8 +5251,8 @@
           "2019-11-26T17:30:00.000Z"
         ],
         "Světozor": [
-          "2019-11-22T13:15:00.000Z",
-          "2019-11-27T13:00:00.000Z"
+          "2019-11-27T13:00:00.000Z",
+          "2019-11-28T13:30:00.000Z"
         ]
       },
       "content": "Dokumentární umělecký film Tintoretto – rebel z Benátek připomíná 500 let od narození geniálního benátského rodáka a jednoho z největších jmen italské renesance. Hlas Heleny Bonham Carter (Králova řeč, Klub rváčů, série Harry Potter aj.) přibližuje malířův nespoutaný život a jeho impozantní dílo i soupeření s dalšími slavnými umělci své doby. Snímek také odhaluje, jak se v Tintorettově tvorbě obtiskla morová rána, která slavné město zasáhla uprostřed umělcova nejsilnějšího období.(Aerofilms)",
@@ -5241,7 +5266,6 @@
       "year": 2018,
       "screenings": {
         "CineStar Praha - Černý Most": [
-          "2019-11-22T10:00:00.000Z",
           "2019-11-23T10:00:00.000Z",
           "2019-11-24T10:00:00.000Z",
           "2019-11-25T13:00:00.000Z",
@@ -5316,6 +5340,20 @@
       "trailerUrl": "https://www.youtube.com/watch?v=WSJoJr0YgLs"
     },
     {
+      "id": "402905-uplne-poprve",
+      "url": "https://www.csfd.cz/film/402905-uplne-poprve/",
+      "name": "Úplně poprvé",
+      "year": 2015,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-09T16:00:00.000Z"
+        ]
+      },
+      "content": "Třicátník Jérémy (Pio Marmaï) se jednoho rána probudí po boku neznámé dívky. Takové věci se stávají i těm, kteří dosud pevně drželi osud ve vlastních rukách a pro podobné výstřelky měli jen pohrdání. Jérémy, majitel prosperující firmy, má navíc po desetiletém harmonickém vztahu krátce před svatbou. I to se někdy stává. Jérémyho nastávající se však jmenuje Antoine (Lannick Gautry) a je kardiolog... Všechno je jednou poprvé!(dopitak)",
+      "imdbUrl": "https://www.imdb.com/title/tt4255626/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/462/159462983_9af93d.jpg"
+    },
+    {
       "id": "304676-utek",
       "url": "https://www.csfd.cz/film/304676-utek/",
       "name": "Útěk",
@@ -5369,7 +5407,7 @@
       },
       "content": "Vláček kolejáček vozí uhlí pro mašinky, aby se mohly vydat na svoji cestu. Jenže jednoho dne uteče ze své práce a vydá se na dobrodružnou cestu. Tu se mu pokouší kdekdo všelijak překazit, například nastraženými hromadami dříví.(zdeny99)",
       "imdbUrl": "https://www.imdb.com/title/tt0428025/combined",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
     },
     {
       "id": "688473-vlastnici",
@@ -5378,12 +5416,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T17:00:00.000Z",
-          "2019-11-22T13:10:00.000Z",
-          "2019-11-22T15:20:00.000Z",
-          "2019-11-22T17:30:00.000Z",
-          "2019-11-22T19:40:00.000Z",
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T17:30:00.000Z",
           "2019-11-23T11:00:00.000Z",
           "2019-11-23T13:10:00.000Z",
@@ -5418,11 +5450,6 @@
           "2019-11-27T21:50:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T12:50:00.000Z",
-          "2019-11-22T15:20:00.000Z",
-          "2019-11-22T17:30:00.000Z",
-          "2019-11-22T19:40:00.000Z",
-          "2019-11-22T21:50:00.000Z",
           "2019-11-23T12:50:00.000Z",
           "2019-11-23T15:20:00.000Z",
           "2019-11-23T17:30:00.000Z",
@@ -5453,7 +5480,6 @@
           "2019-11-24T12:00:00.000Z"
         ],
         "Atlas": [
-          "2019-11-22T18:00:00.000Z",
           "2019-11-23T17:30:00.000Z",
           "2019-11-24T18:00:00.000Z",
           "2019-11-25T20:00:00.000Z",
@@ -5471,16 +5497,10 @@
           "2019-12-11T17:30:00.000Z"
         ],
         "Bio Oko": [
-          "2019-11-22T23:00:00.000Z",
           "2019-11-25T16:00:00.000Z",
           "2019-11-26T15:45:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T12:10:00.000Z",
-          "2019-11-22T14:20:00.000Z",
-          "2019-11-22T16:30:00.000Z",
-          "2019-11-22T18:30:00.000Z",
-          "2019-11-23T13:00:00.000Z",
           "2019-11-23T10:00:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-23T14:20:00.000Z",
@@ -5510,11 +5530,6 @@
           "2019-11-28T13:00:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T12:30:00.000Z",
-          "2019-11-22T14:40:00.000Z",
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T19:00:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T10:20:00.000Z",
           "2019-11-23T12:30:00.000Z",
           "2019-11-23T14:40:00.000Z",
@@ -5544,10 +5559,6 @@
           "2019-11-27T21:10:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T15:10:00.000Z",
-          "2019-11-22T17:20:00.000Z",
-          "2019-11-22T19:30:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T11:00:00.000Z",
           "2019-11-23T13:00:00.000Z",
           "2019-11-23T15:10:00.000Z",
@@ -5574,11 +5585,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T12:50:00.000Z",
-          "2019-11-22T15:00:00.000Z",
-          "2019-11-22T17:10:00.000Z",
-          "2019-11-22T19:20:00.000Z",
-          "2019-11-22T21:30:00.000Z",
           "2019-11-23T10:40:00.000Z",
           "2019-11-23T12:50:00.000Z",
           "2019-11-23T15:00:00.000Z",
@@ -5608,11 +5614,6 @@
           "2019-11-27T21:30:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T12:20:00.000Z",
-          "2019-11-22T14:30:00.000Z",
-          "2019-11-22T16:40:00.000Z",
-          "2019-11-22T18:50:00.000Z",
-          "2019-11-22T21:00:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T14:30:00.000Z",
           "2019-11-23T16:40:00.000Z",
@@ -5640,10 +5641,6 @@
           "2019-11-27T21:00:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T14:50:00.000Z",
-          "2019-11-22T17:00:00.000Z",
-          "2019-11-22T19:10:00.000Z",
-          "2019-11-22T21:20:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-23T14:50:00.000Z",
           "2019-11-23T17:00:00.000Z",
@@ -5670,7 +5667,6 @@
           "2019-11-24T18:00:00.000Z"
         ],
         "Evald": [
-          "2019-11-22T19:00:00.000Z",
           "2019-11-23T18:30:00.000Z",
           "2019-11-24T18:30:00.000Z",
           "2019-11-25T19:00:00.000Z",
@@ -5694,7 +5690,19 @@
           "2019-11-25T14:00:00.000Z",
           "2019-11-25T18:30:00.000Z",
           "2019-11-26T18:00:00.000Z",
-          "2019-11-28T21:00:00.000Z"
+          "2019-11-28T21:00:00.000Z",
+          "2019-11-29T13:30:00.000Z",
+          "2019-11-29T16:15:00.000Z",
+          "2019-11-30T15:45:00.000Z",
+          "2019-12-01T17:45:00.000Z",
+          "2019-12-01T19:45:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T15:45:00.000Z",
+          "2019-11-23T18:00:00.000Z",
+          "2019-11-23T19:45:00.000Z",
+          "2019-11-24T17:30:00.000Z",
+          "2019-11-24T19:30:00.000Z"
         ],
         "Kino Radotín": [
           "2019-11-28T17:30:00.000Z"
@@ -5716,13 +5724,10 @@
           "2019-12-10T18:30:00.000Z"
         ],
         "Modřanský biograf": [
-          "2019-11-22T20:00:00.000Z",
           "2019-11-23T17:30:00.000Z",
           "2019-11-30T20:00:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T16:20:00.000Z",
-          "2019-11-22T20:40:00.000Z",
           "2019-11-23T16:20:00.000Z",
           "2019-11-23T18:30:00.000Z",
           "2019-11-23T19:55:00.000Z",
@@ -5740,12 +5745,25 @@
           "2019-11-27T19:55:00.000Z"
         ],
         "Světozor": [
-          "2019-11-22T21:00:00.000Z",
           "2019-11-23T11:15:00.000Z",
           "2019-11-24T11:15:00.000Z",
           "2019-11-25T18:45:00.000Z",
           "2019-11-26T18:45:00.000Z",
-          "2019-11-27T18:45:00.000Z"
+          "2019-11-27T18:45:00.000Z",
+          "2019-11-28T13:00:00.000Z",
+          "2019-11-28T18:00:00.000Z",
+          "2019-11-29T13:30:00.000Z",
+          "2019-11-29T18:00:00.000Z",
+          "2019-11-30T13:45:00.000Z",
+          "2019-11-30T18:15:00.000Z",
+          "2019-12-01T14:00:00.000Z",
+          "2019-12-01T18:15:00.000Z",
+          "2019-12-02T13:45:00.000Z",
+          "2019-12-02T20:30:00.000Z",
+          "2019-12-03T13:45:00.000Z",
+          "2019-12-03T21:00:00.000Z",
+          "2019-12-04T13:45:00.000Z",
+          "2019-12-04T18:15:00.000Z"
         ]
       },
       "content": "Paní Zahrádková (Tereza Voříšková) s manželem (Vojta Kotek) idealisticky chtějí, aby společnými silami dům zachránili. Novomanželé Bernáškovi (Jiří Černý, Maria Sawa) se s nadšením připojují. Paní Roubíčková (Klára Melíšková) pedantsky kontroluje řádný průběh schůze. Paní Horvátová (Dagmar Havlová) všechno iniciativně komentuje. Naivní pan Švec (David Novotný) zastupuje svojí maminku. Paní Procházková (Pavla Tomicová) s panem Novákem (Ondřej Malý) hledá způsoby jak zhodnotit svůj majetek. Pan Nitranský (Andrej Polák) touží po půdě v domě a pan Kubát (Jiří Lábus) důsledně sabotuje jakékoliv rozhodnutí. A v pozadí číhají bratři Čermákovi (Kryštof Hádek, Stanislav Majer), jen starý pan profesor Sokol (Ladislav Trojan) zatím nic nekomentuje…(CinemArt)\n\n\t\t\t\t\t\t Paní Zahrádková (Tereza Voříšková) s manželem (Vojta Kotek) idealisticky chtějí, aby společnými silami dům zachránili. Novomanželé Bernáškovi (Jiří Černý, Maria Sawa) se s nadšením připojují. Paní Roubíčková (Klára Melíšková) pedantsky kontroluje řádný průběh schůze. Paní Horvátová (Dagmar Havlová) všechno iniciativně komentuje. Naivní pan Švec (David Novotný) zastupuje svojí maminku. Paní Procházková (Pavla Tomicová) s panem Novákem (Ondřej Malý) hledá způsoby jak zhodnotit svůj majetek. Pan Nitranský (Andrej Polák) touží po půdě v domě a pan Kubát (Jiří… (více)",
@@ -5769,18 +5787,18 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/263/160263896_e47b56.jpg"
     },
     {
-      "id": "767685-vse-pro-mou-matku",
-      "url": "https://www.csfd.cz/film/767685-vse-pro-mou-matku/",
-      "name": "Vše pro mou matku",
-      "year": 2019,
+      "id": "583851-vsichni-to-vedi",
+      "url": "https://www.csfd.cz/film/583851-vsichni-to-vedi/",
+      "name": "Všichni to vědí",
+      "year": 2018,
       "screenings": {
-        "Bio Oko": [
-          "2019-11-22T18:00:00.000Z"
+        "Kino Pilotů": [
+          "2019-11-23T17:45:00.000Z"
         ]
       },
-      "content": "Sedmnáctiletá Ola má chlapeckou postavu, okousané nehty a na rukách jizvy po sebepoškozování. Za své opakující se útěky z dětského domova skončí v pasťáku. Není ale jako ostatní dívky, netouží po drahém oblečení nebo novém smartphonu. Také nechce dozorci poskytovat sexuální služby za peníze nebo cigarety. Touží jen po tom, aby se jí vrátila matka, kterou už roky hledá.(Bardzo fajný festival)",
-      "imdbUrl": "https://www.imdb.com/title/tt10613578/combined",
-      "posterUrl": "https://img.csfd.cz/assets/b923/images/poster-fre"
+      "content": "Krásná Laura přijíždí do rodného Španělska na svatbu své sestry. Bujarou oslavu v kraji prosluněných vinic však naruší zmizení jednoho z hostů. Brzy se ukáže, že pod povrchem dřímají staré křivdy a tajemství, která měla zůstat zapomenuta. Nejslavnější filmový pár současnosti Penélope Cruz a Javier Bardem excelují v hlavních rolích dávných milenců, mezi kterými to nikdy nepřestalo jiskřit. Psychologický thriller dvojnásobného držitele Oscara Asghara Farhadiho se stal zahajovacím filmem festivalu v Cannes.(Aerofilms)",
+      "imdbUrl": "https://www.imdb.com/title/tt4964788/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/224/163224812_32012f.jpg"
     },
     {
       "id": "722585-vyjimecni",
@@ -5803,9 +5821,6 @@
           "2019-12-05T16:30:00.000Z",
           "2019-12-09T21:00:00.000Z"
         ],
-        "Francouzský institut": [
-          "2019-11-22T20:30:00.000Z"
-        ],
         "Kino Lucerna - Praha": [
           "2019-11-23T18:45:00.000Z"
         ],
@@ -5821,7 +5836,11 @@
           "2019-11-29T20:00:00.000Z"
         ],
         "Světozor": [
-          "2019-11-27T20:30:00.000Z"
+          "2019-11-27T20:30:00.000Z",
+          "2019-11-28T18:15:00.000Z",
+          "2019-11-29T18:15:00.000Z",
+          "2019-11-30T18:00:00.000Z",
+          "2019-12-01T18:00:00.000Z"
         ]
       },
       "content": "Bruno (Vincent Cassel) vede spolek pro autistické děti a dospívající, jejichž případy jsou tak komplikované, že je všude jinde odmítli. Jeho nejlepší přítel Malik (Reda Kateb) učí mladistvé ze sociálně slabých rodin, jak se o tyto děti starat. Přes 20 let žijí Bruno a Malik ve světě lidí, s nimiž si společnost neví rady. Přesto je neopouští optimismus a smysl pro humor. Ať už jejich autistický klient podesáté zastaví pařížské metro ve špičce, nebo kvůli práci v podstatě nestíhají osobní život. Bohužel hrozí, že bude Brunova organizace zrušena, jeho neotřelý přístup se totiž nelíbí každému. Brunovi a Malikovi tak nezbývá než přesvědčit úřady, že má jejich práce smysl.(Bioscop)\n\n\t\t\t\t\t\t Bruno (Vincent Cassel) vede spolek pro autistické děti a dospívající, jejichž případy jsou tak komplikované, že je všude jinde odmítli. Jeho nejlepší přítel Malik (Reda Kateb) učí mladistvé ze sociálně slabých rodin, jak se o tyto děti starat. Přes 20 let žijí Bruno a Malik ve světě lidí, s nimiž si společnost neví rady. Přesto je neopouští optimismus a smysl pro humor. Ať už jejich autistický klient podesáté zastaví pařížské metro ve špičce, nebo kvůli práci v podstatě nestíhají osobní život. Bohužel hrozí, že bude Brunova organizace zrušena, jeho neotře… (více)",
@@ -5840,6 +5859,20 @@
       },
       "imdbUrl": "https://www.imdb.com/title/tt0062963/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/033/33655_95c77b.jpg"
+    },
+    {
+      "id": "394687-vzpominky",
+      "url": "https://www.csfd.cz/film/394687-vzpominky/",
+      "name": "Vzpomínky",
+      "year": 2014,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-13T16:00:00.000Z"
+        ]
+      },
+      "content": "Romain se potýká s problémy každodenního života a tráví většinu času v nudné práci. Zlom nastane, když jeho babička zmizí a Romain ji odchází hledat do svých vzpomínek...(Francouzský institut v Praze)",
+      "imdbUrl": "https://www.imdb.com/title/tt3519272/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/414/159414868_dce9a4.jpg"
     },
     {
       "id": "353631-watermark",
@@ -5862,6 +5895,10 @@
       "screenings": {
         "Bio Oko": [
           "2019-11-24T16:45:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-23T10:00:00.000Z",
+          "2019-11-24T10:00:00.000Z"
         ],
         "Kino Radotín": [
           "2019-11-23T15:30:00.000Z"
@@ -5907,9 +5944,6 @@
       "name": "Yao",
       "year": 2018,
       "screenings": {
-        "Edison Filmhub": [
-          "2019-11-22T16:30:00.000Z"
-        ],
         "Francouzský institut": [
           "2019-11-24T14:00:00.000Z"
         ],
@@ -5929,11 +5963,29 @@
       "screenings": {
         "KC Zahrada": [
           "2019-11-25T19:00:00.000Z"
+        ],
+        "Kino Pilotů": [
+          "2019-11-24T15:30:00.000Z"
         ]
       },
       "content": "Velmi neúspěšný písničkář Jack (Himesh Patel) chce pověsit kytaru na hřebík, protože ať dělá, co dělá, poslouchá ho jenom nejlepší kamarádka Ellie (Lily James). Pak ho ale v důsledku chvilkového záhadného globálního zatmění porazí autobus. A to zcela změní nejen jeho život a způsobí i jednu hudební katastrofu. Když se Jack vylíže ze zranění a na párty konané na počest jeho uzdravení zabrnká na kytaru „Yesterday“ od Beatles, nestačí se divit reakcím svých přátel, kteří se chovají, jako by jednu z nejznámějších písniček všech dob slyšeli poprvé v životě. Mohl by to být nepovedený fór, kdyby se stejně nechovalo vyhledávání na internetu. Beatles jako by nikdy neexistovali a Jack vycítí příležitost. Stačí, když si vybaví všechny pecky legendárních Brouků z Liverpoolu, a svět mu rázem bude ležet u nohou. A ono to funguje! Dokonce tak dobře, že i slavný Ed Sheeran (hrající ve filmu sebe sama), který vezme Jacka jako předskokana na své turné, uzná, že ten klučina odnikud je mnohem talentovanější než on. Radost Jackovi kalí jen dvě „drobnosti“ – vědomí, že se dopouští celosvětového podvodu, a ztráta Ellie. Ta má pocit, že by ho konečně měla přestat milovat, když je to celou dobu jednostranné, a se zlomeným srdcem ho pošle do L. A. natočit nejlepší desku všech dob. Jenže když zpíváte o tom, že k životu stačí láska („All you need is love“), může vám to najednou dost změnit priority.(CinemArt)\n\n\t\t\t\t\t\t Velmi neúspěšný písničkář Jack (Himesh Patel) chce pověsit kytaru na hřebík, protože ať dělá, co dělá, poslouchá ho jenom nejlepší kamarádka Ellie (Lily James). Pak ho ale v důsledku chvilkového záhadného globálního zatmění porazí autobus. A to zcela změní nejen jeho život a způsobí i jednu hudební katastrofu. Když se Jack vylíže ze zranění a na párty konané na počest jeho uzdravení zabrnká na kytaru „Yesterday“ od Beatles, nestačí se divit reakcím svých přátel, kteří se chovají, jako by jednu z nejznámějších písniček všech dob slyšeli poprvé v životě. Mo… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt8079248/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/475/163475421_ce12d5.png"
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/475/163475421_ce12d5.png",
+      "trailerUrl": "https://www.youtube.com/watch?v=Ry9honCV3qc"
+    },
+    {
+      "id": "423620-z-parize-do-parize",
+      "url": "https://www.csfd.cz/film/423620-z-parize-do-parize/",
+      "name": "Z Paříže do Paříže",
+      "year": 2017,
+      "screenings": {
+        "Francouzský institut": [
+          "2019-12-09T11:00:00.000Z"
+        ]
+      },
+      "content": "Bratři Maurice a Joseph jsou kluci, kterým žádná lumpárna není cizí, a protože bydlí v Paříži, mají příležitostí pro svá klukovská dobrodružství více než dost. Tím spíše, když je jednomu deset a druhému dvanáct let. Bohužel jim do dětských her a radostí zasáhne tvrdý osud. Jednoho dne jim totiž maminka musí na kabáty přišít žluté hvězdy. Francie je okupována německou armádou a nacistická správa přitvrzuje. Židům v Paříži už jde o život, a tak tatínek rozhodne, že kluci musí uprchnout do dosud neokupované zóny na jihu Francie, kde se snad všichni zase setkají. A protože Maurice a Joseph musejí z ohroženého domova odejít okamžitě a pokud možno nenápadně, nemají žádné cestovní doklady, vezmou si jen minimum peněz a jídla. Před sebou mají dlouhou cestu nočním vlakem, bezohledné německé hlídky, nebezpečný přechod přes demarkační čáru a cestu přes vysokohorské hřebeny. Jediné, na co se mohou spolehnout, jsou vlastní síly, bystrost, statečnost a instinkt. Netuší, že potrvá ještě tři roky, než válka skončí. Malí hrdinové si naštěstí při tom všem dokáží v sobě uchovat dětství i najít čas na malá klukovská dobrodružství.(CinemArt)\n\n\t\t\t\t\t\t Bratři Maurice a Joseph jsou kluci, kterým žádná lumpárna není cizí, a protože bydlí v Paříži, mají příležitostí pro svá klukovská dobrodružství více než dost. Tím spíše, když je jednomu deset a druhému dvanáct let. Bohužel jim do dětských her a radostí zasáhne tvrdý osud. Jednoho dne jim totiž maminka musí na kabáty přišít žluté hvězdy. Francie je okupována německou armádou a nacistická správa přitvrzuje. Židům v Paříži už jde o život, a tak tatínek rozhodne, že kluci musí uprchnout do dosud neokupované zóny na jihu Francie, kde se snad všichni zase setk… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt5091612/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/774/161774248_5125d2.jpg"
     },
     {
       "id": "655976-zabava-zabava",
@@ -5950,7 +6002,6 @@
           "2019-11-26T10:00:00.000Z"
         ],
         "Mat": [
-          "2019-11-22T18:30:00.000Z",
           "2019-11-24T20:30:00.000Z"
         ]
       },
@@ -6038,10 +6089,6 @@
       "year": 2019,
       "screenings": {
         "CineStar Praha - Anděl": [
-          "2019-11-22T12:00:00.000Z",
-          "2019-11-22T15:30:00.000Z",
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T21:00:00.000Z",
           "2019-11-23T12:00:00.000Z",
           "2019-11-23T15:30:00.000Z",
           "2019-11-23T21:45:00.000Z",
@@ -6063,16 +6110,10 @@
           "2019-11-27T21:45:00.000Z"
         ],
         "CineStar Praha - Černý Most": [
-          "2019-11-22T14:50:00.000Z",
-          "2019-11-22T16:10:00.000Z",
-          "2019-11-22T18:30:00.000Z",
-          "2019-11-22T20:15:00.000Z",
           "2019-11-23T14:50:00.000Z",
-          "2019-11-23T16:10:00.000Z",
           "2019-11-23T18:30:00.000Z",
           "2019-11-23T20:15:00.000Z",
           "2019-11-24T14:50:00.000Z",
-          "2019-11-24T16:10:00.000Z",
           "2019-11-24T18:30:00.000Z",
           "2019-11-24T20:15:00.000Z",
           "2019-11-25T15:00:00.000Z",
@@ -6089,10 +6130,6 @@
           "2019-11-27T20:20:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T13:20:00.000Z",
-          "2019-11-22T15:40:00.000Z",
-          "2019-11-22T18:40:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T13:20:00.000Z",
           "2019-11-23T15:40:00.000Z",
           "2019-11-23T18:40:00.000Z",
@@ -6115,9 +6152,6 @@
           "2019-11-27T21:10:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T14:20:00.000Z",
-          "2019-11-22T16:40:00.000Z",
-          "2019-11-22T19:10:00.000Z",
           "2019-11-23T14:20:00.000Z",
           "2019-11-23T16:40:00.000Z",
           "2019-11-23T19:10:00.000Z",
@@ -6135,10 +6169,6 @@
           "2019-11-27T19:10:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T14:30:00.000Z",
-          "2019-11-22T16:50:00.000Z",
-          "2019-11-22T18:30:00.000Z",
-          "2019-11-22T20:50:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-23T14:30:00.000Z",
           "2019-11-23T16:50:00.000Z",
@@ -6163,10 +6193,6 @@
           "2019-11-27T20:50:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T14:10:00.000Z",
-          "2019-11-22T16:30:00.000Z",
-          "2019-11-22T18:50:00.000Z",
-          "2019-11-22T21:10:00.000Z",
           "2019-11-23T11:50:00.000Z",
           "2019-11-23T14:10:00.000Z",
           "2019-11-23T16:30:00.000Z",
@@ -6191,8 +6217,6 @@
           "2019-11-27T21:10:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T12:10:00.000Z",
-          "2019-11-22T14:40:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-23T15:50:00.000Z",
           "2019-11-24T12:10:00.000Z",
@@ -6208,9 +6232,6 @@
           "2019-11-27T17:00:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T16:10:00.000Z",
-          "2019-11-22T18:30:00.000Z",
-          "2019-11-22T20:50:00.000Z",
           "2019-11-23T11:20:00.000Z",
           "2019-11-23T13:40:00.000Z",
           "2019-11-23T16:00:00.000Z",
@@ -6240,8 +6261,6 @@
           "2019-11-30T17:30:00.000Z"
         ],
         "Premiere Cinemas Praha Hostivař": [
-          "2019-11-22T17:00:00.000Z",
-          "2019-11-22T19:20:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T17:00:00.000Z",
           "2019-11-23T19:20:00.000Z",
@@ -6274,28 +6293,12 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/124/163124586_e6c6b4.png"
     },
     {
-      "id": "9495-zlata-reneta",
-      "url": "https://www.csfd.cz/film/9495-zlata-reneta/",
-      "name": "Zlatá reneta",
-      "year": 1965,
-      "screenings": {
-        "Mat": [
-          "2019-11-22T18:30:00.000Z"
-        ]
-      },
-      "content": "Od poloviny 60. let, možná i pod vlivem svých nedávných studentů z FAMU, prožívá Otakar Vávra mimořádnou obrodu svého talentu. Dokázal se totiž zařadit po bok generace o mnoho mladší a veřejnost uchvátit jak křehce lyrickým pohledem, tak zvážnělým zamyšlením nad nenadálými zvraty obyčejných lidských osudů, zvláště marněným životem. Hrdinou tohoto filmu, natočeného podle Hrubínovy předlohy, je knihovník, ušláplý človíček, jenž na prahu stárnutí podnikne cestu do vesnice, kde kdysi prožil mládí. Pokouší se oživit dávné vzpomínky, ale záhy zjišťuje marnost takového počínání. Vávra natočil mimořádně působivý ponor do lidské psychiky, jen stěží se smiřující s poznáním, že minulost nelze vrátit. Vynikající je i tlumená herecká kreace jako vždy uměřeného Karla Högra.(oficiální text distributora)\n\n\t\t\t\t\t\t Od poloviny 60. let, možná i pod vlivem svých nedávných studentů z FAMU, prožívá Otakar Vávra mimořádnou obrodu svého talentu. Dokázal se totiž zařadit po bok generace o mnoho mladší a veřejnost uchvátit jak křehce lyrickým pohledem, tak zvážnělým zamyšlením nad nenadálými zvraty obyčejných lidských osudů, zvláště marněným životem. Hrdinou tohoto filmu, natočeného podle Hrubínovy předlohy, je knihovník, ušláplý človíček, jenž na prahu stárnutí podnikne cestu do vesnice, kde kdysi prožil mládí. Pokouší se oživit dávné vzpomínky, ale záhy zjišťuje marnost t… (více)",
-      "imdbUrl": "https://www.imdb.com/title/tt0169406/combined",
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/008/8992_9e0c6d.jpg"
-    },
-    {
       "id": "53977-zloba-kralovna-vseho-zleho",
       "url": "https://www.csfd.cz/film/53977-zloba-kralovna-vseho-zleho/",
       "name": "Zloba: Královna všeho zlého",
       "year": 2019,
       "screenings": {
         "CineStar Praha - Černý Most": [
-          "2019-11-22T12:20:00.000Z",
-          "2019-11-22T14:50:00.000Z",
           "2019-11-23T12:20:00.000Z",
           "2019-11-23T14:50:00.000Z",
           "2019-11-24T12:20:00.000Z",
@@ -6305,9 +6308,6 @@
           "2019-11-27T14:50:00.000Z"
         ],
         "Cinema City Chodov": [
-          "2019-11-22T13:00:00.000Z",
-          "2019-11-22T14:00:00.000Z",
-          "2019-11-22T15:50:00.000Z",
           "2019-11-23T10:30:00.000Z",
           "2019-11-23T10:30:00.000Z",
           "2019-11-23T11:30:00.000Z",
@@ -6331,7 +6331,6 @@
           "2019-11-27T15:50:00.000Z"
         ],
         "Cinema City Flora": [
-          "2019-11-22T13:10:00.000Z",
           "2019-11-23T10:40:00.000Z",
           "2019-11-23T13:10:00.000Z",
           "2019-11-24T10:40:00.000Z",
@@ -6349,7 +6348,6 @@
           "2019-11-24T13:40:00.000Z"
         ],
         "Cinema City Nový Smíchov": [
-          "2019-11-22T13:20:00.000Z",
           "2019-11-23T10:10:00.000Z",
           "2019-11-23T13:20:00.000Z",
           "2019-11-24T10:10:00.000Z",
@@ -6358,7 +6356,6 @@
           "2019-11-27T13:20:00.000Z"
         ],
         "Cinema City Zličín": [
-          "2019-11-22T14:20:00.000Z",
           "2019-11-23T12:10:00.000Z",
           "2019-11-23T14:40:00.000Z",
           "2019-11-23T12:20:00.000Z",
@@ -6385,7 +6382,6 @@
       "year": 2019,
       "screenings": {
         "Cinema City Chodov": [
-          "2019-11-22T18:50:00.000Z",
           "2019-11-23T18:50:00.000Z",
           "2019-11-24T18:50:00.000Z",
           "2019-11-25T18:50:00.000Z",
@@ -6393,8 +6389,6 @@
           "2019-11-27T18:50:00.000Z"
         ],
         "Cinema City Letňany": [
-          "2019-11-22T17:40:00.000Z",
-          "2019-11-22T21:40:00.000Z",
           "2019-11-23T17:40:00.000Z",
           "2019-11-23T21:40:00.000Z",
           "2019-11-24T17:40:00.000Z",
@@ -6407,7 +6401,6 @@
           "2019-11-27T21:40:00.000Z"
         ],
         "Cinema City Slovanský dům": [
-          "2019-11-22T19:40:00.000Z",
           "2019-11-25T21:30:00.000Z",
           "2019-11-26T19:40:00.000Z",
           "2019-11-26T21:50:00.000Z",
@@ -6418,6 +6411,34 @@
       "content": "Deset let poté, co se Zombieland stal hitem a kultovní klasikou, se hlavní protagonisté (Woody Harrelson, Jesse Eisenberg, Abigail Breslinová a Emma Stoneová) opět spojili s režisérem Rubenem Fleischerem (Venom) a původními autory Rhettem Reesem a Paulem Wernickem (Deadpool) ve filmu Zombieland 2: Rána jistoty. V pokračování napsaném Rhettem Reesem, Paulem Wernickem a Davem Callahamem projde naše čtveřice zabijáků komickým zmatkem přes Bílý dům a srdce země. Střetnou se nejen se spoustou nových zombie, kteří od prvního filmu vznikli, ale i s některými přeživšími lidmi. Ze všeho nejvíc je ale ohrožují narůstající problémy jejich vlastní, chatrné improvizované rodiny.(Falcon)\n\n\t\t\t\t\t\t Deset let poté, co se Zombieland stal hitem a kultovní klasikou, se hlavní protagonisté (Woody Harrelson, Jesse Eisenberg, Abigail Breslinová a Emma Stoneová) opět spojili s režisérem Rubenem Fleischerem (Venom) a původními autory Rhettem Reesem a Paulem Wernickem (Deadpool) ve filmu Zombieland 2: Rána jistoty. V pokračování napsaném Rhettem Reesem, Paulem Wernickem a Davem Callahamem projde naše čtveřice zabijáků komickým zmatkem přes Bílý dům a srdce země. Střetnou se nejen se spoustou nových zombie, kteří od prvního filmu vznikli, ale i s některými pře… (více)",
       "imdbUrl": "https://www.imdb.com/title/tt1560220/combined",
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/739/163739236_c1a37d.jpg"
+    },
+    {
+      "id": "30353-ztracena-revue",
+      "url": "https://www.csfd.cz/film/30353-ztracena-revue/",
+      "name": "Ztracená revue",
+      "year": 1961,
+      "screenings": {
+        "Ponrepo": [
+          "2019-12-02T17:00:00.000Z"
+        ]
+      },
+      "content": "Hudební a taneční revue o klaunovi (J. Vršťala) a dívce z plakátu (J. Brejchová) se odehrává v pražských ulicích, tichých zákoutích Starého Města, Malé Strany a Hradčan s pověstnými motivy gotických chrličů Svatovítské katedrály na Pražském hradě, ale i na klávesnici mechanického psacího stroje a na dramaturgických poradách tehdejší Československé televize, na nichž hlavní slovo má Miloš Kopecký. Zábavný pořad v rytmu tehdy módního charlestonu, který oplývá množstvím režijních nápadů, byl v roce 1962 oceněn na mezinárodním televizním festivalu v Montreux Stříbrnou růží a Cenou kritiky a zároveň na televizní přehlídce v Alexandrii získal Zlatou sluneční loď. Uslyšíte mj. písně Klokočí z autorské dílny J. Šlitra a J. Suchého, Souvenir v interpretaci Judity Čeřovské, To všechno vodnes čas v osobitém podání Waldemara Matušky. Poctu vznosnému andaluskému městu Granadě v českém přebásnění Zdeňka Borovce přednáší Milan Chladil, Blues na cestu poslední zpívá Rudolf Pellar a Po kom to dítě je – takovou otázku si klade Edita Štaubertová.(Česká televize)\n\n\t\t\t\t\t\t Hudební a taneční revue o klaunovi (J. Vršťala) a dívce z plakátu (J. Brejchová) se odehrává v pražských ulicích, tichých zákoutích Starého Města, Malé Strany a Hradčan s pověstnými motivy gotických chrličů Svatovítské katedrály na Pražském hradě, ale i na klávesnici mechanického psacího stroje a na dramaturgických poradách tehdejší Československé televize, na nichž hlavní slovo má Miloš Kopecký. Zábavný pořad v rytmu tehdy módního charlestonu, který oplývá množstvím režijních nápadů, byl v roce 1962 oceněn na mezinárodním televizním festivalu v Montreux… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt0174361/combined",
+      "posterUrl": "https://img.csfd.cz/assets/b924/images/poster-fre"
+    },
+    {
+      "id": "441489-ztratili-jsme-stalina",
+      "url": "https://www.csfd.cz/film/441489-ztratili-jsme-stalina/",
+      "name": "Ztratili jsme Stalina",
+      "year": 2017,
+      "screenings": {
+        "Kino Pilotů": [
+          "2019-11-24T20:30:00.000Z"
+        ]
+      },
+      "content": "5. března 1953 umírá muž. Tím mužem je Josef Stalin. Po jeho skonu vypuká v řadách jeho nejbližších naprostý zmatek a panika. Na to, co nastane po skonu velkého vůdce, se dosud báli jen pomyslet. Vždyť Lenin byl, je a bude vždy živý. Proč by nemohl i Stalin? Během jeho života se soustředili především na to, jak jej přežít. A teď se začnou naplno projevovat absurdní a pokřivené charaktery všech těchto Stalinových pohrobků. Začíná boj o veškerou moc nad komunistickou říší, která do této chvíle patřila jen a pouze brutálnímu diktátorovi. O nejvyšší post nebo aspoň o bezpečné místečko pod ním se perou ti, kteří se za dobu Stalinovy krutovlády dokázali zbavit jakéhokoli vlastního názoru. Stále se ujišťují, co by tomu nebo tamtomu řekl Stalin, a co by se jim za to asi tak mohlo stát. Povýšení? Gulag? Provaz? Koho se mají bát teď? Jedni kují pikle proti druhým a do toho společně organizují okázalý diktátorův pohřeb.(CinemArt)\n\n\t\t\t\t\t\t 5. března 1953 umírá muž. Tím mužem je Josef Stalin. Po jeho skonu vypuká v řadách jeho nejbližších naprostý zmatek a panika. Na to, co nastane po skonu velkého vůdce, se dosud báli jen pomyslet. Vždyť Lenin byl, je a bude vždy živý. Proč by nemohl i Stalin? Během jeho života se soustředili především na to, jak jej přežít. A teď se začnou naplno projevovat absurdní a pokřivené charaktery všech těchto Stalinových pohrobků. Začíná boj o veškerou moc nad komunistickou říší, která do této chvíle patřila jen a pouze brutálnímu diktátorovi. O nejvyšší post nebo… (více)",
+      "imdbUrl": "https://www.imdb.com/title/tt4686844/combined",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/473/162473599_fcb61a.png"
     }
   ]
 }
