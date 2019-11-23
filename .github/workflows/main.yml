@@ -22,8 +22,8 @@ jobs:
         # Run the script for refreshing the CSFD cinema data
         npm install
         npm start
-        # Add generated GitHub Pages to Git stage
-        git add data.json
+        # Stage the generated data
+        git add data
         # Run the CRA version build
         rm -rf docs
         cd cra
@@ -31,7 +31,7 @@ jobs:
         npm run build
         cd ..
         mv cra/build docs
-        cp data.json docs/data.json
+        # Stage the CRA build
         git add docs
         # Reset unstaged changes to prevent `git commit` from yelling if there's changes outside of `docs`
         git checkout -- .

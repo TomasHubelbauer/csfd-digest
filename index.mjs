@@ -20,18 +20,19 @@ void async function () {
 
   await page.goto('https://csfd.cz/kino/?period=all');
   try {
-    /** @type {String[]} */
+    /** @type {string[]} */
     const cinemas = [];
-    /** @type {{ id: String; name: String; year: Number; screenings: any[] }[]} */
+    /** @type {{ id: string; url: string; name: string; year: number; content: string; imdbUrl: string; posterUrl: string; trailerUrl: string; screenings: any[] }[]} */
     const movies = [];
 
+    await fs.emptyDir('data');
     for (const cinemaScheduleDiv of await page.$$('.cinema-schedule')) {
       const cinemaName = await cinemaScheduleDiv.$eval('.header h2', h2 => h2.textContent.substring('Praha - '.length));
       cinemas.push(cinemaName);
 
       for (const dayTable of await cinemaScheduleDiv.$$('table')) {
         const [_, day, month, year] = await dayTable.$eval('caption', caption => /(\d+)\.(\d+)\.(\d+)/g.exec(caption.textContent));
-        console.log(`Processing schedule for ${cinemaName} on ${year}/${month}/${day}`);
+        console.log(`Processing schedule for ${cinemaName} on ${year}/${month}/${day}…`);
 
         for (const movieTr of await dayTable.$$('tr')) {
           const { name, url } = await movieTr.$eval('th a', a => ({ name: a.textContent.trim(), url: a.href }));
@@ -67,12 +68,9 @@ void async function () {
       }
     }
 
-    // Sort alphabetically to make the diffs nice
-    movies.sort((a, b) => a.name.localeCompare(b.name));
-
     for (let index = 0; index < movies.length; index++) {
       const movie = movies[index];
-      console.log(`Scraping ${movie.name} (${movie.year}, ${index + 1} / ${movies.length})`);
+      console.log(`Scraping ${index + 1} / ${movies.length} ${movie.name} (${movie.year})…`);
       await page.goto(movie.url);
 
       try {
@@ -95,9 +93,21 @@ void async function () {
 
       await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
       movie.trailerUrl = await page.$eval('#video-title', a => a.href);
+
+      await fs.writeJson(`data/${movie.id}.json`, { dateAndTime: new Date(), ...movie }, { spaces: 2 });
+
+      // Delete non-index information to serialize only index information later on
+      delete movie.url;
+      delete movie.content;
+      delete movie.imdbUrl;
+      delete movie.trailerUrl;
+      delete movie.screenings;
     }
 
-    await fs.writeJSON('data.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
+    // Sort alphabetically to make the index diffs nicer
+    movies.sort((a, b) => a.name.localeCompare(b.name));
+
+    await fs.writeJSON('data/_.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
   } finally {
     await browser.close();
   }
