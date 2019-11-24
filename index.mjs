@@ -23,10 +23,10 @@ void async function () {
     for (const cinemaScheduleDiv of await page.$$('.cinema-schedule')) {
       const cinemaName = await cinemaScheduleDiv.$eval('.header h2', h2 => h2.textContent.substring('Praha - '.length));
       cinemas.push(cinemaName);
+      console.log(`Processing the schedule for ${cinemaName}`);
 
       for (const dayTable of await cinemaScheduleDiv.$$('table')) {
         const [_, day, month, year] = await dayTable.$eval('caption', caption => /(\d+)\.(\d+)\.(\d+)/g.exec(caption.textContent));
-        console.log(`Processing the schedule for ${cinemaName} on ${year}/${month}/${day}…`);
 
         for (const movieTr of await dayTable.$$('tr')) {
           const { name, url } = await movieTr.$eval('th a', a => ({ name: a.textContent.trim(), url: a.href }));
@@ -58,8 +58,6 @@ void async function () {
             movie.screenings[cinemaName].push(new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute)));
           }
         }
-
-        console.log(`Processed the schedule for ${cinemaName} on ${year}/${month}/${day}.`);
       }
     }
 
@@ -76,9 +74,8 @@ void async function () {
           // Do not await this to make it run in parallel later using `Promise.all`
           return scrapeMovie(page, m, cinemas);
         });
-      console.log(`Scraping the batch #${batchNumber}/${batchCount} of ${batch.length} movies…`);
+      console.log(`Scraping the batch #${batchNumber}/${batchCount} of ${batch.length} movies:`);
       await Promise.all(batch);
-      console.log(`Scraped the batch #${batchNumber}/${batchCount} of ${batch.length} movies…`);
     }
 
     await fs.appendFile(`data/_${batchSize}.log`, `${new Date().toLocaleString()} ${~~((Date.now() - now) / 1000)} s\n`)
@@ -108,7 +105,6 @@ async function block3rdPartyNetworking(page) {
 
 async function scrapeMovie(page, movie, cinemas) {
   try {
-    console.log(`Scraping ${movie.name} (${movie.year})…`);
     await page.goto(movie.url);
 
     try {
@@ -143,8 +139,8 @@ async function scrapeMovie(page, movie, cinemas) {
     movie.screenings = Object.keys(movie.screenings).reduce((a, c) => a + movie.screenings[c].length, 0);
 
     await page.close();
-    console.log(`Scraped ${movie.name} (${movie.year}).`);
+    console.log(`Scraped ${movie.name} (${movie.year})`);
   } catch (error) {
-    console.log(`Errored ${movie.name} (${movie.year}). ${error.message}`);
+    console.log(`Errored ${movie.name} (${movie.year}): ${error.message}`);
   }
 }
