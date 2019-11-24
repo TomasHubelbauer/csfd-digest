@@ -15,6 +15,26 @@ p a {
   margin-left: 1ex;
 }
 
+div.included {
+  margin-top: 1em;
+}
+
+div.included button {
+  background: none;
+  border: none;
+  color: maroon;
+}
+
+div.excluded {
+  margin-top: 1em;
+}
+
+div.excluded button {
+  background: none;
+  border: none;
+  color: green;
+}
+
 div.cinema {
   display: flex;
 }

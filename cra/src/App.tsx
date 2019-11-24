@@ -1,5 +1,5 @@
 import './App.css';
-import React, { ChangeEventHandler, useEffect, useState, Fragment } from 'react';
+import React, { useEffect, useState, MouseEventHandler } from 'react';
 import TimeAgo from 'react-timeago';
 
 type IndexMovie = {
@@ -68,14 +68,17 @@ export default function App() {
     }()
   }, []);
 
-  const handleCinemaInputChange: ChangeEventHandler<HTMLInputElement> = event => {
-    let newSelectedCinemas = selectedCinemas.filter(c => c !== event.currentTarget.id);
-    if (event.currentTarget.checked) {
-      newSelectedCinemas.push(event.currentTarget.id);
-    }
+  const handleExcludeCinemaButtonClick: MouseEventHandler<HTMLButtonElement> = event => {
+    const _selectedCinemas = selectedCinemas.filter(c => c !== event.currentTarget.dataset.id);
+    setSelectedCinemas(_selectedCinemas);
+    localStorage.setItem('selected-cinemas', JSON.stringify(_selectedCinemas));
+  };
 
-    setSelectedCinemas(newSelectedCinemas);
-    localStorage.setItem('selected-cinemas', JSON.stringify(newSelectedCinemas));
+  const handleIncludeCinemaButtonClick: MouseEventHandler<HTMLButtonElement> = event => {
+    const _selectedCinemas = selectedCinemas.filter(c => c !== event.currentTarget.dataset.id);
+    _selectedCinemas.push(event.currentTarget.dataset.id!);
+    setSelectedCinemas(_selectedCinemas);
+    localStorage.setItem('selected-cinemas', JSON.stringify(_selectedCinemas));
   };
 
   if (error) {
@@ -85,7 +88,11 @@ export default function App() {
   }
 
   const selectedCinemaIndices = selectedCinemas.map(c => cinemas.indexOf(c));
-  const filteredMovies = movies.filter(m => m.cinemas.find(c => selectedCinemaIndices.includes(c)));
+  const includedCinemas = selectedCinemas;
+  const excludedCinemas = cinemas.filter(c => !includedCinemas.includes(c));
+  const badMovies = movies.filter(m => !m.cinemas);
+  const goodMovies = movies.filter(m => !badMovies.includes(m));
+  const filteredMovies = goodMovies.filter(m => m.cinemas.find(c => selectedCinemaIndices.includes(c)));
   return (
     <div>
       <h1>Prague Cinema</h1>
@@ -96,12 +103,17 @@ export default function App() {
         .
         <a href="https://github.com/TomasHubelbauer/puppeteer-csfd-scraper" target="_blank" rel="noopener noreferrer">GitHub</a>
       </p>
-      <div>
-        {cinemas.map(c => (
-          <Fragment key={c}>
-            <input type="checkbox" checked={selectedCinemas.includes(c)} id={c} onChange={handleCinemaInputChange} />
-            <label htmlFor={c}>{c}</label>
-          </Fragment>
+      {badMovies.length > 0 && (
+        <div>Some movies weren't scraped correctly: {badMovies.map(m => `${m.name} (${m.year})`).join(', ')}</div>
+      )}
+      <div className="included">
+        {includedCinemas.map(c => (
+          <button key={c} data-id={c} onClick={handleExcludeCinemaButtonClick}>{c}</button>
+        ))}
+      </div>
+      <div className="excluded">
+        {excludedCinemas.map(c => (
+          <button key={c} data-id={c} onClick={handleIncludeCinemaButtonClick}>{c}</button>
         ))}
       </div>
       <p>{selectedCinemas.length} cinema{selectedCinemas.length > 1 ? 's' : ''} selected</p>
