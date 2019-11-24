@@ -100,9 +100,4 @@ Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
 
 Make pipeline failure (`npm start`) actually fail the pipeline.
 
-Render the movie popup by loading the movie file when opened.
-
-Update the CRA version to use the index file only before opening detail and then
-loading the detail file. Also make sure both local and remote work well with
-proxy etc. without having to copy the data files to `docs` and have that much
-redundancy.
+Render the movie popup by loading the movie file when opened in both versions.
