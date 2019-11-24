@@ -61,7 +61,7 @@ void async function () {
       }
     }
 
-    const now = performance.now();
+    const now = Date.now();
     const batchCount = ~~(movies.length / batchSize);
     for (let batchIndex = 0; batchIndex < batchCount; batchIndex++) {
       const batchNumber = batchIndex + 1;
@@ -79,7 +79,7 @@ void async function () {
       console.log(`Scraped the batch #${batchNumber}/${batchCount} of ${batch.length} movies…`);
     }
 
-    await fs.appendFile(`data/_${batchSize}.log`, `${new Date().toLocaleString()} ${~~((performance.now() - now) / 1000)} s\n`)
+    await fs.appendFile(`data/_${batchSize}.log`, `${new Date().toLocaleString()} ${~~((Date.now() - now) / 1000)} s\n`)
 
     // Sort alphabetically to make the index diffs nicer
     movies.sort((a, b) => a.name.localeCompare(b.name));
