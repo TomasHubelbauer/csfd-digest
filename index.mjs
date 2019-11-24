@@ -84,7 +84,7 @@ void async function () {
     // Sort alphabetically to make the index diffs nicer
     movies.sort((a, b) => a.name.localeCompare(b.name));
 
-    await fs.writeJSON('data/_.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
+    await fs.writeJSON('data/index.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
   } finally {
     await browser.close();
   }

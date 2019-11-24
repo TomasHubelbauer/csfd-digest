@@ -9,25 +9,12 @@ level. Notifies about new movies coming out.
 
 ## Running
 
-### The old version (in root)
+Run `npx serve .` to serve the contents of the repository directory.
 
-- `npm start` to refresh the data
-- `npx serve .` to access the web app at http://localhost:5000
+Access http://localhost:5000 to visit the old app (HTML).
 
-### The new version (in `cra`)
-
-Run the web app in one terminal (will open http://localhost:3000):
-
-```sh
-cd cra
-npm start
-```
-
-Serve `data` for the proxy in another:
-
-```sh
-npx serve .
-```
+Run `npm start` in `cra` in addition (to keep serving `docs` for the proxy) and
+access http://localhost:3000 to visit the new app (React).
 
 ## To-Do
 
@@ -99,6 +86,3 @@ Add in and out transition animation for the popup.
 Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
 
 Render the movie popup by loading the movie file when opened in both versions.
-
-Figure out why serving `_.json` fails in GitHub Pages for both the old and the
-new apps.

@@ -53,7 +53,7 @@ export default function App() {
   useEffect(() => {
     void async function () {
       try {
-        const response = await fetch(process.env.NODE_ENV === 'development' ? 'data/_.json' : '../data/_.json');
+        const response = await fetch(process.env.NODE_ENV === 'development' ? 'data/index.json' : '../data/index.json');
         const { dateAndTime, cinemas, movies }: Data = await response.json();
 
         // Sort movies by the number of screenings as a proxy for popularity
@@ -66,7 +66,7 @@ export default function App() {
         setError(error);
       }
     }()
-  });
+  }, []);
 
   const handleCinemaInputChange: ChangeEventHandler<HTMLInputElement> = event => {
     let newSelectedCinemas = selectedCinemas.filter(c => c !== event.currentTarget.id);

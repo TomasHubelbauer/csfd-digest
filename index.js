@@ -9,7 +9,7 @@ window.addEventListener('load', async () => {
   const tagDiv = document.getElementById('tagDiv');
   const screeningsDiv = document.getElementById('screeningsDiv');
 
-  const response = await fetch('data/_.json');
+  const response = await fetch('data/index.json');
   const data = await response.json();
 
   // TODO: Iterate local storage and delete keys which do not have a corresponding value in `data.movies`
