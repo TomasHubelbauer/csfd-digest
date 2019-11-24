@@ -1,23 +1,13 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs-extra';
 
+const batchSize = 10;
+
 void async function () {
   const browser = await puppeteer.launch();
   const pages = await browser.pages();
   const page = pages[0];
-
-  // Block 3rd party networking to speed up the scraping
-  await page.setRequestInterception(true);
-  const allowedHostnames = ['csfd.cz', 'www.csfd.cz', 'img.csfd.cz', 'www.youtube.com' /* Trailer */];
-  page.on('request', request => {
-    const { hostname } = new URL(request.url());
-    if (!allowedHostnames.includes(hostname)) {
-      request.abort();
-    } else {
-      request.continue();
-    }
-  });
-
+  await block3rdPartyNetworking(page);
   await page.goto('https://csfd.cz/kino/?period=all');
   try {
     /** @type {string[]} */
@@ -65,44 +55,26 @@ void async function () {
             movie.screenings[cinemaName].push(new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute)));
           }
         }
+
+        console.log(`Processed the schedule for ${cinemaName} on ${year}/${month}/${day}.`);
       }
     }
 
-    for (let index = 0; index < movies.length; index++) {
-      const movie = movies[index];
-      console.log(`Scraping: ${index + 1} / ${movies.length} ${movie.name} (${movie.year})…`);
-      await page.goto(movie.url);
+    const batchCount = ~~(movies.length / batchSize);
+    for (let batchIndex = 0; batchIndex < batchCount; batchIndex++) {
+      const batchNumber = batchIndex + 1;
+      const batch = movies
+        .slice(batchIndex * batchSize, batchIndex * batchSize + batchSize)
+        .map(async m => {
+          const page = await browser.newPage();
+          await block3rdPartyNetworking(page);
 
-      try {
-        movie.content = await page.$eval('div#plots li:not([style^="display: none;"])', li => li.textContent.trim());
-      } catch (error) {
-        // Ignore missing content li
-      }
-
-      try {
-        movie.imdbUrl = await page.$eval('a[title="profil na IMDb.com"]', a => a.href);
-      } catch (error) {
-        // Ignore missing IMDB a
-      }
-
-      try {
-        movie.posterUrl = await page.$eval('img.film-poster', img => img.src.slice(0, -'?h###'.length));
-      } catch (error) {
-        // Ignore missing poster img (some old movies do not have them)
-      }
-
-      await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
-      movie.trailerUrl = await page.$eval('#video-title', a => a.href);
-
-      await fs.writeJson(`data/${movie.id}.json`, { dateAndTime: new Date(), ...movie }, { spaces: 2 });
-
-      // Delete non-index information to serialize only index information later on
-      delete movie.url;
-      delete movie.content;
-      delete movie.imdbUrl;
-      delete movie.trailerUrl;
-      movie.cinemas = Object.keys(movie.screenings).map(c => cinemas.indexOf(c));
-      movie.screenings = Object.keys(movie.screenings).reduce((a, c) => a + movie.screenings[c].length, 0);
+          // Do not await this to make it run in parallel later using `Promise.all`
+          return scrapeMovie(page, m, cinemas);
+        });
+      console.log(`Scraping the batch #${batchNumber}/${batchCount} of ${batch.length} movies…`);
+      await Promise.all(batch);
+      console.log(`Scraped the batch #${batchNumber}/${batchCount} of ${batch.length} movies…`);
     }
 
     // Sort alphabetically to make the index diffs nicer
@@ -113,3 +85,56 @@ void async function () {
     await browser.close();
   }
 }()
+
+const allowedHostnames = ['csfd.cz', 'www.csfd.cz', 'img.csfd.cz', 'www.youtube.com' /* Trailer */];
+async function block3rdPartyNetworking(page) {
+  // Block 3rd party networking to speed up the scraping
+  await page.setRequestInterception(true);
+  page.on('request', request => {
+    const { hostname } = new URL(request.url());
+    if (!allowedHostnames.includes(hostname)) {
+      request.abort();
+    } else {
+      request.continue();
+    }
+  });
+}
+
+async function scrapeMovie(page, movie, cinemas) {
+  console.log(`Scraping ${movie.name} (${movie.year})…`);
+  await page.goto(movie.url);
+
+  try {
+    movie.content = await page.$eval('div#plots li:not([style^="display: none;"])', li => li.textContent.trim());
+  } catch (error) {
+    // Ignore missing content li
+  }
+
+  try {
+    movie.imdbUrl = await page.$eval('a[title="profil na IMDb.com"]', a => a.href);
+  } catch (error) {
+    // Ignore missing IMDB a
+  }
+
+  try {
+    movie.posterUrl = await page.$eval('img.film-poster', img => img.src.slice(0, -'?h###'.length));
+  } catch (error) {
+    // Ignore missing poster img (some old movies do not have them)
+  }
+
+  await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
+  movie.trailerUrl = await page.$eval('#video-title', a => a.href);
+
+  await fs.writeJson(`data/${movie.id}.json`, { dateAndTime: new Date(), ...movie }, { spaces: 2 });
+
+  // Delete non-index information to serialize only index information later on
+  delete movie.url;
+  delete movie.content;
+  delete movie.imdbUrl;
+  delete movie.trailerUrl;
+  movie.cinemas = Object.keys(movie.screenings).map(c => cinemas.indexOf(c));
+  movie.screenings = Object.keys(movie.screenings).reduce((a, c) => a + movie.screenings[c].length, 0);
+
+  await page.close();
+  console.log(`Scraped ${movie.name} (${movie.year}).`);
+}
