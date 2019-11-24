@@ -4,6 +4,9 @@ import fs from 'fs-extra';
 // Study how the batch size impacts the workflow duration by cycling between 1 and 30 daily
 const batchSize = new Date().getDate();
 
+// Crash the process to fail the workflow if there is an uncaught error
+process.on('unhandledRejection', error => { throw error; });
+
 void async function () {
   const browser = await puppeteer.launch();
   const pages = await browser.pages();
@@ -28,7 +31,6 @@ void async function () {
         for (const movieTr of await dayTable.$$('tr')) {
           const { name, url } = await movieTr.$eval('th a', a => ({ name: a.textContent.trim(), url: a.href }));
           const movieYear = Number(await movieTr.$eval('th span.film-year', span => span.textContent.slice(1, -1)));
-          console.log(`\tProcessing ${name} (${movieYear})`);
           const idMatch = /\/(\d+-[\w-]+)\//g.exec(url);
           if (idMatch === null || idMatch.length !== 2) {
             throw new Error('Failed to parse the ID out of', url);
@@ -105,40 +107,44 @@ async function block3rdPartyNetworking(page) {
 }
 
 async function scrapeMovie(page, movie, cinemas) {
-  console.log(`Scraping ${movie.name} (${movie.year})…`);
-  await page.goto(movie.url);
-
   try {
-    movie.content = await page.$eval('div#plots li:not([style^="display: none;"])', li => li.textContent.trim());
+    console.log(`Scraping ${movie.name} (${movie.year})…`);
+    await page.goto(movie.url);
+
+    try {
+      movie.content = await page.$eval('div#plots li:not([style^="display: none;"])', li => li.textContent.trim());
+    } catch (error) {
+      // Ignore missing content li
+    }
+
+    try {
+      movie.imdbUrl = await page.$eval('a[title="profil na IMDb.com"]', a => a.href);
+    } catch (error) {
+      // Ignore missing IMDB a
+    }
+
+    try {
+      movie.posterUrl = await page.$eval('img.film-poster', img => img.src.slice(0, -'?h###'.length));
+    } catch (error) {
+      // Ignore missing poster img (some old movies do not have them)
+    }
+
+    await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
+    movie.trailerUrl = await page.$eval('#video-title', a => a.href);
+
+    await fs.writeJson(`data/${movie.id}.json`, movie, { spaces: 2 });
+
+    // Delete non-index information to serialize only index information later on
+    delete movie.url;
+    delete movie.content;
+    delete movie.imdbUrl;
+    delete movie.trailerUrl;
+    movie.cinemas = Object.keys(movie.screenings).map(c => cinemas.indexOf(c));
+    movie.screenings = Object.keys(movie.screenings).reduce((a, c) => a + movie.screenings[c].length, 0);
+
+    await page.close();
+    console.log(`Scraped ${movie.name} (${movie.year}).`);
   } catch (error) {
-    // Ignore missing content li
+    console.log(`Errored ${movie.name} (${movie.year}). ${error.message}`);
   }
-
-  try {
-    movie.imdbUrl = await page.$eval('a[title="profil na IMDb.com"]', a => a.href);
-  } catch (error) {
-    // Ignore missing IMDB a
-  }
-
-  try {
-    movie.posterUrl = await page.$eval('img.film-poster', img => img.src.slice(0, -'?h###'.length));
-  } catch (error) {
-    // Ignore missing poster img (some old movies do not have them)
-  }
-
-  await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
-  movie.trailerUrl = await page.$eval('#video-title', a => a.href);
-
-  await fs.writeJson(`data/${movie.id}.json`, movie, { spaces: 2 });
-
-  // Delete non-index information to serialize only index information later on
-  delete movie.url;
-  delete movie.content;
-  delete movie.imdbUrl;
-  delete movie.trailerUrl;
-  movie.cinemas = Object.keys(movie.screenings).map(c => cinemas.indexOf(c));
-  movie.screenings = Object.keys(movie.screenings).reduce((a, c) => a + movie.screenings[c].length, 0);
-
-  await page.close();
-  console.log(`Scraped ${movie.name} (${movie.year}).`);
 }
