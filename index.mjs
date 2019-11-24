@@ -20,6 +20,7 @@ void async function () {
     const movies = [];
 
     await fs.emptyDir('data');
+    await fs.ensureDir('study');
     for (const cinemaScheduleDiv of await page.$$('.cinema-schedule')) {
       const cinemaName = await cinemaScheduleDiv.$eval('.header h2', h2 => h2.textContent.substring('Praha - '.length));
       cinemas.push(cinemaName);
@@ -78,7 +79,7 @@ void async function () {
       await Promise.all(batch);
     }
 
-    await fs.appendFile(`data/_${batchSize}.log`, `${new Date().toLocaleString()} ${~~((Date.now() - now) / 1000)} s\n`)
+    await fs.appendFile(`study/${batchSize}.log`, `${new Date().toLocaleString()} ${~~((Date.now() - now) / 1000)} s\n`)
 
     // Sort alphabetically to make the index diffs nicer
     movies.sort((a, b) => a.name.localeCompare(b.name));
@@ -129,7 +130,10 @@ async function scrapeMovie(page, movie, cinemas) {
     movie.trailerUrl = await page.$eval('#video-title', a => a.href);
 
     await fs.writeJson(`data/${movie.id}.json`, movie, { spaces: 2 });
-
+    console.log(`Scraped ${movie.name} (${movie.year})`);
+  } catch (error) {
+    console.log(`Errored ${movie.name} (${movie.year}): ${error.message}`);
+  } finally {
     // Delete non-index information to serialize only index information later on
     delete movie.url;
     delete movie.content;
@@ -139,8 +143,5 @@ async function scrapeMovie(page, movie, cinemas) {
     movie.screenings = Object.keys(movie.screenings).reduce((a, c) => a + movie.screenings[c].length, 0);
 
     await page.close();
-    console.log(`Scraped ${movie.name} (${movie.year})`);
-  } catch (error) {
-    console.log(`Errored ${movie.name} (${movie.year}): ${error.message}`);
   }
 }

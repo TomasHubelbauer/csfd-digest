@@ -24,6 +24,7 @@ jobs:
         npm start
         # Stage the generated data
         git add data
+        git add study
         # Run the CRA version build
         rm -rf docs
         cd cra
