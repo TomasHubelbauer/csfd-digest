@@ -101,3 +101,6 @@ Fix 3D animation perspective for the tile shake on mobile or remove it if weird.
 Make pipeline failure (`npm start`) actually fail the pipeline.
 
 Render the movie popup by loading the movie file when opened in both versions.
+
+Figure out why serving `_.json` fails in GitHub Pages for both the old and the
+new apps.

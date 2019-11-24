@@ -1,7 +1,8 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs-extra';
 
-const batchSize = 10;
+// Study how the batch size impacts the workflow duration by cycling between 1 and 30 daily
+const batchSize = new Date().getDate();
 
 void async function () {
   const browser = await puppeteer.launch();
@@ -60,6 +61,7 @@ void async function () {
       }
     }
 
+    const now = performance.now();
     const batchCount = ~~(movies.length / batchSize);
     for (let batchIndex = 0; batchIndex < batchCount; batchIndex++) {
       const batchNumber = batchIndex + 1;
@@ -76,6 +78,8 @@ void async function () {
       await Promise.all(batch);
       console.log(`Scraped the batch #${batchNumber}/${batchCount} of ${batch.length} movies…`);
     }
+
+    await fs.appendFile(`data/_${batchSize}.log`, `${new Date().toLocaleString()} ${~~((performance.now() - now) / 1000)} s\n`)
 
     // Sort alphabetically to make the index diffs nicer
     movies.sort((a, b) => a.name.localeCompare(b.name));
@@ -125,7 +129,7 @@ async function scrapeMovie(page, movie, cinemas) {
   await page.goto(`https://www.youtube.com/results?search_query=trailer ${movie.name} ${movie.year}`);
   movie.trailerUrl = await page.$eval('#video-title', a => a.href);
 
-  await fs.writeJson(`data/${movie.id}.json`, { dateAndTime: new Date(), ...movie }, { spaces: 2 });
+  await fs.writeJson(`data/${movie.id}.json`, movie, { spaces: 2 });
 
   // Delete non-index information to serialize only index information later on
   delete movie.url;
