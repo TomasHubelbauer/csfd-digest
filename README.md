@@ -9,22 +9,23 @@ level. Notifies about new movies coming out.
 
 ## Running
 
-The old version (in root):
+### The old version (in root)
 
 - `npm start` to refresh the data
 - `npx serve .` to access the web app at http://localhost:5000
 
-The new version (in `cra`):
+### The new version (in `cra`)
+
+Run the web app in one terminal (will open http://localhost:3000):
 
 ```sh
 cd cra
 npm start
 ```
 
-&
+Serve `data` for the proxy in another:
 
 ```sh
-cd docs
 npx serve .
 ```
 

@@ -15,10 +15,6 @@ p a {
   margin-left: 1ex;
 }
 
-details > img {
-  height: 192px;
-}
-
-summary h2 {
-  display: inline;
+div.cinema {
+  display: flex;
 }

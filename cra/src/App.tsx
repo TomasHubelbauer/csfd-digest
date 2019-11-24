@@ -1,6 +1,16 @@
 import './App.css';
-import React, { Component, ChangeEventHandler } from 'react';
+import React, { ChangeEventHandler, useEffect, useState, Fragment } from 'react';
 import TimeAgo from 'react-timeago';
+
+type IndexMovie = {
+  id: string;
+  url: string;
+  name: string;
+  year: number;
+  posterUrl: string;
+  cinemas: number[];
+  screenings: number;
+};
 
 type Movie = {
   id: string;
@@ -19,7 +29,7 @@ type Movie = {
 type Data = {
   dateAndTime: Date;
   cinemas: string[];
-  movies: Movie[];
+  movies: IndexMovie[];
 };
 
 type AppProps = {};
@@ -33,104 +43,75 @@ type AppState = {
   selectedCinemas: string[];
 };
 
-export default class App extends Component<AppProps, AppState> {
-  public readonly state: AppState = {
-    data: { type: 'loading' },
-    selectedCinemas: localStorage.getItem('selected-cinemas') ? JSON.parse(localStorage.getItem('selected-cinemas')!) : [],
-  };
+export default function App() {
+  // TODO: Add a loading state
+  const [dateAndTime, setDateAndTime] = useState<Date>(new Date());
+  const [cinemas, setCinemas] = useState<string[]>([]);
+  const [selectedCinemas, setSelectedCinemas] = useState<string[]>(localStorage.getItem('selected-cinemas') ? JSON.parse(localStorage.getItem('selected-cinemas')!) : []);
+  const [movies, setMovies] = useState<IndexMovie[]>([]);
+  const [error, setError] = useState<Error>();
+  useEffect(() => {
+    void async function () {
+      try {
+        const response = await fetch(process.env.NODE_ENV === 'development' ? 'data/_.json' : '../data/_.json');
+        const { dateAndTime, cinemas, movies }: Data = await response.json();
 
-  private readonly handleCinemaSelectChange: ChangeEventHandler<HTMLSelectElement> = event => {
-    const selectedCinemas = Array.from(event.currentTarget.options).filter(option => option.selected).map(option => option.value);
-    localStorage.setItem('selected-cinemas', JSON.stringify(selectedCinemas));
-    this.setState({ selectedCinemas });
-  };
+        // Sort movies by the number of screenings as a proxy for popularity
+        movies.sort((a, b) => b.screenings - a.screenings)
 
-  public render() {
-    if (this.state.data.type === 'loading') {
-      return 'Loading…';
+        setDateAndTime(new Date(dateAndTime));
+        setCinemas(cinemas);
+        setMovies(movies);
+      } catch (error) {
+        setError(error);
+      }
+    }()
+  });
+
+  const handleCinemaInputChange: ChangeEventHandler<HTMLInputElement> = event => {
+    let newSelectedCinemas = selectedCinemas.filter(c => c !== event.currentTarget.id);
+    if (event.currentTarget.checked) {
+      newSelectedCinemas.push(event.currentTarget.id);
     }
 
-    if (this.state.data.type === 'error') {
-      return 'Error!';
-    }
+    setSelectedCinemas(newSelectedCinemas);
+    localStorage.setItem('selected-cinemas', JSON.stringify(newSelectedCinemas));
+  };
 
-    const now = new Date();
-
-    const midnightTonight = new Date();
-    midnightTonight.setHours(23, 59, 59, 999);
-
-    const screeningsTonight = this.state.data.data.movies
-      .map(movie => {
-        const screenings: any[] = [];
-
-        for (const cinema of this.state.selectedCinemas) {
-          if (!movie.screenings[cinema]) {
-            continue;
-          }
-
-          for (const screening of movie.screenings[cinema].filter(dateAndTime => dateAndTime > now && dateAndTime < midnightTonight)) {
-            screenings.push({ cinema, screening });
-          }
-        }
-
-        if (screenings.length === 0) {
-          return null;
-        }
-
-        return { movie, screenings };
-      })
-      .filter(screening => screening !== null);
-
+  if (error) {
     return (
-      <div>
-        <h1>Prague Cinema Tonight</h1>
-        <p>
-          Built by
-          <img alt="" src="https://hubelbauer.net/favicon.ico" />
-          <a href="https://hubelbauer.net" target="_blank" rel="noopener noreferrer">Tomas Hubelbauer</a>
-          .
-          <a href="https://github.com/TomasHubelbauer/puppeteer-csfd-scraper" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </p>
-        <p>{this.state.selectedCinemas.length} cinema{this.state.selectedCinemas.length > 1 ? 's' : ''} selected</p>
-        <select multiple onChange={this.handleCinemaSelectChange} value={this.state.selectedCinemas}>
-          {this.state.data.data.cinemas.map(cinema => <option key={cinema}>{cinema}</option>)}
-        </select>
-        <p>{screeningsTonight.length} movies tonight: (last updated&nbsp;<TimeAgo date={this.state.data.data.dateAndTime} />)</p>
-        <ul>
-          {screeningsTonight.map(screening => (
-            <li key={screening!.movie.id}>
-              <a href={'#' + screening!.movie.id}>{screening!.movie.name}</a>
-            </li>
-          ))}
-        </ul>
-        {screeningsTonight.map(screening => (
-          <details key={screening!.movie.id} open>
-            <summary>
-              <h2 id={screening!.movie.id}>{screening!.movie.name}</h2>
-            </summary>
-            <img alt={`${screening!.movie.name} poster`} src={screening!.movie.posterUrl} />
-            <p>{screening!.movie.content}</p>
-            <ul>
-              {screening!.screenings.map((screen, index) => <li key={index}>{screen.cinema} {screen.screening.toLocaleTimeString()}</li>)}
-            </ul>
-          </details>
-        ))}
-      </div>
+      <div>{error.toString()}</div>
     );
   }
 
-  public async componentDidMount() {
-    const response = await fetch('data.json');
-    const data: Data = await response.json();
-    data.dateAndTime = new Date(data.dateAndTime);
-    for (const movie of data.movies) {
-      for (const cinema of data.cinemas) {
-        if (movie.screenings[cinema]) {
-          movie.screenings[cinema] = movie.screenings[cinema].map(dateAndTime => new Date(dateAndTime));
-        }
-      }
-    }
-
-    this.setState({ data: { type: 'success', data } });
-  }
-};
+  const selectedCinemaIndices = selectedCinemas.map(c => cinemas.indexOf(c));
+  const filteredMovies = movies.filter(m => m.cinemas.find(c => selectedCinemaIndices.includes(c)));
+  return (
+    <div>
+      <h1>Prague Cinema</h1>
+      <p>
+        Built by
+        <img alt="" src="https://hubelbauer.net/favicon.ico" />
+        <a href="https://hubelbauer.net" target="_blank" rel="noopener noreferrer">Tomas Hubelbauer</a>
+        .
+        <a href="https://github.com/TomasHubelbauer/puppeteer-csfd-scraper" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+      <div>
+        {cinemas.map(c => (
+          <Fragment key={c}>
+            <input type="checkbox" checked={selectedCinemas.includes(c)} id={c} onChange={handleCinemaInputChange} />
+            <label htmlFor={c}>{c}</label>
+          </Fragment>
+        ))}
+      </div>
+      <p>{selectedCinemas.length} cinema{selectedCinemas.length > 1 ? 's' : ''} selected</p>
+      <p>{filteredMovies.length} ({movies.length}) movies: (last updated&nbsp;<TimeAgo date={dateAndTime} />)</p>
+      {filteredMovies.map(movie => (
+        <div className="cinema" key={movie.id}>
+          <img alt={`${movie.name} poster`} src={movie.posterUrl + '?h360'} />
+          {movie.name}
+        </div>
+      ))}
+    </div>
+  );
+}
