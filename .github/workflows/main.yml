@@ -49,5 +49,7 @@ jobs:
         git push
         # Enqueue a GitHub Pages build after the push as the out of the box PAT won't ensure this
         curl -f -X POST -H "Authorization: token ${{ secrets.GITHUB_PAGES_PAT }}" -H "Accept: application/vnd.github.mister-fantastic-preview+json" "https://api.github.com/repos/${{ github.repository }}/pages/builds"
-        # Show GitHub Pages URL
-        echo https://tomashubelbauer.github.io/puppeteer-csfd-scraper
+        # Send a digest of tonight's movies in an email to myself
+        git clone https://TomasHubelbauer:${{secrets.GITHUB_PAGES_PAT}}@github.com/TomasHubelbauer/self-email.git
+        chmod +x ./self-email/self-email.sh
+        cat email.eml | ./self-email/self-email.sh

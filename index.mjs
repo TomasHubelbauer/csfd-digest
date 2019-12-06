@@ -85,6 +85,36 @@ void async function () {
     movies.sort((a, b) => a.name.localeCompare(b.name));
 
     await fs.writeJSON('data/index.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
+
+    let email = '';
+    email += 'From: Cinema Bot <bot@hubelbauer.net>\n';
+    email += `Subject: Tonight's Cinema\n`;
+    email += 'Content-Type: text/html\n';
+    email += '\n';
+    email += `<b>Tonight's Cinema</b>\n`;
+    email += '<br />\n';
+
+    const tonight = new Date();
+    for (const cinema of cinemas) {
+      email += `<b>${cinema}</b>\n`;
+      email += '<ul>\n';
+      for (const movie of movies) {
+        if (!movie.screenings[cinema]) {
+          continue;
+        }
+
+        let tonightsScreenings = movie.screenings[cinema].filter(d => d.getFullYear() === tonight.getFullYear() && d.getMonth() === tonight.getMonth() && d.getDate() === tonight.getDate());
+        for (const screening of tonightsScreenings) {
+          email += `<li>${movie.name} ${screening.toLocaleString()}</li>`;
+        }
+      }
+
+      email += '</ul>\n';
+    }
+
+    email += '<br />\n';
+    email += 'Thank you\n';
+    await fs.writeFile('email.eml', email);
   } finally {
     await browser.close();
   }
