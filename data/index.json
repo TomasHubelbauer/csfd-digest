@@ -1,5 +1,5 @@
 {
-  "dateAndTime": "2019-12-06T00:09:24.063Z",
+  "dateAndTime": "2019-12-06T09:36:29.238Z",
   "cinemas": [
     "CineStar Praha - Anděl",
     "CineStar Praha - Černý Most",
@@ -125,6 +125,16 @@
         30,
         35,
         36
+      ]
+    },
+    {
+      "id": "617185-amundsen",
+      "name": "Amundsen",
+      "year": 2019,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/930/163930534_72eeb8.jpg",
+      "cinemas": [
+        35
       ]
     },
     {
@@ -308,13 +318,14 @@
     },
     {
       "id": "693824-cerveny-falus",
+      "url": "https://www.csfd.cz/film/693824-cerveny-falus/",
       "name": "Červený falus",
       "year": 2018,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/267/163267703_0c56b5.jpg",
-      "cinemas": [
-        40
-      ]
+      "screenings": {
+        "Světozor": [
+          "2019-12-10T18:15:00.000Z"
+        ]
+      }
     },
     {
       "id": "707775-cesta-jako-zadna-ze-sta",
@@ -505,13 +516,14 @@
     },
     {
       "id": "717190-gauguin-na-tahiti-ztraceny-raj",
+      "url": "https://www.csfd.cz/film/717190-gauguin-na-tahiti-ztraceny-raj/",
       "name": "Gauguin na Tahiti - ztracený ráj",
       "year": 2019,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/772/163772192_4173ff.png",
-      "cinemas": [
-        40
-      ]
+      "screenings": {
+        "Světozor": [
+          "2019-12-17T13:15:00.000Z"
+        ]
+      }
     },
     {
       "id": "593428-gordon-a-paddy",
@@ -734,6 +746,16 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/379/163379399_64d1ab.png",
       "cinemas": [
         16
+      ]
+    },
+    {
+      "id": "617502-kniha-obrazu",
+      "name": "Kniha obrazů",
+      "year": 2018,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/069/163069155_a823a1.png",
+      "cinemas": [
+        37
       ]
     },
     {
@@ -1292,13 +1314,14 @@
     },
     {
       "id": "227663-pohyby-rostlin",
+      "url": "https://www.csfd.cz/film/227663-pohyby-rostlin/",
       "name": "Pohyby rostlin",
       "year": 1955,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/assets/b952/images/poster-fre",
-      "cinemas": [
-        40
-      ]
+      "screenings": {
+        "Světozor": [
+          "2019-12-16T18:30:00.000Z"
+        ]
+      }
     },
     {
       "id": "10122-poklad-ptaciho-ostrova",
@@ -1709,6 +1732,16 @@
       ]
     },
     {
+      "id": "447568-spioni-v-prevleku",
+      "name": "Špióni v převleku",
+      "year": 2019,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/947/163947154_99642f.png",
+      "cinemas": [
+        35
+      ]
+    },
+    {
       "id": "559428-spitfire",
       "name": "Spitfire",
       "year": 2018,
@@ -1763,13 +1796,14 @@
     },
     {
       "id": "327213-stary-smrk-vypravuje",
+      "url": "https://www.csfd.cz/film/327213-stary-smrk-vypravuje/",
       "name": "Starý smrk vypravuje",
       "year": 1947,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/assets/b952/images/poster-fre",
-      "cinemas": [
-        40
-      ]
+      "screenings": {
+        "Světozor": [
+          "2019-12-16T18:30:00.000Z"
+        ]
+      }
     },
     {
       "id": "465790-stastne-a-vesele",
@@ -2007,7 +2041,7 @@
       "id": "564743-trollove-a-kouzelny-les",
       "name": "Trollové a kouzelný les",
       "year": 2018,
-      "screenings": 3,
+      "screenings": 4,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/960/163960386_260fc7.png",
       "cinemas": [
         15,
@@ -2245,6 +2279,16 @@
       ]
     },
     {
+      "id": "48573-zasnezena-romance",
+      "name": "Zasněžená romance",
+      "year": 1941,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/113/161113172_9aabc6.jpg",
+      "cinemas": [
+        37
+      ]
+    },
+    {
       "id": "28477-zazrak-v-new-yorku",
       "name": "Zázrak v New Yorku",
       "year": 1947,
@@ -2268,14 +2312,15 @@
       "id": "603256-zenska-na-vrcholu",
       "name": "Ženská na vrcholu",
       "year": 2019,
-      "screenings": 10,
+      "screenings": 11,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/748/163748615_198b26.png",
       "cinemas": [
         1,
         15,
         29,
         34,
-        35
+        35,
+        40
       ]
     },
     {
