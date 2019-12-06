@@ -101,3 +101,7 @@ to benchmark how stable it is (failing this one will not fail the CI).
 or remove it is weird.
 
 ### Render the movie popup by loading the movie file when opened in both versions
+
+### Improve the digest email
+
+Group screenings by movie, add posters (from the hotlink URL), make names links.

@@ -42,13 +42,13 @@ jobs:
         fi
         git commit -m "Generate GitHub Pages"
         # Authenticate with GitHub using the out of the box workflow integration PAT (this one won't queue a GitHub Pages build though)
-        git remote set-url origin https://tomashubelbauer:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git remote set-url origin https://tomashubelbauer:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
         # Pull before pushing to integrate fast forward changes if any
         git pull
         # Push the changes to GitHub where it will cause another workflow which will kill itself immediately due to ***NO_CI***
         git push
         # Enqueue a GitHub Pages build after the push as the out of the box PAT won't ensure this
-        curl -f -X POST -H "Authorization: token ${{ secrets.GITHUB_PAGES_PAT }}" -H "Accept: application/vnd.github.mister-fantastic-preview+json" "https://api.github.com/repos/${{ github.repository }}/pages/builds"
+        curl -f -X POST -H "Authorization: token ${{secrets.GITHUB_PAGES_PAT}}" -H "Accept: application/vnd.github.mister-fantastic-preview+json" "https://api.github.com/repos/${{github.repository}}/pages/builds"
         # Send a digest of tonight's movies in an email to myself
         git clone https://TomasHubelbauer:${{secrets.GITHUB_PAGES_PAT}}@github.com/TomasHubelbauer/self-email.git
         chmod +x ./self-email/self-email.sh
