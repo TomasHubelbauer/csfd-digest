@@ -53,3 +53,6 @@ jobs:
         git clone https://TomasHubelbauer:${{secrets.GITHUB_PAGES_PAT}}@github.com/TomasHubelbauer/self-email.git
         chmod +x ./self-email/self-email.sh
         cat email.eml | ./self-email/self-email.sh
+        # TODO: Figure out why the above doesn't work
+        npm start skip
+        cat email.eml | ./self-email/self-email.sh

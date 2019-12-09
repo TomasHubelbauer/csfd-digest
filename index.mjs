@@ -19,97 +19,134 @@ void async function () {
     /** @type {{ id: string; url: string; name: string; year: number; content: string; imdbUrl: string; posterUrl: string; trailerUrl: string; screenings: any[] }[]} */
     const movies = [];
 
-    await fs.emptyDir('data');
-    await fs.ensureDir('study');
-    for (const cinemaScheduleDiv of await page.$$('.cinema-schedule')) {
-      const cinemaName = await cinemaScheduleDiv.$eval('.header h2', h2 => h2.textContent.substring('Praha - '.length));
-      cinemas.push(cinemaName);
-      console.log(`Processing the schedule for ${cinemaName}`);
+    const skipScrape = process.argv[2] === 'skip';
+    if (!skipScrape) {
+      await fs.emptyDir('data');
+      await fs.ensureDir('study');
+      for (const cinemaScheduleDiv of await page.$$('.cinema-schedule')) {
+        const cinemaName = await cinemaScheduleDiv.$eval('.header h2', h2 => h2.textContent.substring('Praha - '.length));
+        cinemas.push(cinemaName);
+        console.log(`Processing the schedule for ${cinemaName}`);
 
-      for (const dayTable of await cinemaScheduleDiv.$$('table')) {
-        const [_, day, month, year] = await dayTable.$eval('caption', caption => /(\d+)\.(\d+)\.(\d+)/g.exec(caption.textContent));
+        for (const dayTable of await cinemaScheduleDiv.$$('table')) {
+          const [_, day, month, year] = await dayTable.$eval('caption', caption => /(\d+)\.(\d+)\.(\d+)/g.exec(caption.textContent));
 
-        for (const movieTr of await dayTable.$$('tr')) {
-          const { name, url } = await movieTr.$eval('th a', a => ({ name: a.textContent.trim(), url: a.href }));
-          const movieYear = Number(await movieTr.$eval('th span.film-year', span => span.textContent.slice(1, -1)));
-          const idMatch = /\/(\d+-[\w-]+)\//g.exec(url);
-          if (idMatch === null || idMatch.length !== 2) {
-            throw new Error('Failed to parse the ID out of', url);
-          }
-
-          const id = idMatch[1];
-
-          let movie = movies.find(m => m.id === id);
-          if (!movie) {
-            movie = { id, url, name, year: movieYear, screenings: { [cinemaName]: [] } };
-            movies.push(movie);
-          } else {
-            if (movie.name.length < name.length) {
-              // Replace the same name with ellipses with the full version if found
-              movie.name = name;
+          for (const movieTr of await dayTable.$$('tr')) {
+            const { name, url } = await movieTr.$eval('th a', a => ({ name: a.textContent.trim(), url: a.href }));
+            const movieYear = Number(await movieTr.$eval('th span.film-year', span => span.textContent.slice(1, -1)));
+            const idMatch = /\/(\d+-[\w-]+)\//g.exec(url);
+            if (idMatch === null || idMatch.length !== 2) {
+              throw new Error('Failed to parse the ID out of', url);
             }
 
-            if (!movie.screenings[cinemaName]) {
-              movie.screenings[cinemaName] = [];
-            }
-          }
+            const id = idMatch[1];
 
-          for (const time of await movieTr.$$eval('td:not(.flags)', tds => tds.map(td => td.textContent).filter(time => time))) {
-            const [_, hour, minute] = /(\d+):(\d+)/g.exec(time);
-            movie.screenings[cinemaName].push(new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute)));
+            let movie = movies.find(m => m.id === id);
+            if (!movie) {
+              movie = { id, url, name, year: movieYear, screenings: { [cinemaName]: [] } };
+              movies.push(movie);
+            } else {
+              if (movie.name.length < name.length) {
+                // Replace the same name with ellipses with the full version if found
+                movie.name = name;
+              }
+
+              if (!movie.screenings[cinemaName]) {
+                movie.screenings[cinemaName] = [];
+              }
+            }
+
+            for (const time of await movieTr.$$eval('td:not(.flags)', tds => tds.map(td => td.textContent).filter(time => time))) {
+              const [_, hour, minute] = /(\d+):(\d+)/g.exec(time);
+              movie.screenings[cinemaName].push(new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute)));
+            }
           }
         }
       }
+
+      const now = Date.now();
+      const batchCount = ~~(movies.length / batchSize);
+      for (let batchIndex = 0; batchIndex < batchCount; batchIndex++) {
+        const batchNumber = batchIndex + 1;
+        const batch = movies
+          .slice(batchIndex * batchSize, batchIndex * batchSize + batchSize)
+          .map(async m => {
+            const page = await browser.newPage();
+            await block3rdPartyNetworking(page);
+
+            // Do not await this to make it run in parallel later using `Promise.all`
+            return scrapeMovie(page, m, cinemas);
+          });
+        console.log(`Scraping the batch #${batchNumber}/${batchCount} of ${batch.length} movies:`);
+        await Promise.all(batch);
+      }
+
+      await fs.appendFile(`study/${batchSize}.log`, `${new Date().toLocaleString()} ${~~((Date.now() - now) / 1000)} s\n`)
+
+      // Sort alphabetically to make the index diffs nicer
+      movies.sort((a, b) => a.name.localeCompare(b.name));
+
+      await fs.writeJSON('data/index.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
     }
-
-    const now = Date.now();
-    const batchCount = ~~(movies.length / batchSize);
-    for (let batchIndex = 0; batchIndex < batchCount; batchIndex++) {
-      const batchNumber = batchIndex + 1;
-      const batch = movies
-        .slice(batchIndex * batchSize, batchIndex * batchSize + batchSize)
-        .map(async m => {
-          const page = await browser.newPage();
-          await block3rdPartyNetworking(page);
-
-          // Do not await this to make it run in parallel later using `Promise.all`
-          return scrapeMovie(page, m, cinemas);
-        });
-      console.log(`Scraping the batch #${batchNumber}/${batchCount} of ${batch.length} movies:`);
-      await Promise.all(batch);
+    else {
+      const index = await fs.readJson('data/index.json');
+      cinemas.push(...index.cinemas);
+      for (const movie of index.movies) {
+        try {
+          const data = await fs.readJson('data/' + movie.id + '.json');
+          for (const cinema in data.screenings) {
+            data.screenings[cinema] = data.screenings[cinema].map(d => new Date(d));
+          }
+          movies.push(data);
+        }
+        catch (error) {
+          console.log('Movie in index but not in data: ', movie.name);
+        }
+      }
     }
-
-    await fs.appendFile(`study/${batchSize}.log`, `${new Date().toLocaleString()} ${~~((Date.now() - now) / 1000)} s\n`)
-
-    // Sort alphabetically to make the index diffs nicer
-    movies.sort((a, b) => a.name.localeCompare(b.name));
-
-    await fs.writeJSON('data/index.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
 
     let email = '';
     email += 'From: Cinema Bot <bot@hubelbauer.net>\n';
     email += `Subject: Tonight's Cinema\n`;
     email += 'Content-Type: text/html\n';
     email += '\n';
-    email += `<b>Tonight's Cinema</b>\n`;
     email += '<br />\n';
 
     const tonight = new Date();
+    // TODO: Order cinemas by the total number of screenings as a proxy for popularity
     for (const cinema of cinemas) {
       email += `<b>${cinema}</b>\n`;
-      email += '<ul>\n';
+      const hits = [];
       for (const movie of movies) {
         if (!movie.screenings[cinema]) {
           continue;
         }
 
-        let tonightsScreenings = movie.screenings[cinema].filter(d => d.getFullYear() === tonight.getFullYear() && d.getMonth() === tonight.getMonth() && d.getDate() === tonight.getDate());
-        for (const screening of tonightsScreenings) {
-          email += `<li>${movie.name} ${screening.toLocaleString()}</li>`;
+        const tonightsScreenings = movie.screenings[cinema].filter(d => d.getFullYear() === tonight.getFullYear() && d.getMonth() === tonight.getMonth() && d.getDate() === tonight.getDate());
+        if (tonightsScreenings.length === 0) {
+          continue;
         }
+
+        hits.push({ movie, screenings: tonightsScreenings });
       }
 
-      email += '</ul>\n';
+      if (hits.length > 0) {
+        // Sort by the number of screenings in the evening as a proxy for popularity
+        hits.sort((a, b) => b.screenings.length - a.screenings.length);
+
+        email += '<br />\n';
+        for (let index = 0; index < Math.min(hits.length, 5); index++) {
+          // TODO: Download and attach the unique images as inline attachments
+          email += `<img src='${hits[index].movie.posterUrl}?h180' />\n`;
+        }
+
+        email += '<ul>\n';
+        for (const hit of hits) {
+          email += `<li><b><a href='${hit.movie.url}'>${hit.movie.name}</a></b>: ${hit.screenings.map(s => s.toLocaleTimeString()).join(', ')}</li>\n`;
+        }
+
+        email += '</ul>\n';
+      }
     }
 
     email += '<br />\n';
