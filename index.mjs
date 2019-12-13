@@ -18,6 +18,7 @@ void async function () {
     const cinemas = [];
     /** @type {{ id: string; url: string; name: string; year: number; content: string; imdbUrl: string; posterUrl: string; trailerUrl: string; screenings: any[] }[]} */
     const movies = [];
+    const newMovies = [];
 
     const skipScrape = process.argv[2] === 'skip';
     if (!skipScrape) {
@@ -45,6 +46,9 @@ void async function () {
             if (!movie) {
               movie = { id, url, name, year: movieYear, screenings: { [cinemaName]: [] } };
               movies.push(movie);
+              if (!(await fs.pathExists('data/' + movie.id + '.json'))) {
+                newMovies.push(movie);
+              }
             } else {
               if (movie.name.length < name.length) {
                 // Replace the same name with ellipses with the full version if found
@@ -86,7 +90,7 @@ void async function () {
       // Sort alphabetically to make the index diffs nicer
       movies.sort((a, b) => a.name.localeCompare(b.name));
 
-      await fs.writeJSON('data/index.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
+      await fs.writeJson('data/index.json', { dateAndTime: new Date(), cinemas, movies }, { spaces: 2 });
     }
     else {
       const index = await fs.readJson('data/index.json');
@@ -117,7 +121,7 @@ void async function () {
     for (const cinema of cinemas) {
       email += `<b>${cinema}</b>\n`;
       const hits = [];
-      for (const movie of movies) {
+      for (const movie of newMovies) {
         if (!movie.screenings[cinema]) {
           continue;
         }
