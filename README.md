@@ -2,7 +2,7 @@
 
 ![](https://github.com/tomashubelbauer/puppeteer-csfd-scraper/workflows/github-pages/badge.svg)
 
-[**LIVE**](https://tomashubelbauer.github.io/puppeteer-csfd-scraper)
+[**LIVE**](https://tomashubelbauer.github.io/csfd-digest)
 
 Scrapes CSFD.cz for cinema schedules and allows annotating movies with interest
 level. Notifies about new movies coming out.
