@@ -103,3 +103,10 @@ or remove it is weird.
 ### Render the movie popup by loading the movie file when opened in both versions
 
 ### Fix some movies not getting deleted - not in index but have data files
+
+### Send descriptions in the email with new movies
+
+### Consider rendering the movie gallery statically into the HTML
+
+Use JavaScript only for things like hiding and stuff.
+Maybe use react-snap or react-snapshot.
