@@ -55,7 +55,7 @@ window.addEventListener('load', async () => {
 
     for (const movie of [...probablies, ...maybies, ...untagged]) {
       // Skip movies with no screenings for the selected cinemas
-      if (!movie.cinemas.find(c => cinemas.includes(c))) {
+      if (!movie.cinemas || !movie.cinemas.find(c => cinemas.includes(c))) {
         continue;
       }
 
