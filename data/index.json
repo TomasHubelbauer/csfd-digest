@@ -1,5 +1,5 @@
 {
-  "dateAndTime": "2020-01-16T00:12:01.643Z",
+  "dateAndTime": "2020-01-17T00:09:14.877Z",
   "cinemas": [
     "CineStar Praha - Anděl",
     "CineStar Praha - Černý Most",
@@ -44,12 +44,22 @@
       "id": "655883-25-km-h",
       "name": "25 km/h",
       "year": 2018,
-      "screenings": 11,
+      "screenings": 9,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/025/164025984_9115d6.jpg",
       "cinemas": [
         17,
         27,
         36
+      ]
+    },
+    {
+      "id": "221991-a-tou-noci-nevidim-ani-jedinou-hvezdu",
+      "name": "A tou nocí nevidím ani jedinou …",
+      "year": 2005,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/890/160890218_8fcd27.jpg",
+      "cinemas": [
+        30
       ]
     },
     {
@@ -86,7 +96,7 @@
       "id": "617185-amundsen",
       "name": "Amundsen",
       "year": 2019,
-      "screenings": 22,
+      "screenings": 21,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/930/163930534_72eeb8.jpg",
       "cinemas": [
         5,
@@ -95,6 +105,7 @@
         16,
         25,
         27,
+        30,
         32
       ]
     },
@@ -106,6 +117,16 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/909/163909075_755daa.jpg",
       "cinemas": [
         32
+      ]
+    },
+    {
+      "id": "2067-babicka",
+      "name": "Babička",
+      "year": 1940,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/158/638/158638774_40c4c8.jpg",
+      "cinemas": [
+        30
       ]
     },
     {
@@ -153,12 +174,13 @@
       "id": "723541-bidnici",
       "name": "Bídníci",
       "year": 2019,
-      "screenings": 4,
+      "screenings": 5,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/958/163958783_66e917.jpg",
       "cinemas": [
         16,
         25,
-        27
+        27,
+        30
       ]
     },
     {
@@ -266,7 +288,7 @@
       "id": "638734-cats",
       "name": "Cats",
       "year": 2019,
-      "screenings": 85,
+      "screenings": 74,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/006/164006886_007d6b.png",
       "cinemas": [
         3,
@@ -298,9 +320,11 @@
       "id": "390149-cesta-za-zivou-vodou",
       "name": "Cesta za živou vodou",
       "year": 2019,
-      "screenings": 1,
+      "screenings": 4,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/051/164051294_7f5543.png",
       "cinemas": [
+        3,
+        30,
         31
       ]
     },
@@ -384,7 +408,7 @@
       "id": "742988-daleko-od-reykjaviku",
       "name": "Daleko od Reykjavíku",
       "year": 2019,
-      "screenings": 10,
+      "screenings": 11,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/059/164059422_b53822.jpg",
       "cinemas": [
         2,
@@ -392,6 +416,7 @@
         14,
         22,
         27,
+        30,
         31,
         36
       ]
@@ -473,13 +498,13 @@
       "id": "672869-dokonala-lez",
       "name": "Dokonalá lež",
       "year": 2019,
-      "screenings": 21,
+      "screenings": 19,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/586/163586559_66872e.jpg",
       "cinemas": [
-        4,
         5,
         9,
         26,
+        30,
         32,
         36
       ]
@@ -488,7 +513,7 @@
       "id": "648337-dolittle",
       "name": "Dolittle",
       "year": 2020,
-      "screenings": 406,
+      "screenings": 357,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/045/164045944_70149e.png",
       "cinemas": [
         0,
@@ -537,13 +562,14 @@
     },
     {
       "id": "789963-dum-pro-tebe",
+      "url": "https://www.csfd.cz/film/789963-dum-pro-tebe/",
       "name": "Dům pro tebe",
       "year": 2019,
-      "screenings": 2,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/968/163968141_95af59.jpg",
-      "cinemas": [
-        36
-      ]
+      "screenings": {
+        "Světozor": [
+          "2020-01-19T18:30:00.000Z"
+        ]
+      }
     },
     {
       "id": "213753-dve-auta-jedna-noc",
@@ -559,7 +585,7 @@
       "id": "781409-ermitaz-sila-umeni",
       "name": "Ermitáž – síla umění",
       "year": 2019,
-      "screenings": 4,
+      "screenings": 3,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/772/163772245_23237e.png",
       "cinemas": [
         35,
@@ -570,11 +596,12 @@
       "id": "6308-extase",
       "name": "Extase",
       "year": 1932,
-      "screenings": 3,
+      "screenings": 4,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/703/161703673_f04d2e.jpg",
       "cinemas": [
         14,
         16,
+        30,
         33
       ]
     },
@@ -634,20 +661,22 @@
       "id": "650707-free-solo",
       "name": "Free Solo",
       "year": 2018,
-      "screenings": 1,
+      "screenings": 2,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/460/163460910_3a41ad.png",
       "cinemas": [
-        26
+        26,
+        35
       ]
     },
     {
       "id": "675173-gentlemani",
       "name": "Gentlemani",
       "year": 2020,
-      "screenings": 2,
+      "screenings": 4,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/059/164059825_15ea0c.jpg",
       "cinemas": [
         14,
+        30,
         32
       ]
     },
@@ -672,13 +701,13 @@
       ]
     },
     {
-      "id": "33858-hitchcock-truffaut",
-      "name": "Hitchcock/Truffaut",
-      "year": 2015,
+      "id": "19588-grand-prix",
+      "name": "Grand Prix",
+      "year": 1966,
       "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/945/160945558_416704.jpg",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/158/311/158311744_fea1bd.jpg",
       "cinemas": [
-        14
+        30
       ]
     },
     {
@@ -797,10 +826,9 @@
       "id": "747101-jiri-trnka-nalezeny-pritel",
       "name": "Jiří Trnka: Nalezený přítel",
       "year": 2019,
-      "screenings": 5,
+      "screenings": 4,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/884/163884055_f73e95.png",
       "cinemas": [
-        2,
         17,
         24,
         29,
@@ -813,16 +841,6 @@
       "year": 1994,
       "screenings": 1,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/036/36530_255b6e.jpg",
-      "cinemas": [
-        33
-      ]
-    },
-    {
-      "id": "114227-jmenem-zakona",
-      "name": "Jménem zákona",
-      "year": 1949,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/817/163817390_50fa74.jpg",
       "cinemas": [
         33
       ]
@@ -843,7 +861,7 @@
       "id": "634308-jumanji-dalsi-level",
       "name": "Jumanji: Další level",
       "year": 2019,
-      "screenings": 203,
+      "screenings": 177,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/998/163998009_c8b288.jpg",
       "cinemas": [
         0,
@@ -872,25 +890,19 @@
       "id": "782567-karel-svoboda-stastna-leta",
       "name": "Karel Svoboda: Šťastná léta",
       "year": 2020,
-      "screenings": 19,
+      "screenings": 92,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/031/164031170_aac4e3.jpg",
       "cinemas": [
-        2,
+        5,
+        6,
+        8,
+        9,
         25,
         27,
         28,
         30,
-        31
-      ]
-    },
-    {
-      "id": "4753-klaunovy-nazory",
-      "name": "Klaunovy názory",
-      "year": 1976,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/310/163310830_cbfc99.jpg",
-      "cinemas": [
-        33
+        31,
+        34
       ]
     },
     {
@@ -917,7 +929,7 @@
       "id": "626971-kralicek-jojo",
       "name": "Králíček Jojo",
       "year": 2019,
-      "screenings": 30,
+      "screenings": 37,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/039/164039478_1f389f.jpg",
       "cinemas": [
         2,
@@ -927,6 +939,7 @@
         17,
         25,
         27,
+        30,
         31,
         32
       ]
@@ -963,6 +976,16 @@
       ]
     },
     {
+      "id": "52921-laska-na-bodu-varu",
+      "name": "Láska na bodu varu",
+      "year": 2016,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/203/162203526_8640c7.jpg",
+      "cinemas": [
+        25
+      ]
+    },
+    {
       "id": "687551-laska-na-druhy-pohled",
       "name": "Láska na druhý pohled",
       "year": 2019,
@@ -986,7 +1009,7 @@
       "id": "670104-last-christmas",
       "name": "Last Christmas",
       "year": 2019,
-      "screenings": 4,
+      "screenings": 3,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/881/163881147_abef80.png",
       "cinemas": [
         3,
@@ -997,7 +1020,7 @@
       "id": "332773-le-mans-66",
       "name": "Le Mans '66",
       "year": 2019,
-      "screenings": 43,
+      "screenings": 41,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/926/163926894_95bffc.png",
       "cinemas": [
         0,
@@ -1006,6 +1029,7 @@
         17,
         21,
         26,
+        30,
         34
       ]
     },
@@ -1013,7 +1037,7 @@
       "id": "413445-ledove-kralovstvi-ii",
       "name": "Ledové království II",
       "year": 2019,
-      "screenings": 187,
+      "screenings": 166,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/846/163846260_9ae9db.png",
       "cinemas": [
         0,
@@ -1051,16 +1075,6 @@
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/563/163563590_e417f0.jpg",
       "cinemas": [
         26
-      ]
-    },
-    {
-      "id": "58810-leto",
-      "name": "Léto",
-      "year": 2015,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/046/160046697_1e3292.jpg",
-      "cinemas": [
-        18
       ]
     },
     {
@@ -1105,20 +1119,10 @@
       }
     },
     {
-      "id": "354526-macbeth",
-      "name": "Macbeth",
-      "year": 2015,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/160/151/160151258_3e0e96.jpg",
-      "cinemas": [
-        16
-      ]
-    },
-    {
       "id": "617720-majak",
       "name": "Maják",
       "year": 2019,
-      "screenings": 11,
+      "screenings": 9,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/095/164095239_7f77b1.jpg",
       "cinemas": [
         2,
@@ -1130,14 +1134,25 @@
       "id": "634376-male-zeny",
       "name": "Malé ženy",
       "year": 2019,
-      "screenings": 9,
+      "screenings": 14,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/926/163926618_2827d9.jpg",
       "cinemas": [
         3,
         14,
         16,
         17,
-        27
+        27,
+        30
+      ]
+    },
+    {
+      "id": "441897-mame-dceru",
+      "name": "Máme dceru",
+      "year": 2017,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/942/161942539_1fe0e2.jpg",
+      "cinemas": [
+        25
       ]
     },
     {
@@ -1164,7 +1179,7 @@
       "id": "687770-medvidci-boonie-cesta-do-praveku",
       "name": "Medvídci Boonie: Cesta do pravěku",
       "year": 2019,
-      "screenings": 95,
+      "screenings": 84,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/051/164051358_9a32fc.jpg",
       "cinemas": [
         0,
@@ -1190,10 +1205,20 @@
       ]
     },
     {
+      "id": "54248-milenci",
+      "name": "Milenci",
+      "year": 2015,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/159/964/159964654_775210.jpg",
+      "cinemas": [
+        25
+      ]
+    },
+    {
       "id": "267956-mizerove-navzdy",
       "name": "Mizerové navždy",
       "year": 2020,
-      "screenings": 418,
+      "screenings": 359,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/059/164059327_5c51c2.jpg",
       "cinemas": [
         0,
@@ -1210,9 +1235,7 @@
         14,
         19,
         26,
-        27,
         28,
-        31,
         34
       ]
     },
@@ -1230,10 +1253,9 @@
       "id": "463979-mlsne-medvedi-pribehy",
       "name": "Mlsné medvědí příběhy",
       "year": 2016,
-      "screenings": 2,
+      "screenings": 1,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/161/171/161171278_5cbe06.jpg",
       "cinemas": [
-        4,
         26
       ]
     },
@@ -1301,7 +1323,7 @@
       "id": "715785-muj-pribeh",
       "name": "Můj příběh",
       "year": 2019,
-      "screenings": 161,
+      "screenings": 138,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/884/163884054_947246.jpg",
       "cinemas": [
         0,
@@ -1333,7 +1355,7 @@
       "id": "651342-na-noze",
       "name": "Na nože",
       "year": 2019,
-      "screenings": 240,
+      "screenings": 210,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/948/163948025_1b3be7.jpg",
       "cinemas": [
         0,
@@ -1351,7 +1373,6 @@
         21,
         25,
         26,
-        28,
         30,
         34,
         36
@@ -1374,6 +1395,7 @@
       "screenings": 6,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/764/163764389_37a271.png",
       "cinemas": [
+        3,
         16,
         26,
         30
@@ -1403,11 +1425,10 @@
       "id": "692567-narusitel-systemu",
       "name": "Narušitel systému",
       "year": 2019,
-      "screenings": 2,
+      "screenings": 1,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/767/163767567_465e7e.jpg",
       "cinemas": [
-        16,
-        18
+        16
       ]
     },
     {
@@ -1424,7 +1445,7 @@
       "id": "615422-nenavist",
       "name": "Nenávist",
       "year": 2020,
-      "screenings": 52,
+      "screenings": 45,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/926/163926614_e39b34.jpg",
       "cinemas": [
         1,
@@ -1433,6 +1454,16 @@
         8,
         9,
         10
+      ]
+    },
+    {
+      "id": "230259-nesmrtelna-hvezda-bozena-nemcova",
+      "name": "Nesmrtelná hvězda Božena Němcová",
+      "year": 1997,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/assets/b1026/images/poster-fre",
+      "cinemas": [
+        30
       ]
     },
     {
@@ -1466,16 +1497,25 @@
       ]
     },
     {
+      "id": "309814-obrazy-ze-zivota-bozeny-nemcove",
+      "name": "Obrazy ze života Boženy Němcové",
+      "year": 2011,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/assets/b1026/images/poster-fre",
+      "cinemas": [
+        30
+      ]
+    },
+    {
       "id": "686070-odlozeny-pripad-hammarskjold",
       "name": "Odložený případ: Hammarskjöld",
       "year": 2019,
-      "screenings": 11,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/244/163244544_eb170d.jpg",
+      "screenings": 10,
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/133/164133290_a08958.jpg",
       "cinemas": [
         2,
         4,
         14,
-        17,
         26,
         27,
         30,
@@ -1558,17 +1598,18 @@
       "id": "637624-panstvi-downton",
       "name": "Panství Downton",
       "year": 2019,
-      "screenings": 1,
+      "screenings": 2,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/624/163624885_3892b6.png",
       "cinemas": [
-        17
+        17,
+        30
       ]
     },
     {
       "id": "505790-parazit",
       "name": "Parazit",
       "year": 2019,
-      "screenings": 14,
+      "screenings": 13,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/574/163574962_01b216.png",
       "cinemas": [
         3,
@@ -1604,20 +1645,10 @@
       ]
     },
     {
-      "id": "390252-pasazeri",
-      "name": "Pasažéři",
-      "year": 2018,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/196/163196902_50d91c.png",
-      "cinemas": [
-        24
-      ]
-    },
-    {
       "id": "765324-pat-a-mat-kutilske-trampoty",
       "name": "Pat a Mat: Kutilské trampoty",
       "year": 2019,
-      "screenings": 8,
+      "screenings": 7,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/933/163933171_3ffcdf.jpg",
       "cinemas": [
         1,
@@ -1659,10 +1690,9 @@
       "id": "509306-plody-mraku",
       "name": "Plody mraků",
       "year": 2017,
-      "screenings": 2,
+      "screenings": 1,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/119/162119330_02bcb0.jpg",
       "cinemas": [
-        4,
         26
       ]
     },
@@ -1670,7 +1700,7 @@
       "id": "493112-pod-vodou",
       "name": "Pod vodou",
       "year": 2020,
-      "screenings": 123,
+      "screenings": 106,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/026/164026119_7a4558.png",
       "cinemas": [
         0,
@@ -1701,7 +1731,7 @@
       "id": "723569-portret-divky-v-plamenech",
       "name": "Portrét dívky v plamenech",
       "year": 2019,
-      "screenings": 21,
+      "screenings": 20,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/020/164020760_96eaad.jpg",
       "cinemas": [
         2,
@@ -1711,6 +1741,7 @@
         18,
         25,
         26,
+        30,
         35,
         36
       ]
@@ -1719,7 +1750,7 @@
       "id": "667074-posledni-aristokratka",
       "name": "Poslední aristokratka",
       "year": 2019,
-      "screenings": 22,
+      "screenings": 20,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/609/163609606_8a8dd0.jpg",
       "cinemas": [
         0,
@@ -1824,7 +1855,7 @@
       "id": "677280-prilis-osobni-znamost",
       "name": "Příliš osobní známost",
       "year": 2020,
-      "screenings": 14,
+      "screenings": 23,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/044/164044165_bfae41.jpg",
       "cinemas": [
         12,
@@ -1833,6 +1864,7 @@
         21,
         25,
         28,
+        30,
         31
       ]
     },
@@ -1840,7 +1872,7 @@
       "id": "752094-pripad-mrtveho-neboztika",
       "name": "Případ mrtvého nebožtíka",
       "year": 2020,
-      "screenings": 282,
+      "screenings": 244,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/933/163933839_276fa5.jpg",
       "cinemas": [
         0,
@@ -1889,16 +1921,6 @@
       "cinemas": [
         18,
         32
-      ]
-    },
-    {
-      "id": "61512-psi-ostrov",
-      "name": "Psí ostrov",
-      "year": 2018,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/535/162535996_66f59b.png",
-      "cinemas": [
-        26
       ]
     },
     {
@@ -1956,7 +1978,7 @@
       "id": "482012-richard-jewell",
       "name": "Richard Jewell",
       "year": 2019,
-      "screenings": 228,
+      "screenings": 199,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/047/164047646_da121e.jpg",
       "cinemas": [
         0,
@@ -1999,13 +2021,13 @@
       ]
     },
     {
-      "id": "611715-s-chuti-toskanska",
-      "name": "S chutí Toskánska",
-      "year": 2018,
+      "id": "821-s-certy-nejsou-zerty",
+      "name": "S čerty nejsou žerty",
+      "year": 1984,
       "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/930/163930660_d8dde0.jpg",
+      "posterUrl": "https://img.csfd.cz/files/images/film/posters/000/000/813_a177ee.jpg",
       "cinemas": [
-        26
+        30
       ]
     },
     {
@@ -2083,7 +2105,7 @@
       "id": "486853-snezna-mela",
       "name": "Sněžná mela",
       "year": 2019,
-      "screenings": 15,
+      "screenings": 14,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/005/164005859_afee41.jpg",
       "cinemas": [
         5,
@@ -2105,13 +2127,14 @@
     },
     {
       "id": "718908-solo",
+      "url": "https://www.csfd.cz/film/718908-solo/",
       "name": "Sólo",
       "year": 2019,
-      "screenings": 1,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/897/163897731_4822f1.png",
-      "cinemas": [
-        35
-      ]
+      "screenings": {
+        "Rest.art": [
+          "2020-02-05T20:00:00.000Z"
+        ]
+      }
     },
     {
       "id": "4244-spalovac-mrtvol",
@@ -2127,11 +2150,10 @@
       "id": "709963-spindl-2",
       "name": "Špindl 2",
       "year": 2019,
-      "screenings": 5,
+      "screenings": 4,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/884/163884367_c98e36.jpg",
       "cinemas": [
         7,
-        13,
         17,
         31
       ]
@@ -2140,7 +2162,7 @@
       "id": "447568-spioni-v-prevleku",
       "name": "Špióni v převleku",
       "year": 2019,
-      "screenings": 161,
+      "screenings": 142,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/947/163947154_99642f.png",
       "cinemas": [
         0,
@@ -2163,7 +2185,7 @@
       "id": "688388-srdcova-kralovna",
       "name": "Srdcová královna",
       "year": 2019,
-      "screenings": 24,
+      "screenings": 22,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/026/164026012_a6018c.jpg",
       "cinemas": [
         3,
@@ -2180,7 +2202,7 @@
       "id": "334626-star-wars-vzestup-skywalkera",
       "name": "Star Wars: Vzestup Skywalkera",
       "year": 2019,
-      "screenings": 172,
+      "screenings": 149,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/900/163900007_2baf90.jpg",
       "cinemas": [
         0,
@@ -2213,7 +2235,7 @@
       "id": "755870-stastny-novy-rok",
       "name": "Šťastný nový rok",
       "year": 2019,
-      "screenings": 186,
+      "screenings": 162,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/997/163997947_fac535.jpg",
       "cinemas": [
         0,
@@ -2226,8 +2248,8 @@
         10,
         12,
         13,
-        25,
         27,
+        30,
         31,
         34
       ]
@@ -2244,23 +2266,25 @@
     },
     {
       "id": "618806-studeny-pot",
+      "url": "https://www.csfd.cz/film/618806-studeny-pot/",
       "name": "Studený pot",
       "year": 2018,
-      "screenings": 2,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/641/162641540_bd430f.jpg",
-      "cinemas": [
-        36
-      ]
+      "screenings": {
+        "Světozor": [
+          "2020-01-17T20:45:00.000Z"
+        ]
+      }
     },
     {
       "id": "666962-svetlusky",
+      "url": "https://www.csfd.cz/film/666962-svetlusky/",
       "name": "Světlušky",
       "year": 2018,
-      "screenings": 2,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/943/163943069_6a6cb8.png",
-      "cinemas": [
-        36
-      ]
+      "screenings": {
+        "Světozor": [
+          "2020-01-19T18:00:00.000Z"
+        ]
+      }
     },
     {
       "id": "674278-swatting",
@@ -2315,19 +2339,20 @@
     },
     {
       "id": "661778-teheran-mesto-lasky",
+      "url": "https://www.csfd.cz/film/661778-teheran-mesto-lasky/",
       "name": "Teherán, město lásky",
       "year": 2018,
-      "screenings": 2,
-      "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/856/163856339_b77382.jpg",
-      "cinemas": [
-        36
-      ]
+      "screenings": {
+        "Světozor": [
+          "2020-01-18T20:45:00.000Z"
+        ]
+      }
     },
     {
       "id": "691206-tenkrat-podruhe",
       "name": "Tenkrát podruhé",
       "year": 2019,
-      "screenings": 69,
+      "screenings": 60,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/164/020/164020434_6cc4ea.jpg",
       "cinemas": [
         0,
@@ -2342,6 +2367,7 @@
         18,
         25,
         26,
+        30,
         36
       ]
     },
@@ -2435,7 +2461,7 @@
       "id": "564743-trollove-a-kouzelny-les",
       "name": "Trollové a kouzelný les",
       "year": 2018,
-      "screenings": 10,
+      "screenings": 9,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/960/163960386_260fc7.png",
       "cinemas": [
         5,
@@ -2493,6 +2519,16 @@
       ]
     },
     {
+      "id": "222473-v-zamku-a-podzamci",
+      "name": "V zámku a podzámčí",
+      "year": 1981,
+      "screenings": 1,
+      "posterUrl": "https://img.csfd.cz/assets/b1026/images/poster-fre",
+      "cinemas": [
+        30
+      ]
+    },
+    {
       "id": "564238-vanocni-svatba-snehulaka-karla",
       "name": "Vánoční svatba sněhuláka Karla",
       "year": 2017,
@@ -2536,7 +2572,7 @@
       "id": "688473-vlastnici",
       "name": "Vlastníci",
       "year": 2019,
-      "screenings": 169,
+      "screenings": 154,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/781/163781903_f1e217.png",
       "cinemas": [
         0,
@@ -2587,10 +2623,9 @@
       "id": "572183-websterovci",
       "name": "Websterovci",
       "year": 2017,
-      "screenings": 2,
+      "screenings": 1,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/162/314/162314346_9a8a98.jpg",
       "cinemas": [
-        4,
         26
       ]
     },
@@ -2620,7 +2655,7 @@
       "id": "732048-zaklete-pirko",
       "name": "Zakleté pírko",
       "year": 2019,
-      "screenings": 52,
+      "screenings": 48,
       "posterUrl": "https://img.csfd.cz/files/images/film/posters/163/782/163782823_97a685.png",
       "cinemas": [
         1,
