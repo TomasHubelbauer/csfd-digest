@@ -15,8 +15,8 @@ jobs:
     - name: Generate GitHub Pages
       run: |
         # Configure Git for the push from the workflow to the repository
-        git config --global user.email "tomas@hubelbauer.net"
-        git config --global user.name "Tomas Hubelbauer"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         # Check out the `master` branch because by default GitHub Actions checks out detached HEAD
         git checkout master
         # Run the script for refreshing the CSFD cinema data
