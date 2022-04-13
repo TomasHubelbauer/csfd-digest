@@ -1,4 +1,4 @@
-name: github-pages
+name: main
 on:
   push:
   schedule:
@@ -6,17 +6,18 @@ on:
     - cron:  '0 0 * * *'
 
 jobs:
-  github-pages:
+  main:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: Check out the main branch
+      uses: actions/checkout@v3
+      with:
+        ref: master
     - name: Generate GitHub Pages
       run: |
         # Configure Git for the push from the workflow to the repository
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-        # Check out the `master` branch because by default GitHub Actions checks out detached HEAD
-        git checkout master
         # Run the script for refreshing the CSFD cinema data
         npm install
         npm start
@@ -39,8 +40,6 @@ jobs:
           exit
         fi
         git commit -m "Generate GitHub Pages"
-        # Authenticate with GitHub using the out of the box workflow integration PAT (this one won't queue a GitHub Pages build though)
-        git remote set-url origin https://:${{github.token}}@github.com/${{github.repository}}
         # Pull before pushing to integrate fast forward changes if any
         git pull --rebase
         # Push the changes to GitHub
