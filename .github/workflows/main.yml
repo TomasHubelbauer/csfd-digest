@@ -2,7 +2,6 @@ name: main
 on:
   push:
   schedule:
-    # Run daily
     - cron:  '0 0 * * *'
 
 jobs:
@@ -12,7 +11,7 @@ jobs:
     - name: Check out the main branch
       uses: actions/checkout@v3
       with:
-        ref: master
+        ref: main
     - name: Generate GitHub Pages
       run: |
         # Configure Git for the push from the workflow to the repository
