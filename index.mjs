@@ -98,6 +98,9 @@ try {
       }
     }
 
+    let succeeded = 0;
+    let failed = 0;
+
     const now = Date.now();
     const batchCount = ~~(movies.length / batchSize);
     for (let batchIndex = 0; batchIndex < batchCount; batchIndex++) {
@@ -114,12 +117,15 @@ try {
       
       console.log(`Scraping the batch #${batchNumber}/${batchCount} of ${batch.length} movies:`);
 
-      // TODO: Count the number of successes/failures in the batch
-      await Promise.all(batch);
+      const results = await Promise.allSettled(batch);
+      const fullfilled = results.reduce((fullfilled, result) => fullfilled + (result.status === 'fulfilled' ? 1 : 0), 0);
+      succeeded += fullfilled;
+      const rejected = results.reduce((rejected, result) => rejected + (result.status === 'rejected' ? 1 : 0), 0);
+      failed += rejected;
+      console.log(`Finished the batch #${batchNumber}/${batchCount} of ${batch.length} movies: ${fullfilled} successes and ${rejected} failures`);
     }
 
-    // TODO: Propagate the number of failures here to see what batch sizes are too big
-    await fs.promises.appendFile(`study/${batchSize}.log`, `${new Date().toLocaleString()} ${~~((Date.now() - now) / 1000)} s in ${browser.browserType().name()} with ? failures\n`)
+    await fs.promises.appendFile(`study/${batchSize}.log`, `${new Date().toLocaleString()} ${movies.length} movies in ${~~((Date.now() - now) / 1000)} seconds in ${browser.browserType().name()} with ${succeeded} successes and ${failed} failures\n`)
 
     // Sort alphabetically to make the index diffs nicer
     movies.sort((a, b) => a.name.localeCompare(b.name));
@@ -188,7 +194,7 @@ async function scrapeMovie(page, movie, cinemas) {
   }
   catch (error) {
     console.log(`Errored ${movie.name}: ${error.message}`);
-    return false;
+    throw error;
   }
   finally {
     // Delete non-index information to serialize only index information later on
@@ -199,6 +205,4 @@ async function scrapeMovie(page, movie, cinemas) {
 
     await page.close();
   }
-
-  return true;
 }

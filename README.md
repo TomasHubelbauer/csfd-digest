@@ -9,6 +9,8 @@ level. Notifies about new movies coming out.
 
 ## Running
 
+Run `npm start` to run the scraper script (runs in GitHub Actions).
+
 Run `npx serve .` to serve the contents of the repository directory.
 
 Access http://localhost:5000 to visit the old app (HTML).
