@@ -1,17 +1,15 @@
 {
   "scripts": {
-    "start": "node --experimental-modules index.mjs"
+    "start": "node index.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TomasHubelbauer/puppeteer-csfd-scraper.git"
+    "url": "git+https://github.com/TomasHubelbauer/csfd-digest.git"
   },
   "author": "Tomas Hubelbauer",
   "license": "MIT",
-  "homepage": "https://github.com/TomasHubelbauer/puppeteer-csfd-scraper",
+  "homepage": "https://github.com/TomasHubelbauer/csfd-digest",
   "dependencies": {
-    "fs-extra": "^8.1.0",
-    "node-fetch": "^2.6.0",
-    "puppeteer": "^1.18.1"
+    "playwright": "^1.29.1"
   }
 }
