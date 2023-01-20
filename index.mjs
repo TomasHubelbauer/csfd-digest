@@ -57,9 +57,9 @@ try {
               if (match === null || !match.groups.id) {
                 throw new Error('Failed to parse the ID out of', url);
               }
-    
+
               const id = Number(match.groups.id);
-    
+
               let movie = movies.find(m => m.id === id);
               if (!movie) {
                 movie = { id, url, name, screenings: { [cinemaName]: [] } };
@@ -76,12 +76,12 @@ try {
                   // Replace the same name with ellipses with the full version if found
                   movie.name = name;
                 }
-    
+
                 if (!movie.screenings[cinemaName]) {
                   movie.screenings[cinemaName] = [];
                 }
               }
-    
+
               for (const [hour, minute] of await tr.$$eval('.td-time', tds => tds.map(td => td.textContent.trim().split(':').map(Number)))) {
                 const [day, month, year] = ddMmYyyy;
                 movie.screenings[cinemaName].push(new Date(year, month - 1, day, hour, minute));
@@ -114,7 +114,7 @@ try {
           // Do not await this to make it run in parallel later using `Promise.all`
           return scrapeMovie(page, movie, cinemas);
         });
-      
+
       console.log(`Scraping the batch #${batchNumber}/${batchCount} of ${batch.length} movies:`);
 
       const results = await Promise.allSettled(batch);
@@ -125,7 +125,23 @@ try {
       console.log(`Finished the batch #${batchNumber}/${batchCount} of ${batch.length} movies: ${fullfilled} successes and ${rejected} failures`);
     }
 
-    await fs.promises.appendFile(`study/${batchSize}.log`, `${new Date().toLocaleString()} ${movies.length} movies in ${~~((Date.now() - now) / 1000)} seconds in ${browser.browserType().name()} with ${succeeded} successes and ${failed} failures\n`)
+    try {
+      await fs.promises.access('study.csv');
+    }
+    catch {
+      await fs.promises.writeFile('study.csv', 'date,time,movies,seconds,browser,successes,failures,batch\n');
+    }
+
+    await fs.promises.appendFile('study.csv', [
+      new Date().toLocaleDateString(),
+      new Date().toLocaleTimeString(),
+      movies.length,
+      ~~((Date.now() - now) / 1000),
+      browser.browserType().name(),
+      succeeded,
+      failed,
+      batchSize
+    ].join(',') + '\n');
 
     // Sort alphabetically to make the index diffs nicer
     movies.sort((a, b) => a.name.localeCompare(b.name));
