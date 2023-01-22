@@ -124,15 +124,9 @@ try {
       failed += rejected;
       console.log(`Finished the batch #${batchNumber}/${batchCount} of ${batch.length} movies: ${fullfilled} successes and ${rejected} failures`);
     }
-
-    try {
-      await fs.promises.access('study.csv');
-    }
-    catch {
-      await fs.promises.writeFile('study.csv', 'date,time,movies,seconds,browser,successes,failures,batch\n');
-    }
-
-    await fs.promises.appendFile('study.csv', [
+    
+    const headers = ['date', 'time', 'movies', 'seconds', 'browser', 'successes', 'failures', 'batch'];
+    const cells = [
       new Date().toLocaleDateString(),
       new Date().toLocaleTimeString(),
       movies.length,
@@ -141,7 +135,19 @@ try {
       succeeded,
       failed,
       batchSize
-    ].join(',') + '\n');
+    ];
+
+    try {
+      await fs.promises.access('study.csv');
+    }
+    catch {
+      await fs.promises.writeFile('study.csv', headers.join(',') + '\n');
+    }
+
+    await fs.promises.appendFile('study.csv', cells.join(',') + '\n');
+    console.log('Appended the study row:');
+    console.log(headers);
+    console.log(cells);
 
     // Sort alphabetically to make the index diffs nicer
     movies.sort((a, b) => a.name.localeCompare(b.name));
