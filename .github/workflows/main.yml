@@ -22,7 +22,7 @@ jobs:
         npm start
         # Stage the generated data
         git add data
-        git add study
+        git add study.csv
         # Run the CRA version build
         rm -rf docs
         cd cra
