@@ -125,16 +125,19 @@ try {
       console.log(`Finished the batch #${batchNumber}/${batchCount} of ${batch.length} movies: ${fullfilled} successes and ${rejected} failures`);
     }
     
-    const headers = ['date', 'time', 'movies', 'seconds', 'browser', 'successes', 'failures', 'batch'];
+    const duration = ~~((Date.now() - now) / 1000);
+    
+    const headers = ['date', 'time', 'movies', 'duration (s)', 'browser', 'successes', 'failures', 'batch', 'movies per second'];
     const cells = [
       new Date().toLocaleDateString(),
       new Date().toLocaleTimeString(),
       movies.length,
-      ~~((Date.now() - now) / 1000),
+      duration,
       browser.browserType().name(),
       succeeded,
       failed,
-      batchSize
+      batchSize,
+      movies.length / duration
     ];
 
     try {
