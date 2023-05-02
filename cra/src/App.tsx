@@ -12,35 +12,10 @@ type IndexMovie = {
   screenings: number;
 };
 
-type Movie = {
-  id: string;
-  url: string;
-  name: string;
-  year: number;
-  screenings: {
-    [cinema: string]: Date[];
-  };
-  content: string;
-  imdbUrl: string;
-  posterUrl: string;
-  trailerUrl: string;
-};
-
 type Data = {
   dateAndTime: Date;
   cinemas: string[];
   movies: IndexMovie[];
-};
-
-type AppProps = {};
-
-type AppState = {
-  data:
-  | { type: 'loading' }
-  | { type: 'success', data: Data }
-  | { type: 'error', error: Error }
-  ;
-  selectedCinemas: string[];
 };
 
 export default function App() {
@@ -63,7 +38,7 @@ export default function App() {
         setCinemas(cinemas);
         setMovies(movies);
       } catch (error) {
-        setError(error);
+        setError(error as Error);
       }
     }()
   }, []);
