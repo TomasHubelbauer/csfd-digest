@@ -1,5 +1,5 @@
 {
-  "dateAndTime": "2023-05-09T00:15:55.172Z",
+  "dateAndTime": "2023-05-10T00:17:50.341Z",
   "cinemas": [
     "Praha - CineStar Praha - Anděl",
     "Praha - CineStar Praha - Černý Most",
@@ -10,6 +10,7 @@
     "Praha - Cinema City Nový Smíchov",
     "Praha - Cinema City Slovanský dům",
     "Praha - Cinema City Zličín",
+    "Praha - Divadlo Za plotem",
     "Praha - Dlabačov",
     "Praha - Edison Filmhub",
     "Praha - Kino Aero",
@@ -28,7 +29,8 @@
     "Praha - Městská knihovna",
     "Praha - Modřanský biograf",
     "Praha - Premiere Cinemas Praha Hostivař",
-    "Praha - Přítomnost Boutique Cinema"
+    "Praha - Přítomnost Boutique Cinema",
+    "Praha - Žluté kino"
   ],
   "movies": [
     {
@@ -37,7 +39,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/038/38559_756f6c.jpg",
       "cinemas": [
-        15
+        16
       ]
     },
     {
@@ -46,29 +48,29 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/819/166819044_a329b0.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
       "id": 1183879,
       "name": "Aftersun",
-      "screenings": 20,
+      "screenings": 21,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/460/167460712_ny84z4.jpg",
       "cinemas": [
         2,
-        9,
         10,
-        11,
+        12,
         15,
-        17,
-        21,
-        27
+        16,
+        18,
+        22,
+        28
       ]
     },
     {
       "id": 1196340,
       "name": "Air: Zrození legendy",
-      "screenings": 91,
+      "screenings": 86,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/263/167263768_180cab.jpg",
       "cinemas": [
         0,
@@ -78,11 +80,9 @@
         6,
         7,
         8,
-        11,
-        15,
-        21,
-        23,
-        24
+        12,
+        16,
+        17
       ]
     },
     {
@@ -91,13 +91,31 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/376/159376008_8321a2.jpg",
       "cinemas": [
-        11
+        12
+      ]
+    },
+    {
+      "id": 1332354,
+      "name": "Amori Dolori",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/326/167326256_354514.png",
+      "cinemas": [
+        2
+      ]
+    },
+    {
+      "id": 22005,
+      "name": "Anna a vlci",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/017/17402_f225fa.jpg",
+      "cinemas": [
+        20
       ]
     },
     {
       "id": 812327,
       "name": "Asterix a Obelix: Říše středu",
-      "screenings": 18,
+      "screenings": 9,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/047/167047099_389ba3.png",
       "cinemas": [
         4,
@@ -110,15 +128,16 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/162/167162732_93e4b6.png",
       "cinemas": [
-        22
+        23
       ]
     },
     {
       "id": 277495,
       "name": "Avatar: The Way of Water",
-      "screenings": 2,
+      "screenings": 9,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/840/166840794_0d238f.png",
       "cinemas": [
+        0,
         6
       ]
     },
@@ -128,7 +147,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/341/158341428_649c5a.jpg",
       "cinemas": [
-        13
+        14
       ]
     },
     {
@@ -137,7 +156,16 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/078/166078460_82209b.jpg",
       "cinemas": [
-        9
+        10
+      ]
+    },
+    {
+      "id": 1008522,
+      "name": "Betlémské světlo",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/165/950/165950221_9bfd32.jpg",
+      "cinemas": [
+        17
       ]
     },
     {
@@ -146,24 +174,23 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/697/166697498_131294.jpg",
       "cinemas": [
-        19
+        20
       ]
     },
     {
       "id": 1032154,
       "name": "Bombastický Johan",
-      "screenings": 40,
+      "screenings": 32,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/078/167078256_e4f4d2.jpg",
       "cinemas": [
         4,
         7,
-        10,
-        12,
         13,
+        14,
         15,
-        17,
-        21,
-        23
+        16,
+        18,
+        24
       ]
     },
     {
@@ -172,18 +199,17 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/165/608/165608062_1ad430.png",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 1170253,
       "name": "Bratr a sestra",
-      "screenings": 5,
+      "screenings": 3,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/319/167319230_b29f4d.jpg",
       "cinemas": [
-        12,
-        22,
-        23
+        13,
+        24
       ]
     },
     {
@@ -192,13 +218,13 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/467/162467927_364746.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 1192858,
       "name": "Buď chlap!",
-      "screenings": 72,
+      "screenings": 75,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/079/167079369_57f236.jpg",
       "cinemas": [
         0,
@@ -207,36 +233,16 @@
         4,
         5,
         8,
-        11,
-        26
-      ]
-    },
-    {
-      "id": 15031,
-      "name": "Butch Cassidy a Sundance Kid",
-      "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/599/158599590_86b324.jpg",
-      "cinemas": [
-        16
+        27
       ]
     },
     {
       "id": 601725,
-      "url": "https://www.csfd.cz/film/601725-caravaggio-duse-a-krev/",
       "name": "Caravaggio - Duše a krev",
-      "screenings": {
-        "Praha - Městská knihovna": [
-          "2023-05-24T17:00:00.000Z"
-        ]
-      }
-    },
-    {
-      "id": 208033,
-      "name": "Casino Royale",
       "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/375/162375896_558487.jpg",
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/488/162488665_1cd91f.jpg",
       "cinemas": [
-        11
+        25
       ]
     },
     {
@@ -245,7 +251,7 @@
       "screenings": 1,
       "posterUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
       "cinemas": [
-        19
+        20
       ]
     },
     {
@@ -254,16 +260,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/163/384/163384743_ed9ba5.jpg",
       "cinemas": [
-        19
-      ]
-    },
-    {
-      "id": 734768,
-      "name": "Chlast",
-      "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/164/836/164836066_4691fa.jpg",
-      "cinemas": [
-        18
+        20
       ]
     },
     {
@@ -272,7 +269,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/133/162133931_f57636.jpg",
       "cinemas": [
-        14
+        15
       ]
     },
     {
@@ -290,7 +287,7 @@
       "screenings": 1,
       "posterUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
       "cinemas": [
-        19
+        20
       ]
     },
     {
@@ -300,8 +297,8 @@
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/828/166828074_7a4a1a.jpg",
       "cinemas": [
         2,
-        11,
-        27
+        12,
+        28
       ]
     },
     {
@@ -311,13 +308,13 @@
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/976/166976080_be680f.jpg",
       "cinemas": [
         2,
-        25
+        26
       ]
     },
     {
       "id": 579524,
       "name": "Dungeons & Dragons: Čest zlodějů",
-      "screenings": 217,
+      "screenings": 189,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/158/167158525_6baadb.jpg",
       "cinemas": [
         0,
@@ -329,8 +326,8 @@
         6,
         7,
         8,
-        20,
-        26
+        21,
+        27
       ]
     },
     {
@@ -339,7 +336,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/364/167364883_8810ca.jpg",
       "cinemas": [
-        19
+        20
       ]
     },
     {
@@ -348,33 +345,37 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/252/167252101_4b556b.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 1356051,
       "name": "Eric Clapton: Across 24 Nights",
-      "screenings": 2,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/490/167490725_vjbb9p.jpg",
+      "screenings": 7,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/492/167492978_wq8att.jpg",
       "cinemas": [
         4,
-        7
+        7,
+        10,
+        16,
+        26,
+        27
       ]
     },
     {
       "id": 1184611,
       "name": "Falcon Lake",
-      "screenings": 16,
+      "screenings": 14,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/347/167347846_052b08.jpg",
       "cinemas": [
         2,
-        11,
         12,
-        15,
-        17,
-        21,
+        13,
+        16,
+        18,
         22,
-        27
+        23,
+        28
       ]
     },
     {
@@ -383,7 +384,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/390/167390576_537abd.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
@@ -392,16 +393,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/138/166138497_1a0332.jpg",
       "cinemas": [
-        9
-      ]
-    },
-    {
-      "id": 601713,
-      "name": "Hitler versus Picasso",
-      "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/488/162488637_62ab4e.jpg",
-      "cinemas": [
-        9
+        10
       ]
     },
     {
@@ -410,22 +402,30 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/370/162370437_7aa7d1.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 1196339,
       "name": "Hypnotik",
-      "screenings": 36,
+      "screenings": 225,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/429/167429352_g1xqu7.jpg",
       "cinemas": [
+        0,
         1,
         2,
-        9,
-        15,
-        20,
-        25,
-        26
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        16,
+        17,
+        21,
+        26,
+        27
       ]
     },
     {
@@ -435,13 +435,13 @@
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/645/166645293_796c61.jpg",
       "cinemas": [
         2,
-        9
+        10
       ]
     },
     {
       "id": 1194334,
       "name": "Invalida",
-      "screenings": 50,
+      "screenings": 43,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/197/167197401_cb003b.jpg",
       "cinemas": [
         0,
@@ -449,14 +449,13 @@
         4,
         5,
         6,
-        11,
         12,
-        15,
+        13,
         16,
-        20,
+        17,
         21,
-        23,
-        24
+        24,
+        25
       ]
     },
     {
@@ -465,16 +464,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/533/159533639_c7fb00.jpg",
       "cinemas": [
-        13
-      ]
-    },
-    {
-      "id": 988939,
-      "name": "Jací jsme byli",
-      "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/359/167359229_09c35f.jpg",
-      "cinemas": [
-        9
+        14
       ]
     },
     {
@@ -483,7 +473,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/078/167078286_80a594.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
@@ -492,13 +482,13 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/583/158583573_30570d.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 758862,
       "name": "John Wick: Kapitola 4",
-      "screenings": 136,
+      "screenings": 121,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/197/167197360_88ca26.jpg",
       "cinemas": [
         0,
@@ -509,50 +499,49 @@
         6,
         7,
         8,
-        9,
-        26
+        10,
+        27
       ]
     },
     {
       "id": 1204591,
       "name": "Katedrála",
-      "screenings": 19,
+      "screenings": 20,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/396/167396678_388010.jpg",
       "cinemas": [
         2,
-        9,
-        11,
+        10,
         12,
-        15,
-        21,
-        23,
+        13,
+        16,
+        17,
         24,
         25,
-        27
+        26,
+        28
       ]
     },
     {
       "id": 389064,
       "name": "Kocour v botách: Poslední přání",
-      "screenings": 35,
+      "screenings": 22,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/887/166887811_a46ea6.jpg",
       "cinemas": [
         4,
         5,
         6,
         8,
-        26
+        27
       ]
     },
     {
       "id": 6661,
-      "url": "https://www.csfd.cz/film/6661-konec-starych-casu/",
       "name": "Konec starých časů",
-      "screenings": {
-        "Praha - Komorní kino Evald": [
-          "2023-05-17T14:00:00.000Z"
-        ]
-      }
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/252/167252203_90d574.jpg",
+      "cinemas": [
+        24
+      ]
     },
     {
       "id": 1170279,
@@ -560,15 +549,15 @@
       "screenings": 3,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/094/167094940_2cfb83.jpg",
       "cinemas": [
-        9,
-        18,
-        23
+        10,
+        19,
+        24
       ]
     },
     {
       "id": 1240462,
       "name": "Krásná katastrofa",
-      "screenings": 66,
+      "screenings": 51,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/160/167160166_997475.jpg",
       "cinemas": [
         0,
@@ -587,29 +576,102 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/801/159801523_609189.jpg",
       "cinemas": [
-        9,
-        11
+        10,
+        12
       ]
     },
     {
-      "id": 1052521,
-      "name": "Krvavé pomeranče",
+      "id": 130698,
+      "name": "Krtek a ježek",
       "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/238/167238364_55cd8a.jpg",
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36615_1ee727.jpg",
       "cinemas": [
-        10
+        15
+      ]
+    },
+    {
+      "id": 130703,
+      "name": "Krtek a lízátko",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36609_f56b4b.jpg",
+      "cinemas": [
+        15
+      ]
+    },
+    {
+      "id": 130709,
+      "name": "Krtek a paraplíčko",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36602_c59d03.jpg",
+      "cinemas": [
+        15
+      ]
+    },
+    {
+      "id": 130715,
+      "name": "Krtek a televizor",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36596_0ef18c.jpg",
+      "cinemas": [
+        15
+      ]
+    },
+    {
+      "id": 130716,
+      "name": "Krtek a tranzistor",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36595_462142.jpg",
+      "cinemas": [
+        15
+      ]
+    },
+    {
+      "id": 130721,
+      "name": "Krtek a zelená hvězda",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36591_5ddbc5.jpg",
+      "cinemas": [
+        15
+      ]
+    },
+    {
+      "id": 130722,
+      "name": "Krtek a žvýkačka",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/018/18472_a4ebea.jpg",
+      "cinemas": [
+        15
+      ]
+    },
+    {
+      "id": 130730,
+      "name": "Krtek v Zoo",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36581_55f549.jpg",
+      "cinemas": [
+        15
+      ]
+    },
+    {
+      "id": 130733,
+      "name": "Krtek zahradníkem",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/036/36575_3108f9.jpg",
+      "cinemas": [
+        15
       ]
     },
     {
       "id": 1180372,
       "name": "Kuciak: Vražda novináře",
-      "screenings": 6,
+      "screenings": 5,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/077/167077581_e92ec5.jpg",
       "cinemas": [
         2,
         15,
-        18,
-        23
+        16,
+        19,
+        24
       ]
     },
     {
@@ -618,7 +680,7 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/890/166890742_ea94b1.jpg",
       "cinemas": [
-        22
+        23
       ]
     },
     {
@@ -629,15 +691,15 @@
       "cinemas": [
         2,
         7,
-        9,
-        15,
-        26
+        10,
+        16,
+        27
       ]
     },
     {
       "id": 1277057,
       "name": "Mafia Mamma",
-      "screenings": 35,
+      "screenings": 28,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/387/167387077_0519be.png",
       "cinemas": [
         3,
@@ -645,7 +707,7 @@
         5,
         6,
         7,
-        24
+        25
       ]
     },
     {
@@ -654,9 +716,9 @@
       "screenings": 7,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/473/167473016_qb75m1.jpg",
       "cinemas": [
-        9,
-        20,
-        22
+        10,
+        21,
+        23
       ]
     },
     {
@@ -665,7 +727,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/989/159989184_8467ed.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
@@ -674,13 +736,13 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/164/947/164947139_d7f09f.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
       "id": 1187325,
       "name": "Mia a já ve filmu",
-      "screenings": 116,
+      "screenings": 92,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/240/167240076_c7e693.jpg",
       "cinemas": [
         0,
@@ -691,10 +753,10 @@
         6,
         7,
         8,
-        9,
-        20,
-        25,
-        26
+        10,
+        21,
+        26,
+        27
       ]
     },
     {
@@ -703,7 +765,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/890/166890136_566033.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
@@ -712,7 +774,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/536/159536661_8f27aa.jpg",
       "cinemas": [
-        19
+        20
       ]
     },
     {
@@ -721,7 +783,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/079/166079967_5d0106.jpg",
       "cinemas": [
-        22
+        23
       ]
     },
     {
@@ -730,8 +792,8 @@
       "screenings": 6,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/456/167456599_sgwn6m.jpg",
       "cinemas": [
-        20,
-        22
+        21,
+        23
       ]
     },
     {
@@ -740,18 +802,8 @@
       "screenings": 1,
       "posterUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
       "cinemas": [
-        19
+        20
       ]
-    },
-    {
-      "id": 1176457,
-      "url": "https://www.csfd.cz/film/1176457-modry-kaftan/",
-      "name": "Modrý kaftan",
-      "screenings": {
-        "Praha - Komorní kino Evald": [
-          "2023-05-09T14:00:00.000Z"
-        ]
-      }
     },
     {
       "id": 1170295,
@@ -759,13 +811,13 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/547/166547995_abeaea.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
       "id": 1287007,
       "name": "Možná řeknu ano",
-      "screenings": 2,
+      "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/244/167244847_f4833b.jpg",
       "cinemas": [
         7
@@ -777,18 +829,17 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/674/166674473_3808ee.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 1234487,
-      "url": "https://www.csfd.cz/film/1234487-munch-laska-duchove-a-upiri-zeny/",
       "name": "Munch – láska, duchové a upíří ženy",
-      "screenings": {
-        "Praha - Městská knihovna": [
-          "2023-05-15T17:00:00.000Z"
-        ]
-      }
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/752/166752654_0c15bd.png",
+      "cinemas": [
+        25
+      ]
     },
     {
       "id": 1146292,
@@ -797,7 +848,7 @@
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/043/167043580_75d096.jpg",
       "cinemas": [
         2,
-        18
+        17
       ]
     },
     {
@@ -806,7 +857,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/078/167078251_ff84e5.jpg",
       "cinemas": [
-        17
+        18
       ]
     },
     {
@@ -815,15 +866,15 @@
       "screenings": 8,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/355/167355870_7ed3b6.jpg",
       "cinemas": [
-        9,
-        20,
-        22
+        10,
+        21,
+        23
       ]
     },
     {
       "id": 1263901,
       "name": "Myška a medvěd na cestách",
-      "screenings": 21,
+      "screenings": 22,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/308/167308999_846869.jpg",
       "cinemas": [
         0,
@@ -831,17 +882,18 @@
         2,
         3,
         4,
-        22,
         23,
-        24
+        24,
+        25
       ]
     },
     {
       "id": 1223251,
       "name": "Myška Pattie: Na vlnách dobrodružství",
-      "screenings": 197,
+      "screenings": 212,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/378/167378736_f0a540.png",
       "cinemas": [
+        0,
         1,
         3,
         4,
@@ -850,8 +902,10 @@
         7,
         8,
         9,
-        20,
-        26
+        10,
+        17,
+        21,
+        27
       ]
     },
     {
@@ -860,18 +914,18 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/164/520/164520775_0ee5ba.jpg",
       "cinemas": [
-        13
+        14
       ]
     },
     {
       "id": 1196478,
       "name": "Národ velryb",
-      "screenings": 6,
+      "screenings": 4,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/324/167324033_f92b20.jpg",
       "cinemas": [
         4,
-        15,
-        22
+        16,
+        23
       ]
     },
     {
@@ -880,17 +934,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/909/166909817_0633f8.jpg",
       "cinemas": [
-        19
-      ]
-    },
-    {
-      "id": 1042661,
-      "name": "Navždy mladí",
-      "screenings": 2,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/262/167262351_e8b806.jpg",
-      "cinemas": [
-        12,
-        18
+        20
       ]
     },
     {
@@ -899,18 +943,19 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/078/167078254_ad46df.jpg",
       "cinemas": [
-        9,
-        15
+        10,
+        16
       ]
     },
     {
       "id": 1176450,
       "name": "Noc 12.",
-      "screenings": 12,
+      "screenings": 13,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/376/167376547_0727ba.png",
       "cinemas": [
         15,
-        22
+        16,
+        23
       ]
     },
     {
@@ -919,13 +964,13 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/649/162649005_7c3036.png",
       "cinemas": [
-        14
+        15
       ]
     },
     {
       "id": 1059251,
       "name": "On se bojí",
-      "screenings": 55,
+      "screenings": 39,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/330/167330787_660a26.jpg",
       "cinemas": [
         2,
@@ -933,14 +978,13 @@
         4,
         6,
         7,
-        9,
-        11,
+        10,
         12,
-        15,
-        18,
-        21,
-        23,
-        27
+        16,
+        19,
+        22,
+        24,
+        28
       ]
     },
     {
@@ -949,7 +993,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/648/162648983_73d38f.jpg",
       "cinemas": [
-        15
+        16
       ]
     },
     {
@@ -958,19 +1002,18 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/876/166876790_d2b5c8.jpg",
       "cinemas": [
-        15,
-        23
+        16,
+        24
       ]
     },
     {
       "id": 1176454,
-      "url": "https://www.csfd.cz/film/1176454-pacifiction/",
       "name": "Pacifiction",
-      "screenings": {
-        "Praha - Městská knihovna": [
-          "2023-05-15T19:00:00.000Z"
-        ]
-      }
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/182/167182620_e3bb71.jpg",
+      "cinemas": [
+        25
+      ]
     },
     {
       "id": 1033955,
@@ -978,13 +1021,13 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/662/166662798_bf82b4.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 1204422,
       "name": "Papežův vymítač",
-      "screenings": 73,
+      "screenings": 42,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/202/167202320_6a8dbb.jpg",
       "cinemas": [
         0,
@@ -993,8 +1036,17 @@
         4,
         5,
         8,
-        9,
-        25
+        10,
+        26
+      ]
+    },
+    {
+      "id": 22033,
+      "name": "Peppermint frappé",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/535/166535747_f5b054.jpg",
+      "cinemas": [
+        20
       ]
     },
     {
@@ -1003,7 +1055,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/865/160865710_88d48d.jpg",
       "cinemas": [
-        19
+        20
       ]
     },
     {
@@ -1012,25 +1064,26 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/357/167357891_352d1f.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
-      "id": 976645,
-      "name": "Planeta Praha",
+      "id": 15046,
+      "name": "Podraz",
       "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/429/166429031_1914c3.jpg",
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/164/059/164059765_5269d0.jpg",
       "cinemas": [
-        16
+        17
       ]
     },
     {
       "id": 270365,
       "name": "Pokoj",
-      "screenings": 1,
+      "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/708/158708214_5e75ab.jpg",
       "cinemas": [
-        13
+        14,
+        15
       ]
     },
     {
@@ -1039,20 +1092,29 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/388/167388907_21b888.png",
       "cinemas": [
-        15
+        16
       ]
     },
     {
       "id": 937522,
       "name": "Poznámky k Hitlerovi",
-      "screenings": 4,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/165/524/165524922_0944f3.jpg",
+      "screenings": 3,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/496/167496278_4v8276.jpg",
       "cinemas": [
-        9,
         10,
-        20,
-        25
+        11,
+        21
       ]
+    },
+    {
+      "id": 9926,
+      "url": "https://www.csfd.cz/film/9926-prazdniny-v-rime/",
+      "name": "Prázdniny v Římě",
+      "screenings": {
+        "Praha - Žluté kino": [
+          "2023-05-30T21:00:00.000Z"
+        ]
+      }
     },
     {
       "id": 1143151,
@@ -1061,8 +1123,8 @@
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/414/167414675_00dcfe.jpg",
       "cinemas": [
         2,
-        20,
-        23
+        21,
+        24
       ]
     },
     {
@@ -1071,7 +1133,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/862/159862765_22a971.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
@@ -1080,7 +1142,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/870/160870408_7d15fa.png",
       "cinemas": [
-        14
+        15
       ]
     },
     {
@@ -1089,19 +1151,20 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/402/162402935_d9a244.jpg",
       "cinemas": [
-        14
+        15
       ]
     },
     {
       "id": 1113562,
       "name": "Renfield",
-      "screenings": 10,
+      "screenings": 7,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/061/167061195_0c6f91.jpg",
       "cinemas": [
         0,
         5,
         7,
-        27
+        17,
+        28
       ]
     },
     {
@@ -1110,7 +1173,7 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/387/167387525_86bab7.jpg",
       "cinemas": [
-        22
+        23
       ]
     },
     {
@@ -1127,9 +1190,9 @@
         6,
         7,
         8,
-        9,
-        20,
-        26
+        10,
+        21,
+        27
       ]
     },
     {
@@ -1138,17 +1201,8 @@
       "screenings": 4,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/405/167405446_e618cc.jpg",
       "cinemas": [
-        9,
-        20
-      ]
-    },
-    {
-      "id": 403106,
-      "name": "Sázka na zlato",
-      "screenings": 1,
-      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/239/167239992_4877a8.jpg",
-      "cinemas": [
-        13
+        10,
+        21
       ]
     },
     {
@@ -1157,7 +1211,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/262/162262742_d3fa7c.jpg",
       "cinemas": [
-        13
+        14
       ]
     },
     {
@@ -1166,8 +1220,8 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/323/167323448_2c37f4.png",
       "cinemas": [
-        15,
-        24
+        16,
+        25
       ]
     },
     {
@@ -1185,7 +1239,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/161/735/161735664_fb0dc4.jpg",
       "cinemas": [
-        21
+        22
       ]
     },
     {
@@ -1194,13 +1248,13 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/886/166886789_90e753.jpg",
       "cinemas": [
-        13
+        14
       ]
     },
     {
       "id": 1126927,
       "name": "Sisu",
-      "screenings": 58,
+      "screenings": 59,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/353/167353397_6eb546.jpg",
       "cinemas": [
         0,
@@ -1213,10 +1267,12 @@
         7,
         8,
         9,
-        11,
-        15,
-        23,
-        27
+        10,
+        12,
+        16,
+        17,
+        24,
+        28
       ]
     },
     {
@@ -1225,20 +1281,20 @@
       "screenings": 4,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/474/167474536_lz9o2i.png",
       "cinemas": [
-        10,
-        15
+        11,
+        16
       ]
     },
     {
       "id": 822327,
       "name": "Služka",
-      "screenings": 10,
+      "screenings": 9,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/148/167148854_d63348.png",
       "cinemas": [
-        15,
         16,
-        23,
-        24
+        17,
+        24,
+        25
       ]
     },
     {
@@ -1256,7 +1312,7 @@
         6,
         7,
         8,
-        26
+        27
       ]
     },
     {
@@ -1265,7 +1321,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/234/160234520_bad766.jpg",
       "cinemas": [
-        13
+        14
       ]
     },
     {
@@ -1274,7 +1330,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/749/162749809_fbc73c.jpg",
       "cinemas": [
-        13
+        14
       ]
     },
     {
@@ -1283,7 +1339,7 @@
       "screenings": 3,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/473/167473003_995qp3.png",
       "cinemas": [
-        9
+        10
       ]
     },
     {
@@ -1291,13 +1347,13 @@
       "name": "Sportující zvířata - Série 2",
       "screenings": 1,
       "cinemas": [
-        22
+        23
       ]
     },
     {
       "id": 508447,
       "name": "Strážci Galaxie: Volume 3",
-      "screenings": 882,
+      "screenings": 902,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/167/167167093_3c2760.jpg",
       "cinemas": [
         0,
@@ -1310,10 +1366,12 @@
         7,
         8,
         9,
-        15,
-        20,
-        25,
-        26
+        10,
+        16,
+        17,
+        21,
+        26,
+        27
       ]
     },
     {
@@ -1322,23 +1380,23 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/736/162736825_aaec29.jpg",
       "cinemas": [
-        21
+        22
       ]
     },
     {
       "id": 374077,
       "name": "Sůl Země",
-      "screenings": 6,
+      "screenings": 5,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/766/159766807_e3a446.jpg",
       "cinemas": [
-        17,
-        22
+        18,
+        23
       ]
     },
     {
       "id": 1017174,
       "name": "Super Mario Bros. ve filmu",
-      "screenings": 392,
+      "screenings": 357,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/158/167158524_281a5e.jpg",
       "cinemas": [
         0,
@@ -1350,13 +1408,12 @@
         6,
         7,
         8,
-        9,
-        11,
-        18,
-        20,
-        24,
-        26,
-        27
+        10,
+        12,
+        21,
+        25,
+        27,
+        28
       ]
     },
     {
@@ -1365,8 +1422,8 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/359/167359244_f1a1b2.jpg",
       "cinemas": [
-        9,
-        11
+        10,
+        12
       ]
     },
     {
@@ -1375,17 +1432,16 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/881/159881237_61d91e.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 1115783,
       "name": "Tár",
-      "screenings": 5,
+      "screenings": 3,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/104/167104673_184c83.jpg",
       "cinemas": [
-        21,
-        23,
+        22,
         24
       ]
     },
@@ -1395,16 +1451,17 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/349/162349567_5b3fe1.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
       "id": 9499,
       "name": "The Matrix",
-      "screenings": 1,
+      "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/008/8959_164d69.jpg",
       "cinemas": [
-        11
+        12,
+        15
       ]
     },
     {
@@ -1413,7 +1470,25 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/163/460/163460355_b46cfc.jpg",
       "cinemas": [
-        13
+        14
+      ]
+    },
+    {
+      "id": 1358615,
+      "name": "Ticho na poli",
+      "screenings": 1,
+      "posterUrl": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "cinemas": [
+        2
+      ]
+    },
+    {
+      "id": 1255815,
+      "name": "Time to Die",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/897/166897627_98d1d6.jpg",
+      "cinemas": [
+        2
       ]
     },
     {
@@ -1422,7 +1497,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/163/772/163772211_53ec19.png",
       "cinemas": [
-        9
+        10
       ]
     },
     {
@@ -1431,9 +1506,9 @@
       "screenings": 4,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/288/167288200_a5c930.png",
       "cinemas": [
-        20,
-        24,
-        25
+        21,
+        25,
+        26
       ]
     },
     {
@@ -1442,7 +1517,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/947/166947149_a6677e.jpg",
       "cinemas": [
-        9
+        10
       ]
     },
     {
@@ -1451,23 +1526,24 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/181/158181512_46eb07.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
       "id": 1030763,
       "name": "Tři mušketýři: D'Artagnan",
-      "screenings": 31,
+      "screenings": 27,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/240/167240160_0b38c0.jpg",
       "cinemas": [
         7,
         8,
-        11,
-        15,
+        12,
         16,
-        22,
+        17,
         23,
-        24
+        24,
+        25,
+        29
       ]
     },
     {
@@ -1476,19 +1552,18 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/634/166634455_f5b8eb.jpg",
       "cinemas": [
-        9,
-        18
+        10,
+        19
       ]
     },
     {
       "id": 948902,
-      "url": "https://www.csfd.cz/film/948902-uzasny-mauric/",
       "name": "Úžasný Mauric",
-      "screenings": {
-        "Praha - Městská knihovna": [
-          "2023-05-27T17:00:00.000Z"
-        ]
-      }
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/962/166962896_161ff0.jpg",
+      "cinemas": [
+        25
+      ]
     },
     {
       "id": 1052401,
@@ -1496,32 +1571,41 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/048/167048122_538b6d.jpg",
       "cinemas": [
-        9
+        10
+      ]
+    },
+    {
+      "id": 94154,
+      "name": "Velká sýrová loupež",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/075/75040_d03e82.jpg",
+      "cinemas": [
+        15
       ]
     },
     {
       "id": 1246875,
       "name": "Velké nic",
-      "screenings": 4,
+      "screenings": 3,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/978/166978798_e21496.jpg",
       "cinemas": [
-        15,
-        21,
-        23
+        16,
+        22,
+        24
       ]
     },
     {
       "id": 969361,
       "name": "Velryba",
-      "screenings": 9,
+      "screenings": 7,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/113/167113576_66fefb.jpg",
       "cinemas": [
-        9,
-        12,
-        18,
-        21,
-        23,
-        27
+        10,
+        13,
+        19,
+        22,
+        24,
+        28
       ]
     },
     {
@@ -1530,7 +1614,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/402/162402947_893009.jpg",
       "cinemas": [
-        14
+        15
       ]
     },
     {
@@ -1539,7 +1623,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/075/160075288_5a57f9.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
@@ -1548,7 +1632,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/159/449/159449928_d6eea3.png",
       "cinemas": [
-        11
+        12
       ]
     },
     {
@@ -1557,7 +1641,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/379/162379816_2a1f77.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
@@ -1566,7 +1650,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/379/162379817_45c8ef.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
@@ -1575,7 +1659,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/319/167319234_ebf70d.jpg",
       "cinemas": [
-        12
+        13
       ]
     },
     {
@@ -1584,9 +1668,18 @@
       "screenings": 4,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/093/167093978_be88d0.png",
       "cinemas": [
-        9,
-        18,
-        23
+        10,
+        19,
+        24
+      ]
+    },
+    {
+      "id": 33362,
+      "name": "Vinnetou",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/582/160582059_c9fe1a.jpg",
+      "cinemas": [
+        17
       ]
     },
     {
@@ -1595,38 +1688,45 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/245/162245153_66e1ba.jpg",
       "cinemas": [
-        14
+        15
       ]
     },
     {
       "id": 1166197,
       "name": "Vřískot 6",
-      "screenings": 9,
+      "screenings": 8,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/168/167168790_4b7d74.jpg",
       "cinemas": [
         4
       ]
     },
     {
+      "id": 1317566,
+      "name": "Všechno bude zase dobrý",
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/236/167236504_f2fed2.png",
+      "cinemas": [
+        2
+      ]
+    },
+    {
       "id": 865902,
       "name": "Všechno, všude, najednou",
-      "screenings": 3,
+      "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/444/166444922_6930c4.jpg",
       "cinemas": [
         2,
-        9,
-        23
+        10
       ]
     },
     {
       "id": 1166972,
-      "url": "https://www.csfd.cz/film/1166972-vsechny-me-dopisy-spal/",
       "name": "Všechny mé dopisy spal",
-      "screenings": {
-        "Praha - Městská knihovna": [
-          "2023-05-30T16:00:00.000Z"
-        ]
-      }
+      "screenings": 1,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/065/167065868_f52af9.jpg",
+      "cinemas": [
+        25
+      ]
     },
     {
       "id": 1315924,
@@ -1634,9 +1734,9 @@
       "screenings": 5,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/291/167291682_29f73a.png",
       "cinemas": [
-        9,
-        17,
-        21
+        10,
+        18,
+        22
       ]
     },
     {
@@ -1645,13 +1745,13 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/450/166450560_8a4b4c.png",
       "cinemas": [
-        22
+        23
       ]
     },
     {
       "id": 1156117,
       "name": "Zachraňte tygra",
-      "screenings": 17,
+      "screenings": 14,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/323/167323451_8c80d2.png",
       "cinemas": [
         4,
@@ -1661,14 +1761,12 @@
     },
     {
       "id": 1100903,
-      "url": "https://www.csfd.cz/film/1100903-zahrada-raje/",
       "name": "Zahrada ráje",
-      "screenings": {
-        "Praha - Kino 35": [
-          "2023-05-18T18:00:00.000Z",
-          "2023-05-20T18:00:00.000Z"
-        ]
-      }
+      "screenings": 2,
+      "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/994/166994855_2de0e8.jpg",
+      "cinemas": [
+        23
+      ]
     },
     {
       "id": 9288,
@@ -1676,9 +1774,9 @@
       "screenings": 5,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/167/167167054_729368.jpg",
       "cinemas": [
-        10,
-        17,
-        18
+        11,
+        18,
+        19
       ]
     },
     {
@@ -1687,7 +1785,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/359/162359354_a037a1.jpg",
       "cinemas": [
-        11
+        12
       ]
     },
     {
@@ -1696,31 +1794,31 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/000/702_bca876.jpg",
       "cinemas": [
-        10
+        11
       ]
     },
     {
       "id": 688396,
       "name": "Země medu",
-      "screenings": 2,
+      "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/164/486/164486471_b12dd9.jpg",
       "cinemas": [
-        17
+        18
       ]
     },
     {
       "id": 775943,
       "name": "Zešílet",
-      "screenings": 3,
+      "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/866/166866457_0871d8.png",
       "cinemas": [
-        12
+        13
       ]
     },
     {
       "id": 1288091,
       "name": "Život kotěte",
-      "screenings": 95,
+      "screenings": 82,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/396/167396933_e0f25b.jpg",
       "cinemas": [
         0,
@@ -1732,21 +1830,22 @@
         6,
         7,
         8,
-        9,
-        12,
-        15,
-        18,
-        20,
-        22,
+        10,
+        13,
+        16,
+        17,
+        19,
+        21,
         23,
-        25,
-        26
+        24,
+        26,
+        27
       ]
     },
     {
       "id": 822572,
       "name": "Život pro samouky",
-      "screenings": 447,
+      "screenings": 495,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/347/167347954_a0b8a8.jpg",
       "cinemas": [
         0,
@@ -1758,12 +1857,15 @@
         7,
         8,
         9,
-        15,
-        20,
-        22,
+        10,
+        16,
+        17,
+        21,
         23,
-        25,
-        26
+        24,
+        26,
+        27,
+        29
       ]
     },
     {
@@ -1772,7 +1874,7 @@
       "screenings": 1,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/161/836/161836772_d3bea9.jpg",
       "cinemas": [
-        22
+        23
       ]
     },
     {
@@ -1781,7 +1883,7 @@
       "screenings": 2,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/167/157/167157942_694814.jpg",
       "cinemas": [
-        17
+        18
       ]
     },
     {
@@ -1793,17 +1895,17 @@
         0,
         1,
         4,
-        15
+        16
       ]
     },
     {
       "id": 1229007,
       "name": "Zoubková víla",
-      "screenings": 5,
+      "screenings": 4,
       "posterUrl": "https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/166/911/166911945_5ac06c.jpg",
       "cinemas": [
         1,
-        13
+        14
       ]
     }
   ]
