@@ -4,7 +4,6 @@
   "name": "Já, padouch 4",
   "screenings": {
     "Praha - CineStar Praha - Anděl": [
-      "2024-06-25T16:30:00.000Z",
       "2024-06-26T16:30:00.000Z",
       "2024-06-27T16:30:00.000Z",
       "2024-06-28T16:30:00.000Z",
@@ -15,7 +14,6 @@
       "2024-07-03T16:30:00.000Z"
     ],
     "Praha - CineStar Praha - Černý Most": [
-      "2024-06-25T16:30:00.000Z",
       "2024-06-26T16:30:00.000Z",
       "2024-06-27T16:30:00.000Z",
       "2024-06-28T16:30:00.000Z",
@@ -25,8 +23,12 @@
       "2024-07-02T16:30:00.000Z",
       "2024-07-03T16:30:00.000Z"
     ],
+    "Praha - Bio Oko": [
+      "2024-06-28T15:00:00.000Z",
+      "2024-06-29T10:00:00.000Z",
+      "2024-06-30T15:30:00.000Z"
+    ],
     "Praha - Cinema City Flora": [
-      "2024-06-25T16:30:00.000Z",
       "2024-06-26T16:30:00.000Z",
       "2024-06-27T16:30:00.000Z",
       "2024-06-28T16:30:00.000Z",
@@ -67,8 +69,6 @@
       "2024-07-07T18:40:00.000Z"
     ],
     "Praha - Cinema City Chodov": [
-      "2024-06-25T16:00:00.000Z",
-      "2024-06-25T15:00:00.000Z",
       "2024-06-26T16:00:00.000Z",
       "2024-06-26T15:00:00.000Z",
       "2024-06-27T16:00:00.000Z",
@@ -135,7 +135,6 @@
       "2024-07-07T16:10:00.000Z"
     ],
     "Praha - Cinema City Letňany": [
-      "2024-06-25T14:00:00.000Z",
       "2024-06-26T14:00:00.000Z",
       "2024-06-27T14:00:00.000Z",
       "2024-06-28T14:00:00.000Z",
@@ -172,8 +171,6 @@
       "2024-07-07T18:40:00.000Z"
     ],
     "Praha - Cinema City Nový Smíchov": [
-      "2024-06-25T15:00:00.000Z",
-      "2024-06-25T15:50:00.000Z",
       "2024-06-26T15:00:00.000Z",
       "2024-06-26T15:50:00.000Z",
       "2024-06-27T15:00:00.000Z",
@@ -232,7 +229,6 @@
       "2024-07-07T15:00:00.000Z"
     ],
     "Praha - Cinema City Slovanský dům": [
-      "2024-06-25T14:30:00.000Z",
       "2024-06-26T14:30:00.000Z",
       "2024-06-27T14:30:00.000Z",
       "2024-06-28T14:30:00.000Z",
@@ -255,7 +251,6 @@
       "2024-07-07T18:30:00.000Z"
     ],
     "Praha - Cinema City Zličín": [
-      "2024-06-25T15:30:00.000Z",
       "2024-06-26T15:30:00.000Z",
       "2024-06-27T15:30:00.000Z",
       "2024-06-28T15:30:00.000Z",
@@ -296,7 +291,8 @@
       "2024-06-30T14:30:00.000Z"
     ],
     "Praha - Edison Filmhub": [
-      "2024-06-29T12:00:00.000Z"
+      "2024-06-29T12:00:00.000Z",
+      "2024-06-30T14:00:00.000Z"
     ],
     "Praha - Kino Aero": [
       "2024-06-29T15:00:00.000Z"
@@ -306,7 +302,6 @@
       "2024-07-14T15:00:00.000Z"
     ],
     "Praha - Kino Lucerna": [
-      "2024-06-25T16:00:00.000Z",
       "2024-06-26T15:30:00.000Z",
       "2024-06-27T15:15:00.000Z",
       "2024-06-28T15:15:00.000Z",
@@ -319,11 +314,28 @@
       "2024-06-29T16:30:00.000Z"
     ],
     "Praha - Kino Pilotů": [
-      "2024-06-25T16:30:00.000Z",
-      "2024-06-26T16:30:00.000Z"
+      "2024-06-26T16:30:00.000Z",
+      "2024-06-27T16:30:00.000Z",
+      "2024-06-28T15:00:00.000Z",
+      "2024-06-29T15:00:00.000Z",
+      "2024-06-30T15:00:00.000Z",
+      "2024-07-01T15:00:00.000Z",
+      "2024-07-02T15:00:00.000Z",
+      "2024-07-03T15:00:00.000Z"
+    ],
+    "Praha - Kino Světozor": [
+      "2024-06-27T15:30:00.000Z",
+      "2024-06-28T15:15:00.000Z",
+      "2024-06-30T13:15:00.000Z",
+      "2024-07-01T15:15:00.000Z",
+      "2024-07-02T15:15:00.000Z",
+      "2024-07-03T15:30:00.000Z"
+    ],
+    "Praha - Komorní kino Evald": [
+      "2024-06-29T14:00:00.000Z",
+      "2024-07-07T14:00:00.000Z"
     ],
     "Praha - Premiere Cinemas Praha Hostivař": [
-      "2024-06-25T16:00:00.000Z",
       "2024-06-26T16:00:00.000Z",
       "2024-06-27T16:00:00.000Z",
       "2024-06-28T16:00:00.000Z",
@@ -332,6 +344,9 @@
       "2024-07-01T16:00:00.000Z",
       "2024-07-02T16:00:00.000Z",
       "2024-07-03T16:00:00.000Z"
+    ],
+    "Praha - Přítomnost Boutique Cinema": [
+      "2024-07-06T17:00:00.000Z"
     ]
   },
   "content": "Čas se nedá zastavit a platí to i pro padoucha Grua, který lehce „zfotrovatěl“ a místo geniálních zlodušských plánů vymýšlí, jak se vetřít do přízně svého malinkého synka, Grua juniora. Ten má totiž výrazně raději maminku Lucy a tátu permanentně vytáčí. O něco hlubší vrásky však Gruovi způsobuje darebák jménem Maxime Le Mal, který ho šikanoval už na základce. Právě utekl z vězení, kam se dostal s Gruovým velkým přispěním, a ze všeho nejvíc se touží pomstít. A protože Anti-velepadoušská liga v tom vidí hrozbu z nejhrozivějších, zařadí Grua s rodinou do programu na ochranu svědků, což znamená nové identity a poklidný život na předměstí. A jako by to nestačilo, zapojí se pět mimoňských dobrovolníků do speciálního programu, který je má vybavit superschopnostmi pro případ, že by se Gruovo krytí provalilo. Ambiciózní plán má samozřejmě mouchy obřích rozměrů, protože Super-Mimoňové jsou super-magnety na katastrofy nejrůznějšího druhu a protože vedle Gruova nového domu bydlí puberťačka, jež touží po kariéře superpadoucha a Grua okamžitě pozná. A touží po tom, aby ji tenhle mistr zaučil. Zapomínat nesmíme ani na pomstychtivého Maxima, který čeká na svou šanci.\n\n\t\t\n\t\t\t\t\t(Cinemart)",
